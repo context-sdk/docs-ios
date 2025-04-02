@@ -174,7 +174,7 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "Call this method to track a generic event. Using this allows us to provide you with insights on how your app behaves in the real-world context",
+                      "text" : "Call this method to track a generic event. Using thisasd allows us to provide you with insights on how your app behaves in the real-world context",
                       "type" : "text"
                     }
                   ],
