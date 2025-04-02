@@ -1,1 +1,188 @@
-{"metadata":{"symbolKind":"case","modules":[{"name":"ContextSDK"}],"externalID":"s:10ContextSDK13RevenueSourceO12adImpressionyA2CmF","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"adImpression"}],"roleHeading":"Case","title":"RevenueSource.adImpression"},"abstract":[{"type":"text","text":"Revenue generated from viewing an ad."},{"type":"text","text":" "},{"text":"Example: A banner ad displayed on a mobile app.","type":"text"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"]]},"schemaVersion":{"major":0,"patch":0,"minor":3},"sections":[],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression","interfaceLanguage":"swift"},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"adImpression"}]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/contextsdk\/revenuesource\/adimpression"],"traits":[{"interfaceLanguage":"swift"}]}],"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"role":"symbol","url":"\/documentation\/contextsdk\/revenuesource","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","title":"RevenueSource","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"text":"RevenueSource","kind":"identifier"}],"type":"topic","abstract":[{"type":"text","text":"A source of revenue."}],"kind":"symbol","navigatorTitle":[{"kind":"identifier","text":"RevenueSource"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","role":"collection","type":"topic","url":"\/documentation\/contextsdk","kind":"symbol","title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adImpression":{"abstract":[{"type":"text","text":"Revenue generated from viewing an ad."},{"text":" ","type":"text"},{"type":"text","text":"Example: A banner ad displayed on a mobile app."}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"adImpression","kind":"identifier"}],"type":"topic","url":"\/documentation\/contextsdk\/revenuesource\/adimpression","kind":"symbol","title":"RevenueSource.adImpression"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Revenue generated from viewing an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A banner ad displayed on a mobile app.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO12adImpressionyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "adImpression"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "RevenueSource.adImpression"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "adImpression"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource\/adimpression"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adImpression": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated from viewing an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A banner ad displayed on a mobile app.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adImpression"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adImpression",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adimpression"
+}
+}
+}

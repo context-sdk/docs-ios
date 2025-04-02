@@ -1,1 +1,131 @@
-{"kind":"symbol","schemaVersion":{"minor":3,"patch":0,"major":0},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID","interfaceLanguage":"occ"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["occ"],"tokens":[{"kind":"keyword","text":"extern"},{"text":" ","kind":"text"},{"preciseIdentifier":"c:@T@int32_t","text":"int32_t","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"kind":"identifier","text":"contextSDK_getNextContextID"},{"text":"();","kind":"text"}],"platforms":["iOS"]}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"metadata":{"modules":[{"name":"ContextSDK"}],"roleHeading":"Function","externalID":"c:@M@ContextSDK@F@contextSDK_getNextContextID","navigatorTitle":[{"text":"contextSDK_getNextContextID","kind":"identifier"}],"title":"contextSDK_getNextContextID","fragments":[{"kind":"identifier","text":"contextSDK_getNextContextID"}],"symbolKind":"func","role":"symbol"},"sections":[],"variants":[{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextsdk_getnextcontextid"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","role":"collection","type":"topic","url":"\/documentation\/contextsdk","kind":"symbol","title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_getNextContextID":{"fragments":[{"text":"contextSDK_getNextContextID","kind":"identifier"}],"role":"symbol","title":"contextSDK_getNextContextID","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID","kind":"symbol","url":"\/documentation\/contextsdk\/contextsdk_getnextcontextid","type":"topic","abstract":[]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_getNextContextID",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_getNextContextID"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_getNextContextID"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_getNextContextID"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_getNextContextID"
+            },
+            {
+              "kind" : "text",
+              "text" : "();"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_getnextcontextid"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_getNextContextID": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_getNextContextID"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_getNextContextID",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_getnextcontextid"
+}
+}
+}

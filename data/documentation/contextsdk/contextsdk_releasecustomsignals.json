@@ -1,1 +1,148 @@
-{"sections":[],"metadata":{"externalID":"c:@M@ContextSDK@F@contextSDK_releaseCustomSignals","title":"contextSDK_releaseCustomSignals","navigatorTitle":[{"text":"contextSDK_releaseCustomSignals","kind":"identifier"}],"roleHeading":"Function","symbolKind":"func","modules":[{"name":"ContextSDK"}],"role":"symbol","fragments":[{"text":"contextSDK_releaseCustomSignals","kind":"identifier"}]},"schemaVersion":{"minor":3,"major":0,"patch":0},"primaryContentSections":[{"declarations":[{"languages":["occ"],"tokens":[{"text":"extern","kind":"keyword"},{"kind":"text","text":" "},{"kind":"typeIdentifier","preciseIdentifier":"c:v","text":"void"},{"text":" ","kind":"text"},{"text":"contextSDK_releaseCustomSignals","kind":"identifier"},{"kind":"text","text":"("},{"preciseIdentifier":"c:@T@int32_t","text":"int32_t","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"kind":"internalParam","text":"contextID"},{"kind":"text","text":");"}],"platforms":["iOS"]}],"kind":"declarations"}],"variants":[{"paths":["\/documentation\/contextsdk\/contextsdk_releasecustomsignals"],"traits":[{"interfaceLanguage":"occ"}]}],"identifier":{"interfaceLanguage":"occ","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","role":"collection","type":"topic","url":"\/documentation\/contextsdk","kind":"symbol","title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseCustomSignals":{"fragments":[{"text":"contextSDK_releaseCustomSignals","kind":"identifier"}],"type":"topic","title":"contextSDK_releaseCustomSignals","role":"symbol","url":"\/documentation\/contextsdk\/contextsdk_releasecustomsignals","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals","abstract":[],"kind":"symbol"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_releaseCustomSignals",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_releaseCustomSignals"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_releaseCustomSignals"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_releaseCustomSignals"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_releaseCustomSignals"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "contextID"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_releasecustomsignals"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseCustomSignals": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_releaseCustomSignals"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_releaseCustomSignals",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_releasecustomsignals"
+}
+}
+}

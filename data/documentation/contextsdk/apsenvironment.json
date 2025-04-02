@@ -1,1 +1,305 @@
-{"schemaVersion":{"minor":3,"patch":0,"major":0},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment"},"relationshipsSections":[{"title":"Conforms To","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/SQ","doc:\/\/org.cocoapods.ContextSDK\/SH","doc:\/\/org.cocoapods.ContextSDK\/SY"],"type":"conformsTo","kind":"relationships"}],"metadata":{"modules":[{"name":"ContextSDK"}],"title":"APSEnvironment","symbolKind":"enum","navigatorTitle":[{"kind":"identifier","text":"APSEnvironment"}],"externalID":"s:10ContextSDK14APSEnvironmentO","roleHeading":"Enumeration","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"APSEnvironment"}]},"sections":[],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"kind":"symbol","topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/production","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/sandbox"],"title":"Enumeration Cases","generated":true,"anchor":"Enumeration-Cases"},{"title":"Initializers","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/init(rawValue:)"],"generated":true,"anchor":"Initializers"},{"title":"Default Implementations","anchor":"Default-Implementations","generated":true,"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/Equatable-Implementations","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/RawRepresentable-Implementations"]}],"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"APSEnvironment"}],"platforms":["iOS"]}]}],"variants":[{"paths":["\/documentation\/contextsdk\/apsenvironment"],"traits":[{"interfaceLanguage":"swift"}]}],"references":{"doc://org.cocoapods.ContextSDK/SQ":{"title":"Swift.Equatable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SQ"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/init(rawValue:)":{"title":"init(rawValue:)","url":"\/documentation\/contextsdk\/apsenvironment\/init(rawvalue:)","type":"topic","role":"symbol","abstract":[],"fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"?("},{"kind":"externalParam","text":"rawValue"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"kind":"text","text":")"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/init(rawValue:)"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/Equatable-Implementations":{"type":"topic","url":"\/documentation\/contextsdk\/apsenvironment\/equatable-implementations","kind":"article","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/Equatable-Implementations","abstract":[],"role":"collectionGroup","title":"Equatable Implementations"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","role":"collection","type":"topic","url":"\/documentation\/contextsdk","kind":"symbol","title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/sandbox":{"title":"APSEnvironment.sandbox","url":"\/documentation\/contextsdk\/apsenvironment\/sandbox","type":"topic","role":"symbol","abstract":[],"fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"sandbox"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/sandbox"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/production":{"type":"topic","url":"\/documentation\/contextsdk\/apsenvironment\/production","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"production"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/production","abstract":[],"role":"symbol","title":"APSEnvironment.production"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment":{"navigatorTitle":[{"kind":"identifier","text":"APSEnvironment"}],"title":"APSEnvironment","url":"\/documentation\/contextsdk\/apsenvironment","type":"topic","role":"symbol","abstract":[],"fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"kind":"identifier","text":"APSEnvironment"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/RawRepresentable-Implementations":{"type":"topic","url":"\/documentation\/contextsdk\/apsenvironment\/rawrepresentable-implementations","kind":"article","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/RawRepresentable-Implementations","abstract":[],"role":"collectionGroup","title":"RawRepresentable Implementations"},"doc://org.cocoapods.ContextSDK/SH":{"title":"Swift.Hashable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SH","type":"unresolvable"},"doc://org.cocoapods.ContextSDK/SY":{"title":"Swift.RawRepresentable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SY","type":"unresolvable"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK14APSEnvironmentO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "APSEnvironment"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "APSEnvironment"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "APSEnvironment"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "APSEnvironment"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH",
+        "doc:\/\/org.cocoapods.ContextSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/production",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/sandbox"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/Equatable-Implementations",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/apsenvironment"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SY": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "APSEnvironment"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "APSEnvironment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "APSEnvironment",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment\/rawrepresentable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment\/init(rawvalue:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/production": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "production"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/production",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "APSEnvironment.production",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment\/production"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/sandbox": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sandbox"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/sandbox",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "APSEnvironment.sandbox",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment\/sandbox"
+}
+}
+}

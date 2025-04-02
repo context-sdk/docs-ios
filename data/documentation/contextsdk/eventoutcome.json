@@ -1,1 +1,851 @@
-{"variants":[{"paths":["\/documentation\/contextsdk\/eventoutcome"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/contextsdk\/eventoutcome"],"traits":[{"interfaceLanguage":"occ"}]}],"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"kind":"attribute","text":"@objc"},{"kind":"text","text":" "},{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"EventOutcome","kind":"identifier"}]}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"schemaVersion":{"patch":0,"minor":3,"major":0},"metadata":{"navigatorTitle":[{"text":"EventOutcome","kind":"identifier"}],"role":"symbol","title":"EventOutcome","externalID":"c:@M@ContextSDK@E@EventOutcome","modules":[{"name":"ContextSDK"}],"roleHeading":"Enumeration","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"EventOutcome","kind":"identifier"}],"symbolKind":"enum"},"relationshipsSections":[{"title":"Conforms To","kind":"relationships","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/SQ","doc:\/\/org.cocoapods.ContextSDK\/SH","doc:\/\/org.cocoapods.ContextSDK\/SY"],"type":"conformsTo"}],"sections":[],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome","interfaceLanguage":"swift"},"topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeDismissed","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeNotInteracted","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveAdTapped","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveConverted","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveInteracted","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/skipped"],"generated":true,"title":"Enumeration Cases","anchor":"Enumeration-Cases"},{"anchor":"Initializers","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/init(rawValue:)"],"generated":true,"title":"Initializers"},{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/RawRepresentable-Implementations"],"title":"Default Implementations","anchor":"Default-Implementations","generated":true}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveConverted":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveConverted","type":"topic","url":"\/documentation\/contextsdk\/eventoutcome\/positiveconverted","kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"positiveConverted","kind":"identifier"}],"navigatorTitle":[{"text":"EventOutcomePositiveConverted","kind":"identifier"}],"title":"EventOutcome.positiveConverted","abstract":[{"type":"text","text":"Optional outcome: The user has tapped on the ad, and followed any external link provided."}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","role":"collection","type":"topic","url":"\/documentation\/contextsdk","kind":"symbol","title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeDismissed":{"kind":"symbol","url":"\/documentation\/contextsdk\/eventoutcome\/negativedismissed","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"negativeDismissed"}],"abstract":[{"type":"text","text":"Optional outcome: Use this as a negative signal of a user not interacting with e.g. a banner. Depending on your app, we may recommend to log this when the app is put into the background, and hasn’t interacted with a banner in any way. This can be done using the "},{"type":"codeVoice","code":"logIfNotLoggedYet"},{"type":"text","text":" method"}],"title":"EventOutcome.negativeDismissed","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeDismissed","navigatorTitle":[{"kind":"identifier","text":"EventOutcomeNegativeDismissed"}],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/Equatable-Implementations":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations","type":"topic","url":"\/documentation\/contextsdk\/eventoutcome\/equatable-implementations","kind":"article","title":"Equatable Implementations","abstract":[],"role":"collectionGroup"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveInteracted":{"type":"topic","abstract":[{"text":"Optional outcome: The user ended up successfully purchasing the product (all the way through the payment flow)","type":"text"}],"fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"positiveInteracted","kind":"identifier"}],"title":"EventOutcome.positiveInteracted","navigatorTitle":[{"text":"EventOutcomePositiveInteracted","kind":"identifier"}],"url":"\/documentation\/contextsdk\/eventoutcome\/positiveinteracted","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveInteracted","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positive":{"abstract":[{"type":"text","text":"Optional outcome: The user has tapped on the banner, and started the purchase flow, or read more about the offer"}],"role":"symbol","url":"\/documentation\/contextsdk\/eventoutcome\/positive","kind":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"positive","kind":"identifier"}],"navigatorTitle":[{"kind":"identifier","text":"EventOutcomePositive"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive","title":"EventOutcome.positive"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negative":{"navigatorTitle":[{"text":"EventOutcomeNegative","kind":"identifier"}],"role":"symbol","title":"EventOutcome.negative","abstract":[{"text":"Log this when ContextSDK has recommended to skip showing an upsell prompt (","type":"text"},{"type":"codeVoice","code":".shouldUpsell"},{"text":" is false). Logging this explicitly is not required if you use ","type":"text"},{"type":"codeVoice","code":"ContextManager.optimize(…)"},{"type":"text","text":" or "},{"code":"ContextManager.calibrate(…)","type":"codeVoice"},{"text":" as it will be handled by ContextSDK automatically.","type":"text"}],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative","kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"negative"}],"url":"\/documentation\/contextsdk\/eventoutcome\/negative"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/skipped":{"abstract":[{"type":"text","text":"The default signal. A generic, positive signal. Use this for the basic ContextSDK integration, e.g. when showing an upsell prompt."}],"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"EventOutcomeSkipped"}],"url":"\/documentation\/contextsdk\/eventoutcome\/skipped","title":"EventOutcome.skipped","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"skipped"}],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/skipped","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/init(rawValue:)":{"kind":"symbol","fragments":[{"kind":"identifier","text":"init"},{"text":"?(","kind":"text"},{"text":"rawValue","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Int","kind":"typeIdentifier","preciseIdentifier":"s:Si"},{"kind":"text","text":")"}],"abstract":[],"url":"\/documentation\/contextsdk\/eventoutcome\/init(rawvalue:)","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/init(rawValue:)","type":"topic","title":"init(rawValue:)"},"doc://org.cocoapods.ContextSDK/SH":{"title":"Swift.Hashable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SH"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeNotInteracted":{"title":"EventOutcome.negativeNotInteracted","type":"topic","navigatorTitle":[{"kind":"identifier","text":"EventOutcomeNegativeNotInteracted"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeNotInteracted","kind":"symbol","abstract":[{"text":"A generic, negative signal. Use this for the basic ContextSDK integration, on a user e.g. declining or dismissing an upsell prompt","type":"text"}],"role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"negativeNotInteracted"}],"url":"\/documentation\/contextsdk\/eventoutcome\/negativenotinteracted"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/RawRepresentable-Implementations":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/RawRepresentable-Implementations","title":"RawRepresentable Implementations","role":"collectionGroup","type":"topic","abstract":[],"url":"\/documentation\/contextsdk\/eventoutcome\/rawrepresentable-implementations","kind":"article"},"doc://org.cocoapods.ContextSDK/SQ":{"title":"Swift.Equatable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SQ"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome":{"title":"EventOutcome","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"EventOutcome","kind":"identifier"}],"abstract":[],"role":"symbol","url":"\/documentation\/contextsdk\/eventoutcome","navigatorTitle":[{"kind":"identifier","text":"EventOutcome"}],"type":"topic","kind":"symbol"},"doc://org.cocoapods.ContextSDK/SY":{"title":"Swift.RawRepresentable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SY"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveAdTapped":{"url":"\/documentation\/contextsdk\/eventoutcome\/positiveadtapped","role":"symbol","abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveAdTapped","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"positiveAdTapped","kind":"identifier"}],"title":"EventOutcome.positiveAdTapped","navigatorTitle":[{"text":"EventOutcomePositiveAdTapped","kind":"identifier"}],"type":"topic"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"value":"occ","path":"\/identifier\/interfaceLanguage","op":"replace"},{"path":"\/metadata\/roleHeading","op":"replace","value":"Enumeration"},{"op":"replace","value":"EventOutcome","path":"\/metadata\/title"},{"path":"\/metadata\/symbolKind","value":"enum","op":"replace"},{"value":[{"kind":"identifier","text":"EventOutcome"}],"op":"replace","path":"\/metadata\/fragments"},{"value":[{"text":"EventOutcome","kind":"identifier"}],"op":"replace","path":"\/metadata\/navigatorTitle"},{"value":[{"anchor":"Enumeration-Cases","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeDismissed","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeNotInteracted","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveAdTapped","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveConverted","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveInteracted","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/skipped"],"generated":true,"title":"Enumeration Cases"}],"op":"replace","path":"\/topicSections"},{"op":"replace","value":null,"path":"\/relationshipsSections"},{"op":"add","value":null,"path":"\/seeAlsoSections"},{"path":"\/primaryContentSections\/0","value":{"kind":"declarations","declarations":[{"tokens":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"EventOutcome","kind":"identifier"},{"kind":"text","text":": "},{"text":"NSInteger","kind":"typeIdentifier","preciseIdentifier":"c:@T@NSInteger"},{"text":";","kind":"text"}],"languages":["occ"],"platforms":["iOS"]}]},"op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveConverted\/title","value":"EventOutcomePositiveConverted","op":"replace"},{"value":[{"kind":"identifier","text":"EventOutcomePositiveConverted"}],"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveConverted\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeDismissed\/title","value":"EventOutcomeNegativeDismissed"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeDismissed\/fragments","value":[{"text":"EventOutcomeNegativeDismissed","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveInteracted\/title","op":"replace","value":"EventOutcomePositiveInteracted"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveInteracted\/fragments","value":[{"text":"EventOutcomePositiveInteracted","kind":"identifier"}],"op":"replace"},{"value":"EventOutcomePositive","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positive\/title","op":"replace"},{"op":"replace","value":[{"text":"EventOutcomePositive","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positive\/fragments"},{"op":"replace","value":"EventOutcomeNegative","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/title"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/fragments","value":[{"text":"EventOutcomeNegative","kind":"identifier"}]},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1skipped\/title","op":"replace","value":"EventOutcomeSkipped"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1skipped\/fragments","value":[{"kind":"identifier","text":"EventOutcomeSkipped"}],"op":"replace"},{"op":"replace","value":"EventOutcomeNegativeNotInteracted","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeNotInteracted\/title"},{"value":[{"text":"EventOutcomeNegativeNotInteracted","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeNotInteracted\/fragments","op":"replace"},{"op":"replace","value":"EventOutcome","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments","value":[{"kind":"identifier","text":"EventOutcome"}],"op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle","value":[{"kind":"identifier","text":"EventOutcome"}],"op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveAdTapped\/title","value":"EventOutcomePositiveAdTapped"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveAdTapped\/fragments","value":[{"kind":"identifier","text":"EventOutcomePositiveAdTapped"}],"op":"replace"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@E@EventOutcome",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "EventOutcome"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "EventOutcome"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "EventOutcome"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "EventOutcome"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH",
+        "doc:\/\/org.cocoapods.ContextSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeDismissed",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeNotInteracted",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveAdTapped",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveConverted",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveInteracted",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/skipped"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/eventoutcome"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/eventoutcome"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SY": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/rawrepresentable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/init(rawvalue:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negative": {
+  "abstract" : [
+    {
+      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
+      "type" : "text"
+    },
+    {
+      "code" : ".shouldUpsell",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is false). Logging this explicitly is not required if you use ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.optimize(…)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " or ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.calibrate(…)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as it will be handled by ContextSDK automatically.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "negative"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomeNegative"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.negative",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/negative"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeDismissed": {
+  "abstract" : [
+    {
+      "text" : "Optional outcome: Use this as a negative signal of a user not interacting with e.g. a banner. Depending on your app, we may recommend to log this when the app is put into the background, and hasn’t interacted with a banner in any way. This can be done using the ",
+      "type" : "text"
+    },
+    {
+      "code" : "logIfNotLoggedYet",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " method",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "negativeDismissed"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeDismissed",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomeNegativeDismissed"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.negativeDismissed",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/negativedismissed"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeNotInteracted": {
+  "abstract" : [
+    {
+      "text" : "A generic, negative signal. Use this for the basic ContextSDK integration, on a user e.g. declining or dismissing an upsell prompt",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "negativeNotInteracted"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeNotInteracted",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomeNegativeNotInteracted"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.negativeNotInteracted",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/negativenotinteracted"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positive": {
+  "abstract" : [
+    {
+      "text" : "Optional outcome: The user has tapped on the banner, and started the purchase flow, or read more about the offer",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "positive"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomePositive"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.positive",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/positive"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveAdTapped": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "positiveAdTapped"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveAdTapped",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomePositiveAdTapped"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.positiveAdTapped",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/positiveadtapped"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveConverted": {
+  "abstract" : [
+    {
+      "text" : "Optional outcome: The user has tapped on the ad, and followed any external link provided.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "positiveConverted"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveConverted",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomePositiveConverted"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.positiveConverted",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/positiveconverted"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveInteracted": {
+  "abstract" : [
+    {
+      "text" : "Optional outcome: The user ended up successfully purchasing the product (all the way through the payment flow)",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "positiveInteracted"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveInteracted",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomePositiveInteracted"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.positiveInteracted",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/positiveinteracted"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/skipped": {
+  "abstract" : [
+    {
+      "text" : "The default signal. A generic, positive signal. Use this for the basic ContextSDK integration, e.g. when showing an upsell prompt.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "skipped"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/skipped",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomeSkipped"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.skipped",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/skipped"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Enumeration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "EventOutcome"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "enum"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/topicSections",
+        "value" : [
+          {
+            "anchor" : "Enumeration-Cases",
+            "generated" : true,
+            "identifiers" : [
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeDismissed",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negativeNotInteracted",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveAdTapped",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveConverted",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positiveInteracted",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/skipped"
+            ],
+            "title" : "Enumeration Cases"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "enum"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "EventOutcome"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ": "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@T@NSInteger",
+                  "text" : "NSInteger"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ";"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title",
+        "value" : "EventOutcome"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/title",
+        "value" : "EventOutcomeNegative"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomeNegative"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeDismissed\/title",
+        "value" : "EventOutcomeNegativeDismissed"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeDismissed\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomeNegativeDismissed"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeNotInteracted\/title",
+        "value" : "EventOutcomeNegativeNotInteracted"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negativeNotInteracted\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomeNegativeNotInteracted"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positive\/title",
+        "value" : "EventOutcomePositive"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positive\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomePositive"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveAdTapped\/title",
+        "value" : "EventOutcomePositiveAdTapped"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveAdTapped\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomePositiveAdTapped"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveConverted\/title",
+        "value" : "EventOutcomePositiveConverted"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveConverted\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomePositiveConverted"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveInteracted\/title",
+        "value" : "EventOutcomePositiveInteracted"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1positiveInteracted\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomePositiveInteracted"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1skipped\/title",
+        "value" : "EventOutcomeSkipped"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1skipped\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomeSkipped"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

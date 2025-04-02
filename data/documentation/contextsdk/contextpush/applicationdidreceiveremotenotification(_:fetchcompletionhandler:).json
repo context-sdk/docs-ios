@@ -1,1 +1,409 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush"]]},"sections":[],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)","interfaceLanguage":"swift"},"kind":"symbol","primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"applicationDidReceiveRemoteNotification","kind":"identifier"},{"kind":"text","text":"("},{"kind":"externalParam","text":"_"},{"text":" ","kind":"text"},{"text":"userInfo","kind":"internalParam"},{"text":": [","kind":"text"},{"text":"AnyHashable","kind":"typeIdentifier","preciseIdentifier":"s:s11AnyHashableV"},{"text":" : ","kind":"text"},{"text":"Any","kind":"keyword"},{"text":"], ","kind":"text"},{"kind":"externalParam","text":"fetchCompletionHandler"},{"text":" ","kind":"text"},{"text":"completionHandler","kind":"internalParam"},{"text":": ","kind":"text"},{"text":"@escaping","kind":"attribute"},{"kind":"text","text":" ("},{"text":"UIBackgroundFetchResult","kind":"typeIdentifier","preciseIdentifier":"c:@E@UIBackgroundFetchResult"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:s4Voida","text":"Void","kind":"typeIdentifier"},{"kind":"text","text":") -> "},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"}],"platforms":["iOS"],"languages":["swift"]}]},{"content":[{"type":"heading","level":2,"anchor":"discussion","text":"Discussion"},{"type":"unorderedList","items":[{"content":[{"inlineContent":[{"text":"Call this method as part of your AppDelegate’s application:didReceiveRemoteNotification:fetchCompletionHandler method","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Will return true and will call the completion handler if ContextSDK processed this notification, will return false and not call the completionHandler if this notification should be processed by your code."}],"type":"paragraph"}]}]}],"kind":"content"}],"metadata":{"role":"symbol","symbolKind":"method","externalID":"s:10ContextSDK0A4PushC39applicationDidReceiveRemoteNotification_22fetchCompletionHandlerSbSDys11AnyHashableVypG_ySo23UIBackgroundFetchResultVctFZ","roleHeading":"Type Method","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"applicationDidReceiveRemoteNotification"},{"text":"([","kind":"text"},{"preciseIdentifier":"s:s11AnyHashableV","kind":"typeIdentifier","text":"AnyHashable"},{"text":" : ","kind":"text"},{"text":"Any","kind":"keyword"},{"text":"], ","kind":"text"},{"text":"fetchCompletionHandler","kind":"externalParam"},{"text":": (","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@E@UIBackgroundFetchResult","text":"UIBackgroundFetchResult"},{"kind":"text","text":") -> "},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}],"modules":[{"name":"ContextSDK"}],"title":"applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)"},"variants":[{"paths":["\/documentation\/contextsdk\/contextpush\/applicationdidreceiveremotenotification(_:fetchcompletionhandler:)"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush":{"kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ContextPush","kind":"identifier"}],"navigatorTitle":[{"text":"ContextPush","kind":"identifier"}],"url":"\/documentation\/contextsdk\/contextpush","title":"ContextPush","role":"symbol","abstract":[],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","role":"collection","type":"topic","url":"\/documentation\/contextsdk","kind":"symbol","title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)","type":"topic","role":"symbol","abstract":[],"kind":"symbol","title":"applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"applicationDidReceiveRemoteNotification"},{"text":"([","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:s11AnyHashableV","text":"AnyHashable"},{"text":" : ","kind":"text"},{"text":"Any","kind":"keyword"},{"text":"], ","kind":"text"},{"text":"fetchCompletionHandler","kind":"externalParam"},{"kind":"text","text":": ("},{"kind":"typeIdentifier","preciseIdentifier":"c:@E@UIBackgroundFetchResult","text":"UIBackgroundFetchResult"},{"text":") -> ","kind":"text"},{"text":"Void","kind":"typeIdentifier","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":") -> "},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}],"url":"\/documentation\/contextsdk\/contextpush\/applicationdidreceiveremotenotification(_:fetchcompletionhandler:)"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK0A4PushC39applicationDidReceiveRemoteNotification_22fetchCompletionHandlerSbSDys11AnyHashableVypG_ySo23UIBackgroundFetchResultVctFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "applicationDidReceiveRemoteNotification"
+      },
+      {
+        "kind" : "text",
+        "text" : "(["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s11AnyHashableV",
+        "text" : "AnyHashable"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "Any"
+      },
+      {
+        "kind" : "text",
+        "text" : "], "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "fetchCompletionHandler"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@E@UIBackgroundFetchResult",
+        "text" : "UIBackgroundFetchResult"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "applicationDidReceiveRemoteNotification"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "userInfo"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s11AnyHashableV",
+              "text" : "AnyHashable"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "Any"
+            },
+            {
+              "kind" : "text",
+              "text" : "], "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "fetchCompletionHandler"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "completionHandler"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@escaping"
+            },
+            {
+              "kind" : "text",
+              "text" : " ("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@E@UIBackgroundFetchResult",
+              "text" : "UIBackgroundFetchResult"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Call this method as part of your AppDelegate’s application:didReceiveRemoteNotification:fetchCompletionHandler method",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : " ",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : "Will return true and will call the completion handler if ContextSDK processed this notification, will return false and not call the completionHandler if this notification should be processed by your code.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextpush\/applicationdidreceiveremotenotification(_:fetchcompletionhandler:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextPush"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextPush"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextPush",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextpush"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "applicationDidReceiveRemoteNotification"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s11AnyHashableV",
+      "text" : "AnyHashable"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "fetchCompletionHandler"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@E@UIBackgroundFetchResult",
+      "text" : "UIBackgroundFetchResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextpush\/applicationdidreceiveremotenotification(_:fetchcompletionhandler:)"
+}
+}
+}
