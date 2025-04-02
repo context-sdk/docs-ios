@@ -140,7 +140,7 @@
                   "code" : [
                     "  Call this method if you previously called `fetchContext`, `calibrate` or `optimize` and no longer are interested in receiving the context object.",
                     "  An example use case might be if you want to show a prompt only on a certain screen, and cancel showing it if the user already navigated to the",
-                    "  next screen. In this case you could cancel the context when the test user navigates away from the screen."
+                    "  next screen. In this case you could cancel the context when the user navigates away from the screen."
                   ],
                   "syntax" : null,
                   "type" : "codeListing"
