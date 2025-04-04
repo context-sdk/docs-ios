@@ -1,1 +1,162 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/pushoutcome\/equatable-implementations"]}],"metadata":{"title":"Equatable Implementations","role":"collectionGroup","modules":[{"name":"ContextSDK"}],"roleHeading":"API Collection"},"sections":[],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/Equatable-Implementations"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"]]},"schemaVersion":{"patch":0,"major":0,"minor":3},"kind":"article","topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/!=(_:_:)"],"title":"Operators","generated":true,"anchor":"Operators"}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/!=(_:_:)":{"url":"\/documentation\/contextsdk\/pushoutcome\/!=(_:_:)","abstract":[],"kind":"symbol","title":"!=(_:_:)","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/!=(_:_:)","type":"topic","role":"symbol","fragments":[{"kind":"keyword","text":"static"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"!=","kind":"identifier"},{"text":" ","kind":"text"},{"kind":"text","text":"("},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":", "},{"kind":"typeIdentifier","text":"Self"},{"kind":"text","text":") -> "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome":{"url":"\/documentation\/contextsdk\/pushoutcome","abstract":[],"kind":"symbol","navigatorTitle":[{"kind":"identifier","text":"PushOutcome"}],"title":"PushOutcome","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome","type":"topic","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"PushOutcome"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/pushoutcome\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PushOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PushOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PushOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome\/!=(_:_:)"
+}
+}
+}

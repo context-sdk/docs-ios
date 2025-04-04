@@ -1,1 +1,156 @@
-{"kind":"symbol","variants":[{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend"]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"metadata":{"modules":[{"name":"ContextSDK"}],"title":"contextSDK_setupContextManagerWithAPIBackend","externalID":"c:@M@ContextSDK@F@contextSDK_setupContextManagerWithAPIBackend","symbolKind":"func","navigatorTitle":[{"kind":"identifier","text":"contextSDK_setupContextManagerWithAPIBackend"}],"fragments":[{"text":"contextSDK_setupContextManagerWithAPIBackend","kind":"identifier"}],"role":"symbol","roleHeading":"Function"},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"extern","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"typeIdentifier","text":"void","preciseIdentifier":"c:v"},{"text":" ","kind":"text"},{"text":"contextSDK_setupContextManagerWithAPIBackend","kind":"identifier"},{"text":"(","kind":"text"},{"text":"const","kind":"keyword"},{"text":" ","kind":"text"},{"preciseIdentifier":"c:C","text":"char","kind":"typeIdentifier"},{"kind":"text","text":" * "},{"text":"licenseKeyC","kind":"internalParam"},{"kind":"text","text":");"}],"platforms":["iOS"],"languages":["occ"]}]}],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend","interfaceLanguage":"occ"},"schemaVersion":{"patch":0,"major":0,"minor":3},"sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend":{"fragments":[{"kind":"identifier","text":"contextSDK_setupContextManagerWithAPIBackend"}],"title":"contextSDK_setupContextManagerWithAPIBackend","kind":"symbol","url":"\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend","type":"topic","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend","role":"symbol"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_setupContextManagerWithAPIBackend",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_setupContextManagerWithAPIBackend"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_setupContextManagerWithAPIBackend"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_setupContextManagerWithAPIBackend"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_setupContextManagerWithAPIBackend"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:C",
+              "text" : "char"
+            },
+            {
+              "kind" : "text",
+              "text" : " * "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "licenseKeyC"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_setupContextManagerWithAPIBackend"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_setupContextManagerWithAPIBackend",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend"
+}
+}
+}

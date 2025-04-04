@@ -1,1 +1,188 @@
-{"sections":[],"abstract":[{"type":"text","text":"Revenue generated from a user completing a desired action after interacting with an ad."},{"type":"text","text":" "},{"type":"text","text":"Example: A user collects in-game coins after watching an ad."}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"adConversion","kind":"identifier"}],"platforms":["iOS"],"languages":["swift"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"variants":[{"paths":["\/documentation\/contextsdk\/revenuesource\/adconversion"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"symbolKind":"case","modules":[{"name":"ContextSDK"}],"roleHeading":"Case","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"adConversion","kind":"identifier"}],"externalID":"s:10ContextSDK13RevenueSourceO12adConversionyA2CmF","title":"RevenueSource.adConversion"},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion","interfaceLanguage":"swift"},"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"abstract":[{"text":"A source of revenue.","type":"text"}],"title":"RevenueSource","type":"topic","url":"\/documentation\/contextsdk\/revenuesource","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"RevenueSource"}],"navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adConversion":{"url":"\/documentation\/contextsdk\/revenuesource\/adconversion","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"adConversion"}],"title":"RevenueSource.adConversion","abstract":[{"text":"Revenue generated from a user completing a desired action after interacting with an ad.","type":"text"},{"type":"text","text":" "},{"text":"Example: A user collects in-game coins after watching an ad.","type":"text"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion","type":"topic","role":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Revenue generated from a user completing a desired action after interacting with an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user collects in-game coins after watching an ad.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO12adConversionyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "adConversion"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "RevenueSource.adConversion"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "adConversion"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource\/adconversion"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adConversion": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated from a user completing a desired action after interacting with an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user collects in-game coins after watching an ad.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adConversion"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adConversion",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adconversion"
+}
+}
+}

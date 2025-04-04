@@ -1,1 +1,358 @@
-{"kind":"symbol","identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"negative"}]}]}],"schemaVersion":{"minor":3,"patch":0,"major":0},"sections":[],"abstract":[{"text":"Log this when ContextSDK has recommended to skip showing an upsell prompt (","type":"text"},{"code":".shouldUpsell","type":"codeVoice"},{"type":"text","text":" is false). Logging this explicitly is not required if you use "},{"type":"codeVoice","code":"ContextManager.optimize(…)"},{"text":" or ","type":"text"},{"type":"codeVoice","code":"ContextManager.calibrate(…)"},{"text":" as it will be handled by ContextSDK automatically.","type":"text"}],"metadata":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"negative"}],"externalID":"c:@M@ContextSDK@E@EventOutcome@EventOutcomeNegative","roleHeading":"Case","navigatorTitle":[{"kind":"identifier","text":"EventOutcomeNegative"}],"title":"EventOutcome.negative","symbolKind":"case","role":"symbol","modules":[{"name":"ContextSDK"}]},"variants":[{"paths":["\/documentation\/contextsdk\/eventoutcome\/negative"],"traits":[{"interfaceLanguage":"swift"}]},{"paths":["\/documentation\/contextsdk\/eventoutcome\/negative"],"traits":[{"interfaceLanguage":"occ"}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome"]]},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome":{"kind":"symbol","url":"\/documentation\/contextsdk\/eventoutcome","abstract":[],"navigatorTitle":[{"kind":"identifier","text":"EventOutcome"}],"title":"EventOutcome","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome","type":"topic","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"text":"EventOutcome","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negative":{"fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"negative","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative","navigatorTitle":[{"kind":"identifier","text":"EventOutcomeNegative"}],"abstract":[{"text":"Log this when ContextSDK has recommended to skip showing an upsell prompt (","type":"text"},{"code":".shouldUpsell","type":"codeVoice"},{"type":"text","text":" is false). Logging this explicitly is not required if you use "},{"type":"codeVoice","code":"ContextManager.optimize(…)"},{"type":"text","text":" or "},{"code":"ContextManager.calibrate(…)","type":"codeVoice"},{"text":" as it will be handled by ContextSDK automatically.","type":"text"}],"title":"EventOutcome.negative","kind":"symbol","type":"topic","role":"symbol","url":"\/documentation\/contextsdk\/eventoutcome\/negative"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"value":"occ","op":"replace","path":"\/identifier\/interfaceLanguage"},{"op":"replace","value":"Enumeration Case","path":"\/metadata\/roleHeading"},{"path":"\/metadata\/title","value":"EventOutcomeNegative","op":"replace"},{"value":"case","op":"replace","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","value":[{"kind":"identifier","text":"EventOutcomeNegative"}],"op":"replace"},{"path":"\/topicSections","op":"add","value":null},{"value":null,"path":"\/relationshipsSections","op":"add"},{"path":"\/seeAlsoSections","value":null,"op":"add"},{"value":{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"kind":"identifier","text":"EventOutcomeNegative"}],"languages":["occ"]}]},"op":"replace","path":"\/primaryContentSections\/0"},{"value":"EventOutcome","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments","value":[{"kind":"identifier","text":"EventOutcome"}]},{"op":"replace","value":[{"text":"EventOutcome","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle"},{"value":"EventOutcomeNegative","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/title","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/fragments","value":[{"text":"EventOutcomeNegative","kind":"identifier"}]}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
+      "type" : "text"
+    },
+    {
+      "code" : ".shouldUpsell",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is false). Logging this explicitly is not required if you use ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.optimize(…)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " or ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.calibrate(…)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as it will be handled by ContextSDK automatically.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@E@EventOutcome@EventOutcomeNegative",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "negative"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "EventOutcomeNegative"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "EventOutcome.negative"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "negative"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/eventoutcome\/negative"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/eventoutcome\/negative"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negative": {
+  "abstract" : [
+    {
+      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
+      "type" : "text"
+    },
+    {
+      "code" : ".shouldUpsell",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is false). Logging this explicitly is not required if you use ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.optimize(…)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " or ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.calibrate(…)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " as it will be handled by ContextSDK automatically.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "negative"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcomeNegative"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome.negative",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/negative"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Enumeration Case"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "EventOutcomeNegative"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "case"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomeNegative"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "identifier",
+                  "text" : "EventOutcomeNegative"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title",
+        "value" : "EventOutcome"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/title",
+        "value" : "EventOutcomeNegative"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome~1negative\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcomeNegative"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

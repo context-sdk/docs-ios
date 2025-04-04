@@ -1,1 +1,347 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"]]},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()","interfaceLanguage":"swift"},"deprecationSummary":[{"type":"paragraph","inlineContent":[{"text":"dictionary() now offers the same guarantees around static columns and should be used instead.","type":"text"}]}],"kind":"symbol","sections":[],"abstract":[{"type":"text","text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns"},{"text":" ","type":"text"},{"text":"This method can be used when you need the exact columns your backend or database requires the exact columns","type":"text"},{"type":"text","text":" "},{"type":"text","text":"This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns"},{"type":"text","text":" "},{"text":"This method will append a ","type":"text"},{"code":"ctx_custom_signals","type":"codeVoice"},{"type":"text","text":" column, that contains all custom signals."}],"primaryContentSections":[{"declarations":[{"tokens":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"dictionaryWithStaticColumns"},{"text":"() -> [","kind":"text"},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":" : "},{"text":"Any","kind":"keyword"},{"kind":"text","text":"]"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"schemaVersion":{"patch":0,"major":0,"minor":3},"variants":[{"paths":["\/documentation\/contextsdk\/log\/dictionarywithstaticcolumns()"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"dictionaryWithStaticColumns","kind":"identifier"},{"kind":"text","text":"() -> ["},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"kind":"text","text":" : "},{"text":"Any","kind":"keyword"},{"text":"]","kind":"text"}],"roleHeading":"Instance Method","platforms":[],"externalID":"s:10ContextSDK3LogC27dictionaryWithStaticColumnsSDySSypGyF","symbolKind":"method","modules":[{"name":"ContextSDK"}],"role":"symbol","title":"dictionaryWithStaticColumns()"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionaryWithStaticColumns()":{"abstract":[{"text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns","type":"text"},{"text":" ","type":"text"},{"text":"This method can be used when you need the exact columns your backend or database requires the exact columns","type":"text"},{"type":"text","text":" "},{"type":"text","text":"This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns"},{"type":"text","text":" "},{"text":"This method will append a ","type":"text"},{"code":"ctx_custom_signals","type":"codeVoice"},{"text":" column, that contains all custom signals.","type":"text"}],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/log\/dictionarywithstaticcolumns()","role":"symbol","deprecated":true,"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"dictionaryWithStaticColumns"},{"text":"() -> [","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"kind":"text","text":" : "},{"text":"Any","kind":"keyword"},{"kind":"text","text":"]"}],"title":"dictionaryWithStaticColumns()","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log":{"type":"topic","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log","role":"symbol","title":"Log","url":"\/documentation\/contextsdk\/log","abstract":[],"fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"identifier","text":"Log"}],"navigatorTitle":[{"text":"Log","kind":"identifier"}]}},"variantOverrides":[{"patch":[{"value":"Log","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title","op":"replace"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments","value":[{"kind":"identifier","text":"Log"}]},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle","value":[{"text":"Log","kind":"identifier"}],"op":"replace"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method can be used when you need the exact columns your backend or database requires the exact columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method will append a ",
+      "type" : "text"
+    },
+    {
+      "code" : "ctx_custom_signals",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " column, that contains all custom signals.",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "dictionary() now offers the same guarantees around static columns and should be used instead.",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK3LogC27dictionaryWithStaticColumnsSDySSypGyF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "dictionaryWithStaticColumns"
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : " : "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "Any"
+      },
+      {
+        "kind" : "text",
+        "text" : "]"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "dictionaryWithStaticColumns()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "dictionaryWithStaticColumns"
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> ["
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : " : "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "Any"
+            },
+            {
+              "kind" : "text",
+              "text" : "]"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/log\/dictionarywithstaticcolumns()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Log",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionaryWithStaticColumns()": {
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method can be used when you need the exact columns your backend or database requires the exact columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method will append a ",
+      "type" : "text"
+    },
+    {
+      "code" : "ctx_custom_signals",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " column, that contains all custom signals.",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dictionaryWithStaticColumns"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dictionaryWithStaticColumns()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/dictionarywithstaticcolumns()"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title",
+        "value" : "Log"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

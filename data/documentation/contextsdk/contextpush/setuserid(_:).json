@@ -1,1 +1,323 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush"]]},"metadata":{"role":"symbol","title":"setUserId(_:)","externalID":"s:10ContextSDK0A4PushC9setUserIdyAA18DeviceTokenManagerCSSFZ","modules":[{"name":"ContextSDK"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"setUserId","kind":"identifier"},{"kind":"text","text":"("},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"text":"DeviceTokenManager","kind":"typeIdentifier","preciseIdentifier":"s:10ContextSDK18DeviceTokenManagerC"}],"roleHeading":"Type Method","symbolKind":"method"},"primaryContentSections":[{"declarations":[{"platforms":["iOS"],"languages":["swift"],"tokens":[{"text":"@discardableResult","kind":"attribute"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"setUserId","kind":"identifier"},{"text":"(","kind":"text"},{"text":"_","kind":"externalParam"},{"text":" ","kind":"text"},{"text":"userId","kind":"internalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:10ContextSDK18DeviceTokenManagerC","text":"DeviceTokenManager","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager"}]}],"kind":"declarations"},{"content":[{"anchor":"discussion","type":"heading","text":"Discussion","level":2},{"type":"unorderedList","items":[{"content":[{"type":"paragraph","inlineContent":[{"text":"Provide your unique user ID for the current user to support context-aware push notifications in your app. This will be used to let the server associate the push token with its user, enabling the ContextSDK push server to deliver the right message to the right user","type":"text"}]}]}]}],"kind":"content"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextpush\/setuserid(_:)"]}],"sections":[],"kind":"symbol","schemaVersion":{"minor":3,"patch":0,"major":0},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager":{"abstract":[],"url":"\/documentation\/contextsdk\/devicetokenmanager","title":"DeviceTokenManager","role":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"DeviceTokenManager"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"DeviceTokenManager","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush":{"url":"\/documentation\/contextsdk\/contextpush","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ContextPush","kind":"identifier"}],"type":"topic","title":"ContextPush","navigatorTitle":[{"text":"ContextPush","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush","kind":"symbol","role":"symbol","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setUserId(_:)":{"abstract":[],"type":"topic","title":"setUserId(_:)","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)","kind":"symbol","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"setUserId"},{"text":"(","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:10ContextSDK18DeviceTokenManagerC","text":"DeviceTokenManager","kind":"typeIdentifier"}],"url":"\/documentation\/contextsdk\/contextpush\/setuserid(_:)"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK0A4PushC9setUserIdyAA18DeviceTokenManagerCSSFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setUserId"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK18DeviceTokenManagerC",
+        "text" : "DeviceTokenManager"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "setUserId(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@discardableResult"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "setUserId"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "userId"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK18DeviceTokenManagerC",
+              "text" : "DeviceTokenManager"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Provide your unique user ID for the current user to support context-aware push notifications in your app. This will be used to let the server associate the push token with its user, enabling the ContextSDK push server to deliver the right message to the right user",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextpush\/setuserid(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextPush"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextPush"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextPush",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextpush"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setUserId(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setUserId"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK18DeviceTokenManagerC",
+      "text" : "DeviceTokenManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setUserId(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextpush\/setuserid(_:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeviceTokenManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DeviceTokenManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceTokenManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/devicetokenmanager"
+}
+}
+}

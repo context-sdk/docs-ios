@@ -1,1 +1,584 @@
-{"topicSections":[{"title":"Enumeration Cases","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adEngagement","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/affiliate","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/subscriptionOutsideAppStore","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/tip"],"anchor":"Enumeration-Cases","generated":true},{"generated":true,"title":"Default Implementations","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/Equatable-Implementations"],"anchor":"Default-Implementations"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"text":"RevenueSource","kind":"identifier"}],"languages":["swift"],"platforms":["iOS"]}]}],"sections":[],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"},"relationshipsSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/SQ","doc:\/\/org.cocoapods.ContextSDK\/SH"],"title":"Conforms To","type":"conformsTo","kind":"relationships"}],"schemaVersion":{"major":0,"minor":3,"patch":0},"abstract":[{"text":"A source of revenue.","type":"text"}],"kind":"symbol","variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/revenuesource"]}],"metadata":{"modules":[{"name":"ContextSDK"}],"navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"title":"RevenueSource","role":"symbol","externalID":"s:10ContextSDK13RevenueSourceO","roleHeading":"Enumeration","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"RevenueSource","kind":"identifier"}],"symbolKind":"enum"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/donation":{"title":"RevenueSource.donation","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation","abstract":[{"text":"Revenue from user donations.","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Example: A user donates to a crowdfunding campaign."}],"role":"symbol","kind":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"donation","kind":"identifier"}],"url":"\/documentation\/contextsdk\/revenuesource\/donation"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adEngagement":{"title":"RevenueSource.adEngagement","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adEngagement","role":"symbol","kind":"symbol","abstract":[{"text":"Revenue from user interactions with an ad beyond simple clicks or views.","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Example: A user swipes through an interactive carousel ad."}],"url":"\/documentation\/contextsdk\/revenuesource\/adengagement","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"adEngagement"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adImpression":{"kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"adImpression","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression","role":"symbol","url":"\/documentation\/contextsdk\/revenuesource\/adimpression","type":"topic","abstract":[{"text":"Revenue generated from viewing an ad.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Example: A banner ad displayed on a mobile app."}],"title":"RevenueSource.adImpression"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClickThrough":{"title":"RevenueSource.adClickThrough","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough","abstract":[{"text":"Revenue from users redirected somewhere after clicking an ad.","type":"text"},{"text":" ","type":"text"},{"text":"Example: A user clicks on an ad and is taken to a product page, App Store, website, etc.","type":"text"}],"role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"adClickThrough","kind":"identifier"}],"type":"topic","url":"\/documentation\/contextsdk\/revenuesource\/adclickthrough","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adConversion":{"url":"\/documentation\/contextsdk\/revenuesource\/adconversion","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"adConversion"}],"title":"RevenueSource.adConversion","abstract":[{"text":"Revenue generated from a user completing a desired action after interacting with an ad.","type":"text"},{"type":"text","text":" "},{"text":"Example: A user collects in-game coins after watching an ad.","type":"text"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion","type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClick":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick","role":"symbol","url":"\/documentation\/contextsdk\/revenuesource\/adclick","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"adClick","kind":"identifier"}],"abstract":[{"type":"text","text":"Revenue generated from clicking on an ad."},{"text":" ","type":"text"},{"type":"text","text":"Example: A user clicks anywhere on an ad, regardless if it leads them somewhere or not."}],"type":"topic","kind":"symbol","title":"RevenueSource.adClick"},"doc://org.cocoapods.ContextSDK/SQ":{"type":"unresolvable","title":"Swift.Equatable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SQ"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/Equatable-Implementations":{"abstract":[],"kind":"article","title":"Equatable Implementations","role":"collectionGroup","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/Equatable-Implementations","type":"topic","url":"\/documentation\/contextsdk\/revenuesource\/equatable-implementations"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"abstract":[{"text":"A source of revenue.","type":"text"}],"title":"RevenueSource","type":"topic","url":"\/documentation\/contextsdk\/revenuesource","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"RevenueSource"}],"navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/subscriptionOutsideAppStore":{"url":"\/documentation\/contextsdk\/revenuesource\/subscriptionoutsideappstore","abstract":[{"type":"text","text":"Recurring revenue generated from subscriptions purchased outside of App Store ecosystem."},{"text":" ","type":"text"},{"text":"Example: A user subscribes to a monthly video streaming service through the company’s website. This would have to be logged once the user comes back to the app.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"For subscriptions made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product."}],"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"subscriptionOutsideAppStore"}],"title":"RevenueSource.subscriptionOutsideAppStore","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/subscriptionOutsideAppStore"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/SH":{"type":"unresolvable","title":"Swift.Hashable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SH"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/purchaseOutsideAppStore":{"title":"RevenueSource.purchaseOutsideAppStore","url":"\/documentation\/contextsdk\/revenuesource\/purchaseoutsideappstore","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore","type":"topic","abstract":[{"text":"Revenue from the direct purchase of a product or service purchased outside of App Store ecosystem.","type":"text"},{"type":"text","text":" "},{"text":"Example: A user buys a laptop from an e-commerce store within the app.","type":"text"},{"type":"text","text":" "},{"text":"For purchases made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product.","type":"text"}],"role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"purchaseOutsideAppStore","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/affiliate":{"type":"topic","url":"\/documentation\/contextsdk\/revenuesource\/affiliate","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/affiliate","role":"symbol","title":"RevenueSource.affiliate","abstract":[{"type":"text","text":"Revenue generated through affiliate marketing."},{"text":" ","type":"text"},{"text":"Example: A blogger earns a commission for promoting an online course.","type":"text"}],"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"affiliate"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/tip":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"tip","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/tip","role":"symbol","url":"\/documentation\/contextsdk\/revenuesource\/tip","type":"topic","abstract":[{"type":"text","text":"Revenue from tips or gratuity."},{"type":"text","text":" "},{"type":"text","text":"Example: A user tips a driver after a ride-sharing service."}],"title":"RevenueSource.tip"}}}
+{
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "RevenueSource"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "RevenueSource"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "RevenueSource"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "RevenueSource"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adEngagement",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/affiliate",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/subscriptionOutsideAppStore",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/tip"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClick": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated from clicking on an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user clicks anywhere on an ad, regardless if it leads them somewhere or not.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adClick"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adClick",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adclick"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClickThrough": {
+  "abstract" : [
+    {
+      "text" : "Revenue from users redirected somewhere after clicking an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user clicks on an ad and is taken to a product page, App Store, website, etc.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adClickThrough"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adClickThrough",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adclickthrough"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adConversion": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated from a user completing a desired action after interacting with an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user collects in-game coins after watching an ad.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adConversion"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adConversion",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adConversion",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adconversion"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adEngagement": {
+  "abstract" : [
+    {
+      "text" : "Revenue from user interactions with an ad beyond simple clicks or views.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user swipes through an interactive carousel ad.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adEngagement"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adEngagement",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adEngagement",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adengagement"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adImpression": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated from viewing an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A banner ad displayed on a mobile app.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adImpression"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adImpression",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adImpression",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adimpression"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/affiliate": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated through affiliate marketing.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A blogger earns a commission for promoting an online course.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "affiliate"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/affiliate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.affiliate",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/affiliate"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/donation": {
+  "abstract" : [
+    {
+      "text" : "Revenue from user donations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user donates to a crowdfunding campaign.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "donation"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.donation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/donation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/purchaseOutsideAppStore": {
+  "abstract" : [
+    {
+      "text" : "Revenue from the direct purchase of a product or service purchased outside of App Store ecosystem.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user buys a laptop from an e-commerce store within the app.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For purchases made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "purchaseOutsideAppStore"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.purchaseOutsideAppStore",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/purchaseoutsideappstore"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/subscriptionOutsideAppStore": {
+  "abstract" : [
+    {
+      "text" : "Recurring revenue generated from subscriptions purchased outside of App Store ecosystem.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user subscribes to a monthly video streaming service through the company’s website. This would have to be logged once the user comes back to the app.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For subscriptions made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "subscriptionOutsideAppStore"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/subscriptionOutsideAppStore",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.subscriptionOutsideAppStore",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/subscriptionoutsideappstore"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/tip": {
+  "abstract" : [
+    {
+      "text" : "Revenue from tips or gratuity.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user tips a driver after a ride-sharing service.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tip"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/tip",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.tip",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/tip"
+}
+}
+}

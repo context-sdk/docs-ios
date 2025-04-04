@@ -1,1 +1,131 @@
-{"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextSDKVersionNumber","interfaceLanguage":"occ"},"variants":[{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextsdkversionnumber"]}],"metadata":{"fragments":[{"kind":"identifier","text":"ContextSDKVersionNumber"}],"roleHeading":"Global Variable","externalID":"c:@ContextSDKVersionNumber","symbolKind":"var","modules":[{"name":"ContextSDK"}],"role":"symbol","navigatorTitle":[{"text":"ContextSDKVersionNumber","kind":"identifier"}],"title":"ContextSDKVersionNumber"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["occ"],"tokens":[{"text":"extern","kind":"keyword"},{"text":" ","kind":"text"},{"text":"double","preciseIdentifier":"c:d","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"text":"ContextSDKVersionNumber","kind":"identifier"},{"kind":"text","text":";"}],"platforms":["iOS"]}]}],"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextSDKVersionNumber":{"url":"\/documentation\/contextsdk\/contextsdkversionnumber","kind":"symbol","fragments":[{"text":"ContextSDKVersionNumber","kind":"identifier"}],"type":"topic","abstract":[],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextSDKVersionNumber","title":"ContextSDKVersionNumber"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextSDKVersionNumber"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@ContextSDKVersionNumber",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "ContextSDKVersionNumber"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ContextSDKVersionNumber"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Global Variable",
+    "symbolKind" : "var",
+    "title" : "ContextSDKVersionNumber"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:d",
+              "text" : "double"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ContextSDKVersionNumber"
+            },
+            {
+              "kind" : "text",
+              "text" : ";"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdkversionnumber"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextSDKVersionNumber": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextSDKVersionNumber"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextSDKVersionNumber",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ContextSDKVersionNumber",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdkversionnumber"
+}
+}
+}

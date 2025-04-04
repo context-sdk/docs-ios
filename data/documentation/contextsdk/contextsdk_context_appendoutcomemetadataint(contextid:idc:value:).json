@@ -1,1 +1,320 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"contextSDK_context_appendOutcomeMetadataInt","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"contextID"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Int32","preciseIdentifier":"s:s5Int32V"},{"kind":"text","text":", "},{"text":"idC","kind":"externalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:SP","text":"UnsafePointer"},{"text":"<","kind":"text"},{"preciseIdentifier":"s:s5CChara","text":"CChar","kind":"typeIdentifier"},{"text":">, ","kind":"text"},{"text":"value","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Int32","kind":"typeIdentifier","preciseIdentifier":"s:s5Int32V"},{"text":")","kind":"text"}]}]}],"kind":"symbol","variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadataint(contextid:idc:value:)"]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"sections":[],"schemaVersion":{"major":0,"patch":0,"minor":3},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)","interfaceLanguage":"swift"},"metadata":{"fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"contextSDK_context_appendOutcomeMetadataInt","kind":"identifier"},{"text":"(","kind":"text"},{"text":"contextID","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Int32","preciseIdentifier":"s:s5Int32V"},{"text":", ","kind":"text"},{"text":"idC","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SP","kind":"typeIdentifier","text":"UnsafePointer"},{"kind":"text","text":"<"},{"preciseIdentifier":"s:s5CChara","text":"CChar","kind":"typeIdentifier"},{"text":">, ","kind":"text"},{"text":"value","kind":"externalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Int32","preciseIdentifier":"s:s5Int32V"},{"kind":"text","text":")"}],"modules":[{"name":"ContextSDK"}],"role":"symbol","roleHeading":"Function","symbolKind":"func","title":"contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)","externalID":"c:(cm)contextSDK_context_appendOutcomeMetadataIntWithContextID:idC:value:"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)":{"abstract":[],"title":"contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)","type":"topic","url":"\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadataint(contextid:idc:value:)","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"contextSDK_context_appendOutcomeMetadataInt"},{"text":"(","kind":"text"},{"text":"contextID","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Int32","preciseIdentifier":"s:s5Int32V"},{"kind":"text","text":", "},{"text":"idC","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SP","text":"UnsafePointer","kind":"typeIdentifier"},{"kind":"text","text":"<"},{"preciseIdentifier":"s:s5CChara","text":"CChar","kind":"typeIdentifier"},{"text":">, ","kind":"text"},{"text":"value","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:s5Int32V","text":"Int32"},{"text":")","kind":"text"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:(cm)contextSDK_context_appendOutcomeMetadataIntWithContextID:idC:value:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_context_appendOutcomeMetadataInt"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "contextID"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5Int32V",
+        "text" : "Int32"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "idC"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SP",
+        "text" : "UnsafePointer"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5CChara",
+        "text" : "CChar"
+      },
+      {
+        "kind" : "text",
+        "text" : ">, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "value"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5Int32V",
+        "text" : "Int32"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_context_appendOutcomeMetadataInt"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "contextID"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5Int32V",
+              "text" : "Int32"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "idC"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SP",
+              "text" : "UnsafePointer"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5CChara",
+              "text" : "CChar"
+            },
+            {
+              "kind" : "text",
+              "text" : ">, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "value"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5Int32V",
+              "text" : "Int32"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadataint(contextid:idc:value:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_appendOutcomeMetadataInt"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "contextID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idC"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SP",
+      "text" : "UnsafePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5CChara",
+      "text" : "CChar"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadataint(contextid:idc:value:)"
+}
+}
+}

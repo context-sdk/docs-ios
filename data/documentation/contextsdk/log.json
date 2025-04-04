@@ -1,1 +1,776 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionary()","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/forFirebase()","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/send()","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toData()","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()"],"anchor":"Instance-Methods","title":"Instance Methods","generated":true}],"relationshipsSections":[{"title":"Inherits From","type":"inheritsFrom","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"],"kind":"relationships"},{"title":"Conforms To","type":"conformsTo","kind":"relationships","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject","doc:\/\/org.cocoapods.ContextSDK\/s7CVarArgP","doc:\/\/org.cocoapods.ContextSDK\/s28CustomDebugStringConvertibleP","doc:\/\/org.cocoapods.ContextSDK\/s23CustomStringConvertibleP","doc:\/\/org.cocoapods.ContextSDK\/SQ","doc:\/\/org.cocoapods.ContextSDK\/SH"]}],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log","interfaceLanguage":"swift"},"metadata":{"symbolKind":"class","modules":[{"name":"ContextSDK"}],"fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"Log","kind":"identifier"}],"roleHeading":"Class","title":"Log","externalID":"c:@M@ContextSDK@objc(cs)Log","navigatorTitle":[{"kind":"identifier","text":"Log"}],"role":"symbol"},"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"languages":["swift"],"tokens":[{"text":"@objc","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"identifier","text":"Log"}]}]},{"kind":"content","content":[{"text":"Overview","type":"heading","level":2,"anchor":"overview"},{"type":"unorderedList","items":[{"content":[{"inlineContent":[{"text":"This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event","type":"text"}],"type":"paragraph"}]}]}]}],"sections":[],"schemaVersion":{"patch":0,"minor":3,"major":0},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/log"]},{"paths":["\/documentation\/contextsdk\/log"],"traits":[{"interfaceLanguage":"occ"}]}],"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionaryWithStaticColumns()":{"abstract":[{"text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns","type":"text"},{"text":" ","type":"text"},{"text":"This method can be used when you need the exact columns your backend or database requires the exact columns","type":"text"},{"type":"text","text":" "},{"type":"text","text":"This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns"},{"type":"text","text":" "},{"text":"This method will append a ","type":"text"},{"code":"ctx_custom_signals","type":"codeVoice"},{"text":" column, that contains all custom signals.","type":"text"}],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/log\/dictionarywithstaticcolumns()","role":"symbol","deprecated":true,"fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"dictionaryWithStaticColumns"},{"text":"() -> [","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"kind":"text","text":" : "},{"text":"Any","kind":"keyword"},{"kind":"text","text":"]"}],"title":"dictionaryWithStaticColumns()","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toBase64()":{"title":"toBase64()","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()","abstract":[],"role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"toBase64"},{"text":"() -> ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"type":"topic","kind":"symbol","url":"\/documentation\/contextsdk\/log\/tobase64()"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toData()":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/log\/todata()","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"toData"},{"text":"() -> ","kind":"text"},{"kind":"typeIdentifier","text":"Data","preciseIdentifier":"s:10Foundation4DataV"}],"title":"toData()","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toData()"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toJSONString()":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()","title":"toJSONString()","role":"symbol","type":"topic","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"toJSONString"},{"text":"() -> ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"deprecated":true,"kind":"symbol","url":"\/documentation\/contextsdk\/log\/tojsonstring()","abstract":[{"type":"text","text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string"},{"text":" ","type":"text"},{"text":"This single JSON String can be stored in your own database. Use this method if your backend doesn’t support","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"flexible columns, or a high number of columns"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/send()":{"url":"\/documentation\/contextsdk\/log\/send()","kind":"symbol","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"send","kind":"identifier"},{"text":"()","kind":"text"}],"type":"topic","abstract":[{"text":"This method will send the current context to the official ContextSDK backend. No additional action needed after calling this method.","type":"text"}],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/send()","title":"send()"},"doc://org.cocoapods.ContextSDK/s7CVarArgP":{"type":"unresolvable","title":"Swift.CVarArg","identifier":"doc:\/\/org.cocoapods.ContextSDK\/s7CVarArgP"},"doc://org.cocoapods.ContextSDK/SH":{"type":"unresolvable","title":"Swift.Hashable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SH"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log":{"type":"topic","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log","role":"symbol","title":"Log","url":"\/documentation\/contextsdk\/log","abstract":[],"fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"identifier","text":"Log"}],"navigatorTitle":[{"text":"Log","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/s23CustomStringConvertibleP":{"type":"unresolvable","title":"Swift.CustomStringConvertible","identifier":"doc:\/\/org.cocoapods.ContextSDK\/s23CustomStringConvertibleP"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/forFirebase()":{"abstract":[{"text":"If you don’t want to use the official ContextSDK backend, you can use this method to log the context data to your Firebase backend","type":"text"},{"type":"text","text":" "},{"type":"text","text":"This will use around ~10-15 custom parameters per event, and will log the full details of the ContextSDK outcome"},{"text":" ","type":"text"},{"text":"You can use any name for the event, as all required details are already bundled within those custom parameters","type":"text"}],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/log\/forfirebase()","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"kind":"identifier","text":"forFirebase"},{"text":"() -> [","kind":"text"},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":" : "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":"]"}],"title":"forFirebase()","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/forFirebase()"},"doc://org.cocoapods.ContextSDK/objc(cs)NSObject":{"type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject","title":"NSObject"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/s28CustomDebugStringConvertibleP":{"type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/s28CustomDebugStringConvertibleP","title":"Swift.CustomDebugStringConvertible"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionary()":{"abstract":[{"type":"text","text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary"},{"type":"text","text":" "},{"text":"that you can send to your own analytics backend. Note that this method may return a different number of columns","type":"text"},{"text":" ","type":"text"},{"text":"depending on the number of custom signals you have set, as well as additional signals being added to the ContextSDK with each update","type":"text"},{"type":"text","text":" "},{"type":"text","text":"Columns are mostly static though and new ones will only ever be appended in the format “ctx_{ID}”"}],"title":"dictionary()","type":"topic","url":"\/documentation\/contextsdk\/log\/dictionary()","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"dictionary","kind":"identifier"},{"text":"() -> [","kind":"text"},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"text":" : ","kind":"text"},{"text":"Any","kind":"keyword"},{"kind":"text","text":"]"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionary()","kind":"symbol"},"doc://org.cocoapods.ContextSDK/objc(pl)NSObject":{"title":"ObjectiveC.NSObjectProtocol","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject"},"doc://org.cocoapods.ContextSDK/SQ":{"title":"Swift.Equatable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SQ"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"path":"\/identifier\/interfaceLanguage","value":"occ","op":"replace"},{"value":"Class","path":"\/metadata\/roleHeading","op":"replace"},{"path":"\/metadata\/title","value":"Log","op":"replace"},{"path":"\/metadata\/symbolKind","op":"replace","value":"class"},{"op":"replace","value":[{"kind":"identifier","text":"Log"}],"path":"\/metadata\/fragments"},{"value":[{"kind":"identifier","text":"Log"}],"path":"\/metadata\/navigatorTitle","op":"replace"},{"path":"\/topicSections","value":null,"op":"replace"},{"value":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"],"title":"Inherits From","kind":"relationships","type":"inheritsFrom"}],"op":"replace","path":"\/relationshipsSections"},{"op":"add","path":"\/seeAlsoSections","value":null},{"value":{"kind":"declarations","declarations":[{"languages":["occ"],"tokens":[{"text":"@interface","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Log","kind":"identifier"},{"text":" : ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:objc(cs)NSObject","text":"NSObject"}],"platforms":["iOS"]}]},"path":"\/primaryContentSections\/0","op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title","value":"Log","op":"replace"},{"op":"replace","value":[{"text":"Log","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle","op":"replace","value":[{"kind":"identifier","text":"Log"}]}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@objc(cs)Log",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Log"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Log"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "Log"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Log"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"
+      ],
+      "kind" : "relationships",
+      "title" : "Inherits From",
+      "type" : "inheritsFrom"
+    },
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject",
+        "doc:\/\/org.cocoapods.ContextSDK\/s7CVarArgP",
+        "doc:\/\/org.cocoapods.ContextSDK\/s28CustomDebugStringConvertibleP",
+        "doc:\/\/org.cocoapods.ContextSDK\/s23CustomStringConvertibleP",
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionary()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/forFirebase()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/send()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toData()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()"
+      ],
+      "title" : "Instance Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/log"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/log"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Log",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionary()": {
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "that you can send to your own analytics backend. Note that this method may return a different number of columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "depending on the number of custom signals you have set, as well as additional signals being added to the ContextSDK with each update",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Columns are mostly static though and new ones will only ever be appended in the format “ctx_{ID}”",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dictionary"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionary()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dictionary()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/dictionary()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionaryWithStaticColumns()": {
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method can be used when you need the exact columns your backend or database requires the exact columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This method will append a ",
+      "type" : "text"
+    },
+    {
+      "code" : "ctx_custom_signals",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " column, that contains all custom signals.",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dictionaryWithStaticColumns"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "Any"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/dictionaryWithStaticColumns()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "dictionaryWithStaticColumns()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/dictionarywithstaticcolumns()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/forFirebase()": {
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to log the context data to your Firebase backend",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This will use around ~10-15 custom parameters per event, and will log the full details of the ContextSDK outcome",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "You can use any name for the event, as all required details are already bundled within those custom parameters",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "forFirebase"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/forFirebase()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "forFirebase()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/forfirebase()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/send()": {
+  "abstract" : [
+    {
+      "text" : "This method will send the current context to the official ContextSDK backend. No additional action needed after calling this method.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "send"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/send()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "send()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/send()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toBase64()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toBase64"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toBase64()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/tobase64()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toData()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toData"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toData()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toData()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/todata()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toJSONString()": {
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This single JSON String can be stored in your own database. Use this method if your backend doesn’t support",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "flexible columns, or a high number of columns",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toJSONString"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toJSONString()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/tojsonstring()"
+},
+"doc://org.cocoapods.ContextSDK/objc(cs)NSObject": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject",
+  "title" : "NSObject",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/objc(pl)NSObject": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject",
+  "title" : "ObjectiveC.NSObjectProtocol",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/s23CustomStringConvertibleP": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/s23CustomStringConvertibleP",
+  "title" : "Swift.CustomStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/s28CustomDebugStringConvertibleP": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/s28CustomDebugStringConvertibleP",
+  "title" : "Swift.CustomDebugStringConvertible",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/s7CVarArgP": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/s7CVarArgP",
+  "title" : "Swift.CVarArg",
+  "type" : "unresolvable"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Class"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "Log"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "class"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/relationshipsSections",
+        "value" : [
+          {
+            "identifiers" : [
+              "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"
+            ],
+            "kind" : "relationships",
+            "title" : "Inherits From",
+            "type" : "inheritsFrom"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "keyword",
+                  "text" : "@interface"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "Log"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " : "
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:objc(cs)NSObject",
+                  "text" : "NSObject"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title",
+        "value" : "Log"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

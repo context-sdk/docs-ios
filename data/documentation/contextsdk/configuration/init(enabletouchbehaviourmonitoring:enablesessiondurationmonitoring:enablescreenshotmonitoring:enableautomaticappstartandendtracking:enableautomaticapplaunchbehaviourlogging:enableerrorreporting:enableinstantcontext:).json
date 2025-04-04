@@ -1,1 +1,673 @@
-{"metadata":{"symbolKind":"init","role":"symbol","externalID":"s:10ContextSDK13ConfigurationC30enableTouchBehaviourMonitoring0d15SessionDurationG00d10ScreenshotG00D31AutomaticAppStartAndEndTracking0dkl6LaunchF7Logging0D14ErrorReporting0d7InstantA0ACSb_S6btcfc","roleHeading":"Initializer","modules":[{"name":"ContextSDK"}],"fragments":[{"text":"init","kind":"identifier"},{"kind":"text","text":"("},{"kind":"externalParam","text":"enableTouchBehaviourMonitoring"},{"kind":"text","text":": "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":", ","kind":"text"},{"text":"enableSessionDurationMonitoring","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"enableScreenshotMonitoring"},{"kind":"text","text":": "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":", ","kind":"text"},{"text":"enableAutomaticAppStartAndEndTracking","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"},{"text":", ","kind":"text"},{"text":"enableAutomaticAppLaunchBehaviourLogging","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"enableErrorReporting"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":", "},{"text":"enableInstantContext","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"text":")","kind":"text"}],"title":"init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)"},"variants":[{"paths":["\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"patch":0,"minor":3,"major":0},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration"]]},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)","interfaceLanguage":"swift"},"sections":[],"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"init","kind":"keyword"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"enableTouchBehaviourMonitoring"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":" = true, "},{"text":"enableSessionDurationMonitoring","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"},{"kind":"text","text":" = true, "},{"kind":"externalParam","text":"enableScreenshotMonitoring"},{"text":": ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"kind":"text","text":" = true, "},{"text":"enableAutomaticAppStartAndEndTracking","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"},{"kind":"text","text":" = true, "},{"text":"enableAutomaticAppLaunchBehaviourLogging","kind":"externalParam"},{"kind":"text","text":": "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"},{"text":" = true, ","kind":"text"},{"text":"enableErrorReporting","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"text":" = true, ","kind":"text"},{"text":"enableInstantContext","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"kind":"text","text":" = true)"}],"platforms":["iOS"]}],"kind":"declarations"},{"kind":"content","content":[{"anchor":"discussion","text":"Discussion","level":2,"type":"heading"},{"items":[{"content":[{"items":[{"content":[{"inlineContent":[{"text":"Parameter enableTouchBehaviourMonitoring: Count the number of touches: Uses a ","type":"text"},{"code":"UITapGestureRecognizer","type":"codeVoice"},{"type":"text","text":", that will always immediately "},{"code":"return false","type":"codeVoice"},{"text":" to not have any impact on your app. We don’t send any details on those interactions, besides the total count","type":"text"}],"type":"paragraph"}]},{"content":[{"inlineContent":[{"type":"text","text":"Parameter enableSessionDurationMonitoring: Logs the number of seconds of the current session"}],"type":"paragraph"}]},{"content":[{"type":"paragraph","inlineContent":[{"text":"Parameter enableScreenshotMonitoring: Counts the number of screenshots taken during the current session","type":"text"}]}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Parameter enableAutomaticAppStartAndEndTracking: Send a single ContextSDK event when your app is launched, and when it’s put into the background. This allows us to provide you with more in-depth insights on what contexts have a positive effect on session durations and upsells"}]}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Parameter enableAutomaticAppLaunchBehaviourLogging: Keeps track of how often, and when users launch the app. This is stored locally using NSUserDefaults, and only aggregated metrics (like how many times the app was launched today) will be used"}]}]},{"content":[{"inlineContent":[{"text":"Parameter enableErrorReporting: When true, ContextSDK will report unexpected errors back to us. Those are mostly to ensure smooth rollouts of new Machine Learning Models over the air. Since CoreML models may introduce issues while parsing them, we’d then report those errors back to us, while also falling back to the default model to guarantee smooth operations","type":"text"}],"type":"paragraph"}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Parameter enableInstantContext: Defaults to true. When true ContextSDK will enable instant context support, allowing you to make decisions instantly if the app has been running a few seconds. While instant context is enabled ContextSDK will use around 2% of a single CPU core continually. (e.g. for an iPhone with 6 cores, that means a total of 0.33% CPU usage)"}]}]}],"type":"unorderedList"}]}],"type":"unorderedList"}]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)":{"kind":"symbol","title":"init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)","url":"\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)","role":"symbol","fragments":[{"kind":"identifier","text":"init"},{"text":"(","kind":"text"},{"text":"enableTouchBehaviourMonitoring","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:Sb","text":"Bool"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"enableSessionDurationMonitoring"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"},{"kind":"text","text":", "},{"text":"enableScreenshotMonitoring","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"enableAutomaticAppStartAndEndTracking"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"enableAutomaticAppLaunchBehaviourLogging","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"enableErrorReporting","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"enableInstantContext","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"},{"kind":"text","text":")"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)","type":"topic","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration":{"role":"symbol","navigatorTitle":[{"text":"Configuration","kind":"identifier"}],"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration","url":"\/documentation\/contextsdk\/configuration","type":"topic","title":"Configuration","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"Configuration"}],"kind":"symbol"}},"variantOverrides":[{"patch":[{"op":"replace","value":"Configuration","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments","value":[{"text":"Configuration","kind":"identifier"}]},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle","value":[{"text":"Configuration","kind":"identifier"}]}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13ConfigurationC30enableTouchBehaviourMonitoring0d15SessionDurationG00d10ScreenshotG00D31AutomaticAppStartAndEndTracking0dkl6LaunchF7Logging0D14ErrorReporting0d7InstantA0ACSb_S6btcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableTouchBehaviourMonitoring"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableSessionDurationMonitoring"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableScreenshotMonitoring"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableAutomaticAppStartAndEndTracking"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableAutomaticAppLaunchBehaviourLogging"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableErrorReporting"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "enableInstantContext"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableTouchBehaviourMonitoring"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableSessionDurationMonitoring"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableScreenshotMonitoring"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableAutomaticAppStartAndEndTracking"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableAutomaticAppLaunchBehaviourLogging"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableErrorReporting"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "enableInstantContext"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            },
+            {
+              "kind" : "text",
+              "text" : " = true)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableTouchBehaviourMonitoring: Count the number of touches: Uses a ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "UITapGestureRecognizer",
+                              "type" : "codeVoice"
+                            },
+                            {
+                              "text" : ", that will always immediately ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "return false",
+                              "type" : "codeVoice"
+                            },
+                            {
+                              "text" : " to not have any impact on your app. We don’t send any details on those interactions, besides the total count",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableSessionDurationMonitoring: Logs the number of seconds of the current session",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableScreenshotMonitoring: Counts the number of screenshots taken during the current session",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableAutomaticAppStartAndEndTracking: Send a single ContextSDK event when your app is launched, and when it’s put into the background. This allows us to provide you with more in-depth insights on what contexts have a positive effect on session durations and upsells",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableAutomaticAppLaunchBehaviourLogging: Keeps track of how often, and when users launch the app. This is stored locally using NSUserDefaults, and only aggregated metrics (like how many times the app was launched today) will be used",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableErrorReporting: When true, ContextSDK will report unexpected errors back to us. Those are mostly to ensure smooth rollouts of new Machine Learning Models over the air. Since CoreML models may introduce issues while parsing them, we’d then report those errors back to us, while also falling back to the default model to guarantee smooth operations",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter enableInstantContext: Defaults to true. When true ContextSDK will enable instant context support, allowing you to make decisions instantly if the app has been running a few seconds. While instant context is enabled ContextSDK will use around 2% of a single CPU core continually. (e.g. for an iPhone with 6 cores, that means a total of 0.33% CPU usage)",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableTouchBehaviourMonitoring"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableSessionDurationMonitoring"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableScreenshotMonitoring"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableAutomaticAppStartAndEndTracking"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableAutomaticAppLaunchBehaviourLogging"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableErrorReporting"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "enableInstantContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title",
+        "value" : "Configuration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

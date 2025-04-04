@@ -1,1 +1,320 @@
-{"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)","interfaceLanguage":"swift"},"variants":[{"paths":["\/documentation\/contextsdk\/contextsdk_context_addcustomsignalfloat(contextid:idc:value:)"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"minor":3,"major":0,"patch":0},"metadata":{"modules":[{"name":"ContextSDK"}],"title":"contextSDK_context_addCustomSignalFloat(contextID:idC:value:)","roleHeading":"Function","role":"symbol","symbolKind":"func","externalID":"c:(cm)contextSDK_context_addCustomSignalFloatWithContextID:idC:value:","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"contextSDK_context_addCustomSignalFloat"},{"kind":"text","text":"("},{"kind":"externalParam","text":"contextID"},{"kind":"text","text":": "},{"text":"Int32","kind":"typeIdentifier","preciseIdentifier":"s:s5Int32V"},{"kind":"text","text":", "},{"kind":"externalParam","text":"idC"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SP","text":"UnsafePointer","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:s5CChara","text":"CChar"},{"text":">, ","kind":"text"},{"kind":"externalParam","text":"value"},{"text":": ","kind":"text"},{"text":"Float","kind":"typeIdentifier","preciseIdentifier":"s:Sf"},{"text":")","kind":"text"}]},"kind":"symbol","sections":[],"primaryContentSections":[{"declarations":[{"tokens":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"contextSDK_context_addCustomSignalFloat","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"contextID"},{"kind":"text","text":": "},{"preciseIdentifier":"s:s5Int32V","text":"Int32","kind":"typeIdentifier"},{"kind":"text","text":", "},{"kind":"externalParam","text":"idC"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:SP","text":"UnsafePointer"},{"kind":"text","text":"<"},{"preciseIdentifier":"s:s5CChara","kind":"typeIdentifier","text":"CChar"},{"kind":"text","text":">, "},{"text":"value","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:Sf","text":"Float","kind":"typeIdentifier"},{"text":")","kind":"text"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)":{"role":"symbol","url":"\/documentation\/contextsdk\/contextsdk_context_addcustomsignalfloat(contextid:idc:value:)","title":"contextSDK_context_addCustomSignalFloat(contextID:idC:value:)","kind":"symbol","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)","type":"topic","fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"contextSDK_context_addCustomSignalFloat"},{"kind":"text","text":"("},{"kind":"externalParam","text":"contextID"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:s5Int32V","text":"Int32"},{"text":", ","kind":"text"},{"text":"idC","kind":"externalParam"},{"kind":"text","text":": "},{"text":"UnsafePointer","preciseIdentifier":"s:SP","kind":"typeIdentifier"},{"kind":"text","text":"<"},{"text":"CChar","preciseIdentifier":"s:s5CChara","kind":"typeIdentifier"},{"text":">, ","kind":"text"},{"text":"value","kind":"externalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:Sf","text":"Float"},{"text":")","kind":"text"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:(cm)contextSDK_context_addCustomSignalFloatWithContextID:idC:value:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_context_addCustomSignalFloat"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "contextID"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5Int32V",
+        "text" : "Int32"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "idC"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SP",
+        "text" : "UnsafePointer"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5CChara",
+        "text" : "CChar"
+      },
+      {
+        "kind" : "text",
+        "text" : ">, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "value"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sf",
+        "text" : "Float"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_context_addCustomSignalFloat(contextID:idC:value:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_context_addCustomSignalFloat"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "contextID"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5Int32V",
+              "text" : "Int32"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "idC"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SP",
+              "text" : "UnsafePointer"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5CChara",
+              "text" : "CChar"
+            },
+            {
+              "kind" : "text",
+              "text" : ">, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "value"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sf",
+              "text" : "Float"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_context_addcustomsignalfloat(contextid:idc:value:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_addCustomSignalFloat"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "contextID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "idC"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SP",
+      "text" : "UnsafePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5CChara",
+      "text" : "CChar"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_addCustomSignalFloat(contextID:idC:value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_addcustomsignalfloat(contextid:idc:value:)"
+}
+}
+}

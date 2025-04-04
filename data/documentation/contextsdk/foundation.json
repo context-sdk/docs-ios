@@ -1,1 +1,113 @@
-{"topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal"],"anchor":"Extended-Structures","title":"Extended Structures","generated":true}],"variants":[{"paths":["\/documentation\/contextsdk\/foundation"],"traits":[{"interfaceLanguage":"swift"}]}],"sections":[],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"metadata":{"title":"Foundation","roleHeading":"Extended Module","modules":[{"name":"ContextSDK"}],"symbolKind":"extension","role":"collection","externalID":"s:m:s:e:s:So9NSDecimala10ContextSDKEyABSgSScfc"},"schemaVersion":{"major":0,"patch":0,"minor":3},"kind":"symbol","identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation","interfaceLanguage":"swift"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation":{"title":"Foundation","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation","kind":"symbol","role":"collection","type":"topic","url":"\/documentation\/contextsdk\/foundation"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal":{"type":"topic","title":"Decimal","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal","abstract":[],"url":"\/documentation\/contextsdk\/foundation\/decimal","role":"symbol","navigatorTitle":[{"text":"Decimal","kind":"identifier"}],"kind":"symbol","fragments":[{"text":"extension","kind":"keyword"},{"kind":"text","text":" "},{"preciseIdentifier":"c:@SA@NSDecimal","kind":"identifier","text":"Decimal"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:m:s:e:s:So9NSDecimala10ContextSDKEyABSgSScfc",
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "collection",
+    "roleHeading" : "Extended Module",
+    "symbolKind" : "extension",
+    "title" : "Foundation"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Extended-Structures",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal"
+      ],
+      "title" : "Extended Structures"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/foundation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@SA@NSDecimal",
+      "text" : "Decimal"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Decimal"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Decimal",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation\/decimal"
+}
+}
+}

@@ -1,1 +1,143 @@
-{"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations","interfaceLanguage":"swift"},"schemaVersion":{"patch":0,"major":0,"minor":3},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal"]]},"sections":[],"topicSections":[{"title":"Initializers","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)"],"generated":true,"anchor":"Initializers"}],"metadata":{"title":"LosslessStringConvertible Implementations","role":"collectionGroup","roleHeading":"API Collection","modules":[{"name":"ContextSDK"}]},"kind":"article","variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/foundation\/decimal\/losslessstringconvertible-implementations"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation":{"title":"Foundation","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation","kind":"symbol","role":"collection","type":"topic","url":"\/documentation\/contextsdk\/foundation"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal":{"type":"topic","title":"Decimal","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal","abstract":[],"url":"\/documentation\/contextsdk\/foundation\/decimal","role":"symbol","navigatorTitle":[{"text":"Decimal","kind":"identifier"}],"kind":"symbol","fragments":[{"text":"extension","kind":"keyword"},{"kind":"text","text":" "},{"preciseIdentifier":"c:@SA@NSDecimal","kind":"identifier","text":"Decimal"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/init(_:)":{"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"?("},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"text":")","kind":"text"}],"kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/foundation\/decimal\/init(_:)","title":"init(_:)","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "LosslessStringConvertible Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)"
+      ],
+      "title" : "Initializers"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/foundation\/decimal\/losslessstringconvertible-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@SA@NSDecimal",
+      "text" : "Decimal"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Decimal"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Decimal",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation\/decimal"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation\/decimal\/init(_:)"
+}
+}
+}

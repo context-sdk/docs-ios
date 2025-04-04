@@ -1,1 +1,198 @@
-{"kind":"symbol","hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataString","interfaceLanguage":"occ"},"primaryContentSections":[{"declarations":[{"tokens":[{"kind":"keyword","text":"extern"},{"text":" ","kind":"text"},{"text":"void","kind":"typeIdentifier","preciseIdentifier":"c:v"},{"text":" ","kind":"text"},{"text":"contextSDK_context_appendOutcomeMetadataString","kind":"identifier"},{"kind":"text","text":"("},{"preciseIdentifier":"c:@T@int32_t","kind":"typeIdentifier","text":"int32_t"},{"kind":"text","text":" "},{"text":"contextID","kind":"internalParam"},{"kind":"text","text":", "},{"kind":"keyword","text":"const"},{"text":" ","kind":"text"},{"text":"char","preciseIdentifier":"c:C","kind":"typeIdentifier"},{"kind":"text","text":" * "},{"text":"idC","kind":"internalParam"},{"kind":"text","text":", "},{"text":"const","kind":"keyword"},{"text":" ","kind":"text"},{"text":"char","kind":"typeIdentifier","preciseIdentifier":"c:C"},{"text":" * ","kind":"text"},{"text":"valueC","kind":"internalParam"},{"text":");","kind":"text"}],"platforms":["iOS"],"languages":["occ"]}],"kind":"declarations"}],"schemaVersion":{"minor":3,"patch":0,"major":0},"sections":[],"metadata":{"fragments":[{"text":"contextSDK_context_appendOutcomeMetadataString","kind":"identifier"}],"modules":[{"name":"ContextSDK"}],"navigatorTitle":[{"text":"contextSDK_context_appendOutcomeMetadataString","kind":"identifier"}],"role":"symbol","roleHeading":"Function","symbolKind":"func","externalID":"c:@M@ContextSDK@F@contextSDK_context_appendOutcomeMetadataString","title":"contextSDK_context_appendOutcomeMetadataString"},"variants":[{"paths":["\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadatastring"],"traits":[{"interfaceLanguage":"occ"}]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataString":{"role":"symbol","url":"\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadatastring","title":"contextSDK_context_appendOutcomeMetadataString","kind":"symbol","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataString","type":"topic","fragments":[{"text":"contextSDK_context_appendOutcomeMetadataString","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataString"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_context_appendOutcomeMetadataString",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_context_appendOutcomeMetadataString"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_context_appendOutcomeMetadataString"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_context_appendOutcomeMetadataString"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_context_appendOutcomeMetadataString"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "contextID"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:C",
+              "text" : "char"
+            },
+            {
+              "kind" : "text",
+              "text" : " * "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "idC"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:C",
+              "text" : "char"
+            },
+            {
+              "kind" : "text",
+              "text" : " * "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "valueC"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadatastring"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataString": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_appendOutcomeMetadataString"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataString",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_appendOutcomeMetadataString",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_appendoutcomemetadatastring"
+}
+}
+}

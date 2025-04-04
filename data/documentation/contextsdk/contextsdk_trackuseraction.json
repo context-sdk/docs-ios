@@ -1,1 +1,173 @@
-{"sections":[],"schemaVersion":{"patch":0,"major":0,"minor":3},"variants":[{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextsdk_trackuseraction"]}],"metadata":{"externalID":"c:@M@ContextSDK@F@contextSDK_trackUserAction","symbolKind":"func","role":"symbol","roleHeading":"Function","title":"contextSDK_trackUserAction","modules":[{"name":"ContextSDK"}],"navigatorTitle":[{"kind":"identifier","text":"contextSDK_trackUserAction"}],"fragments":[{"text":"contextSDK_trackUserAction","kind":"identifier"}]},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackUserAction","interfaceLanguage":"occ"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["occ"],"tokens":[{"kind":"keyword","text":"extern"},{"kind":"text","text":" "},{"text":"void","preciseIdentifier":"c:v","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"text":"contextSDK_trackUserAction","kind":"identifier"},{"kind":"text","text":"("},{"text":"const","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"typeIdentifier","text":"char","preciseIdentifier":"c:C"},{"text":" * ","kind":"text"},{"text":"userActionNameC","kind":"internalParam"},{"text":", ","kind":"text"},{"text":"int32_t","preciseIdentifier":"c:@T@int32_t","kind":"typeIdentifier"},{"text":" ","kind":"text"},{"kind":"internalParam","text":"customSignalsID"},{"text":");","kind":"text"}],"platforms":["iOS"]}]}],"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackUserAction":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/contextsdk_trackuseraction","role":"symbol","fragments":[{"text":"contextSDK_trackUserAction","kind":"identifier"}],"title":"contextSDK_trackUserAction","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackUserAction"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackUserAction"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_trackUserAction",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_trackUserAction"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_trackUserAction"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_trackUserAction"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_trackUserAction"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:C",
+              "text" : "char"
+            },
+            {
+              "kind" : "text",
+              "text" : " * "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "userActionNameC"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "customSignalsID"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_trackuseraction"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackUserAction": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_trackUserAction"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackUserAction",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_trackUserAction",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_trackuseraction"
+}
+}
+}

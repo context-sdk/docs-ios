@@ -1,1 +1,4422 @@
-{"abstract":[{"type":"text","text":"An exhaustive list for all active currency codes according to the ISO 4217 standard."}],"primaryContentSections":[{"declarations":[{"languages":["swift"],"tokens":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"Currency"}],"platforms":["iOS"]}],"kind":"declarations"}],"relationshipsSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/SQ","doc:\/\/org.cocoapods.ContextSDK\/SH","doc:\/\/org.cocoapods.ContextSDK\/SY"],"title":"Conforms To","kind":"relationships","type":"conformsTo"}],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","interfaceLanguage":"swift"},"schemaVersion":{"minor":3,"patch":0,"major":0},"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/currency"]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"topicSections":[{"title":"Enumeration Cases","generated":true,"anchor":"Enumeration-Cases","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aed","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/afn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/all","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/amd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ang","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aoa","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ars","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aud","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/awg","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/azn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bam","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bbd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bdt","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bgn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bhd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bif","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bmd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bnd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bob","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/brl","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bsd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/btn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bwp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/byn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bzd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cad","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cdf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/chf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/clp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cny","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cop","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/crc","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cup","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cve","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/czk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/djf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dkk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dop","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dzd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ern","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/etb","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/eur","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fjd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fkp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fok","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gbp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gel","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ggp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ghs","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gip","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gmd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gnf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gtq","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gyd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hkd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hnl","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hrk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/htg","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/huf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/idr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ils","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/imp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/inr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/iqd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/irr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/isk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jep","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jmd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jod","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jpy","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kes","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kgs","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/khr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kid","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kmf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/krw","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kwd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kyd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kzt","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lak","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lbp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lkr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lrd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lsl","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lyd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mad","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mdl","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mga","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mkd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mmk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mnt","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mop","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mru","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mur","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mvr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mwk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mxn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/myr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mzn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nad","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ngn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nio","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nok","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/npr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nzd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/omr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pab","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pen","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pgk","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/php","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pkr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pln","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pyg","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/qar","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ron","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rsd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rub","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rwf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sar","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sbd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/scr","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sdg","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sek","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sgd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/shp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sll","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sos","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/srd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ssp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/stn","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/syp","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/szl","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/thb","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tjs","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tmt","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tnd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/top","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/try","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ttd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tvd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/twd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uah","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ugx","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/usd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uyu","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uzs","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vnd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vuv","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/wst","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xaf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xcd","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xof","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xpf","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/yer","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zar","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zmw","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zwl"]},{"title":"Initializers","anchor":"Initializers","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)"],"generated":true},{"generated":true,"anchor":"Default-Implementations","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/Equatable-Implementations","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/RawRepresentable-Implementations"],"title":"Default Implementations"}],"metadata":{"navigatorTitle":[{"text":"Currency","kind":"identifier"}],"role":"symbol","modules":[{"name":"ContextSDK"}],"title":"Currency","roleHeading":"Enumeration","symbolKind":"enum","fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"kind":"identifier","text":"Currency"}],"externalID":"s:10ContextSDK8CurrencyO"},"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ves":{"type":"topic","abstract":[],"url":"\/documentation\/contextsdk\/currency\/ves","title":"Currency.ves","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ves"}],"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hkd":{"role":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/hkd","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"hkd","kind":"identifier"}],"type":"topic","title":"Currency.hkd","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hkd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/qar":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/qar","title":"Currency.qar","url":"\/documentation\/contextsdk\/currency\/qar","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"qar","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/zar":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"zar","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zar","role":"symbol","url":"\/documentation\/contextsdk\/currency\/zar","type":"topic","abstract":[],"title":"Currency.zar"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cdf":{"title":"Currency.cdf","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cdf","abstract":[],"role":"symbol","kind":"symbol","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"cdf"}],"url":"\/documentation\/contextsdk\/currency\/cdf"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bdt":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bdt","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"bdt","kind":"identifier"}],"title":"Currency.bdt","type":"topic","kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/bdt"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pab":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"pab","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pab","role":"symbol","url":"\/documentation\/contextsdk\/currency\/pab","type":"topic","abstract":[],"title":"Currency.pab"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/isk":{"role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"isk","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/isk","abstract":[],"type":"topic","title":"Currency.isk","url":"\/documentation\/contextsdk\/currency\/isk","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mop":{"abstract":[],"title":"Currency.mop","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"mop","kind":"identifier"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mop","type":"topic","url":"\/documentation\/contextsdk\/currency\/mop","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jpy":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"jpy"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jpy","role":"symbol","url":"\/documentation\/contextsdk\/currency\/jpy","type":"topic","abstract":[],"title":"Currency.jpy"},"doc://org.cocoapods.ContextSDK/SY":{"type":"unresolvable","title":"Swift.RawRepresentable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SY"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gmd":{"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gmd","title":"Currency.gmd","url":"\/documentation\/contextsdk\/currency\/gmd","kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"gmd"}],"type":"topic","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/top":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/top","abstract":[],"url":"\/documentation\/contextsdk\/currency\/top","type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"top","kind":"identifier"}],"title":"Currency.top"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/fjd":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fjd","title":"Currency.fjd","url":"\/documentation\/contextsdk\/currency\/fjd","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"fjd","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ggp":{"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"ggp","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ggp","kind":"symbol","abstract":[],"title":"Currency.ggp","role":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/ggp"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lak":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lak","title":"Currency.lak","type":"topic","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/lak","role":"symbol","abstract":[],"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"lak","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/vnd":{"abstract":[],"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/vnd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vnd","title":"Currency.vnd","role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"vnd"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bsd":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/bsd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bsd","title":"Currency.bsd","role":"symbol","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"bsd"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bmd":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/bmd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"bmd","kind":"identifier"}],"type":"topic","title":"Currency.bmd","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bmd","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/awg":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/awg","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"awg","kind":"identifier"}],"title":"Currency.awg","url":"\/documentation\/contextsdk\/currency\/awg","kind":"symbol","role":"symbol","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ang":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ang","url":"\/documentation\/contextsdk\/currency\/ang","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"ang","kind":"identifier"}],"type":"topic","role":"symbol","title":"Currency.ang","abstract":[],"kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kes":{"kind":"symbol","title":"Currency.kes","url":"\/documentation\/contextsdk\/currency\/kes","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kes","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"kes","kind":"identifier"}],"abstract":[],"type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nad":{"abstract":[],"role":"symbol","title":"Currency.nad","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"nad","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nad","url":"\/documentation\/contextsdk\/currency\/nad","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tzs":{"type":"topic","role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/tzs","title":"Currency.tzs","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"tzs"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gel":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gel","url":"\/documentation\/contextsdk\/currency\/gel","title":"Currency.gel","role":"symbol","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"gel","kind":"identifier"}],"abstract":[],"kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hrk":{"abstract":[],"title":"Currency.hrk","type":"topic","url":"\/documentation\/contextsdk\/currency\/hrk","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"hrk","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hrk","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/thb":{"url":"\/documentation\/contextsdk\/currency\/thb","kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"thb","kind":"identifier"}],"type":"topic","abstract":[],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/thb","title":"Currency.thb"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sbd":{"title":"Currency.sbd","role":"symbol","url":"\/documentation\/contextsdk\/currency\/sbd","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"sbd"}],"abstract":[],"type":"topic","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sbd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mnt":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"mnt"}],"title":"Currency.mnt","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mnt","url":"\/documentation\/contextsdk\/currency\/mnt"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mmk":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mmk","title":"Currency.mmk","url":"\/documentation\/contextsdk\/currency\/mmk","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"mmk"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/myr":{"title":"Currency.myr","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"myr","kind":"identifier"}],"abstract":[],"type":"topic","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/myr","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/myr"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gtq":{"abstract":[],"title":"Currency.gtq","role":"symbol","url":"\/documentation\/contextsdk\/currency\/gtq","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"gtq","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gtq","kind":"symbol","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/dop":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dop","role":"symbol","url":"\/documentation\/contextsdk\/currency\/dop","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"dop","kind":"identifier"}],"abstract":[],"type":"topic","kind":"symbol","title":"Currency.dop"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mga":{"role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"mga","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency\/mga","title":"Currency.mga","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mga","abstract":[],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mad":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"mad","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mad","role":"symbol","url":"\/documentation\/contextsdk\/currency\/mad","type":"topic","abstract":[],"title":"Currency.mad"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/imp":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/imp","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"imp"}],"type":"topic","title":"Currency.imp","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/imp","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ron":{"abstract":[],"url":"\/documentation\/contextsdk\/currency\/ron","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ron","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ron","type":"topic","role":"symbol","kind":"symbol","title":"Currency.ron"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mwk":{"fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"mwk","kind":"identifier"}],"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mwk","role":"symbol","type":"topic","title":"Currency.mwk","url":"\/documentation\/contextsdk\/currency\/mwk","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ars":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/ars","title":"Currency.ars","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ars","type":"topic","abstract":[],"role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ars","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/zmw":{"url":"\/documentation\/contextsdk\/currency\/zmw","abstract":[],"type":"topic","role":"symbol","kind":"symbol","title":"Currency.zmw","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"zmw","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zmw"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/fkp":{"role":"symbol","url":"\/documentation\/contextsdk\/currency\/fkp","abstract":[],"kind":"symbol","type":"topic","title":"Currency.fkp","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"fkp","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fkp"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/clp":{"abstract":[],"role":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/clp","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/clp","title":"Currency.clp","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"clp","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bwp":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/bwp","title":"Currency.bwp","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bwp","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"bwp"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mvr":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mvr","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/contextsdk\/currency\/mvr","title":"Currency.mvr","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"mvr"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/yer":{"title":"Currency.yer","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"yer"}],"abstract":[],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/yer","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/yer"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jmd":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"jmd"}],"title":"Currency.jmd","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jmd","url":"\/documentation\/contextsdk\/currency\/jmd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/dkk":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dkk","url":"\/documentation\/contextsdk\/currency\/dkk","title":"Currency.dkk","role":"symbol","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"dkk"}],"abstract":[],"kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/aed":{"url":"\/documentation\/contextsdk\/currency\/aed","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"aed","kind":"identifier"}],"type":"topic","abstract":[],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aed","title":"Currency.aed"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gip":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/gip","title":"Currency.gip","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gip","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"gip"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cny":{"kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"cny"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cny","title":"Currency.cny","abstract":[],"url":"\/documentation\/contextsdk\/currency\/cny","type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bzd":{"kind":"symbol","type":"topic","title":"Currency.bzd","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bzd","abstract":[],"url":"\/documentation\/contextsdk\/currency\/bzd","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"bzd","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pkr":{"type":"topic","url":"\/documentation\/contextsdk\/currency\/pkr","kind":"symbol","title":"Currency.pkr","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pkr","role":"symbol","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"pkr","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lbp":{"abstract":[],"type":"topic","title":"Currency.lbp","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lbp","url":"\/documentation\/contextsdk\/currency\/lbp","role":"symbol","kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"lbp"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nzd":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nzd","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"nzd"}],"url":"\/documentation\/contextsdk\/currency\/nzd","title":"Currency.nzd","kind":"symbol","abstract":[],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/dzd":{"title":"Currency.dzd","role":"symbol","url":"\/documentation\/contextsdk\/currency\/dzd","type":"topic","abstract":[],"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"dzd","kind":"identifier"}],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dzd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pyg":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/pyg","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"pyg"}],"title":"Currency.pyg","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pyg"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/usd":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"usd","kind":"identifier"}],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/usd","url":"\/documentation\/contextsdk\/currency\/usd","title":"Currency.usd","kind":"symbol","role":"symbol","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/wst":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"wst"}],"title":"Currency.wst","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/wst","url":"\/documentation\/contextsdk\/currency\/wst"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sdg":{"abstract":[],"title":"Currency.sdg","type":"topic","url":"\/documentation\/contextsdk\/currency\/sdg","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"sdg","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sdg","kind":"symbol"},"doc://org.cocoapods.ContextSDK/SH":{"title":"Swift.Hashable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SH"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/byn":{"title":"Currency.byn","url":"\/documentation\/contextsdk\/currency\/byn","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"byn","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/byn","abstract":[],"kind":"symbol","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/all":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/all","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"all"}],"title":"Currency.all","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/all"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nio":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"nio"}],"title":"Currency.nio","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nio","url":"\/documentation\/contextsdk\/currency\/nio"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/try":{"abstract":[],"role":"symbol","type":"topic","title":"Currency.try","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"`try`","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/try","url":"\/documentation\/contextsdk\/currency\/try","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mxn":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mxn","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/contextsdk\/currency\/mxn","title":"Currency.mxn","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"mxn","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/aoa":{"kind":"symbol","title":"Currency.aoa","url":"\/documentation\/contextsdk\/currency\/aoa","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aoa","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"aoa","kind":"identifier"}],"abstract":[],"type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/aud":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aud","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"aud"}],"role":"symbol","kind":"symbol","title":"Currency.aud","abstract":[],"url":"\/documentation\/contextsdk\/currency\/aud"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kmf":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"kmf"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kmf","role":"symbol","url":"\/documentation\/contextsdk\/currency\/kmf","type":"topic","abstract":[],"title":"Currency.kmf"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ils":{"abstract":[],"title":"Currency.ils","role":"symbol","url":"\/documentation\/contextsdk\/currency\/ils","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ils"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ils","kind":"symbol","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lrd":{"abstract":[],"role":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/lrd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lrd","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"lrd"}],"title":"Currency.lrd","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/htg":{"title":"Currency.htg","abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/htg","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"htg"}],"role":"symbol","url":"\/documentation\/contextsdk\/currency\/htg"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mru":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mru","title":"Currency.mru","url":"\/documentation\/contextsdk\/currency\/mru","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"mru","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mzn":{"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mzn","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"mzn","kind":"identifier"}],"kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/mzn","title":"Currency.mzn","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/btn":{"abstract":[],"role":"symbol","type":"topic","title":"Currency.btn","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"btn","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/btn","url":"\/documentation\/contextsdk\/currency\/btn","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cup":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"cup","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cup","role":"symbol","url":"\/documentation\/contextsdk\/currency\/cup","type":"topic","abstract":[],"title":"Currency.cup"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kwd":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/kwd","title":"Currency.kwd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kwd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"kwd"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pln":{"role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"pln","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency\/pln","title":"Currency.pln","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pln","abstract":[],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/idr":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"idr","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/idr","role":"symbol","url":"\/documentation\/contextsdk\/currency\/idr","type":"topic","abstract":[],"title":"Currency.idr"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/iqd":{"role":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/iqd","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"iqd","kind":"identifier"}],"type":"topic","title":"Currency.iqd","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/iqd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/inr":{"title":"Currency.inr","type":"topic","kind":"symbol","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/inr","url":"\/documentation\/contextsdk\/currency\/inr","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"inr","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/vuv":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/vuv","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"vuv"}],"title":"Currency.vuv","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vuv"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lsl":{"kind":"symbol","type":"topic","title":"Currency.lsl","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lsl","abstract":[],"url":"\/documentation\/contextsdk\/currency\/lsl","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"lsl","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mkd":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mkd","title":"Currency.mkd","url":"\/documentation\/contextsdk\/currency\/mkd","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"mkd","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/Equatable-Implementations":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/Equatable-Implementations","type":"topic","kind":"article","role":"collectionGroup","url":"\/documentation\/contextsdk\/currency\/equatable-implementations","title":"Equatable Implementations","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bam":{"title":"Currency.bam","role":"symbol","url":"\/documentation\/contextsdk\/currency\/bam","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"bam","kind":"identifier"}],"abstract":[],"type":"topic","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bam"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pgk":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pgk","url":"\/documentation\/contextsdk\/currency\/pgk","title":"Currency.pgk","role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"pgk","kind":"identifier"}],"abstract":[],"kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bob":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"bob"}],"title":"Currency.bob","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bob","url":"\/documentation\/contextsdk\/currency\/bob"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/etb":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/etb","title":"Currency.etb","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/etb","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"etb"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cve":{"title":"Currency.cve","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"cve","kind":"identifier"}],"abstract":[],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cve","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/cve"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/syp":{"title":"Currency.syp","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/syp","abstract":[],"role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"syp","kind":"identifier"}],"type":"topic","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/syp"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cad":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cad","title":"Currency.cad","url":"\/documentation\/contextsdk\/currency\/cad","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"cad"}],"abstract":[],"kind":"symbol","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/rwf":{"url":"\/documentation\/contextsdk\/currency\/rwf","kind":"symbol","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"rwf"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rwf","title":"Currency.rwf","type":"topic","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/shp":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/shp","kind":"symbol","title":"Currency.shp","url":"\/documentation\/contextsdk\/currency\/shp","type":"topic","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"shp","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/twd":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/twd","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"twd"}],"url":"\/documentation\/contextsdk\/currency\/twd","title":"Currency.twd","kind":"symbol","role":"symbol","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/stn":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/stn","role":"symbol","url":"\/documentation\/contextsdk\/currency\/stn","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"stn","kind":"identifier"}],"abstract":[],"type":"topic","kind":"symbol","title":"Currency.stn"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kgs":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/kgs","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"kgs","kind":"identifier"}],"title":"Currency.kgs","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kgs"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/eur":{"type":"topic","abstract":[],"title":"Currency.eur","kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"eur","kind":"identifier"}],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/eur","url":"\/documentation\/contextsdk\/currency\/eur"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sll":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"sll"}],"title":"Currency.sll","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sll","url":"\/documentation\/contextsdk\/currency\/sll"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sek":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sek","url":"\/documentation\/contextsdk\/currency\/sek","title":"Currency.sek","role":"symbol","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"sek"}],"abstract":[],"kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bgn":{"url":"\/documentation\/contextsdk\/currency\/bgn","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bgn","title":"Currency.bgn","role":"symbol","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"bgn","kind":"identifier"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/init(rawValue:)":{"url":"\/documentation\/contextsdk\/currency\/init(rawvalue:)","abstract":[],"role":"symbol","title":"init(rawValue:)","fragments":[{"text":"init","kind":"identifier"},{"kind":"text","text":"?("},{"text":"rawValue","kind":"externalParam"},{"kind":"text","text":": "},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":")","kind":"text"}],"kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gyd":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/gyd","title":"Currency.gyd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gyd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"gyd"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/djf":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/djf","role":"symbol","url":"\/documentation\/contextsdk\/currency\/djf","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"djf","kind":"identifier"}],"abstract":[],"type":"topic","kind":"symbol","title":"Currency.djf"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/khr":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"khr"}],"title":"Currency.khr","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/khr","url":"\/documentation\/contextsdk\/currency\/khr"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ttd":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/ttd","title":"Currency.ttd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ttd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ttd"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/php":{"kind":"symbol","role":"symbol","title":"Currency.php","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/php","type":"topic","abstract":[],"url":"\/documentation\/contextsdk\/currency\/php","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"php"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency":{"abstract":[{"text":"An exhaustive list for all active currency codes according to the ISO 4217 standard.","type":"text"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","navigatorTitle":[{"kind":"identifier","text":"Currency"}],"fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"text":"Currency","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency","title":"Currency","kind":"symbol","role":"symbol","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/egp":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"egp"}],"title":"Currency.egp","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp","url":"\/documentation\/contextsdk\/currency\/egp"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gnf":{"role":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/gnf","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"gnf"}],"type":"topic","title":"Currency.gnf","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gnf"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ssp":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/ssp","title":"Currency.ssp","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ssp","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ssp"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/afn":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"afn","kind":"identifier"}],"type":"topic","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/afn","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/afn","role":"symbol","title":"Currency.afn"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/azn":{"kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/azn","url":"\/documentation\/contextsdk\/currency\/azn","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"azn","kind":"identifier"}],"role":"symbol","title":"Currency.azn"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tmt":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/tmt","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"tmt"}],"type":"topic","title":"Currency.tmt","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tmt","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bhd":{"title":"Currency.bhd","abstract":[],"kind":"symbol","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"bhd"}],"url":"\/documentation\/contextsdk\/currency\/bhd","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bhd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xpf":{"url":"\/documentation\/contextsdk\/currency\/xpf","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"xpf"}],"title":"Currency.xpf","abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xpf","type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/uzs":{"title":"Currency.uzs","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uzs","kind":"symbol","role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"uzs","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency\/uzs"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/amd":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/amd","abstract":[],"title":"Currency.amd","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"amd","kind":"identifier"}],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/amd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/krw":{"url":"\/documentation\/contextsdk\/currency\/krw","abstract":[],"type":"topic","role":"symbol","kind":"symbol","title":"Currency.krw","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"krw","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/krw"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xcd":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"xcd"}],"abstract":[],"role":"symbol","kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xcd","title":"Currency.xcd","url":"\/documentation\/contextsdk\/currency\/xcd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mur":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"mur"}],"title":"Currency.mur","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mur","url":"\/documentation\/contextsdk\/currency\/mur"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kzt":{"title":"Currency.kzt","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"kzt"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kzt","kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/kzt","role":"symbol","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bnd":{"title":"Currency.bnd","role":"symbol","url":"\/documentation\/contextsdk\/currency\/bnd","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"bnd"}],"abstract":[],"type":"topic","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bnd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bif":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bif","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/bif","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"bif"}],"type":"topic","title":"Currency.bif","abstract":[],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/rub":{"url":"\/documentation\/contextsdk\/currency\/rub","kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"rub","kind":"identifier"}],"type":"topic","abstract":[],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rub","title":"Currency.rub"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/huf":{"url":"\/documentation\/contextsdk\/currency\/huf","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"huf","kind":"identifier"}],"title":"Currency.huf","abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/huf","type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/RawRepresentable-Implementations":{"abstract":[],"kind":"article","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/RawRepresentable-Implementations","type":"topic","title":"RawRepresentable Implementations","url":"\/documentation\/contextsdk\/currency\/rawrepresentable-implementations","role":"collectionGroup"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sgd":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/sgd","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"sgd"}],"type":"topic","title":"Currency.sgd","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sgd","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jep":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"jep"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jep","role":"symbol","url":"\/documentation\/contextsdk\/currency\/jep","type":"topic","abstract":[],"title":"Currency.jep"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ngn":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/ngn","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"ngn","kind":"identifier"}],"type":"topic","title":"Currency.ngn","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ngn","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lkr":{"url":"\/documentation\/contextsdk\/currency\/lkr","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"lkr","kind":"identifier"}],"type":"topic","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lkr","abstract":[],"kind":"symbol","title":"Currency.lkr"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/brl":{"abstract":[],"title":"Currency.brl","type":"topic","url":"\/documentation\/contextsdk\/currency\/brl","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"brl","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/brl","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/zwl":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"zwl","kind":"identifier"}],"title":"Currency.zwl","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zwl","abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/zwl","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ern":{"title":"Currency.ern","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ern"}],"abstract":[],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ern","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/ern"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/fok":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fok","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/fok","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"fok"}],"type":"topic","title":"Currency.fok","abstract":[],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/uah":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/uah","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"uah"}],"type":"topic","title":"Currency.uah","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uah","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cop":{"title":"Currency.cop","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"cop","kind":"identifier"}],"abstract":[],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cop","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/cop"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pen":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/pen","title":"Currency.pen","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pen","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"pen"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nok":{"role":"symbol","abstract":[],"title":"Currency.nok","url":"\/documentation\/contextsdk\/currency\/nok","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nok","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"nok"}],"kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xaf":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"xaf","kind":"identifier"}],"type":"topic","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xaf","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/xaf","role":"symbol","title":"Currency.xaf"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lyd":{"abstract":[],"role":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lyd","url":"\/documentation\/contextsdk\/currency\/lyd","fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"lyd","kind":"identifier"}],"title":"Currency.lyd","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/szl":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/szl","type":"topic","kind":"symbol","role":"symbol","url":"\/documentation\/contextsdk\/currency\/szl","title":"Currency.szl","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"szl","kind":"identifier"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ugx":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ugx"}],"title":"Currency.ugx","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ugx","url":"\/documentation\/contextsdk\/currency\/ugx"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/chf":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/chf","title":"Currency.chf","type":"topic","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/chf","role":"symbol","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"chf","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/srd":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/srd","title":"Currency.srd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/srd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"srd"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tnd":{"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"tnd","kind":"identifier"}],"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tnd","url":"\/documentation\/contextsdk\/currency\/tnd","kind":"symbol","type":"topic","title":"Currency.tnd","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/omr":{"abstract":[],"title":"Currency.omr","type":"topic","url":"\/documentation\/contextsdk\/currency\/omr","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"omr","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/omr","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mdl":{"url":"\/documentation\/contextsdk\/currency\/mdl","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"mdl","kind":"identifier"}],"type":"topic","abstract":[],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mdl","title":"Currency.mdl"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kid":{"kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kid","title":"Currency.kid","role":"symbol","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"kid"}],"url":"\/documentation\/contextsdk\/currency\/kid"},"doc://org.cocoapods.ContextSDK/SQ":{"title":"Swift.Equatable","type":"unresolvable","identifier":"doc:\/\/org.cocoapods.ContextSDK\/SQ"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bbd":{"url":"\/documentation\/contextsdk\/currency\/bbd","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bbd","kind":"symbol","abstract":[],"role":"symbol","type":"topic","title":"Currency.bbd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"bbd","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/czk":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/czk","title":"Currency.czk","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/czk","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"czk"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/crc":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/crc","title":"Currency.crc","url":"\/documentation\/contextsdk\/currency\/crc","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"crc"}],"abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kyd":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/kyd","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"kyd","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kyd","title":"Currency.kyd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sos":{"fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"sos","kind":"identifier"}],"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/sos","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sos","type":"topic","title":"Currency.sos","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hnl":{"abstract":[],"title":"Currency.hnl","type":"topic","url":"\/documentation\/contextsdk\/currency\/hnl","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"hnl","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hnl","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sar":{"abstract":[],"url":"\/documentation\/contextsdk\/currency\/sar","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sar","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"sar","kind":"identifier"}],"title":"Currency.sar","role":"symbol","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/scr":{"title":"Currency.scr","type":"topic","kind":"symbol","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"scr","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency\/scr","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/scr","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gbp":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gbp","role":"symbol","abstract":[],"kind":"symbol","title":"Currency.gbp","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"gbp"}],"url":"\/documentation\/contextsdk\/currency\/gbp"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jod":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jod","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/jod","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"jod","kind":"identifier"}],"type":"topic","title":"Currency.jod","abstract":[],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/irr":{"abstract":[],"kind":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/irr","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"irr","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/irr","title":"Currency.irr"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ghs":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ghs"}],"title":"Currency.ghs","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ghs","url":"\/documentation\/contextsdk\/currency\/ghs"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tvd":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tvd","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"tvd"}],"kind":"symbol","role":"symbol","type":"topic","url":"\/documentation\/contextsdk\/currency\/tvd","abstract":[],"title":"Currency.tvd"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/rsd":{"kind":"symbol","url":"\/documentation\/contextsdk\/currency\/rsd","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"rsd"}],"type":"topic","title":"Currency.rsd","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rsd","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/uyu":{"abstract":[],"role":"symbol","kind":"symbol","url":"\/documentation\/contextsdk\/currency\/uyu","title":"Currency.uyu","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uyu","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"uyu"}],"type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xof":{"kind":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"xof","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xof","role":"symbol","url":"\/documentation\/contextsdk\/currency\/xof","type":"topic","abstract":[],"title":"Currency.xof"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/npr":{"type":"topic","role":"symbol","kind":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"npr"}],"title":"Currency.npr","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/npr","url":"\/documentation\/contextsdk\/currency\/npr"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tjs":{"role":"symbol","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tjs","title":"Currency.tjs","url":"\/documentation\/contextsdk\/currency\/tjs","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"tjs"}],"abstract":[]}}}
+{
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK8CurrencyO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Currency"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Currency"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "Currency"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Currency"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH",
+        "doc:\/\/org.cocoapods.ContextSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aed",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/afn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/all",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/amd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ang",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aoa",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ars",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aud",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/awg",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/azn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bam",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bbd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bdt",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bgn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bhd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bif",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bmd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bnd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bob",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/brl",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bsd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/btn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bwp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/byn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bzd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cad",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cdf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/chf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/clp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cny",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cop",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/crc",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cup",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cve",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/czk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/djf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dkk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dop",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dzd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ern",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/etb",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/eur",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fjd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fkp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fok",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gbp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gel",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ggp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ghs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gip",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gmd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gnf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gtq",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gyd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hkd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hnl",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hrk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/htg",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/huf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/idr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ils",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/imp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/inr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/iqd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/irr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/isk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jep",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jmd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jod",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jpy",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kes",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kgs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/khr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kid",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kmf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/krw",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kwd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kyd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kzt",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lak",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lbp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lkr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lrd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lsl",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lyd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mad",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mdl",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mga",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mkd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mmk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mnt",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mop",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mru",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mur",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mvr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mwk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mxn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/myr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mzn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nad",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ngn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nio",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nok",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/npr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nzd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/omr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pab",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pen",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pgk",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/php",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pkr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pln",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pyg",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/qar",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ron",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rsd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rub",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rwf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sar",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sbd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/scr",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sdg",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sek",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sgd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/shp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sll",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sos",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/srd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ssp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/stn",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/syp",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/szl",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/thb",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tjs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tmt",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tnd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/top",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/try",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ttd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tvd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/twd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uah",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ugx",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/usd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uyu",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uzs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vnd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vuv",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/wst",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xaf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xcd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xof",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xpf",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/yer",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zar",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zmw",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zwl"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/Equatable-Implementations",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/currency"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SY": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/rawrepresentable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/aed": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aed"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aed",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/aed"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/afn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "afn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/afn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.afn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/afn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/all": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "all"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/all",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.all",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/all"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/amd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "amd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/amd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.amd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/amd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ang": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ang"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ang",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ang",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ang"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/aoa": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aoa"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aoa",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aoa",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/aoa"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ars": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ars"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ars",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ars",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ars"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/aud": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "aud"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/aud",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.aud",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/aud"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/awg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "awg"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/awg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.awg",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/awg"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/azn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "azn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/azn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.azn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/azn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bam": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bam"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bam",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bam",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bam"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bbd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bbd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bbd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bbd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bdt": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bdt"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bdt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bdt",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bdt"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bgn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bgn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bgn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bgn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bgn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bhd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bhd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bhd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bhd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bhd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bif": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bif"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bif",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bif",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bif"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bmd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bmd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bmd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bmd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bnd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bnd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bnd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bnd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bob": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bob"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bob",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bob",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bob"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/brl": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "brl"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/brl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.brl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/brl"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bsd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bsd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bsd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bsd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/btn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "btn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/btn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.btn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/btn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bwp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bwp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bwp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bwp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bwp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/byn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "byn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/byn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.byn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/byn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/bzd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bzd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/bzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.bzd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/bzd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cad": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cad"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cad",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/cad"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cdf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cdf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cdf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cdf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/cdf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/chf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "chf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/chf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.chf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/chf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/clp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "clp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/clp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.clp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/clp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cny": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cny"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cny",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cny",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/cny"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cop": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cop"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cop",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/cop"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/crc": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "crc"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/crc",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.crc",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/crc"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cup": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cup"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cup",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cup",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/cup"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/cve": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cve"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/cve",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.cve",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/cve"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/czk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "czk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/czk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.czk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/czk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/djf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "djf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/djf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.djf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/djf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/dkk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dkk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dkk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dkk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/dkk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/dop": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dop"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dop",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/dop"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/dzd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "dzd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/dzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.dzd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/dzd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/egp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "egp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.egp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/egp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ern": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ern"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ern",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ern",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ern"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/etb": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "etb"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/etb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.etb",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/etb"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/eur": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "eur"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/eur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.eur",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/eur"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/fjd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fjd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fjd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.fjd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/fjd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/fkp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fkp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fkp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.fkp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/fkp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/fok": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fok"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/fok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.fok",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/fok"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gbp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gbp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gbp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gbp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gbp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gel"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gel",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gel",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gel"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ggp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ggp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ggp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ggp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ggp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ghs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ghs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ghs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ghs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ghs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gip": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gip"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gip",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gip",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gip"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gmd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gmd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gmd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gmd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gnf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gnf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gnf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gnf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gnf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gtq": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gtq"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gtq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gtq",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gtq"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/gyd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "gyd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/gyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.gyd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/gyd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hkd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hkd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hkd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.hkd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/hkd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hnl": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hnl"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hnl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.hnl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/hnl"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hrk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "hrk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/hrk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.hrk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/hrk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/htg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "htg"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/htg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.htg",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/htg"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/huf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "huf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/huf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.huf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/huf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/idr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "idr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/idr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.idr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/idr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ils": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ils"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ils",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ils",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ils"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/imp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "imp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/imp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.imp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/imp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/init(rawvalue:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/inr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "inr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/inr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.inr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/inr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/iqd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "iqd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/iqd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.iqd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/iqd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/irr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "irr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/irr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.irr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/irr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/isk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/isk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.isk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/isk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jep": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jep"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jep",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jep",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/jep"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jmd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jmd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jmd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jmd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/jmd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jod": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jod"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jod",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jod",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/jod"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/jpy": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "jpy"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/jpy",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.jpy",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/jpy"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kes": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kes"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kes",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kes",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kes"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kgs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kgs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kgs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kgs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kgs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/khr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "khr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/khr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.khr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/khr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kid": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kid"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kid",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kid",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kid"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kmf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kmf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kmf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kmf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kmf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/krw": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "krw"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/krw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.krw",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/krw"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kwd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kwd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kwd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kwd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kwd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kyd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kyd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kyd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kyd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/kzt": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "kzt"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/kzt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.kzt",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/kzt"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lak": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lak"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lak",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lak",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/lak"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lbp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lbp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lbp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lbp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/lbp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lkr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lkr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lkr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lkr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/lkr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lrd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lrd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lrd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lrd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/lrd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lsl": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lsl"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lsl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lsl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/lsl"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/lyd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "lyd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/lyd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.lyd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/lyd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mad": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mad"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mad",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mad"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mdl": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mdl"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mdl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mdl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mdl"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mga": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mga"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mga",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mga",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mga"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mkd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mkd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mkd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mkd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mkd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mmk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mmk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mmk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mmk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mmk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mnt": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mnt"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mnt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mnt",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mnt"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mop": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mop"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mop",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mop",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mop"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mru": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mru"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mru",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mru",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mru"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mur": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mur"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mur",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mur",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mur"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mvr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mvr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mvr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mvr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mvr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mwk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mwk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mwk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mwk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mwk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mxn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mxn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mxn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mxn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mxn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/myr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "myr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/myr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.myr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/myr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/mzn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "mzn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/mzn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.mzn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/mzn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nad": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nad"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nad",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nad",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/nad"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ngn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ngn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ngn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ngn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ngn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nio": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nio"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nio",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nio",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/nio"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nok": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nok"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nok",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/nok"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/npr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "npr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/npr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.npr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/npr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/nzd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "nzd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/nzd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.nzd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/nzd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/omr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "omr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/omr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.omr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/omr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pab": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pab"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pab",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pab",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/pab"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pen": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pen"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pen",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pen",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/pen"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pgk": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pgk"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pgk",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pgk",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/pgk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/php": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "php"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/php",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.php",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/php"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pkr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pkr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pkr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pkr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/pkr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pln": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pln"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pln",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pln",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/pln"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/pyg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pyg"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/pyg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.pyg",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/pyg"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/qar": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "qar"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/qar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.qar",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/qar"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ron": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ron"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ron",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ron",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ron"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/rsd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rsd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rsd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rsd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/rsd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/rub": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rub"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rub",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rub",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/rub"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/rwf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "rwf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/rwf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.rwf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/rwf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sar": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sar"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sar",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sar"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sbd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sbd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sbd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sbd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sbd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/scr": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "scr"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/scr",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.scr",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/scr"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sdg": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sdg"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sdg",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sdg",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sdg"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sek": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sek"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sek",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sek",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sek"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sgd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sgd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sgd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sgd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sgd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/shp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/shp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.shp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/shp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sll": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sll"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sll",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sll",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sll"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/sos": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sos"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/sos",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.sos",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/sos"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/srd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "srd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/srd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.srd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/srd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ssp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ssp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ssp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ssp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ssp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/stn": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stn"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/stn",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.stn",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/stn"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/syp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "syp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/syp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.syp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/syp"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/szl": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "szl"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/szl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.szl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/szl"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/thb": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "thb"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/thb",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.thb",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/thb"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tjs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tjs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tjs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tjs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/tjs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tmt": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tmt"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tmt",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tmt",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/tmt"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tnd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tnd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tnd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/tnd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/top": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "top"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/top",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.top",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/top"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/try": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "`try`"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/try",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.try",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/try"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ttd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ttd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ttd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ttd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ttd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tvd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tvd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tvd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tvd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/tvd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/twd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "twd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/twd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.twd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/twd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tzs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tzs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tzs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/tzs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/uah": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uah"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uah",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uah",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/uah"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ugx": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ugx"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ugx",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ugx",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ugx"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/usd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "usd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/usd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.usd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/usd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/uyu": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uyu"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uyu",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uyu",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/uyu"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/uzs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "uzs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/uzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.uzs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/uzs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ves": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ves"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ves",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ves"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/vnd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vnd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vnd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.vnd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/vnd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/vuv": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "vuv"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/vuv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.vuv",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/vuv"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/wst": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wst"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/wst",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.wst",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/wst"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xaf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xaf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xaf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xaf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/xaf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xcd": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xcd"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xcd",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xcd",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/xcd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xof": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xof"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xof",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xof",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/xof"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/xpf": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "xpf"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/xpf",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.xpf",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/xpf"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/yer": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "yer"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/yer",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.yer",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/yer"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/zar": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zar"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zar",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zar",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/zar"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/zmw": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zmw"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zmw",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zmw",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/zmw"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/zwl": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "zwl"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/zwl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.zwl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/zwl"
+}
+}
+}

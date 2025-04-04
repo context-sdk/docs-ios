@@ -1,1 +1,318 @@
-{"schemaVersion":{"major":0,"minor":3,"patch":0},"primaryContentSections":[{"declarations":[{"tokens":[{"text":"@discardableResult","kind":"attribute"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"setDeviceToken"},{"kind":"text","text":"("},{"text":"_","kind":"externalParam"},{"kind":"text","text":" "},{"kind":"internalParam","text":"token"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10Foundation4DataV","text":"Data"},{"kind":"text","text":", "},{"kind":"externalParam","text":"pushEnvironment"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"s:10ContextSDK14APSEnvironmentO","text":"APSEnvironment","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment"},{"text":"? = nil) -> ","kind":"text"},{"text":"Self","kind":"typeIdentifier"}],"languages":["swift"],"platforms":["iOS"]}],"kind":"declarations"}],"kind":"symbol","identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager\/setDeviceToken(_:pushEnvironment:)"},"metadata":{"symbolKind":"method","modules":[{"name":"ContextSDK"}],"fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"setDeviceToken","kind":"identifier"},{"text":"(","kind":"text"},{"text":"Data","kind":"typeIdentifier","preciseIdentifier":"s:10Foundation4DataV"},{"kind":"text","text":", "},{"kind":"externalParam","text":"pushEnvironment"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:10ContextSDK14APSEnvironmentO","text":"APSEnvironment","kind":"typeIdentifier"},{"text":"?) -> ","kind":"text"},{"text":"Self","kind":"typeIdentifier"}],"roleHeading":"Instance Method","title":"setDeviceToken(_:pushEnvironment:)","externalID":"s:10ContextSDK18DeviceTokenManagerC03setcD0_15pushEnvironmentACXD10Foundation4DataV_AA14APSEnvironmentOSgtF","role":"symbol"},"sections":[],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager"]]},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/devicetokenmanager\/setdevicetoken(_:pushenvironment:)"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager/setDeviceToken(_:pushEnvironment:)":{"role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"setDeviceToken","kind":"identifier"},{"kind":"text","text":"("},{"preciseIdentifier":"s:10Foundation4DataV","text":"Data","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"pushEnvironment","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"APSEnvironment","kind":"typeIdentifier","preciseIdentifier":"s:10ContextSDK14APSEnvironmentO"},{"kind":"text","text":"?) -> "},{"kind":"typeIdentifier","text":"Self"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager\/setDeviceToken(_:pushEnvironment:)","kind":"symbol","title":"setDeviceToken(_:pushEnvironment:)","url":"\/documentation\/contextsdk\/devicetokenmanager\/setdevicetoken(_:pushenvironment:)","type":"topic","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment":{"fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"APSEnvironment"}],"type":"topic","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment","title":"APSEnvironment","abstract":[],"url":"\/documentation\/contextsdk\/apsenvironment","navigatorTitle":[{"text":"APSEnvironment","kind":"identifier"}],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager":{"abstract":[],"url":"\/documentation\/contextsdk\/devicetokenmanager","title":"DeviceTokenManager","role":"symbol","type":"topic","navigatorTitle":[{"kind":"identifier","text":"DeviceTokenManager"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager","kind":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"DeviceTokenManager","kind":"identifier"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager\/setDeviceToken(_:pushEnvironment:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK18DeviceTokenManagerC03setcD0_15pushEnvironmentACXD10Foundation4DataV_AA14APSEnvironmentOSgtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setDeviceToken"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10Foundation4DataV",
+        "text" : "Data"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "pushEnvironment"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK14APSEnvironmentO",
+        "text" : "APSEnvironment"
+      },
+      {
+        "kind" : "text",
+        "text" : "?) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "text" : "Self"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "setDeviceToken(_:pushEnvironment:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@discardableResult"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "setDeviceToken"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "token"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10Foundation4DataV",
+              "text" : "Data"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "pushEnvironment"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK14APSEnvironmentO",
+              "text" : "APSEnvironment"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "text" : "Self"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/devicetokenmanager\/setdevicetoken(_:pushenvironment:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "APSEnvironment"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "APSEnvironment"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "APSEnvironment",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/apsenvironment"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "DeviceTokenManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "DeviceTokenManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "DeviceTokenManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/devicetokenmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager/setDeviceToken(_:pushEnvironment:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setDeviceToken"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10Foundation4DataV",
+      "text" : "Data"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pushEnvironment"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK14APSEnvironmentO",
+      "text" : "APSEnvironment"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager\/setDeviceToken(_:pushEnvironment:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setDeviceToken(_:pushEnvironment:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/devicetokenmanager\/setdevicetoken(_:pushenvironment:)"
+}
+}
+}

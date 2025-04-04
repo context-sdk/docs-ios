@@ -1,1 +1,234 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations"]]},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)","interfaceLanguage":"swift"},"schemaVersion":{"major":0,"minor":3,"patch":0},"sections":[],"metadata":{"role":"symbol","symbolKind":"init","fragments":[{"text":"init","kind":"identifier"},{"kind":"text","text":"?("},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"text":")","kind":"text"}],"title":"init(_:)","extendedModule":"Foundation","modules":[{"relatedModules":["Foundation"],"name":"ContextSDK"}],"roleHeading":"Initializer","externalID":"s:So9NSDecimala10ContextSDKEyABSgSScfc"},"kind":"symbol","abstract":[{"text":"Inherited from ","type":"text"},{"type":"codeVoice","code":"LosslessStringConvertible.init(_:)"},{"text":".","type":"text"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/foundation\/decimal\/init(_:)"]}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"init","kind":"keyword"},{"kind":"text","text":"?("},{"kind":"externalParam","text":"_"},{"kind":"text","text":" "},{"text":"description","kind":"internalParam"},{"kind":"text","text":": "},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"text":")","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/LosslessStringConvertible-Implementations":{"title":"LosslessStringConvertible Implementations","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations","kind":"article","role":"collectionGroup","type":"topic","url":"\/documentation\/contextsdk\/foundation\/decimal\/losslessstringconvertible-implementations"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation":{"title":"Foundation","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation","kind":"symbol","role":"collection","type":"topic","url":"\/documentation\/contextsdk\/foundation"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal":{"type":"topic","title":"Decimal","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal","abstract":[],"url":"\/documentation\/contextsdk\/foundation\/decimal","role":"symbol","navigatorTitle":[{"text":"Decimal","kind":"identifier"}],"kind":"symbol","fragments":[{"text":"extension","kind":"keyword"},{"kind":"text","text":" "},{"preciseIdentifier":"c:@SA@NSDecimal","kind":"identifier","text":"Decimal"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/init(_:)":{"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)","fragments":[{"kind":"identifier","text":"init"},{"kind":"text","text":"?("},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"text":")","kind":"text"}],"kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/foundation\/decimal\/init(_:)","title":"init(_:)","type":"topic"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "LosslessStringConvertible.init(_:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "Foundation",
+    "externalID" : "s:So9NSDecimala10ContextSDKEyABSgSScfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "?("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK",
+        "relatedModules" : [
+          "Foundation"
+        ]
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(_:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "?("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "description"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/foundation\/decimal\/init(_:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "Foundation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "c:@SA@NSDecimal",
+      "text" : "Decimal"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Decimal"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Decimal",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation\/decimal"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/LosslessStringConvertible-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "LosslessStringConvertible Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation\/decimal\/losslessstringconvertible-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/init(_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/init(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/foundation\/decimal\/init(_:)"
+}
+}
+}

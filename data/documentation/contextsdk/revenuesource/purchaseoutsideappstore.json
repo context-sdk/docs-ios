@@ -1,1 +1,204 @@
-{"sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"purchaseOutsideAppStore","kind":"identifier"}],"languages":["swift"],"platforms":["iOS"]}]}],"metadata":{"title":"RevenueSource.purchaseOutsideAppStore","symbolKind":"case","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"purchaseOutsideAppStore"}],"roleHeading":"Case","externalID":"s:10ContextSDK13RevenueSourceO23purchaseOutsideAppStoreyA2CmF","modules":[{"name":"ContextSDK"}],"role":"symbol"},"kind":"symbol","identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"]]},"schemaVersion":{"major":0,"minor":3,"patch":0},"abstract":[{"type":"text","text":"Revenue from the direct purchase of a product or service purchased outside of App Store ecosystem."},{"text":" ","type":"text"},{"type":"text","text":"Example: A user buys a laptop from an e-commerce store within the app."},{"text":" ","type":"text"},{"type":"text","text":"For purchases made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product."}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/revenuesource\/purchaseoutsideappstore"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"abstract":[{"text":"A source of revenue.","type":"text"}],"title":"RevenueSource","type":"topic","url":"\/documentation\/contextsdk\/revenuesource","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"RevenueSource"}],"navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/purchaseOutsideAppStore":{"title":"RevenueSource.purchaseOutsideAppStore","url":"\/documentation\/contextsdk\/revenuesource\/purchaseoutsideappstore","kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore","type":"topic","abstract":[{"text":"Revenue from the direct purchase of a product or service purchased outside of App Store ecosystem.","type":"text"},{"type":"text","text":" "},{"text":"Example: A user buys a laptop from an e-commerce store within the app.","type":"text"},{"type":"text","text":" "},{"text":"For purchases made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product.","type":"text"}],"role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"purchaseOutsideAppStore","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"kind":"symbol","role":"collection","url":"\/documentation\/contextsdk","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","title":"ContextSDK","type":"topic"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Revenue from the direct purchase of a product or service purchased outside of App Store ecosystem.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user buys a laptop from an e-commerce store within the app.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For purchases made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO23purchaseOutsideAppStoreyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "purchaseOutsideAppStore"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "RevenueSource.purchaseOutsideAppStore"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "purchaseOutsideAppStore"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource\/purchaseoutsideappstore"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/purchaseOutsideAppStore": {
+  "abstract" : [
+    {
+      "text" : "Revenue from the direct purchase of a product or service purchased outside of App Store ecosystem.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user buys a laptop from an e-commerce store within the app.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "For purchases made via the App Store ecosystem, use the alternative revenue outcome logging method that receives a StoreKit Product.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "purchaseOutsideAppStore"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/purchaseOutsideAppStore",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.purchaseOutsideAppStore",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/purchaseoutsideappstore"
+}
+}
+}
