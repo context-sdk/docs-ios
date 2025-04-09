@@ -1,1 +1,216 @@
-{"abstract":[{"type":"text","text":"Inherited from "},{"code":"RawRepresentable.init(rawValue:)","type":"codeVoice"},{"type":"text","text":"."}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"init","kind":"keyword"},{"kind":"text","text":"?("},{"text":"rawValue","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"},{"text":")","kind":"text"}],"languages":["swift"],"platforms":["iOS"]}]}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/currency\/init(rawvalue:)"]}],"metadata":{"fragments":[{"text":"init","kind":"identifier"},{"text":"?(","kind":"text"},{"text":"rawValue","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"text":")","kind":"text"}],"roleHeading":"Initializer","title":"init(rawValue:)","modules":[{"name":"ContextSDK"}],"role":"symbol","symbolKind":"init","externalID":"s:10ContextSDK8CurrencyO8rawValueACSgSS_tcfc"},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)"},"sections":[],"kind":"symbol","hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"]]},"schemaVersion":{"major":0,"minor":3,"patch":0},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency":{"navigatorTitle":[{"kind":"identifier","text":"Currency"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","abstract":[{"text":"An exhaustive list for all active currency codes according to the ISO 4217 standard.","type":"text"}],"type":"topic","kind":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"text":"Currency","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency","role":"symbol","title":"Currency"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/init(rawValue:)":{"kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/init(rawvalue:)","type":"topic","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)","title":"init(rawValue:)","fragments":[{"text":"init","kind":"identifier"},{"text":"?(","kind":"text"},{"kind":"externalParam","text":"rawValue"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"text":")","kind":"text"}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "RawRepresentable.init(rawValue:)",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK8CurrencyO8rawValueACSgSS_tcfc",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "init"
+      },
+      {
+        "kind" : "text",
+        "text" : "?("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "rawValue"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Initializer",
+    "symbolKind" : "init",
+    "title" : "init(rawValue:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "init"
+            },
+            {
+              "kind" : "text",
+              "text" : "?("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "rawValue"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/currency\/init(rawvalue:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/init(rawvalue:)"
+}
+}
+}

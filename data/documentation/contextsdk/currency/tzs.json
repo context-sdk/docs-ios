@@ -1,1 +1,163 @@
-{"schemaVersion":{"major":0,"patch":0,"minor":3},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs","interfaceLanguage":"swift"},"kind":"symbol","sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"tzs","kind":"identifier"}]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"]]},"metadata":{"externalID":"s:10ContextSDK8CurrencyO3tzsyA2CmF","modules":[{"name":"ContextSDK"}],"title":"Currency.tzs","symbolKind":"case","roleHeading":"Case","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"tzs","kind":"identifier"}]},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/currency\/tzs"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tzs":{"abstract":[],"fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"tzs"}],"type":"topic","title":"Currency.tzs","url":"\/documentation\/contextsdk\/currency\/tzs","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs","role":"symbol","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency":{"navigatorTitle":[{"kind":"identifier","text":"Currency"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","abstract":[{"text":"An exhaustive list for all active currency codes according to the ISO 4217 standard.","type":"text"}],"type":"topic","kind":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"text":"Currency","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency","role":"symbol","title":"Currency"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK8CurrencyO3tzsyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "tzs"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "Currency.tzs"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "tzs"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/currency\/tzs"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/tzs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tzs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/tzs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.tzs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/tzs"
+}
+}
+}

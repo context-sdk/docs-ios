@@ -1,1 +1,201 @@
-{"metadata":{"modules":[{"name":"ContextSDK"}],"externalID":"s:10ContextSDK19CustomSignalDecimalC5valueSE_pvp","symbolKind":"property","title":"value","roleHeading":"Instance Property","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"value"},{"text":": ","kind":"text"},{"text":"Encodable","kind":"typeIdentifier","preciseIdentifier":"s:SE"}],"role":"symbol"},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal\/value","interfaceLanguage":"swift"},"sections":[],"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","variants":[{"paths":["\/documentation\/contextsdk\/customsignaldecimal\/value"],"traits":[{"interfaceLanguage":"swift"}]}],"abstract":[{"type":"text","text":"Inherited from "},{"type":"codeVoice","code":"CustomSignal.value"},{"text":".","type":"text"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"let"},{"text":" ","kind":"text"},{"kind":"identifier","text":"value"},{"text":": ","kind":"text"},{"text":"Encodable","kind":"typeIdentifier","preciseIdentifier":"s:SE"}],"platforms":["iOS"],"languages":["swift"]}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal"]]},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalDecimal":{"type":"topic","navigatorTitle":[{"text":"CustomSignalDecimal","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal","kind":"symbol","title":"CustomSignalDecimal","url":"\/documentation\/contextsdk\/customsignaldecimal","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"text":"CustomSignalDecimal","kind":"identifier"}],"abstract":[],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalDecimal/value":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal\/value","kind":"symbol","fragments":[{"kind":"keyword","text":"let"},{"text":" ","kind":"text"},{"kind":"identifier","text":"value"},{"text":": ","kind":"text"},{"text":"Encodable","kind":"typeIdentifier","preciseIdentifier":"s:SE"}],"url":"\/documentation\/contextsdk\/customsignaldecimal\/value","abstract":[],"title":"value","type":"topic","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Inherited from ",
+      "type" : "text"
+    },
+    {
+      "code" : "CustomSignal.value",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal\/value"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK19CustomSignalDecimalC5valueSE_pvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "value"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SE",
+        "text" : "Encodable"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "value"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "value"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SE",
+              "text" : "Encodable"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/customsignaldecimal\/value"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalDecimal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignalDecimal"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignalDecimal"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomSignalDecimal",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignaldecimal"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalDecimal/value": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SE",
+      "text" : "Encodable"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalDecimal\/value",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "value",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignaldecimal\/value"
+}
+}
+}

@@ -1,1 +1,188 @@
-{"abstract":[{"text":"Revenue from user donations.","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Example: A user donates to a crowdfunding campaign."}],"sections":[],"variants":[{"paths":["\/documentation\/contextsdk\/revenuesource\/donation"],"traits":[{"interfaceLanguage":"swift"}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"]]},"kind":"symbol","schemaVersion":{"patch":0,"minor":3,"major":0},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation"},"metadata":{"roleHeading":"Case","title":"RevenueSource.donation","symbolKind":"case","externalID":"s:10ContextSDK13RevenueSourceO8donationyA2CmF","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"donation"}],"modules":[{"name":"ContextSDK"}],"role":"symbol"},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"donation","kind":"identifier"}]}],"kind":"declarations"}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"url":"\/documentation\/contextsdk\/revenuesource","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"RevenueSource"}],"kind":"symbol","type":"topic","title":"RevenueSource","navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"abstract":[{"type":"text","text":"A source of revenue."}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/donation":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation","title":"RevenueSource.donation","kind":"symbol","type":"topic","role":"symbol","abstract":[{"type":"text","text":"Revenue from user donations."},{"type":"text","text":" "},{"type":"text","text":"Example: A user donates to a crowdfunding campaign."}],"url":"\/documentation\/contextsdk\/revenuesource\/donation","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"donation","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"}}}
+{
+  "abstract" : [
+    {
+      "text" : "Revenue from user donations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user donates to a crowdfunding campaign.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO8donationyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "donation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "RevenueSource.donation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "donation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource\/donation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/donation": {
+  "abstract" : [
+    {
+      "text" : "Revenue from user donations.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user donates to a crowdfunding campaign.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "donation"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/donation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.donation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/donation"
+}
+}
+}

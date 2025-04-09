@@ -1,1 +1,323 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat"},"schemaVersion":{"major":0,"patch":0,"minor":3},"kind":"symbol","relationshipsSections":[{"kind":"relationships","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal"],"type":"conformsTo","title":"Conforms To"}],"sections":[],"primaryContentSections":[{"declarations":[{"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"text":"CustomSignalFloat","kind":"identifier"}],"languages":["swift"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"metadata":{"symbolKind":"class","roleHeading":"Class","role":"symbol","fragments":[{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"kind":"identifier","text":"CustomSignalFloat"}],"navigatorTitle":[{"text":"CustomSignalFloat","kind":"identifier"}],"externalID":"s:10ContextSDK17CustomSignalFloatC","modules":[{"name":"ContextSDK"}],"title":"CustomSignalFloat"},"variants":[{"paths":["\/documentation\/contextsdk\/customsignalfloat"],"traits":[{"interfaceLanguage":"swift"}]}],"topicSections":[{"anchor":"Initializers","generated":true,"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/init(id:value:)"],"title":"Initializers"},{"generated":true,"title":"Instance Properties","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/id","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/value"],"anchor":"Instance-Properties"}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal":{"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"CustomSignal"}],"kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal","url":"\/documentation\/contextsdk\/customsignal","abstract":[],"fragments":[{"text":"protocol","kind":"keyword"},{"kind":"text","text":" "},{"text":"CustomSignal","kind":"identifier"}],"title":"CustomSignal"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat/value":{"role":"symbol","abstract":[],"fragments":[{"kind":"keyword","text":"let"},{"text":" ","kind":"text"},{"text":"value","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SE","text":"Encodable","kind":"typeIdentifier"}],"title":"value","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/value","url":"\/documentation\/contextsdk\/customsignalfloat\/value","type":"topic","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat":{"title":"CustomSignalFloat","type":"topic","url":"\/documentation\/contextsdk\/customsignalfloat","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat","kind":"symbol","role":"symbol","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"CustomSignalFloat","kind":"identifier"}],"abstract":[],"navigatorTitle":[{"text":"CustomSignalFloat","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat/init(id:value:)":{"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/init(id:value:)","type":"topic","url":"\/documentation\/contextsdk\/customsignalfloat\/init(id:value:)","kind":"symbol","title":"init(id:value:)","role":"symbol","fragments":[{"text":"init","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"id"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"},{"kind":"text","text":", "},{"kind":"externalParam","text":"value"},{"text":": ","kind":"text"},{"text":"Float","kind":"typeIdentifier","preciseIdentifier":"s:Sf"},{"text":")","kind":"text"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat/id":{"role":"symbol","fragments":[{"kind":"keyword","text":"let"},{"kind":"text","text":" "},{"text":"id","kind":"identifier"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:SS","kind":"typeIdentifier","text":"String"}],"type":"topic","url":"\/documentation\/contextsdk\/customsignalfloat\/id","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/id","abstract":[],"title":"id","kind":"symbol"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK17CustomSignalFloatC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CustomSignalFloat"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CustomSignalFloat"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "CustomSignalFloat"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CustomSignalFloat"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/init(id:value:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/id",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/value"
+      ],
+      "title" : "Instance Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/customsignalfloat"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignal"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignal"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomSignal",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignal"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignalFloat"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignalFloat"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomSignalFloat",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignalfloat"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat/id": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/id",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "id",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignalfloat\/id"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat/init(id:value:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "id"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/init(id:value:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(id:value:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignalfloat\/init(id:value:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat/value": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "value"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SE",
+      "text" : "Encodable"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalFloat\/value",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "value",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignalfloat\/value"
+}
+}
+}

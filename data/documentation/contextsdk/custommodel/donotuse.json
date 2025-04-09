@@ -1,1 +1,160 @@
-{"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel"]]},"metadata":{"roleHeading":"Case","externalID":"s:10ContextSDK11CustomModelO8doNotUseyA2CmF","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"doNotUse"}],"role":"symbol","modules":[{"name":"ContextSDK"}],"title":"CustomModel.doNotUse","symbolKind":"case"},"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"doNotUse"}]}],"kind":"declarations"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/custommodel\/donotuse"]}],"sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/doNotUse":{"kind":"symbol","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"doNotUse","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse","role":"symbol","title":"CustomModel.doNotUse","abstract":[],"url":"\/documentation\/contextsdk\/custommodel\/donotuse"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel":{"navigatorTitle":[{"kind":"identifier","text":"CustomModel"}],"kind":"symbol","type":"topic","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"CustomModel","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel","role":"symbol","title":"CustomModel","abstract":[],"url":"\/documentation\/contextsdk\/custommodel"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK11CustomModelO8doNotUseyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "doNotUse"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "CustomModel.doNotUse"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "doNotUse"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/custommodel\/donotuse"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomModel"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomModel",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/doNotUse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "doNotUse"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CustomModel.doNotUse",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel\/donotuse"
+}
+}
+}

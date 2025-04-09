@@ -1,1 +1,861 @@
-{"schemaVersion":{"patch":0,"major":0,"minor":3},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)","interfaceLanguage":"swift"},"kind":"symbol","sections":[],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"@discardableResult","kind":"attribute"},{"kind":"text","text":" "},{"text":"@objc","kind":"attribute"},{"text":" ","kind":"text"},{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"setup","kind":"identifier"},{"text":"(","kind":"text"},{"text":"licenseKey","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"text":"defaultLogSender","kind":"externalParam"},{"text":": ((","kind":"text"},{"text":"Log","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Log","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"},{"kind":"text","text":") -> "},{"text":"Void","preciseIdentifier":"s:s4Voida","kind":"typeIdentifier"},{"kind":"text","text":")? = nil, "},{"text":"configuration","kind":"externalParam"},{"kind":"text","text":": "},{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration","text":"Configuration","kind":"typeIdentifier"},{"kind":"text","text":" = Configuration()) -> "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"platforms":["iOS"],"languages":["swift"]}]},{"content":[{"anchor":"discussion","text":"Discussion","level":2,"type":"heading"},{"type":"unorderedList","items":[{"content":[{"type":"paragraph","inlineContent":[{"text":"Call this once in your AppDelegate willFinishLaunchingWithOptions method","type":"text"}]},{"type":"unorderedList","items":[{"content":[{"type":"paragraph","inlineContent":[{"text":"Parameter licenseKey: Your personal ContextSDK license key specific to the current bundle id.","type":"text"}]}]},{"content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Parameter defaultLogSender: A closure that will be called for Context with an outcome to allow sending it to your own backend or to the ContextSDK backend. Leave null to use the default ContextSDK backend."}]}]},{"content":[{"inlineContent":[{"type":"text","text":"Parameter configuration: Optional configuration option to enable and disable certain singals from being collected."}],"type":"paragraph"}]}]}]}]}],"kind":"content"}],"metadata":{"roleHeading":"Type Method","platforms":[],"role":"symbol","symbolKind":"method","navigatorTitle":[{"text":"setupWithLicenseKey:defaultLogSender:configuration:","kind":"identifier"}],"title":"setup(licenseKey:defaultLogSender:configuration:)","externalID":"c:@M@ContextSDK@objc(cs)ContextManager(cm)setupWithLicenseKey:defaultLogSender:configuration:","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"setup","kind":"identifier"},{"text":"(","kind":"text"},{"text":"licenseKey","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"text":", ","kind":"text"},{"text":"defaultLogSender","kind":"externalParam"},{"text":": ((","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Log","text":"Log"},{"kind":"text","text":") -> "},{"text":"Void","kind":"typeIdentifier","preciseIdentifier":"s:s4Voida"},{"kind":"text","text":")?, "},{"text":"configuration","kind":"externalParam"},{"kind":"text","text":": "},{"text":"Configuration","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:Sb","text":"Bool","kind":"typeIdentifier"}],"modules":[{"name":"ContextSDK"}]},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)"]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setup(licenseKey:defaultLogSender:configuration:)":{"abstract":[],"fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"setup","kind":"identifier"},{"kind":"text","text":"("},{"text":"licenseKey","kind":"externalParam"},{"kind":"text","text":": "},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"text":"defaultLogSender","kind":"externalParam"},{"kind":"text","text":": (("},{"text":"Log","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Log","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"kind":"typeIdentifier","text":"Void","preciseIdentifier":"s:s4Voida"},{"text":")?, ","kind":"text"},{"text":"configuration","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Configuration","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"}],"type":"topic","title":"setup(licenseKey:defaultLogSender:configuration:)","url":"\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)","navigatorTitle":[{"text":"setupWithLicenseKey:defaultLogSender:configuration:","kind":"identifier"}],"deprecated":true,"role":"symbol","kind":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager":{"role":"symbol","title":"ContextManager","navigatorTitle":[{"text":"ContextManager","kind":"identifier"}],"type":"topic","kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/contextmanager","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ContextManager"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log":{"navigatorTitle":[{"text":"Log","kind":"identifier"}],"url":"\/documentation\/contextsdk\/log","role":"symbol","title":"Log","type":"topic","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Log","kind":"identifier"}],"abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration":{"type":"topic","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration","kind":"symbol","url":"\/documentation\/contextsdk\/configuration","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"Configuration"}],"role":"symbol","title":"Configuration","navigatorTitle":[{"text":"Configuration","kind":"identifier"}]}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","path":"\/identifier\/interfaceLanguage","value":"occ"},{"path":"\/metadata\/platforms","value":[],"op":"replace"},{"op":"replace","path":"\/metadata\/roleHeading","value":"Type Method"},{"path":"\/metadata\/title","op":"replace","value":"setupWithLicenseKey:defaultLogSender:configuration:"},{"value":"method","op":"replace","path":"\/metadata\/symbolKind"},{"path":"\/metadata\/fragments","op":"replace","value":[{"text":"+ ","kind":"text"},{"text":"setupWithLicenseKey:defaultLogSender:configuration:","kind":"identifier"}]},{"path":"\/topicSections","value":null,"op":"add"},{"op":"add","path":"\/relationshipsSections","value":null},{"op":"add","path":"\/seeAlsoSections","value":null},{"op":"replace","value":{"kind":"declarations","declarations":[{"tokens":[{"text":"+ (","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@T@BOOL","text":"BOOL"},{"text":") ","kind":"text"},{"text":"setupWithLicenseKey:","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"c:objc(cs)NSString","kind":"typeIdentifier","text":"NSString"},{"text":" *) ","kind":"text"},{"kind":"internalParam","text":"licenseKey"},{"text":" ","kind":"text"},{"text":"defaultLogSender:","kind":"identifier"},{"text":"(","kind":"text"},{"text":"void","kind":"typeIdentifier","preciseIdentifier":"c:v"},{"kind":"text","text":" (^"},{"text":")(","kind":"text"},{"text":"Log","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Log","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"},{"kind":"text","text":" * "},{"text":"","kind":"internalParam"},{"kind":"text","text":")) "},{"kind":"internalParam","text":"defaultLogSender"},{"text":" ","kind":"text"},{"text":"configuration:","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration","text":"Configuration","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration","kind":"typeIdentifier"},{"text":" *) ","kind":"text"},{"text":"configuration","kind":"internalParam"},{"text":";","kind":"text"}],"languages":["occ"],"platforms":["iOS"]}]},"path":"\/primaryContentSections\/0"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(licenseKey:defaultLogSender:configuration:)\/title","value":"setupWithLicenseKey:defaultLogSender:configuration:"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(licenseKey:defaultLogSender:configuration:)\/fragments","value":[{"kind":"text","text":"+ "},{"text":"setupWithLicenseKey:defaultLogSender:configuration:","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title","value":"ContextManager","op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments","op":"replace","value":[{"text":"ContextManager","kind":"identifier"}]},{"value":[{"text":"ContextManager","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle"},{"op":"replace","value":"Log","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title"},{"value":[{"kind":"identifier","text":"Log"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments","op":"replace"},{"value":[{"kind":"identifier","text":"Log"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle","op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title","value":"Configuration","op":"replace"},{"op":"replace","value":[{"text":"Configuration","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle","op":"replace","value":[{"kind":"identifier","text":"Configuration"}]}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@objc(cs)ContextManager(cm)setupWithLicenseKey:defaultLogSender:configuration:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setup"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "licenseKey"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "defaultLogSender"
+      },
+      {
+        "kind" : "text",
+        "text" : ": (("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Log",
+        "text" : "Log"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s4Voida",
+        "text" : "Void"
+      },
+      {
+        "kind" : "text",
+        "text" : ")?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "configuration"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+        "text" : "Configuration"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "setup(licenseKey:defaultLogSender:configuration:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@discardableResult"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "setup"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "licenseKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "defaultLogSender"
+            },
+            {
+              "kind" : "text",
+              "text" : ": (("
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Log",
+              "text" : "Log"
+            },
+            {
+              "kind" : "text",
+              "text" : ") -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s4Voida",
+              "text" : "Void"
+            },
+            {
+              "kind" : "text",
+              "text" : ")? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "configuration"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+              "text" : "Configuration"
+            },
+            {
+              "kind" : "text",
+              "text" : " = Configuration()) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Call this once in your AppDelegate willFinishLaunchingWithOptions method",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter licenseKey: Your personal ContextSDK license key specific to the current bundle id.",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter defaultLogSender: A closure that will be called for Context with an outcome to allow sending it to your own backend or to the ContextSDK backend. Leave null to use the default ContextSDK backend.",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter configuration: Optional configuration option to enable and disable certain singals from being collected.",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setup(licenseKey:defaultLogSender:configuration:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setup"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "licenseKey"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "defaultLogSender"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Log",
+      "text" : "Log"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "configuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+      "text" : "Configuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "setup(licenseKey:defaultLogSender:configuration:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Log",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/platforms",
+        "value" : [
+
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Type Method"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "setupWithLicenseKey:defaultLogSender:configuration:"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "method"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "text",
+                  "text" : "+ ("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@T@BOOL",
+                  "text" : "BOOL"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ") "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "setupWithLicenseKey:"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:objc(cs)NSString",
+                  "text" : "NSString"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " *) "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "licenseKey"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "defaultLogSender:"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:v",
+                  "text" : "void"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " (^"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")("
+                },
+                {
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Log",
+                  "text" : "Log"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " * "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : ""
+                },
+                {
+                  "kind" : "text",
+                  "text" : ")) "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "defaultLogSender"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "configuration:"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+                  "text" : "Configuration"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " *) "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "configuration"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ";"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title",
+        "value" : "Configuration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title",
+        "value" : "ContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(licenseKey:defaultLogSender:configuration:)\/title",
+        "value" : "setupWithLicenseKey:defaultLogSender:configuration:"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(licenseKey:defaultLogSender:configuration:)\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title",
+        "value" : "Log"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

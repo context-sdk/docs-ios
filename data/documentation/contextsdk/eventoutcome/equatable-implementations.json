@@ -1,1 +1,198 @@
-{"schemaVersion":{"patch":0,"major":0,"minor":3},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome"]]},"kind":"article","topicSections":[{"title":"Operators","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/!=(_:_:)"],"generated":true,"anchor":"Operators"}],"variants":[{"paths":["\/documentation\/contextsdk\/eventoutcome\/equatable-implementations"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"title":"Equatable Implementations","roleHeading":"API Collection","role":"collectionGroup","modules":[{"name":"ContextSDK"}]},"sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome":{"title":"EventOutcome","kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/eventoutcome","type":"topic","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"EventOutcome"}],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome","navigatorTitle":[{"kind":"identifier","text":"EventOutcome"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/!=(_:_:)":{"url":"\/documentation\/contextsdk\/eventoutcome\/!=(_:_:)","abstract":[],"type":"topic","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/!=(_:_:)","fragments":[{"text":"static","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"!=","kind":"identifier"},{"kind":"text","text":" "},{"text":"(","kind":"text"},{"text":"Self","kind":"typeIdentifier"},{"kind":"text","text":", "},{"text":"Self","kind":"typeIdentifier"},{"text":") -> ","kind":"text"},{"preciseIdentifier":"s:Sb","kind":"typeIdentifier","text":"Bool"}],"kind":"symbol","title":"!=(_:_:)"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"}},"variantOverrides":[{"patch":[{"op":"replace","value":"EventOutcome","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments","value":[{"kind":"identifier","text":"EventOutcome"}]},{"value":[{"text":"EventOutcome","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle","op":"replace"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations"
+  },
+  "kind" : "article",
+  "metadata" : {
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "collectionGroup",
+    "roleHeading" : "API Collection",
+    "title" : "Equatable Implementations"
+  },
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Operators",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/!=(_:_:)"
+      ],
+      "title" : "Operators"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/eventoutcome\/equatable-implementations"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/!=(_:_:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "!="
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "text" : "Self"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/!=(_:_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "!=(_:_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome\/!=(_:_:)"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title",
+        "value" : "EventOutcome"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

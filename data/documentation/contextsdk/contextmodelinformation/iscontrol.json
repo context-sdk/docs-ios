@@ -1,1 +1,199 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation\/isControl"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation"]]},"kind":"symbol","schemaVersion":{"patch":0,"major":0,"minor":3},"sections":[],"metadata":{"roleHeading":"Instance Property","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"isControl"},{"text":": ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}],"title":"isControl","modules":[{"name":"ContextSDK"}],"symbolKind":"property","externalID":"s:10ContextSDK0A16ModelInformationV9isControlSbvp","role":"symbol"},"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"isControl","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Bool","preciseIdentifier":"s:Sb"}]}],"kind":"declarations"}],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextmodelinformation\/iscontrol"]}],"abstract":[{"type":"text","text":"A boolean value indicating whether the user has been assigned to the control group for the given flow."}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextModelInformation":{"url":"\/documentation\/contextsdk\/contextmodelinformation","navigatorTitle":[{"kind":"identifier","text":"ContextModelInformation"}],"abstract":[{"type":"text","text":"A structure that contains information about the currently running model for a given flow."}],"title":"ContextModelInformation","kind":"symbol","type":"topic","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ContextModelInformation"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextModelInformation/isControl":{"abstract":[{"type":"text","text":"A boolean value indicating whether the user has been assigned to the control group for the given flow."}],"fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"isControl"},{"kind":"text","text":": "},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}],"type":"topic","title":"isControl","url":"\/documentation\/contextsdk\/contextmodelinformation\/iscontrol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation\/isControl","role":"symbol","kind":"symbol"}}}
+{
+  "abstract" : [
+    {
+      "text" : "A boolean value indicating whether the user has been assigned to the control group for the given flow.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation\/isControl"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK0A16ModelInformationV9isControlSbvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "isControl"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "isControl"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "isControl"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmodelinformation\/iscontrol"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextModelInformation": {
+  "abstract" : [
+    {
+      "text" : "A structure that contains information about the currently running model for a given flow.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextModelInformation"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextModelInformation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextModelInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmodelinformation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextModelInformation/isControl": {
+  "abstract" : [
+    {
+      "text" : "A boolean value indicating whether the user has been assigned to the control group for the given flow.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "isControl"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation\/isControl",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "isControl",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmodelinformation\/iscontrol"
+}
+}
+}

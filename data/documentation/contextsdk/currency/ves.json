@@ -1,1 +1,163 @@
-{"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves","interfaceLanguage":"swift"},"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"ves","kind":"identifier"}],"languages":["swift"],"platforms":["iOS"]}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"]]},"variants":[{"paths":["\/documentation\/contextsdk\/currency\/ves"],"traits":[{"interfaceLanguage":"swift"}]}],"metadata":{"modules":[{"name":"ContextSDK"}],"title":"Currency.ves","role":"symbol","roleHeading":"Case","externalID":"s:10ContextSDK8CurrencyO3vesyA2CmF","symbolKind":"case","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"ves","kind":"identifier"}]},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency":{"navigatorTitle":[{"kind":"identifier","text":"Currency"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","abstract":[{"text":"An exhaustive list for all active currency codes according to the ISO 4217 standard.","type":"text"}],"type":"topic","kind":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"text":"Currency","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency","role":"symbol","title":"Currency"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ves":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves","title":"Currency.ves","kind":"symbol","type":"topic","role":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/currency\/ves","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"ves","kind":"identifier"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK8CurrencyO3vesyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ves"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "Currency.ves"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ves"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/currency\/ves"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/ves": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ves"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/ves",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.ves",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/ves"
+}
+}
+}

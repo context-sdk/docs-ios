@@ -1,1 +1,260 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"]]},"kind":"symbol","identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()"},"sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"toBase64","kind":"identifier"},{"text":"() -> ","kind":"text"},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"platforms":["iOS"]}]},{"kind":"content","content":[{"text":"Discussion","level":2,"type":"heading","anchor":"discussion"},{"type":"unorderedList","items":[{"content":[{"type":"paragraph","inlineContent":[{"text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a Base64 string.","type":"text"},{"type":"text","text":" "},{"type":"text","text":"This single String can be stored in your own database."}]}]}]}]}],"metadata":{"symbolKind":"method","modules":[{"name":"ContextSDK"}],"fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"toBase64"},{"kind":"text","text":"() -> "},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"}],"roleHeading":"Instance Method","title":"toBase64()","role":"symbol","externalID":"s:10ContextSDK3LogC8toBase64SSyF"},"schemaVersion":{"major":0,"minor":3,"patch":0},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/log\/tobase64()"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toBase64()":{"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"kind":"identifier","text":"toBase64"},{"text":"() -> ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"abstract":[],"kind":"symbol","title":"toBase64()","role":"symbol","url":"\/documentation\/contextsdk\/log\/tobase64()"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log":{"navigatorTitle":[{"text":"Log","kind":"identifier"}],"url":"\/documentation\/contextsdk\/log","role":"symbol","title":"Log","type":"topic","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Log","kind":"identifier"}],"abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"}},"variantOverrides":[{"patch":[{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title","value":"Log","op":"replace"},{"op":"replace","value":[{"kind":"identifier","text":"Log"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments"},{"value":[{"kind":"identifier","text":"Log"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle","op":"replace"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK3LogC8toBase64SSyF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "toBase64"
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "toBase64()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "toBase64"
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a Base64 string.",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : " ",
+                      "type" : "text"
+                    },
+                    {
+                      "text" : "This single String can be stored in your own database.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/log\/tobase64()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Log",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toBase64()": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toBase64"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toBase64()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toBase64()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/tobase64()"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title",
+        "value" : "Log"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

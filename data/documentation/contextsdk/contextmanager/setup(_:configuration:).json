@@ -1,1 +1,658 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"]]},"kind":"symbol","sections":[],"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"@discardableResult","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"attribute","text":"@objc"},{"text":" ","kind":"text"},{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"setup","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"_"},{"text":" ","kind":"text"},{"text":"licenseKey","kind":"internalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:SS","text":"String"},{"text":", ","kind":"text"},{"text":"configuration","kind":"externalParam"},{"text":": ","kind":"text"},{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration","text":"Configuration","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration"},{"kind":"text","text":" = Configuration()) -> "},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}]}],"kind":"declarations"},{"content":[{"anchor":"discussion","text":"Discussion","level":2,"type":"heading"},{"type":"unorderedList","items":[{"content":[{"inlineContent":[{"text":"Call this once in your AppDelegate willFinishLaunchingWithOptions method to use with the official ContextSDK backend","type":"text"}],"type":"paragraph"},{"type":"unorderedList","items":[{"content":[{"type":"paragraph","inlineContent":[{"text":"Parameter licenseKey: Your personal ContextSDK license key specific to the current bundle id.","type":"text"}]}]},{"content":[{"inlineContent":[{"type":"text","text":"Parameter configuration: Optional configuration option to enable and disable certain singals from being collected."}],"type":"paragraph"}]}]}]}]}],"kind":"content"}],"variants":[{"paths":["\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)"],"traits":[{"interfaceLanguage":"swift"}]},{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)"]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)"},"metadata":{"navigatorTitle":[{"kind":"identifier","text":"setup:configuration:"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"setup","kind":"identifier"},{"kind":"text","text":"("},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"text":", ","kind":"text"},{"text":"configuration","kind":"externalParam"},{"kind":"text","text":": "},{"text":"Configuration","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration"},{"text":") -> ","kind":"text"},{"text":"Bool","kind":"typeIdentifier","preciseIdentifier":"s:Sb"}],"modules":[{"name":"ContextSDK"}],"title":"setup(_:configuration:)","roleHeading":"Type Method","role":"symbol","platforms":[],"externalID":"c:@M@ContextSDK@objc(cs)ContextManager(cm)setup:configuration:","symbolKind":"method"},"schemaVersion":{"patch":0,"major":0,"minor":3},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager":{"role":"symbol","title":"ContextManager","navigatorTitle":[{"text":"ContextManager","kind":"identifier"}],"type":"topic","kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/contextmanager","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ContextManager"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration":{"type":"topic","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration","kind":"symbol","url":"\/documentation\/contextsdk\/configuration","fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"Configuration"}],"role":"symbol","title":"Configuration","navigatorTitle":[{"text":"Configuration","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setup(_:configuration:)":{"abstract":[],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"setup","kind":"identifier"},{"kind":"text","text":"("},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"configuration"},{"kind":"text","text":": "},{"preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration","kind":"typeIdentifier","text":"Configuration"},{"text":") -> ","kind":"text"},{"text":"Bool","preciseIdentifier":"s:Sb","kind":"typeIdentifier"}],"type":"topic","title":"setup(_:configuration:)","url":"\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)","navigatorTitle":[{"text":"setup:configuration:","kind":"identifier"}],"deprecated":true,"role":"symbol","kind":"symbol"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"op":"replace","path":"\/identifier\/interfaceLanguage","value":"occ"},{"op":"replace","path":"\/metadata\/platforms","value":[]},{"value":"Type Method","op":"replace","path":"\/metadata\/roleHeading"},{"op":"replace","path":"\/metadata\/title","value":"setup:configuration:"},{"path":"\/metadata\/symbolKind","value":"method","op":"replace"},{"path":"\/metadata\/fragments","value":[{"text":"+ ","kind":"text"},{"text":"setup:configuration:","kind":"identifier"}],"op":"replace"},{"path":"\/topicSections","op":"add","value":null},{"path":"\/relationshipsSections","value":null,"op":"add"},{"value":null,"op":"add","path":"\/seeAlsoSections"},{"op":"replace","path":"\/primaryContentSections\/0","value":{"declarations":[{"platforms":["iOS"],"tokens":[{"text":"+ (","kind":"text"},{"preciseIdentifier":"c:@T@BOOL","text":"BOOL","kind":"typeIdentifier"},{"kind":"text","text":") "},{"text":"setup:","kind":"identifier"},{"text":"(","kind":"text"},{"text":"NSString","preciseIdentifier":"c:objc(cs)NSString","kind":"typeIdentifier"},{"text":" *) ","kind":"text"},{"text":"licenseKey","kind":"internalParam"},{"text":" ","kind":"text"},{"text":"configuration:","kind":"identifier"},{"text":"(","kind":"text"},{"preciseIdentifier":"c:@M@ContextSDK@objc(cs)Configuration","text":"Configuration","kind":"typeIdentifier","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration"},{"text":" *) ","kind":"text"},{"text":"configuration","kind":"internalParam"},{"kind":"text","text":";"}],"languages":["occ"]}],"kind":"declarations"}},{"value":"ContextManager","op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title"},{"op":"replace","value":[{"kind":"identifier","text":"ContextManager"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle","value":[{"text":"ContextManager","kind":"identifier"}]},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title","value":"Configuration"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments","op":"replace","value":[{"text":"Configuration","kind":"identifier"}]},{"value":[{"text":"Configuration","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle","op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(_:configuration:)\/title","op":"replace","value":"setup:configuration:"},{"value":[{"kind":"text","text":"+ "},{"kind":"identifier","text":"setup:configuration:"}],"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(_:configuration:)\/fragments"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@objc(cs)ContextManager(cm)setup:configuration:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "setup"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "configuration"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+        "text" : "Configuration"
+      },
+      {
+        "kind" : "text",
+        "text" : ") -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Sb",
+        "text" : "Bool"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "setup:configuration:"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "setup(_:configuration:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@discardableResult"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "setup"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "_"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "licenseKey"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "configuration"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+              "text" : "Configuration"
+            },
+            {
+              "kind" : "text",
+              "text" : " = Configuration()) -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Sb",
+              "text" : "Bool"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Call this once in your AppDelegate willFinishLaunchingWithOptions method to use with the official ContextSDK backend",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter licenseKey: Your personal ContextSDK license key specific to the current bundle id.",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "Parameter configuration: Optional configuration option to enable and disable certain singals from being collected.",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setup(_:configuration:)": {
+  "abstract" : [
+
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setup"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "configuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+      "text" : "Configuration"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "setup:configuration:"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "setup(_:configuration:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/platforms",
+        "value" : [
+
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Type Method"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "setup:configuration:"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "method"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "setup:configuration:"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "text",
+                  "text" : "+ ("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@T@BOOL",
+                  "text" : "BOOL"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ") "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "setup:"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:objc(cs)NSString",
+                  "text" : "NSString"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " *) "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "licenseKey"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "configuration:"
+                },
+                {
+                  "kind" : "text",
+                  "text" : "("
+                },
+                {
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)Configuration",
+                  "text" : "Configuration"
+                },
+                {
+                  "kind" : "text",
+                  "text" : " *) "
+                },
+                {
+                  "kind" : "internalParam",
+                  "text" : "configuration"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ";"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title",
+        "value" : "Configuration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title",
+        "value" : "ContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(_:configuration:)\/title",
+        "value" : "setup:configuration:"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1setup(_:configuration:)\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "setup:configuration:"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

@@ -1,1 +1,163 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/currency\/egp"]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp"},"metadata":{"roleHeading":"Case","role":"symbol","modules":[{"name":"ContextSDK"}],"title":"Currency.egp","symbolKind":"case","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"egp","kind":"identifier"}],"externalID":"s:10ContextSDK8CurrencyO3egpyA2CmF"},"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"languages":["swift"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"egp","kind":"identifier"}]}]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"]]},"schemaVersion":{"minor":3,"patch":0,"major":0},"sections":[],"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/egp":{"type":"topic","url":"\/documentation\/contextsdk\/currency\/egp","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp","abstract":[],"fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"egp","kind":"identifier"}],"kind":"symbol","title":"Currency.egp","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency":{"navigatorTitle":[{"kind":"identifier","text":"Currency"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","abstract":[{"text":"An exhaustive list for all active currency codes according to the ISO 4217 standard.","type":"text"}],"type":"topic","kind":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"text":"Currency","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency","role":"symbol","title":"Currency"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK8CurrencyO3egpyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "egp"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "Currency.egp"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "egp"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/currency\/egp"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/egp": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "egp"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/egp",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Currency.egp",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency\/egp"
+}
+}
+}

@@ -1,1 +1,279 @@
-{"metadata":{"roleHeading":"Enumeration","navigatorTitle":[{"text":"CustomModel","kind":"identifier"}],"symbolKind":"enum","role":"symbol","title":"CustomModel","externalID":"s:10ContextSDK11CustomModelO","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"CustomModel","kind":"identifier"}],"modules":[{"name":"ContextSDK"}]},"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/custommodel"]}],"kind":"symbol","schemaVersion":{"patch":0,"major":0,"minor":3},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel","interfaceLanguage":"swift"},"topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse"],"anchor":"Enumeration-Cases","title":"Enumeration Cases","generated":true},{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/init(rawValue:)"],"anchor":"Initializers","generated":true,"title":"Initializers"},{"generated":true,"title":"Default Implementations","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/Equatable-Implementations","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/RawRepresentable-Implementations"],"anchor":"Default-Implementations"}],"relationshipsSections":[{"kind":"relationships","type":"conformsTo","identifiers":["doc:\/\/org.cocoapods.ContextSDK\/SQ","doc:\/\/org.cocoapods.ContextSDK\/SH","doc:\/\/org.cocoapods.ContextSDK\/SY"],"title":"Conforms To"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"CustomModel"}],"languages":["swift"],"platforms":["iOS"]}]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel":{"navigatorTitle":[{"kind":"identifier","text":"CustomModel"}],"kind":"symbol","type":"topic","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"CustomModel","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel","role":"symbol","title":"CustomModel","abstract":[],"url":"\/documentation\/contextsdk\/custommodel"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/init(rawValue:)":{"role":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/init(rawValue:)","url":"\/documentation\/contextsdk\/custommodel\/init(rawvalue:)","fragments":[{"text":"init","kind":"identifier"},{"kind":"text","text":"?("},{"text":"rawValue","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"kind":"text","text":")"}],"kind":"symbol","title":"init(rawValue:)","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/RawRepresentable-Implementations":{"abstract":[],"type":"topic","title":"RawRepresentable Implementations","url":"\/documentation\/contextsdk\/custommodel\/rawrepresentable-implementations","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/RawRepresentable-Implementations","role":"collectionGroup","kind":"article"},"doc://org.cocoapods.ContextSDK/SH":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/SH","title":"Swift.Hashable","type":"unresolvable"},"doc://org.cocoapods.ContextSDK/SY":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/SY","title":"Swift.RawRepresentable","type":"unresolvable"},"doc://org.cocoapods.ContextSDK/SQ":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/SQ","title":"Swift.Equatable","type":"unresolvable"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/doNotUse":{"kind":"symbol","type":"topic","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"doNotUse","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse","role":"symbol","title":"CustomModel.doNotUse","abstract":[],"url":"\/documentation\/contextsdk\/custommodel\/donotuse"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/Equatable-Implementations":{"role":"collectionGroup","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/Equatable-Implementations","url":"\/documentation\/contextsdk\/custommodel\/equatable-implementations","kind":"article","title":"Equatable Implementations","abstract":[]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK11CustomModelO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "CustomModel"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "CustomModel"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "CustomModel"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "CustomModel"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH",
+        "doc:\/\/org.cocoapods.ContextSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/Equatable-Implementations",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/custommodel"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SY": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomModel"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomModel"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomModel",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel\/rawrepresentable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/doNotUse": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "doNotUse"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/doNotUse",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "CustomModel.doNotUse",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel\/donotuse"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomModel/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomModel\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/custommodel\/init(rawvalue:)"
+}
+}
+}

@@ -1,1 +1,269 @@
-{"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView(pageNameC:customSignalsID:)","interfaceLanguage":"swift"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"metadata":{"role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"contextSDK_trackPageView","kind":"identifier"},{"kind":"text","text":"("},{"text":"pageNameC","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:SP","text":"UnsafePointer"},{"kind":"text","text":"<"},{"text":"CChar","kind":"typeIdentifier","preciseIdentifier":"s:s5CChara"},{"text":">, ","kind":"text"},{"text":"customSignalsID","kind":"externalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","text":"Int32","preciseIdentifier":"s:s5Int32V"},{"text":")","kind":"text"}],"modules":[{"name":"ContextSDK"}],"title":"contextSDK_trackPageView(pageNameC:customSignalsID:)","roleHeading":"Function","externalID":"c:(cm)contextSDK_trackPageViewWithPageNameC:customSignalsID:","symbolKind":"func"},"schemaVersion":{"minor":3,"patch":0,"major":0},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"contextSDK_trackPageView","kind":"identifier"},{"text":"(","kind":"text"},{"text":"pageNameC","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"UnsafePointer","preciseIdentifier":"s:SP"},{"text":"<","kind":"text"},{"text":"CChar","preciseIdentifier":"s:s5CChara","kind":"typeIdentifier"},{"kind":"text","text":">, "},{"text":"customSignalsID","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Int32","kind":"typeIdentifier","preciseIdentifier":"s:s5Int32V"},{"kind":"text","text":")"}],"platforms":["iOS"],"languages":["swift"]}]}],"kind":"symbol","sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextsdk_trackpageview(pagenamec:customsignalsid:)"]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackPageView(pageNameC:customSignalsID:)":{"abstract":[],"fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"contextSDK_trackPageView"},{"text":"(","kind":"text"},{"text":"pageNameC","kind":"externalParam"},{"kind":"text","text":": "},{"text":"UnsafePointer","kind":"typeIdentifier","preciseIdentifier":"s:SP"},{"kind":"text","text":"<"},{"text":"CChar","preciseIdentifier":"s:s5CChara","kind":"typeIdentifier"},{"text":">, ","kind":"text"},{"text":"customSignalsID","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:s5Int32V","text":"Int32","kind":"typeIdentifier"},{"text":")","kind":"text"}],"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView(pageNameC:customSignalsID:)","title":"contextSDK_trackPageView(pageNameC:customSignalsID:)","url":"\/documentation\/contextsdk\/contextsdk_trackpageview(pagenamec:customsignalsid:)","role":"symbol","kind":"symbol"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView(pageNameC:customSignalsID:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:(cm)contextSDK_trackPageViewWithPageNameC:customSignalsID:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_trackPageView"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "pageNameC"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SP",
+        "text" : "UnsafePointer"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5CChara",
+        "text" : "CChar"
+      },
+      {
+        "kind" : "text",
+        "text" : ">, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "customSignalsID"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5Int32V",
+        "text" : "Int32"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_trackPageView(pageNameC:customSignalsID:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_trackPageView"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "pageNameC"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SP",
+              "text" : "UnsafePointer"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5CChara",
+              "text" : "CChar"
+            },
+            {
+              "kind" : "text",
+              "text" : ">, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "customSignalsID"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5Int32V",
+              "text" : "Int32"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_trackpageview(pagenamec:customsignalsid:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackPageView(pageNameC:customSignalsID:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_trackPageView"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "pageNameC"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SP",
+      "text" : "UnsafePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5CChara",
+      "text" : "CChar"
+    },
+    {
+      "kind" : "text",
+      "text" : ">, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignalsID"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5Int32V",
+      "text" : "Int32"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView(pageNameC:customSignalsID:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_trackPageView(pageNameC:customSignalsID:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_trackpageview(pagenamec:customsignalsid:)"
+}
+}
+}

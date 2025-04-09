@@ -1,1 +1,211 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"extension","kind":"keyword"},{"kind":"text","text":" "},{"text":"Logger","kind":"typeIdentifier","preciseIdentifier":"s:2os6LoggerV"}],"platforms":["iOS"],"languages":["swift"]}]}],"sections":[],"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/os\/logger"]}],"metadata":{"roleHeading":"Extended Structure","role":"symbol","symbolKind":"extension","extendedModule":"os","fragments":[{"text":"extension","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Logger","kind":"identifier","preciseIdentifier":"s:2os6LoggerV"}],"navigatorTitle":[{"text":"Logger","kind":"identifier"}],"modules":[{"relatedModules":["os"],"name":"ContextSDK"}],"title":"Logger","externalID":"s:e:s:2os6LoggerV10ContextSDKE9subsystem33_AEC67BCF2B574394F7FFEA780FC683F6LLSSvpZ"},"kind":"symbol","schemaVersion":{"minor":3,"patch":0,"major":0},"topicSections":[{"identifiers":["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger\/main"],"anchor":"Type-Properties","generated":true,"title":"Type Properties"}],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger","interfaceLanguage":"swift"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os/Logger":{"abstract":[],"type":"topic","fragments":[{"kind":"keyword","text":"extension"},{"text":" ","kind":"text"},{"kind":"identifier","preciseIdentifier":"s:2os6LoggerV","text":"Logger"}],"kind":"symbol","navigatorTitle":[{"text":"Logger","kind":"identifier"}],"url":"\/documentation\/contextsdk\/os\/logger","title":"Logger","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os":{"role":"collection","url":"\/documentation\/contextsdk\/os","kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os","title":"os","abstract":[]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os/Logger/main":{"abstract":[],"type":"topic","fragments":[{"text":"static","kind":"keyword"},{"kind":"text","text":" "},{"text":"let","kind":"keyword"},{"kind":"text","text":" "},{"text":"main","kind":"identifier"},{"text":": ","kind":"text"},{"text":"Logger","kind":"typeIdentifier","preciseIdentifier":"s:2os6LoggerV"}],"kind":"symbol","url":"\/documentation\/contextsdk\/os\/logger\/main","title":"main","role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger\/main"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "extendedModule" : "os",
+    "externalID" : "s:e:s:2os6LoggerV10ContextSDKE9subsystem33_AEC67BCF2B574394F7FFEA780FC683F6LLSSvpZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "extension"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "preciseIdentifier" : "s:2os6LoggerV",
+        "text" : "Logger"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK",
+        "relatedModules" : [
+          "os"
+        ]
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Logger"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Extended Structure",
+    "symbolKind" : "extension",
+    "title" : "Logger"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extension"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:2os6LoggerV",
+              "text" : "Logger"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger\/main"
+      ],
+      "title" : "Type Properties"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/os\/logger"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "os",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/os"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os/Logger": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "extension"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "preciseIdentifier" : "s:2os6LoggerV",
+      "text" : "Logger"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Logger"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Logger",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/os\/logger"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os/Logger/main": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "main"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:2os6LoggerV",
+      "text" : "Logger"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os\/Logger\/main",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "main",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/os\/logger\/main"
+}
+}
+}

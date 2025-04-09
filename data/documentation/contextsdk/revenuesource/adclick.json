@@ -1,1 +1,188 @@
-{"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"]]},"kind":"symbol","variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/revenuesource\/adclick"]}],"schemaVersion":{"patch":0,"major":0,"minor":3},"metadata":{"symbolKind":"case","roleHeading":"Case","role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"adClick","kind":"identifier"}],"externalID":"s:10ContextSDK13RevenueSourceO7adClickyA2CmF","modules":[{"name":"ContextSDK"}],"title":"RevenueSource.adClick"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"adClick"}]}]}],"sections":[],"abstract":[{"text":"Revenue generated from clicking on an ad.","type":"text"},{"text":" ","type":"text"},{"text":"Example: A user clicks anywhere on an ad, regardless if it leads them somewhere or not.","type":"text"}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"url":"\/documentation\/contextsdk\/revenuesource","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"RevenueSource"}],"kind":"symbol","type":"topic","title":"RevenueSource","navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"abstract":[{"type":"text","text":"A source of revenue."}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClick":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick","title":"RevenueSource.adClick","kind":"symbol","role":"symbol","url":"\/documentation\/contextsdk\/revenuesource\/adclick","fragments":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"text":"adClick","kind":"identifier"}],"type":"topic","abstract":[{"text":"Revenue generated from clicking on an ad.","type":"text"},{"text":" ","type":"text"},{"type":"text","text":"Example: A user clicks anywhere on an ad, regardless if it leads them somewhere or not."}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Revenue generated from clicking on an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user clicks anywhere on an ad, regardless if it leads them somewhere or not.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO7adClickyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "adClick"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "RevenueSource.adClick"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "adClick"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource\/adclick"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClick": {
+  "abstract" : [
+    {
+      "text" : "Revenue generated from clicking on an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user clicks anywhere on an ad, regardless if it leads them somewhere or not.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adClick"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClick",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adClick",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adclick"
+}
+}
+}

@@ -1,1 +1,524 @@
-{"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextmanager\/instantcontext(flowname:duration:customsignals:)"]}],"primaryContentSections":[{"declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"text":"@discardableResult","kind":"attribute"},{"text":" ","kind":"text"},{"kind":"keyword","text":"class"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"instantContext"},{"text":"(","kind":"text"},{"text":"flowName","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"},{"kind":"text","text":", "},{"kind":"externalParam","text":"duration"},{"text":": ","kind":"text"},{"text":"Int","kind":"typeIdentifier","preciseIdentifier":"s:Si"},{"text":", ","kind":"text"},{"text":"customSignals","kind":"externalParam"},{"text":": [","kind":"text"},{"text":"CustomSignal","preciseIdentifier":"s:10ContextSDK12CustomSignalP","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal","kind":"typeIdentifier"},{"text":"] = []) -> ","kind":"text"},{"text":"Context","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context","kind":"typeIdentifier","preciseIdentifier":"s:10ContextSDK0A0C"}]}],"kind":"declarations"},{"kind":"content","content":[{"text":"Discussion","type":"heading","level":2,"anchor":"discussion"},{"items":[{"content":[{"syntax":null,"code":["  Get the current context synchronously. The signal may not include all the information, if the duration wasn't reached.","  Be sure that the majority of the times when calling this method, the SDK has already had enough time to reach the duration you've set.","","  - Parameters:","      - flowName: A unique name of the upsell flow you want to use ContextSDK for","      - duration: By default, we recommend setting this to 3. The duration of accelerometer data that should be used for the current context. This value has to be within (inclusive) 2 and 7 seconds. **Important:** Once you've decided for a specific `duration`, you need to stick with it: Your custom model will be trained and provided for the specific `duration` you've chosen. If you change the `duration` later, you'll need to re-train your custom model.","      - customSignals: An array of custom signals you want to add to the context"],"type":"codeListing"}]}],"type":"unorderedList"}]}],"sections":[],"metadata":{"externalID":"s:10ContextSDK0A7ManagerC07instantA08flowName8duration13customSignalsAA0A0CSS_SiSayAA12CustomSignal_pGtFZ","roleHeading":"Type Method","modules":[{"name":"ContextSDK"}],"fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"instantContext"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"flowName"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"String","preciseIdentifier":"s:SS"},{"text":", ","kind":"text"},{"text":"duration","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"Int","preciseIdentifier":"s:Si","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"customSignals"},{"kind":"text","text":": ["},{"preciseIdentifier":"s:10ContextSDK12CustomSignalP","kind":"typeIdentifier","text":"CustomSignal"},{"text":"]) -> ","kind":"text"},{"kind":"typeIdentifier","text":"Context","preciseIdentifier":"s:10ContextSDK0A0C"}],"role":"symbol","symbolKind":"method","title":"instantContext(flowName:duration:customSignals:)"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"]]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)"},"schemaVersion":{"patch":0,"major":0,"minor":3},"kind":"symbol","references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context":{"role":"symbol","title":"Context","navigatorTitle":[{"text":"Context","kind":"identifier"}],"type":"topic","kind":"symbol","abstract":[{"type":"text","text":"Represents a full context event in a moment in time. Use "},{"code":".log","type":"codeVoice"},{"text":" to create a ","type":"text"},{"code":"Log","type":"codeVoice"},{"text":" object, which allows you to send the context event to the backend.","type":"text"}],"url":"\/documentation\/contextsdk\/context","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"text":"Context","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal":{"role":"symbol","navigatorTitle":[{"kind":"identifier","text":"CustomSignal"}],"kind":"symbol","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal","url":"\/documentation\/contextsdk\/customsignal","abstract":[],"fragments":[{"text":"protocol","kind":"keyword"},{"kind":"text","text":" "},{"text":"CustomSignal","kind":"identifier"}],"title":"CustomSignal"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/instantContext(flowName:duration:customSignals:)":{"fragments":[{"text":"class","kind":"keyword"},{"kind":"text","text":" "},{"kind":"keyword","text":"func"},{"kind":"text","text":" "},{"text":"instantContext","kind":"identifier"},{"kind":"text","text":"("},{"kind":"externalParam","text":"flowName"},{"text":": ","kind":"text"},{"text":"String","preciseIdentifier":"s:SS","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"duration","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Int","preciseIdentifier":"s:Si"},{"text":", ","kind":"text"},{"kind":"externalParam","text":"customSignals"},{"text":": [","kind":"text"},{"kind":"typeIdentifier","text":"CustomSignal","preciseIdentifier":"s:10ContextSDK12CustomSignalP"},{"text":"]) -> ","kind":"text"},{"text":"Context","kind":"typeIdentifier","preciseIdentifier":"s:10ContextSDK0A0C"}],"abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)","kind":"symbol","url":"\/documentation\/contextsdk\/contextmanager\/instantcontext(flowname:duration:customsignals:)","type":"topic","title":"instantContext(flowName:duration:customSignals:)","role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager":{"role":"symbol","title":"ContextManager","navigatorTitle":[{"text":"ContextManager","kind":"identifier"}],"type":"topic","kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/contextmanager","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"ContextManager"}]}},"variantOverrides":[{"patch":[{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title","op":"replace","value":"ContextManager"},{"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments","value":[{"text":"ContextManager","kind":"identifier"}]},{"op":"replace","value":[{"kind":"identifier","text":"ContextManager"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle"}],"traits":[{"interfaceLanguage":"occ"}]}]}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK0A7ManagerC07instantA08flowName8duration13customSignalsAA0A0CSS_SiSayAA12CustomSignal_pGtFZ",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "instantContext"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "flowName"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "duration"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:Si",
+        "text" : "Int"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "customSignals"
+      },
+      {
+        "kind" : "text",
+        "text" : ": ["
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+        "text" : "CustomSignal"
+      },
+      {
+        "kind" : "text",
+        "text" : "]) -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK0A0C",
+        "text" : "Context"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "instantContext(flowName:duration:customSignals:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@discardableResult"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "instantContext"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "flowName"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "duration"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:Si",
+              "text" : "Int"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "customSignals"
+            },
+            {
+              "kind" : "text",
+              "text" : ": ["
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+              "text" : "CustomSignal"
+            },
+            {
+              "kind" : "text",
+              "text" : "] = []) -> "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK0A0C",
+              "text" : "Context"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "code" : [
+                    "  Get the current context synchronously. The signal may not include all the information, if the duration wasn't reached.",
+                    "  Be sure that the majority of the times when calling this method, the SDK has already had enough time to reach the duration you've set.",
+                    "",
+                    "  - Parameters:",
+                    "      - flowName: A unique name of the upsell flow you want to use ContextSDK for",
+                    "      - duration: By default, we recommend setting this to 3. The duration of accelerometer data that should be used for the current context. This value has to be within (inclusive) 2 and 7 seconds. **Important:** Once you've decided for a specific `duration`, you need to stick with it: Your custom model will be trained and provided for the specific `duration` you've chosen. If you change the `duration` later, you'll need to re-train your custom model.",
+                    "      - customSignals: An array of custom signals you want to add to the context"
+                  ],
+                  "syntax" : null,
+                  "type" : "codeListing"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/instantcontext(flowname:duration:customsignals:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context": {
+  "abstract" : [
+    {
+      "text" : "Represents a full context event in a moment in time. Use ",
+      "type" : "text"
+    },
+    {
+      "code" : ".log",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Log",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object, which allows you to send the context event to the backend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Context"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Context"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Context",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/instantContext(flowName:duration:customSignals:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "instantContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "duration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "instantContext(flowName:duration:customSignals:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/instantcontext(flowname:duration:customsignals:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "protocol"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignal"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignal",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "CustomSignal"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "CustomSignal",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/customsignal"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title",
+        "value" : "ContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

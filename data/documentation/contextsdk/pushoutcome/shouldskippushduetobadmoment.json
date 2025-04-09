@@ -1,1 +1,160 @@
-{"kind":"symbol","variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/pushoutcome\/shouldskippushduetobadmoment"]}],"metadata":{"externalID":"s:10ContextSDK11PushOutcomeO010shouldSkipC14DueToBadMomentyA2CmF","symbolKind":"case","modules":[{"name":"ContextSDK"}],"roleHeading":"Case","title":"PushOutcome.shouldSkipPushDueToBadMoment","role":"symbol","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"kind":"identifier","text":"shouldSkipPushDueToBadMoment"}]},"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldSkipPushDueToBadMoment"},"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"text":"case","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"shouldSkipPushDueToBadMoment"}],"languages":["swift"]}]}],"schemaVersion":{"patch":0,"minor":3,"major":0},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"]]},"sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldSkipPushDueToBadMoment":{"title":"PushOutcome.shouldSkipPushDueToBadMoment","url":"\/documentation\/contextsdk\/pushoutcome\/shouldskippushduetobadmoment","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldSkipPushDueToBadMoment","kind":"symbol","abstract":[],"role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"shouldSkipPushDueToBadMoment","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome":{"url":"\/documentation\/contextsdk\/pushoutcome","role":"symbol","type":"topic","navigatorTitle":[{"text":"PushOutcome","kind":"identifier"}],"kind":"symbol","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome","title":"PushOutcome","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"PushOutcome","kind":"identifier"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldSkipPushDueToBadMoment"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK11PushOutcomeO010shouldSkipC14DueToBadMomentyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "shouldSkipPushDueToBadMoment"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "PushOutcome.shouldSkipPushDueToBadMoment"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "shouldSkipPushDueToBadMoment"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/pushoutcome\/shouldskippushduetobadmoment"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PushOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PushOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PushOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldSkipPushDueToBadMoment": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldSkipPushDueToBadMoment"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldSkipPushDueToBadMoment",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PushOutcome.shouldSkipPushDueToBadMoment",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome\/shouldskippushduetobadmoment"
+}
+}
+}

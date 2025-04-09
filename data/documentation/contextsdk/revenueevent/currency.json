@@ -1,1 +1,234 @@
-{"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"text":"let","kind":"keyword"},{"kind":"text","text":" "},{"text":"currency","kind":"identifier"},{"text":": ","kind":"text"},{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","preciseIdentifier":"s:10ContextSDK8CurrencyO","text":"Currency","kind":"typeIdentifier"}],"languages":["swift"]}]}],"variants":[{"paths":["\/documentation\/contextsdk\/revenueevent\/currency"],"traits":[{"interfaceLanguage":"swift"}]}],"abstract":[{"type":"text","text":"The currency in which this revenue is expressed in."}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent"]]},"schemaVersion":{"minor":3,"major":0,"patch":0},"kind":"symbol","metadata":{"title":"currency","role":"symbol","modules":[{"name":"ContextSDK"}],"externalID":"s:10ContextSDK12RevenueEventV8currencyAA8CurrencyOvp","symbolKind":"property","fragments":[{"text":"let","kind":"keyword"},{"text":" ","kind":"text"},{"text":"currency","kind":"identifier"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10ContextSDK8CurrencyO","kind":"typeIdentifier","text":"Currency"}],"roleHeading":"Instance Property"},"sections":[],"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent\/currency","interfaceLanguage":"swift"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency":{"navigatorTitle":[{"kind":"identifier","text":"Currency"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency","abstract":[{"text":"An exhaustive list for all active currency codes according to the ISO 4217 standard.","type":"text"}],"type":"topic","kind":"symbol","fragments":[{"kind":"keyword","text":"enum"},{"text":" ","kind":"text"},{"text":"Currency","kind":"identifier"}],"url":"\/documentation\/contextsdk\/currency","role":"symbol","title":"Currency"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent":{"url":"\/documentation\/contextsdk\/revenueevent","type":"topic","abstract":[{"type":"text","text":"Represents an event that generated revenue, e.g. an ad impression, a donation, a tip, etc."}],"role":"symbol","kind":"symbol","navigatorTitle":[{"text":"RevenueEvent","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent","title":"RevenueEvent","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"RevenueEvent","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent/currency":{"kind":"symbol","title":"currency","url":"\/documentation\/contextsdk\/revenueevent\/currency","role":"symbol","type":"topic","fragments":[{"kind":"keyword","text":"let"},{"text":" ","kind":"text"},{"text":"currency","kind":"identifier"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","text":"Currency","preciseIdentifier":"s:10ContextSDK8CurrencyO"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent\/currency","abstract":[{"type":"text","text":"The currency in which this revenue is expressed in."}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "The currency in which this revenue is expressed in.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent\/currency"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK12RevenueEventV8currencyAA8CurrencyOvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "currency"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK8CurrencyO",
+        "text" : "Currency"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "currency"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "currency"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK8CurrencyO",
+              "text" : "Currency"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenueevent\/currency"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency": {
+  "abstract" : [
+    {
+      "text" : "An exhaustive list for all active currency codes according to the ISO 4217 standard.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Currency"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/currency"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent": {
+  "abstract" : [
+    {
+      "text" : "Represents an event that generated revenue, e.g. an ad impression, a donation, a tip, etc.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueEvent"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueEvent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueEvent",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenueevent"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent/currency": {
+  "abstract" : [
+    {
+      "text" : "The currency in which this revenue is expressed in.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "currency"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK8CurrencyO",
+      "text" : "Currency"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent\/currency",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "currency",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenueevent\/currency"
+}
+}
+}

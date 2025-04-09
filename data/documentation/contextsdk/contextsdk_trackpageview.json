@@ -1,1 +1,173 @@
-{"schemaVersion":{"major":0,"minor":3,"patch":0},"variants":[{"traits":[{"interfaceLanguage":"occ"}],"paths":["\/documentation\/contextsdk\/contextsdk_trackpageview"]}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"kind":"symbol","identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView","interfaceLanguage":"occ"},"sections":[],"metadata":{"modules":[{"name":"ContextSDK"}],"title":"contextSDK_trackPageView","role":"symbol","roleHeading":"Function","externalID":"c:@M@ContextSDK@F@contextSDK_trackPageView","navigatorTitle":[{"text":"contextSDK_trackPageView","kind":"identifier"}],"symbolKind":"func","fragments":[{"kind":"identifier","text":"contextSDK_trackPageView"}]},"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"extern","kind":"keyword"},{"kind":"text","text":" "},{"kind":"typeIdentifier","text":"void","preciseIdentifier":"c:v"},{"text":" ","kind":"text"},{"kind":"identifier","text":"contextSDK_trackPageView"},{"text":"(","kind":"text"},{"text":"const","kind":"keyword"},{"kind":"text","text":" "},{"text":"char","kind":"typeIdentifier","preciseIdentifier":"c:C"},{"text":" * ","kind":"text"},{"text":"pageNameC","kind":"internalParam"},{"text":", ","kind":"text"},{"text":"int32_t","preciseIdentifier":"c:@T@int32_t","kind":"typeIdentifier"},{"kind":"text","text":" "},{"text":"customSignalsID","kind":"internalParam"},{"text":");","kind":"text"}],"platforms":["iOS"],"languages":["occ"]}]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackPageView":{"kind":"symbol","fragments":[{"text":"contextSDK_trackPageView","kind":"identifier"}],"abstract":[],"title":"contextSDK_trackPageView","role":"symbol","url":"\/documentation\/contextsdk\/contextsdk_trackpageview","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_trackPageView",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_trackPageView"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_trackPageView"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_trackPageView"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_trackPageView"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:C",
+              "text" : "char"
+            },
+            {
+              "kind" : "text",
+              "text" : " * "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "pageNameC"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "customSignalsID"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_trackpageview"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackPageView": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_trackPageView"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_trackPageView",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_trackPageView",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_trackpageview"
+}
+}
+}

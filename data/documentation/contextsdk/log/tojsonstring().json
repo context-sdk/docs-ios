@@ -1,1 +1,279 @@
-{"metadata":{"modules":[{"name":"ContextSDK"}],"platforms":[],"title":"toJSONString()","externalID":"s:10ContextSDK3LogC12toJSONStringSSyF","symbolKind":"method","fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"toJSONString","kind":"identifier"},{"text":"() -> ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"roleHeading":"Instance Method","role":"symbol"},"sections":[],"kind":"symbol","hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"]]},"deprecationSummary":[{"type":"paragraph","inlineContent":[{"type":"text","text":"Use toBase64 or toData instead"}]}],"variants":[{"paths":["\/documentation\/contextsdk\/log\/tojsonstring()"],"traits":[{"interfaceLanguage":"swift"}]}],"schemaVersion":{"patch":0,"major":0,"minor":3},"abstract":[{"text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string","type":"text"},{"type":"text","text":" "},{"text":"This single JSON String can be stored in your own database. Use this method if your backend doesn’t support","type":"text"},{"type":"text","text":" "},{"type":"text","text":"flexible columns, or a high number of columns"}],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"toJSONString","kind":"identifier"},{"text":"() -> ","kind":"text"},{"text":"String","kind":"typeIdentifier","preciseIdentifier":"s:SS"}],"languages":["swift"],"platforms":["iOS"]}]}],"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toJSONString()":{"type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()","kind":"symbol","url":"\/documentation\/contextsdk\/log\/tojsonstring()","title":"toJSONString()","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"toJSONString","kind":"identifier"},{"kind":"text","text":"() -> "},{"preciseIdentifier":"s:SS","text":"String","kind":"typeIdentifier"}],"deprecated":true,"abstract":[{"type":"text","text":"If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string"},{"type":"text","text":" "},{"type":"text","text":"This single JSON String can be stored in your own database. Use this method if your backend doesn’t support"},{"text":" ","type":"text"},{"text":"flexible columns, or a high number of columns","type":"text"}],"role":"symbol"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log":{"navigatorTitle":[{"text":"Log","kind":"identifier"}],"url":"\/documentation\/contextsdk\/log","role":"symbol","title":"Log","type":"topic","fragments":[{"text":"class","kind":"keyword"},{"text":" ","kind":"text"},{"text":"Log","kind":"identifier"}],"abstract":[],"kind":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"value":"Log","op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title"},{"value":[{"text":"Log","kind":"identifier"}],"op":"replace","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments"},{"op":"replace","value":[{"text":"Log","kind":"identifier"}],"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This single JSON String can be stored in your own database. Use this method if your backend doesn’t support",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "flexible columns, or a high number of columns",
+      "type" : "text"
+    }
+  ],
+  "deprecationSummary" : [
+    {
+      "inlineContent" : [
+        {
+          "text" : "Use toBase64 or toData instead",
+          "type" : "text"
+        }
+      ],
+      "type" : "paragraph"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK3LogC12toJSONStringSSyF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "toJSONString"
+      },
+      {
+        "kind" : "text",
+        "text" : "() -> "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "platforms" : [
+
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "toJSONString()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "toJSONString"
+            },
+            {
+              "kind" : "text",
+              "text" : "() -> "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/log\/tojsonstring()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Log"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Log",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toJSONString()": {
+  "abstract" : [
+    {
+      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This single JSON String can be stored in your own database. Use this method if your backend doesn’t support",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "flexible columns, or a high number of columns",
+      "type" : "text"
+    }
+  ],
+  "deprecated" : true,
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "toJSONString"
+    },
+    {
+      "kind" : "text",
+      "text" : "() -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log\/toJSONString()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "toJSONString()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/log\/tojsonstring()"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/title",
+        "value" : "Log"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Log\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Log"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

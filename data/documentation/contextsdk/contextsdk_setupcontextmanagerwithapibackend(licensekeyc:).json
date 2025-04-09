@@ -1,1 +1,218 @@
-{"metadata":{"externalID":"c:(cm)contextSDK_setupContextManagerWithAPIBackendWithLicenseKeyC:","title":"contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)","role":"symbol","fragments":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"contextSDK_setupContextManagerWithAPIBackend","kind":"identifier"},{"text":"(","kind":"text"},{"text":"licenseKeyC","kind":"externalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:SP","text":"UnsafePointer","kind":"typeIdentifier"},{"kind":"text","text":"<"},{"kind":"typeIdentifier","text":"CChar","preciseIdentifier":"s:s5CChara"},{"kind":"text","text":">)"}],"symbolKind":"func","modules":[{"name":"ContextSDK"}],"roleHeading":"Function"},"kind":"symbol","schemaVersion":{"major":0,"minor":3,"patch":0},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)","interfaceLanguage":"swift"},"variants":[{"traits":[{"interfaceLanguage":"swift"}],"paths":["\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend(licensekeyc:)"]}],"primaryContentSections":[{"declarations":[{"tokens":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"contextSDK_setupContextManagerWithAPIBackend"},{"kind":"text","text":"("},{"text":"licenseKeyC","kind":"externalParam"},{"text":": ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"s:SP","text":"UnsafePointer"},{"text":"<","kind":"text"},{"preciseIdentifier":"s:s5CChara","text":"CChar","kind":"typeIdentifier"},{"text":">)","kind":"text"}],"platforms":["iOS"],"languages":["swift"]}],"kind":"declarations"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)":{"type":"topic","url":"\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend(licensekeyc:)","kind":"symbol","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)","role":"symbol","title":"contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)","fragments":[{"text":"func","kind":"keyword"},{"text":" ","kind":"text"},{"text":"contextSDK_setupContextManagerWithAPIBackend","kind":"identifier"},{"text":"(","kind":"text"},{"text":"licenseKeyC","kind":"externalParam"},{"kind":"text","text":": "},{"text":"UnsafePointer","preciseIdentifier":"s:SP","kind":"typeIdentifier"},{"text":"<","kind":"text"},{"kind":"typeIdentifier","text":"CChar","preciseIdentifier":"s:s5CChara"},{"kind":"text","text":">)"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:(cm)contextSDK_setupContextManagerWithAPIBackendWithLicenseKeyC:",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_setupContextManagerWithAPIBackend"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "licenseKeyC"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SP",
+        "text" : "UnsafePointer"
+      },
+      {
+        "kind" : "text",
+        "text" : "<"
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:s5CChara",
+        "text" : "CChar"
+      },
+      {
+        "kind" : "text",
+        "text" : ">)"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_setupContextManagerWithAPIBackend"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "licenseKeyC"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SP",
+              "text" : "UnsafePointer"
+            },
+            {
+              "kind" : "text",
+              "text" : "<"
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:s5CChara",
+              "text" : "CChar"
+            },
+            {
+              "kind" : "text",
+              "text" : ">)"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend(licensekeyc:)"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_setupContextManagerWithAPIBackend"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "licenseKeyC"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SP",
+      "text" : "UnsafePointer"
+    },
+    {
+      "kind" : "text",
+      "text" : "<"
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s5CChara",
+      "text" : "CChar"
+    },
+    {
+      "kind" : "text",
+      "text" : ">)"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_setupcontextmanagerwithapibackend(licensekeyc:)"
+}
+}
+}

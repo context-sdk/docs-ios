@@ -1,1 +1,160 @@
-{"identifier":{"interfaceLanguage":"swift","url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPush"},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"]]},"metadata":{"symbolKind":"case","externalID":"s:10ContextSDK11PushOutcomeO010shouldShowC0yA2CmF","role":"symbol","title":"PushOutcome.shouldShowPush","fragments":[{"kind":"keyword","text":"case"},{"text":" ","kind":"text"},{"text":"shouldShowPush","kind":"identifier"}],"modules":[{"name":"ContextSDK"}],"roleHeading":"Case"},"kind":"symbol","schemaVersion":{"patch":0,"major":0,"minor":3},"primaryContentSections":[{"kind":"declarations","declarations":[{"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"kind":"identifier","text":"shouldShowPush"}],"languages":["swift"]}]}],"variants":[{"paths":["\/documentation\/contextsdk\/pushoutcome\/shouldshowpush"],"traits":[{"interfaceLanguage":"swift"}]}],"sections":[],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome":{"url":"\/documentation\/contextsdk\/pushoutcome","role":"symbol","type":"topic","navigatorTitle":[{"text":"PushOutcome","kind":"identifier"}],"kind":"symbol","abstract":[],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome","title":"PushOutcome","fragments":[{"text":"enum","kind":"keyword"},{"kind":"text","text":" "},{"text":"PushOutcome","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldShowPush":{"title":"PushOutcome.shouldShowPush","url":"\/documentation\/contextsdk\/pushoutcome\/shouldshowpush","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPush","kind":"symbol","abstract":[],"role":"symbol","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"shouldShowPush","kind":"identifier"}]}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPush"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK11PushOutcomeO010shouldShowC0yA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "shouldShowPush"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "PushOutcome.shouldShowPush"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "shouldShowPush"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/pushoutcome\/shouldshowpush"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "PushOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "PushOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "PushOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldShowPush": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldShowPush"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPush",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PushOutcome.shouldShowPush",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome\/shouldshowpush"
+}
+}
+}

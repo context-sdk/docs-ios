@@ -1,1 +1,224 @@
-{"metadata":{"modules":[{"name":"ContextSDK"}],"title":"contextSDK_calibrate","role":"symbol","roleHeading":"Function","externalID":"c:@M@ContextSDK@F@contextSDK_calibrate","navigatorTitle":[{"text":"contextSDK_calibrate","kind":"identifier"}],"symbolKind":"func","fragments":[{"text":"contextSDK_calibrate","kind":"identifier"}]},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"]]},"kind":"symbol","identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_calibrate","interfaceLanguage":"occ"},"sections":[],"primaryContentSections":[{"kind":"declarations","declarations":[{"tokens":[{"kind":"keyword","text":"extern"},{"kind":"text","text":" "},{"text":"void","kind":"typeIdentifier","preciseIdentifier":"c:v"},{"text":" ","kind":"text"},{"text":"contextSDK_calibrate","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"typeIdentifier","text":"int32_t","preciseIdentifier":"c:@T@int32_t"},{"text":" ","kind":"text"},{"text":"contextID","kind":"internalParam"},{"kind":"text","text":", "},{"text":"int32_t","kind":"typeIdentifier","preciseIdentifier":"c:@T@int32_t"},{"text":" ","kind":"text"},{"kind":"internalParam","text":"customSignalsID"},{"text":", ","kind":"text"},{"text":"const","kind":"keyword"},{"text":" ","kind":"text"},{"text":"char","kind":"typeIdentifier","preciseIdentifier":"c:C"},{"text":" * ","kind":"text"},{"text":"flowNameC","kind":"internalParam"},{"text":", ","kind":"text"},{"kind":"typeIdentifier","preciseIdentifier":"c:@T@int32_t","text":"int32_t"},{"kind":"text","text":" "},{"text":"maxDelay","kind":"internalParam"},{"kind":"text","text":", "},{"preciseIdentifier":"c:*Fv(#I)","kind":"typeIdentifier","text":"void (*)(int)"},{"kind":"text","text":" "},{"kind":"internalParam","text":"callback"},{"text":");","kind":"text"}],"platforms":["iOS"],"languages":["occ"]}]}],"schemaVersion":{"patch":0,"minor":3,"major":0},"variants":[{"paths":["\/documentation\/contextsdk\/contextsdk_calibrate"],"traits":[{"interfaceLanguage":"occ"}]}],"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate":{"kind":"symbol","fragments":[{"text":"contextSDK_calibrate","kind":"identifier"}],"abstract":[],"title":"contextSDK_calibrate","role":"symbol","url":"\/documentation\/contextsdk\/contextsdk_calibrate","type":"topic","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_calibrate"}}}
+{
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_calibrate"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_calibrate",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_calibrate"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_calibrate"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_calibrate"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_calibrate"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "contextID"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "customSignalsID"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "const"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:C",
+              "text" : "char"
+            },
+            {
+              "kind" : "text",
+              "text" : " * "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "flowNameC"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@int32_t",
+              "text" : "int32_t"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "maxDelay"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:*Fv(#I)",
+              "text" : "void (*)(int)"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "callback"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_calibrate"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_calibrate"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_calibrate",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_calibrate",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_calibrate"
+}
+}
+}

@@ -1,1 +1,188 @@
-{"abstract":[{"text":"Revenue from users redirected somewhere after clicking an ad.","type":"text"},{"type":"text","text":" "},{"text":"Example: A user clicks on an ad and is taken to a product page, App Store, website, etc.","type":"text"}],"variants":[{"paths":["\/documentation\/contextsdk\/revenuesource\/adclickthrough"],"traits":[{"interfaceLanguage":"swift"}]}],"kind":"symbol","schemaVersion":{"patch":0,"minor":3,"major":0},"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"]]},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"tokens":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"adClickThrough","kind":"identifier"}],"platforms":["iOS"]}]}],"sections":[],"metadata":{"roleHeading":"Case","role":"symbol","modules":[{"name":"ContextSDK"}],"fragments":[{"kind":"keyword","text":"case"},{"kind":"text","text":" "},{"text":"adClickThrough","kind":"identifier"}],"externalID":"s:10ContextSDK13RevenueSourceO14adClickThroughyA2CmF","symbolKind":"case","title":"RevenueSource.adClickThrough"},"identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough","interfaceLanguage":"swift"},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClickThrough":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough","title":"RevenueSource.adClickThrough","kind":"symbol","type":"topic","role":"symbol","abstract":[{"type":"text","text":"Revenue from users redirected somewhere after clicking an ad."},{"type":"text","text":" "},{"type":"text","text":"Example: A user clicks on an ad and is taken to a product page, App Store, website, etc."}],"url":"\/documentation\/contextsdk\/revenuesource\/adclickthrough","fragments":[{"text":"case","kind":"keyword"},{"kind":"text","text":" "},{"text":"adClickThrough","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource":{"url":"\/documentation\/contextsdk\/revenuesource","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource","role":"symbol","fragments":[{"text":"enum","kind":"keyword"},{"text":" ","kind":"text"},{"kind":"identifier","text":"RevenueSource"}],"kind":"symbol","type":"topic","title":"RevenueSource","navigatorTitle":[{"text":"RevenueSource","kind":"identifier"}],"abstract":[{"type":"text","text":"A source of revenue."}]}}}
+{
+  "abstract" : [
+    {
+      "text" : "Revenue from users redirected somewhere after clicking an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user clicks on an ad and is taken to a product page, App Store, website, etc.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13RevenueSourceO14adClickThroughyA2CmF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "case"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "adClickThrough"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "RevenueSource.adClickThrough"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "case"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "adClickThrough"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/revenuesource\/adclickthrough"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource": {
+  "abstract" : [
+    {
+      "text" : "A source of revenue.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueSource"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueSource",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueSource/adClickThrough": {
+  "abstract" : [
+    {
+      "text" : "Revenue from users redirected somewhere after clicking an ad.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Example: A user clicks on an ad and is taken to a product page, App Store, website, etc.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "adClickThrough"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueSource\/adClickThrough",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "RevenueSource.adClickThrough",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenuesource\/adclickthrough"
+}
+}
+}

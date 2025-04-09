@@ -1,1 +1,446 @@
-{"variants":[{"paths":["\/documentation\/contextsdk\/context\/logrevenueoutcome(from:outcome:)-49ixv"],"traits":[{"interfaceLanguage":"swift"}]}],"sections":[],"schemaVersion":{"major":0,"minor":3,"patch":0},"kind":"symbol","identifier":{"url":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-49ixv","interfaceLanguage":"swift"},"primaryContentSections":[{"kind":"declarations","declarations":[{"languages":["swift"],"platforms":["iOS"],"tokens":[{"kind":"keyword","text":"func"},{"text":" ","kind":"text"},{"text":"logRevenueOutcome","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"from"},{"text":" ","kind":"text"},{"text":"event","kind":"internalParam"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10ContextSDK12RevenueEventV","text":"RevenueEvent","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent","kind":"typeIdentifier"},{"text":", ","kind":"text"},{"text":"outcome","kind":"externalParam"},{"kind":"text","text":": "},{"kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@E@EventOutcome","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome","text":"EventOutcome"},{"text":")","kind":"text"}]}]},{"parameters":[{"name":"event","content":[{"type":"paragraph","inlineContent":[{"text":"The revenue event being logged.","type":"text"}]}]},{"name":"outcome","content":[{"type":"paragraph","inlineContent":[{"type":"text","text":"The outcome that this revenue event resulted in."}]}]}],"kind":"parameters"}],"metadata":{"modules":[{"name":"ContextSDK"}],"fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"text":"logRevenueOutcome","kind":"identifier"},{"text":"(","kind":"text"},{"kind":"externalParam","text":"from"},{"kind":"text","text":": "},{"preciseIdentifier":"s:10ContextSDK12RevenueEventV","text":"RevenueEvent","kind":"typeIdentifier"},{"kind":"text","text":", "},{"text":"outcome","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"EventOutcome","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@E@EventOutcome"},{"text":")","kind":"text"}],"roleHeading":"Instance Method","externalID":"s:10ContextSDK0A0C17logRevenueOutcome4from7outcomeyAA0D5EventV_AA0hE0OtF","title":"logRevenueOutcome(from:outcome:)","symbolKind":"method","role":"symbol"},"abstract":[{"text":"Tracks a revenue event, logging an outcome afterwards.","type":"text"}],"hierarchy":{"paths":[["doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context"]]},"references":{"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome":{"title":"EventOutcome","kind":"symbol","abstract":[],"url":"\/documentation\/contextsdk\/eventoutcome","type":"topic","fragments":[{"kind":"keyword","text":"enum"},{"kind":"text","text":" "},{"kind":"identifier","text":"EventOutcome"}],"role":"symbol","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome","navigatorTitle":[{"kind":"identifier","text":"EventOutcome"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK":{"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK","url":"\/documentation\/contextsdk","type":"topic","role":"collection","kind":"symbol","abstract":[],"title":"ContextSDK"},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context":{"role":"symbol","title":"Context","navigatorTitle":[{"text":"Context","kind":"identifier"}],"type":"topic","kind":"symbol","abstract":[{"type":"text","text":"Represents a full context event in a moment in time. Use "},{"code":".log","type":"codeVoice"},{"text":" to create a ","type":"text"},{"code":"Log","type":"codeVoice"},{"text":" object, which allows you to send the context event to the backend.","type":"text"}],"url":"\/documentation\/contextsdk\/context","identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context","fragments":[{"kind":"keyword","text":"class"},{"kind":"text","text":" "},{"text":"Context","kind":"identifier"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcome(from:outcome:)-49ixv":{"abstract":[{"text":"Tracks a revenue event, logging an outcome afterwards.","type":"text"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-49ixv","url":"\/documentation\/contextsdk\/context\/logrevenueoutcome(from:outcome:)-49ixv","type":"topic","kind":"symbol","title":"logRevenueOutcome(from:outcome:)","role":"symbol","fragments":[{"text":"func","kind":"keyword"},{"kind":"text","text":" "},{"kind":"identifier","text":"logRevenueOutcome"},{"text":"(","kind":"text"},{"text":"from","kind":"externalParam"},{"text":": ","kind":"text"},{"preciseIdentifier":"s:10ContextSDK12RevenueEventV","text":"RevenueEvent","kind":"typeIdentifier"},{"kind":"text","text":", "},{"text":"outcome","kind":"externalParam"},{"text":": ","kind":"text"},{"text":"EventOutcome","kind":"typeIdentifier","preciseIdentifier":"c:@M@ContextSDK@E@EventOutcome"},{"text":")","kind":"text"}]},"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent":{"url":"\/documentation\/contextsdk\/revenueevent","type":"topic","abstract":[{"type":"text","text":"Represents an event that generated revenue, e.g. an ad impression, a donation, a tip, etc."}],"role":"symbol","kind":"symbol","navigatorTitle":[{"text":"RevenueEvent","kind":"identifier"}],"identifier":"doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent","title":"RevenueEvent","fragments":[{"text":"struct","kind":"keyword"},{"text":" ","kind":"text"},{"text":"RevenueEvent","kind":"identifier"}]}},"variantOverrides":[{"traits":[{"interfaceLanguage":"occ"}],"patch":[{"value":"EventOutcome","path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title","op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments","value":[{"text":"EventOutcome","kind":"identifier"}],"op":"replace"},{"path":"\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle","value":[{"text":"EventOutcome","kind":"identifier"}],"op":"replace"}]}]}
+{
+  "abstract" : [
+    {
+      "text" : "Tracks a revenue event, logging an outcome afterwards.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-49ixv"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK0A0C17logRevenueOutcome4from7outcomeyAA0D5EventV_AA0hE0OtF",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "logRevenueOutcome"
+      },
+      {
+        "kind" : "text",
+        "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "from"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK12RevenueEventV",
+        "text" : "RevenueEvent"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "outcome"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+        "text" : "EventOutcome"
+      },
+      {
+        "kind" : "text",
+        "text" : ")"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Method",
+    "symbolKind" : "method",
+    "title" : "logRevenueOutcome(from:outcome:)"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "logRevenueOutcome"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "from"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "event"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK12RevenueEventV",
+              "text" : "RevenueEvent"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "outcome"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+              "text" : "EventOutcome"
+            },
+            {
+              "kind" : "text",
+              "text" : ")"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The revenue event being logged.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "event"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The outcome that this revenue event resulted in.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "outcome"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/context\/logrevenueoutcome(from:outcome:)-49ixv"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context": {
+  "abstract" : [
+    {
+      "text" : "Represents a full context event in a moment in time. Use ",
+      "type" : "text"
+    },
+    {
+      "code" : ".log",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " to create a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Log",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object, which allows you to send the context event to the backend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Context"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Context"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Context",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcome(from:outcome:)-49ixv": {
+  "abstract" : [
+    {
+      "text" : "Tracks a revenue event, logging an outcome afterwards.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logRevenueOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12RevenueEventV",
+      "text" : "RevenueEvent"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "outcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-49ixv",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logRevenueOutcome(from:outcome:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logrevenueoutcome(from:outcome:)-49ixv"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "EventOutcome"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "EventOutcome",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/eventoutcome"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent": {
+  "abstract" : [
+    {
+      "text" : "Represents an event that generated revenue, e.g. an ad impression, a donation, a tip, etc.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "RevenueEvent"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "RevenueEvent"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "RevenueEvent",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/revenueevent"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/title",
+        "value" : "EventOutcome"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1EventOutcome\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "EventOutcome"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}
