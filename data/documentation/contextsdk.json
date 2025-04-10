@@ -107,6 +107,14 @@
       "title" : "Functions"
     },
     {
+      "anchor" : "Type-Aliases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextClosure"
+      ],
+      "title" : "Type Aliases"
+    },
+    {
       "anchor" : "Enumerations",
       "generated" : true,
       "identifiers" : [
@@ -275,6 +283,37 @@
   "title" : "Context",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextClosure": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextClosure"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextClosure",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextClosure"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextClosure",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextclosure"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextLoader": {
   "abstract" : [
