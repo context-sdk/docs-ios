@@ -440,6 +440,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/registercontextobserver(flowname:callbackonfirstgoodmoment:)",
+                "title" : "static func registerContextObserver(flowName: String, callbackOnFirstGoodMoment: ContextClosure)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/sdkversion()",
                 "title" : "class func sdkVersion() -> String",
                 "type" : "method"
@@ -507,6 +512,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/trackuseraction(_:customsignals:)",
                 "title" : "class func trackUserAction(String, customSignals: [CustomSignal])",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/unregistercontextobserver(flowname:)",
+                "title" : "static func unregisterContextObserver(flowName: String)",
                 "type" : "method"
               }
             ],
@@ -1010,6 +1020,15 @@
             "path" : "\/documentation\/contextsdk\/contextsdk_trackuseraction(useractionnamec:customsignalsid:)",
             "title" : "func contextSDK_trackUserAction(userActionNameC: UnsafePointer<CChar>, customSignalsID: Int32)",
             "type" : "func"
+          },
+          {
+            "title" : "Type Aliases",
+            "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/contextclosure",
+            "title" : "ContextClosure",
+            "type" : "typealias"
           },
           {
             "title" : "Enumerations",
