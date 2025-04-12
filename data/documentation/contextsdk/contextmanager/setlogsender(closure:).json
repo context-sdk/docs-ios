@@ -164,67 +164,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "items" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "This function takes in a closure that will be called with a ",
-                      "type" : "text"
-                    },
-                    {
-                      "code" : "Log",
-                      "type" : "codeVoice"
-                    },
-                    {
-                      "text" : " object everytime you use ",
-                      "type" : "text"
-                    },
-                    {
-                      "code" : "Context.log(outcome:)",
-                      "type" : "codeVoice"
-                    },
-                    {
-                      "text" : ".  Inside this closure you can send the ",
-                      "type" : "text"
-                    },
-                    {
-                      "code" : "Log",
-                      "type" : "codeVoice"
-                    },
-                    {
-                      "text" : " to your own backend or use the ",
-                      "type" : "text"
-                    },
-                    {
-                      "code" : "Log.send()",
-                      "type" : "codeVoice"
-                    },
-                    {
-                      "text" : " method to send it to the ContextSDK backend. Calling this will replace any previously set log senders.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
-            }
-          ],
-          "type" : "unorderedList"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -262,7 +201,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -357,7 +299,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

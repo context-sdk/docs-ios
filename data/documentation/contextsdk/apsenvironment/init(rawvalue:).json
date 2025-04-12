@@ -142,7 +142,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment": {
   "abstract" : [
-
+    {
+      "text" : "Represents the Apple Push Notification Service (APNS) environment.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

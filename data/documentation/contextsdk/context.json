@@ -5,19 +5,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -161,19 +154,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -293,7 +279,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/createdAt": {
   "abstract" : [
     {
-      "text" : "The exact timestamp of when this context was created",
+      "text" : "The exact timestamp of when this context was created.",
       "type" : "text"
     }
   ],
@@ -676,15 +662,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/shouldUpsell": {
   "abstract" : [
     {
-      "text" : "Check if you now is a good time to show an upsell prompt. During calibration phase, this will always be ",
-      "type" : "text"
-    },
-    {
-      "code" : "true",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "Whether it’s a good time to show an upsell prompt.",
       "type" : "text"
     }
   ],
@@ -721,7 +699,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/validate()": {
   "abstract" : [
     {
-      "text" : "Call this method to do a local validation of your ContextSDK setup",
+      "text" : "Checks your ContextSDK setup using local validations and generates messages that help you debug potential SDK setup issues.",
       "type" : "text"
     }
   ],

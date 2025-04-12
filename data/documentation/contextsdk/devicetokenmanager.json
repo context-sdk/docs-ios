@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Responsible for registering and sending the push token, tied together with the user ID.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -118,7 +124,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
   "abstract" : [
-
+    {
+      "text" : "Responsible for registering and sending the push token, tied together with the user ID.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -149,7 +158,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager/setDeviceToken(_:pushEnvironment:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets the device token used for push notifications.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -208,7 +220,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager/setUserId(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets the unique identifier for the current user.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

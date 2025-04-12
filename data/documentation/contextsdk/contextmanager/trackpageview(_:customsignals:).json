@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Tracks a page view event. Use this to collect real-world context alongside user screen navigation actions.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -160,31 +166,37 @@
       "kind" : "declarations"
     },
     {
-      "content" : [
+      "kind" : "parameters",
+      "parameters" : [
         {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "items" : [
+          "content" : [
             {
-              "content" : [
+              "inlineContent" : [
                 {
-                  "code" : [
-                    "  Call this method to track a generic page view. Using this allows us to provide you with insights on how your app behaves in the real-world context"
-                  ],
-                  "syntax" : null,
-                  "type" : "codeListing"
+                  "text" : "An identifier for this page view.",
+                  "type" : "text"
                 }
-              ]
+              ],
+              "type" : "paragraph"
             }
           ],
-          "type" : "unorderedList"
+          "name" : "pageName"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An array of custom signals to be added to the event.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "customSignals"
         }
-      ],
-      "kind" : "content"
+      ]
     }
   ],
   "schemaVersion" : {
@@ -222,7 +234,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -253,7 +268,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/trackPageView(_:customSignals:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a page view event. Use this to collect real-world context alongside user screen navigation actions.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -316,7 +334,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Handles incoming remote notifications received in the background.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -219,6 +225,75 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The contents of the remote notification.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "userInfo"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A block to execute when the operation is complete.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "completionHandler"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "",
+              "type" : "text"
+            },
+            {
+              "code" : "true",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " if ContextSDK handled the notification; ",
+              "type" : "text"
+            },
+            {
+              "code" : "false",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " if it should be handled by your app.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -227,30 +302,54 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Call this method as part of your AppDelegate’s application:didReceiveRemoteNotification:fetchCompletionHandler method",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : " ",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : "Will return true and will call the completion handler if ContextSDK processed this notification, will return false and not call the completionHandler if this notification should be processed by your code.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
+              "text" : "Call this method from your implementation of ",
+              "type" : "text"
+            },
+            {
+              "code" : "application(_:didReceiveRemoteNotification:fetchCompletionHandler:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "If the notification was processed by ContextSDK, this method returns ",
+              "type" : "text"
+            },
+            {
+              "code" : "true",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " and automatically calls the provided ",
+              "type" : "text"
+            },
+            {
+              "code" : "completionHandler",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ". Otherwise, it returns ",
+              "type" : "text"
+            },
+            {
+              "code" : "false",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " and leaves the handling to your app.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -291,7 +390,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -322,7 +424,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)": {
   "abstract" : [
-
+    {
+      "text" : "Handles incoming remote notifications received in the background.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

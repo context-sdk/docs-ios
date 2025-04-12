@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Optional outcome: The user has tapped on the ad, and followed any external link provided.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -118,7 +124,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -149,7 +158,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveAdTapped": {
   "abstract" : [
-
+    {
+      "text" : "Optional outcome: The user has tapped on the ad, and followed any external link provided.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

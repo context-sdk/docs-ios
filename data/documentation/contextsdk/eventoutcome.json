@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -78,6 +84,52 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Use this enum to categorize the outcomes of user interactions with features like ads, banners, and upsell prompts.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "The values provide varying levels of granularity for both positive and negative signals. If a given flow only has 2 possible outcomes, we recommend using simply ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/positive",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " and ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/negative",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -184,9 +236,207 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logIfNotLoggedYet(_:)": {
+  "abstract" : [
+    {
+      "text" : "Use this function to log an outcome only if this particular context object hasn’t been logged yet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logIfNotLoggedYet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logIfNotLoggedYet(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logIfNotLoggedYet(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logifnotloggedyet(_:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/shouldUpsell": {
+  "abstract" : [
+    {
+      "text" : "Whether it’s a good time to show an upsell prompt.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldUpsell"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldUpsell",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/shouldupsell"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/optimize(flowName:maxDelay:customSignals:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new context (asynchronously).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "optimize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "maxDelay"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : "))"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "optimize(flowName:maxDelay:customSignals:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/optimize(flowname:maxdelay:customsignals:callback:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -278,31 +528,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negative": {
   "abstract" : [
     {
-      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
-      "type" : "text"
-    },
-    {
-      "code" : ".shouldUpsell",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " is false). Logging this explicitly is not required if you use ",
-      "type" : "text"
-    },
-    {
-      "code" : "ContextManager.optimize(…)",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " or ",
-      "type" : "text"
-    },
-    {
-      "code" : "ContextManager.calibrate(…)",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " as it will be handled by ContextSDK automatically.",
+      "text" : "A generic, negative signal. Use this for the basic ContextSDK integration, on a user e.g. declining or dismissing an upsell prompt.",
       "type" : "text"
     }
   ],
@@ -336,15 +562,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeDismissed": {
   "abstract" : [
     {
-      "text" : "Optional outcome: Use this as a negative signal of a user not interacting with e.g. a banner. Depending on your app, we may recommend to log this when the app is put into the background, and hasn’t interacted with a banner in any way. This can be done using the ",
-      "type" : "text"
-    },
-    {
-      "code" : "logIfNotLoggedYet",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " method",
+      "text" : "Optional outcome: The user has actively dismissed the banner (e.g. using a close button).",
       "type" : "text"
     }
   ],
@@ -378,7 +596,16 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeNotInteracted": {
   "abstract" : [
     {
-      "text" : "A generic, negative signal. Use this for the basic ContextSDK integration, on a user e.g. declining or dismissing an upsell prompt",
+      "text" : "Optional outcome: Use this as a negative signal of a user not interacting with e.g. a banner. Depending on your app, we may recommend to log this when the app is put into the background, and hasn’t interacted with a banner in any way. This can be done using the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logIfNotLoggedYet(_:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " method.",
       "type" : "text"
     }
   ],
@@ -412,7 +639,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positive": {
   "abstract" : [
     {
-      "text" : "Optional outcome: The user has tapped on the banner, and started the purchase flow, or read more about the offer",
+      "text" : "The default signal. A generic, positive signal. Use this for the basic ContextSDK integration, e.g. when showing an upsell prompt.",
       "type" : "text"
     }
   ],
@@ -445,7 +672,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveAdTapped": {
   "abstract" : [
-
+    {
+      "text" : "Optional outcome: The user has tapped on the ad, and followed any external link provided.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -477,7 +707,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveConverted": {
   "abstract" : [
     {
-      "text" : "Optional outcome: The user has tapped on the ad, and followed any external link provided.",
+      "text" : "Optional outcome: The user ended up successfully purchasing the product (all the way through the payment flow).",
       "type" : "text"
     }
   ],
@@ -511,7 +741,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveInteracted": {
   "abstract" : [
     {
-      "text" : "Optional outcome: The user ended up successfully purchasing the product (all the way through the payment flow)",
+      "text" : "Optional outcome: The user has tapped on the banner, and started the purchase flow, or read more about the offer.",
       "type" : "text"
     }
   ],
@@ -545,7 +775,25 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/skipped": {
   "abstract" : [
     {
-      "text" : "The default signal. A generic, positive signal. Use this for the basic ContextSDK integration, e.g. when showing an upsell prompt.",
+      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is false). Logging this explicitly is not required if you use ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " as it will be handled by ContextSDK automatically.",
       "type" : "text"
     }
   ],

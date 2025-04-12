@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Optional outcome: The user ended up successfully purchasing the product (all the way through the payment flow)",
+      "text" : "Optional outcome: The user has tapped on the banner, and started the purchase flow, or read more about the offer.",
       "type" : "text"
     }
   ],
@@ -124,7 +124,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -156,7 +159,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/positiveInteracted": {
   "abstract" : [
     {
-      "text" : "Optional outcome: The user ended up successfully purchasing the product (all the way through the payment flow)",
+      "text" : "Optional outcome: The user has tapped on the banner, and started the purchase flow, or read more about the offer.",
       "type" : "text"
     }
   ],

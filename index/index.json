@@ -297,6 +297,45 @@
                 "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)",
                 "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool)",
                 "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enableautomaticapplaunchbehaviourlogging",
+                "title" : "let enableAutomaticAppLaunchBehaviourLogging: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enableautomaticappstartandendtracking",
+                "title" : "let enableAutomaticAppStartAndEndTracking: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enableerrorreporting",
+                "title" : "let enableErrorReporting: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enableinstantcontext",
+                "title" : "let enableInstantContext: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enablescreenshotmonitoring",
+                "title" : "let enableScreenshotMonitoring: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enablesessiondurationmonitoring",
+                "title" : "let enableSessionDurationMonitoring: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/enabletouchbehaviourmonitoring",
+                "title" : "let enableTouchBehaviourMonitoring: Bool",
+                "type" : "property"
               }
             ],
             "path" : "\/documentation\/contextsdk\/configuration",

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -120,7 +126,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -151,7 +160,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)": {
   "abstract" : [
-
+    {
+      "text" : "Handles incoming remote notifications received in the background.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -236,7 +248,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setDeviceToken(_:pushEnvironment:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets the device token used for push notifications.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -304,7 +319,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setUserId(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets the unique identifier for the current user.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -355,7 +373,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/userNotificationCenterDidReceiveResponse(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Handles user interactions with push notifications.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,42 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method can be used when you need the exact columns your backend or database requires the exact columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method will append a ",
-      "type" : "text"
-    },
-    {
-      "code" : "ctx_custom_signals",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " column, that contains all custom signals.",
-      "type" : "text"
-    }
-  ],
   "deprecationSummary" : [
     {
       "inlineContent" : [
@@ -196,7 +158,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -227,42 +192,7 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionaryWithStaticColumns()": {
   "abstract" : [
-    {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method can be used when you need the exact columns your backend or database requires the exact columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method will append a ",
-      "type" : "text"
-    },
-    {
-      "code" : "ctx_custom_signals",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " column, that contains all custom signals.",
-      "type" : "text"
-    }
+
   ],
   "deprecated" : true,
   "fragments" : [

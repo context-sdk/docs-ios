@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The current version of the ContextSDK.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -117,28 +123,19 @@
     {
       "content" : [
         {
-          "anchor" : "discussion",
+          "anchor" : "return-value",
           "level" : 2,
-          "text" : "Discussion",
+          "text" : "Return Value",
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Call this method to get the current version of the ContextSDK",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
+              "text" : "A string with the current version of the SDK, following the semantic versioning format, e.g. “5.4.0”.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -189,7 +186,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -220,7 +220,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/sdkVersion()": {
   "abstract" : [
-
+    {
+      "text" : "The current version of the ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -357,6 +360,30 @@
             }
           ],
           "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/1",
+        "value" : {
+          "content" : [
+            {
+              "anchor" : "return-value",
+              "level" : 2,
+              "text" : "Return Value",
+              "type" : "heading"
+            },
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A string with the current version of the SDK, following the semantic versioning format, e.g. “5.4.0”.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "kind" : "content"
         }
       },
       {

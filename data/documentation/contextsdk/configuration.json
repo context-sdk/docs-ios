@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A customizable object that defines the settings and preferences used to initialize ContextSDK.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -119,6 +125,20 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)"
       ],
       "title" : "Initializers"
+    },
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableAutomaticAppLaunchBehaviourLogging",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableAutomaticAppStartAndEndTracking",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableErrorReporting",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableInstantContext",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableScreenshotMonitoring",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableSessionDurationMonitoring",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableTouchBehaviourMonitoring"
+      ],
+      "title" : "Instance Properties"
     }
   ],
   "variants" : [
@@ -168,7 +188,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
   "abstract" : [
-
+    {
+      "text" : "A customizable object that defines the settings and preferences used to initialize ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -197,9 +220,367 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/configuration"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableAutomaticAppLaunchBehaviourLogging": {
+  "abstract" : [
+    {
+      "text" : "Logs how often and when users launch the app. Metrics are stored locally using ",
+      "type" : "text"
+    },
+    {
+      "code" : "NSUserDefaults",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", and only aggregated data (e.g., daily app launch counts) is used. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableAutomaticAppLaunchBehaviourLogging"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableAutomaticAppLaunchBehaviourLogging",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableAutomaticAppLaunchBehaviourLogging",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enableautomaticapplaunchbehaviourlogging"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableAutomaticAppStartAndEndTracking": {
+  "abstract" : [
+    {
+      "text" : "Sends a single ContextSDK event when your app launches and when it transitions to the background. This enables deeper insights into contexts that positively influence session durations and upsells. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableAutomaticAppStartAndEndTracking"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableAutomaticAppStartAndEndTracking",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableAutomaticAppStartAndEndTracking",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enableautomaticappstartandendtracking"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableErrorReporting": {
+  "abstract" : [
+    {
+      "text" : "Enables reporting of unexpected errors back to ContextSDK. These reports help ensure smooth rollouts of new Machine Learning Models over the air. If issues arise while parsing CoreML models, errors are reported while the system falls back to a default model for uninterrupted operation. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableErrorReporting"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableErrorReporting",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableErrorReporting",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enableerrorreporting"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableInstantContext": {
+  "abstract" : [
+    {
+      "text" : "Enables instant context support. When ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ContextSDK allows decisions to be made shortly after launch, using approximately 2% of a single CPU core continuously (e.g., ~0.33% total CPU usage on a 6-core device). Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableInstantContext"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableInstantContext",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableInstantContext",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enableinstantcontext"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableScreenshotMonitoring": {
+  "abstract" : [
+    {
+      "text" : "Tracks the number of screenshots taken during the current session. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableScreenshotMonitoring"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableScreenshotMonitoring",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableScreenshotMonitoring",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enablescreenshotmonitoring"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableSessionDurationMonitoring": {
+  "abstract" : [
+    {
+      "text" : "Logs the duration of the current session in seconds. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableSessionDurationMonitoring"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableSessionDurationMonitoring",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableSessionDurationMonitoring",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enablesessiondurationmonitoring"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableTouchBehaviourMonitoring": {
+  "abstract" : [
+    {
+      "text" : "Determines whether touch behaviour monitoring is enabled. This uses a ",
+      "type" : "text"
+    },
+    {
+      "code" : "UITapGestureRecognizer",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " that always immediately returns ",
+      "type" : "text"
+    },
+    {
+      "code" : "false",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ", ensuring no impact on your app. Only the total count of touches is sent, without any interaction details. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "true",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "enableTouchBehaviourMonitoring"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableTouchBehaviourMonitoring",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "enableTouchBehaviourMonitoring",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/enabletouchbehaviourmonitoring"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)": {
   "abstract" : [
-
+    {
+      "text" : "Initializes a new ",
+      "type" : "text"
+    },
+    {
+      "code" : "Configuration",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

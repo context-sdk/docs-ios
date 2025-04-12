@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Indicates that the push notification should be displayed.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -102,7 +108,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents the possible outcomes of evaluating whether to show a push notification.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -133,7 +142,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldShowPush": {
   "abstract" : [
-
+    {
+      "text" : "Indicates that the push notification should be displayed.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

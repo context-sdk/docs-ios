@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Get the current context asynchronously.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -255,6 +261,67 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A unique name used to identify the context being created.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "flowName"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The duration of accelerometer data that should be used for the current context, expressed in seconds. This value has to be within 2 and 7 seconds (inclusive). We recommend setting this value to 3, which is the default value.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "duration"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An array of custom signals to be added to the context.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "customSignals"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The callback that will be executed once the context is ready. If ContextSDK was already running for the duration provided, this callback will be executed immediately. This callback will be executed asynchronously on the main thread.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "callback"
+        }
+      ]
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -263,26 +330,13 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "code" : [
-                    "  Get the current context asynchronously. ContextSDK will automatically figure out, if a context object can be generated immediately (in that case, your callback is instantly executed), or if it needs to run for a little while, until it's ready to execute your callback. The callback will be excuted on the main thread.",
-                    "",
-                    "  - Parameter:",
-                    "      - flowName: A unique name of the upsell flow you want to use ContextSDK for",
-                    "      - duration: By default, we recommend setting this to 3. The duration of accelerometer data that should be used for the current context. This value has to be within (inclusive) 2 and 7 seconds. **Important:** Once you've decided for a specific `duration`, you need to stick with it: Your custom model will be trained and provided for the specific `duration` you've chosen. If you change the `duration` later, you'll need to re-train your custom model.",
-                    "      - customSignals: An array of custom signals you want to add to the context",
-                    "      - callback: The callback that will be executed once the context is ready. If ContextSDK was already running for the duration provided, your block will be executed immediately."
-                  ],
-                  "syntax" : null,
-                  "type" : "codeListing"
-                }
-              ]
+              "text" : "ContextSDK will automatically figure out if a context object can be generated immediately (in that case, your callback is instantly executed), or if it needs to run for a little while, until it’s ready to execute your callback.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -328,19 +382,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -371,9 +418,53 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/log(_:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to log an outcome and send the context event to the backend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "log"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "log(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/log(_:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -404,7 +495,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Get the current context asynchronously.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -518,7 +612,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

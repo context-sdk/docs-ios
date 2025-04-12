@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -194,7 +200,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -225,7 +234,26 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/applicationDidFinishLaunchingWithOptions(_:licenseKey:)": {
   "abstract" : [
-
+    {
+      "text" : "Initializes ContextSDK. Call this once in your ",
+      "type" : "text"
+    },
+    {
+      "code" : "UIApplicationDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "’s ",
+      "type" : "text"
+    },
+    {
+      "code" : "application:didFinishLaunchingWithOptions:",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " method.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -316,7 +344,26 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/applicationDidFinishLaunchingWithOptions(_:licenseKey:configuration:)": {
   "abstract" : [
-
+    {
+      "text" : "Initializes ContextSDK. Call this once in your ",
+      "type" : "text"
+    },
+    {
+      "code" : "UIApplicationDelegate",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : "’s ",
+      "type" : "text"
+    },
+    {
+      "code" : "application:didFinishLaunchingWithOptions:",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " method.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -530,7 +577,19 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/cancelContextCallback(flowName:)": {
   "abstract" : [
-
+    {
+      "text" : "Call this method if you previously called ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and no longer are interested in receiving the context object.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -584,7 +643,18 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/contextPush()": {
   "abstract" : [
-
+    {
+      "text" : "Returns the shared ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextPush",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " instance used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -626,7 +696,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/currentAppliedCustomModelVersion()": {
   "abstract" : [
-
+    {
+      "text" : "This returns the current applied version of custom models for the current app.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -668,7 +741,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Get the current context asynchronously.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -848,7 +924,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/instantContext(flowName:duration:customSignals:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new context (synchronously), containing signals captured at the moment of calling this method.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -941,7 +1020,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/optimize(flowName:maxDelay:customSignals:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Creates a new context (asynchronously).",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1056,7 +1138,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/recentContext(flowName:)": {
   "abstract" : [
     {
-      "text" : "Fetch the most recently generated Context for a given flowName",
+      "text" : "Returns the most recently created context for the specified flow name. This allows you to log an outcome of a previously created context object, like from a different screen.",
       "type" : "text"
     }
   ],
@@ -1195,7 +1277,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/sdkVersion()": {
   "abstract" : [
-
+    {
+      "text" : "The current version of the ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1243,7 +1328,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setControlMode(enabled:)": {
   "abstract" : [
-
+    {
+      "text" : "When control mode is enabled:",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1297,7 +1385,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:decimalValue:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1368,7 +1459,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:value:)-6cp7d": {
   "abstract" : [
-
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1439,7 +1533,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:value:)-6pc7c": {
   "abstract" : [
-
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1510,7 +1607,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:value:)-8onnm": {
   "abstract" : [
-
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1581,7 +1681,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:value:)-8xovt": {
   "abstract" : [
-
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1958,7 +2061,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/trackEvent(_:customSignals:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a generic event. Use this to collect real-world context alongside events in your app.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2021,7 +2127,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/trackPageView(_:customSignals:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a page view event. Use this to collect real-world context alongside user screen navigation actions.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2084,7 +2193,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/trackUserAction(_:customSignals:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a user action event. Use this to collect real-world context alongside user actions.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

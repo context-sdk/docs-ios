@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -78,35 +84,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "overview",
-          "level" : 2,
-          "text" : "Overview",
-          "type" : "heading"
-        },
-        {
-          "items" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
-            }
-          ],
-          "type" : "unorderedList"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -203,7 +180,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -235,31 +215,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionary()": {
   "abstract" : [
     {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "that you can send to your own analytics backend. Note that this method may return a different number of columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "depending on the number of custom signals you have set, as well as additional signals being added to the ContextSDK with each update",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "Columns are mostly static though and new ones will only ever be appended in the format “ctx_{ID}”",
+      "text" : "Converts the context to a dictionary representation, which can be used to send to your custom analytics backend.",
       "type" : "text"
     }
   ],
@@ -307,42 +263,7 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionaryWithStaticColumns()": {
   "abstract" : [
-    {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary with a fixed number of columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method can be used when you need the exact columns your backend or database requires the exact columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This becomes particularly relevant when you provide custom signals, and your backend doesn’t have flexible columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This method will append a ",
-      "type" : "text"
-    },
-    {
-      "code" : "ctx_custom_signals",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " column, that contains all custom signals.",
-      "type" : "text"
-    }
+
   ],
   "deprecated" : true,
   "fragments" : [
@@ -390,23 +311,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/forFirebase()": {
   "abstract" : [
     {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to log the context data to your Firebase backend",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This will use around ~10-15 custom parameters per event, and will log the full details of the ContextSDK outcome",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "You can use any name for the event, as all required details are already bundled within those custom parameters",
+      "text" : "Prepares the context data for logging to a Firebase backend.",
       "type" : "text"
     }
   ],
@@ -487,7 +392,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toBase64()": {
   "abstract" : [
-
+    {
+      "text" : "Converts the context to a base64-encoded string. This single string can be stored in your own database.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -521,7 +429,18 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toData()": {
   "abstract" : [
-
+    {
+      "text" : "Converts the context to a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Data",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " object. This single blob can be stored in your own database.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -555,26 +474,7 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toJSONString()": {
   "abstract" : [
-    {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This single JSON String can be stored in your own database. Use this method if your backend doesn’t support",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "flexible columns, or a high number of columns",
-      "type" : "text"
-    }
+
   ],
   "deprecated" : true,
   "fragments" : [

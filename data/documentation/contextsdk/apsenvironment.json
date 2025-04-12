@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents the Apple Push Notification Service (APNS) environment.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +76,26 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Use this enum to specify whether push notifications should be sent through the sandbox (development) or production APNS environment.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -162,7 +188,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment": {
   "abstract" : [
-
+    {
+      "text" : "Represents the Apple Push Notification Service (APNS) environment.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -253,7 +282,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/production": {
   "abstract" : [
-
+    {
+      "text" : "The production APNS environment.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -278,7 +310,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/sandbox": {
   "abstract" : [
-
+    {
+      "text" : "The sandbox (development) APNS environment.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

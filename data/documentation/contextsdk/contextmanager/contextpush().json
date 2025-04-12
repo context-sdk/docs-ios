@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Returns the shared ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextPush",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " instance used for managing push notification integration.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -137,7 +151,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -168,7 +185,18 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/contextPush()": {
   "abstract" : [
-
+    {
+      "text" : "Returns the shared ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextPush",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " instance used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -210,7 +238,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
