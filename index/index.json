@@ -2139,6 +2139,15 @@
                 "type" : "init"
               },
               {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/eventoutcome\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "title" : "Default Implementations",
                 "type" : "groupMarker"
               },
