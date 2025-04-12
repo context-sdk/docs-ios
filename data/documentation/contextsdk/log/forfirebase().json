@@ -1,23 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to log the context data to your Firebase backend",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This will use around ~10-15 custom parameters per event, and will log the full details of the ContextSDK outcome",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "You can use any name for the event, as all required details are already bundled within those custom parameters",
+      "text" : "Prepares the context data for logging to a Firebase backend.",
       "type" : "text"
     }
   ],
@@ -131,6 +115,72 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A dictionary where each key is a custom Firebase parameter name, and each value is a partial base64-encoded chunk of the ContextSDK outcome data.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Use this method when using Firebase as a backend, instead of our cloud-based service.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "The data will be logged using approximately 10–15 custom parameters per event, and it includes all the details required to analyze the ContextSDK outcome.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Example:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let firebaseData = log.forFirebase()",
+            "firebaseAnalytics.logEvent(\"context_event\", parameters: firebaseData)"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -168,7 +218,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -200,23 +253,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/forFirebase()": {
   "abstract" : [
     {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to log the context data to your Firebase backend",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This will use around ~10-15 custom parameters per event, and will log the full details of the ContextSDK outcome",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "You can use any name for the event, as all required details are already bundled within those custom parameters",
+      "text" : "Prepares the context data for logging to a Firebase backend.",
       "type" : "text"
     }
   ],

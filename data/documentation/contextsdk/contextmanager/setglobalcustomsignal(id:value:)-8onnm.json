@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -159,6 +165,39 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A unique ID used to identify the custom signal.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "id"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The value of the custom signal.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "value"
+        }
+      ]
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -167,24 +206,38 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "code" : [
-                    "  Set custom signals that will be used for all ContextSDK events on this instance. We recommend using this to provide generic information that's applicable to all calls, like any AB test information, or other data that may be relevant to calculate the likelihood of an event. Please be sure to not include any PII or other potentially sensitive information. You can overwrite values by using the same id again.",
-                    "",
-                    "  - Parameters:",
-                    "      - id: The unique id of the custom signal. This id will be used to identify the custom signal in the ContextSDK backend.",
-                    "      - value: The value of the custom signal"
-                  ],
-                  "syntax" : null,
-                  "type" : "codeListing"
-                }
-              ]
+              "text" : "We recommend using this to provide generic information that’s applicable to all calls, like any A\/B test information, or other data that may be relevant to calculate the likelihood of an event.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "You can overwrite values by using the same ID again.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Please be sure to not include any PII or other potentially sensitive information.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Important",
+          "style" : "important",
+          "type" : "aside"
         }
       ],
       "kind" : "content"
@@ -225,7 +278,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -256,7 +312,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:value:)-8onnm": {
   "abstract" : [
-
+    {
+      "text" : "Sets custom signals that will be used for all ContextSDK events on this instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

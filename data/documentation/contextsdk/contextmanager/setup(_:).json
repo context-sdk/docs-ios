@@ -158,53 +158,6 @@
         }
       ],
       "kind" : "declarations"
-    },
-    {
-      "content" : [
-        {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "items" : [
-            {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Call this once in your AppDelegate willFinishLaunchingWithOptions method to use with the official ContextSDK backend",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                },
-                {
-                  "items" : [
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter licenseKey: Your personal ContextSDK license key specific to the current bundle id.",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    }
-                  ],
-                  "type" : "unorderedList"
-                }
-              ]
-            }
-          ],
-          "type" : "unorderedList"
-        }
-      ],
-      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -252,7 +205,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

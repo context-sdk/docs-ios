@@ -94,8 +94,9 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "logRevenueOutcome(from:outcome:)-from:Product-outcome:EventOutcome",
-                  "type" : "codeVoice"
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-43krq",
+                  "isActive" : true,
+                  "type" : "reference"
                 }
               ],
               "type" : "paragraph"
@@ -161,6 +162,72 @@
   "title" : "ContextSDK",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcome(from:outcome:)-43krq": {
+  "abstract" : [
+    {
+      "text" : "Tracks an in-app purchase, logging an outcome afterwards.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logRevenueOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8StoreKit7ProductV",
+      "text" : "Product"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "outcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-43krq",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logRevenueOutcome(from:outcome:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logrevenueoutcome(from:outcome:)-43krq"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/RevenueEvent": {
   "abstract" : [

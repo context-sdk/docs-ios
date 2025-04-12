@@ -1,26 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This single JSON String can be stored in your own database. Use this method if your backend doesn’t support",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "flexible columns, or a high number of columns",
-      "type" : "text"
-    }
-  ],
   "deprecationSummary" : [
     {
       "inlineContent" : [
@@ -156,7 +134,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -187,26 +168,7 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/toJSONString()": {
   "abstract" : [
-    {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a JSON string",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "This single JSON String can be stored in your own database. Use this method if your backend doesn’t support",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "flexible columns, or a high number of columns",
-      "type" : "text"
-    }
+
   ],
   "deprecated" : true,
   "fragments" : [

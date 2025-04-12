@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Handles user interactions with push notifications.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -125,6 +131,25 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The user’s response to the notification.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "response"
+        }
+      ]
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -133,30 +158,30 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Call this method as part of your AppDelegate’s userNotificationCenter:didReceive:withCompletionHandler method",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : " ",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : "This is necessary to let ContextSDK know which push notification was opened by the user, to be able to improve your custom machine learning model, and to provide performance insights",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
+              "text" : "Call this method from your implementation of ",
+              "type" : "text"
+            },
+            {
+              "code" : "userNotificationCenter(_:didReceive:withCompletionHandler:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ".",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This allows ContextSDK to track which notifications were opened by the user, improving your custom machine learning model and providing insights into notification performance.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -197,7 +222,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -228,7 +256,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/userNotificationCenterDidReceiveResponse(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Handles user interactions with push notifications.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

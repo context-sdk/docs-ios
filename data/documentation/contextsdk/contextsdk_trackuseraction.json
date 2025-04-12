@@ -1,4 +1,22 @@
 {
+  "abstract" : [
+    {
+      "text" : "Tracks a user action with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -117,6 +135,39 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A C-style string representing the user action name.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "userActionNameC"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The ID of the custom signals to associate with the action.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "customSignalsID"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -154,7 +205,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackUserAction": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a user action with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,4 +1,18 @@
 {
+  "abstract" : [
+    {
+      "text" : "Initializes a new ",
+      "type" : "text"
+    },
+    {
+      "code" : "Configuration",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " instance.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -297,136 +311,195 @@
       "kind" : "declarations"
     },
     {
-      "content" : [
+      "kind" : "parameters",
+      "parameters" : [
         {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "items" : [
+          "content" : [
             {
-              "content" : [
+              "inlineContent" : [
                 {
-                  "items" : [
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableTouchBehaviourMonitoring: Count the number of touches: Uses a ",
-                              "type" : "text"
-                            },
-                            {
-                              "code" : "UITapGestureRecognizer",
-                              "type" : "codeVoice"
-                            },
-                            {
-                              "text" : ", that will always immediately ",
-                              "type" : "text"
-                            },
-                            {
-                              "code" : "return false",
-                              "type" : "codeVoice"
-                            },
-                            {
-                              "text" : " to not have any impact on your app. We don’t send any details on those interactions, besides the total count",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    },
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableSessionDurationMonitoring: Logs the number of seconds of the current session",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    },
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableScreenshotMonitoring: Counts the number of screenshots taken during the current session",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    },
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableAutomaticAppStartAndEndTracking: Send a single ContextSDK event when your app is launched, and when it’s put into the background. This allows us to provide you with more in-depth insights on what contexts have a positive effect on session durations and upsells",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    },
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableAutomaticAppLaunchBehaviourLogging: Keeps track of how often, and when users launch the app. This is stored locally using NSUserDefaults, and only aggregated metrics (like how many times the app was launched today) will be used",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    },
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableErrorReporting: When true, ContextSDK will report unexpected errors back to us. Those are mostly to ensure smooth rollouts of new Machine Learning Models over the air. Since CoreML models may introduce issues while parsing them, we’d then report those errors back to us, while also falling back to the default model to guarantee smooth operations",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    },
-                    {
-                      "content" : [
-                        {
-                          "inlineContent" : [
-                            {
-                              "text" : "Parameter enableInstantContext: Defaults to true. When true ContextSDK will enable instant context support, allowing you to make decisions instantly if the app has been running a few seconds. While instant context is enabled ContextSDK will use around 2% of a single CPU core continually. (e.g. for an iPhone with 6 cores, that means a total of 0.33% CPU usage)",
-                              "type" : "text"
-                            }
-                          ],
-                          "type" : "paragraph"
-                        }
-                      ]
-                    }
-                  ],
-                  "type" : "unorderedList"
+                  "text" : "Determines whether touch behaviour monitoring is enabled. This uses a ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "UITapGestureRecognizer",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " that always immediately returns ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "false",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ", ensuring no impact on your app. Only the total count of touches is sent, without any interaction details. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
                 }
-              ]
+              ],
+              "type" : "paragraph"
             }
           ],
-          "type" : "unorderedList"
+          "name" : "enableTouchBehaviourMonitoring"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Logs the duration of the current session in seconds. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enableSessionDurationMonitoring"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Tracks the number of screenshots taken during the current session. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enableScreenshotMonitoring"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Sends a single ContextSDK event when your app launches and when it transitions to the background. This enables deeper insights into contexts that positively influence session durations and upsells. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enableAutomaticAppStartAndEndTracking"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Logs how often and when users launch the app. Metrics are stored locally using ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "NSUserDefaults",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ", and only aggregated data (e.g., daily app launch counts) is used. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enableAutomaticAppLaunchBehaviourLogging"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Enables reporting of unexpected errors back to ContextSDK. These reports help ensure smooth rollouts of new Machine Learning Models over the air. If issues arise while parsing CoreML models, errors are reported while the system falls back to a default model for uninterrupted operation. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enableErrorReporting"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Enables instant context support. When ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ", ContextSDK allows decisions to be made shortly after launch, using approximately 2% of a single CPU core continuously (e.g., ~0.33% total CPU usage on a 6-core device). Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "true",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enableInstantContext"
         }
-      ],
-      "kind" : "content"
+      ]
     }
   ],
   "schemaVersion" : {
@@ -464,7 +537,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
   "abstract" : [
-
+    {
+      "text" : "A customizable object that defines the settings and preferences used to initialize ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -495,7 +571,18 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:)": {
   "abstract" : [
-
+    {
+      "text" : "Initializes a new ",
+      "type" : "text"
+    },
+    {
+      "code" : "Configuration",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " instance.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

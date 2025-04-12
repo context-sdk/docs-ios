@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +76,91 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Conforming types define a unique signal identified by an ID and its associated value.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "These signals can be used to pass additional context or metadata in events.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "items" : [
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Properties:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                },
+                {
+                  "items" : [
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "id: A unique identifier for the custom signal.",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    },
+                    {
+                      "content" : [
+                        {
+                          "inlineContent" : [
+                            {
+                              "text" : "value: The value associated with the signal, conforming to ",
+                              "type" : "text"
+                            },
+                            {
+                              "code" : "Encodable",
+                              "type" : "codeVoice"
+                            },
+                            {
+                              "text" : ".",
+                              "type" : "text"
+                            }
+                          ],
+                          "type" : "paragraph"
+                        }
+                      ]
+                    }
+                  ],
+                  "type" : "unorderedList"
+                }
+              ]
+            }
+          ],
+          "type" : "unorderedList"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -132,7 +223,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -163,7 +257,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal/id": {
   "abstract" : [
-
+    {
+      "text" : "The unique identifier for the custom signal.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -198,7 +295,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal/value": {
   "abstract" : [
-
+    {
+      "text" : "The value associated with the custom signal.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -233,7 +333,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a boolean.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -264,7 +367,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalDecimal": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a decimal number.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -295,7 +401,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a floating-point number.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -326,7 +435,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalInt": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is an integer.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -357,7 +469,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalString": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a string.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

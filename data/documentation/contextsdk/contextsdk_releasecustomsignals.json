@@ -1,4 +1,22 @@
 {
+  "abstract" : [
+    {
+      "text" : "Releases the custom signals associated with the given context ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -92,6 +110,25 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The ID of the context whose custom signals should be released.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "contextID"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -129,7 +166,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseCustomSignals": {
   "abstract" : [
-
+    {
+      "text" : "Releases the custom signals associated with the given context ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Sets the unique identifier for the current user.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -144,6 +150,54 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A unique string that identifies the current user in your system.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "userId"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " instance for chaining additional configuration calls.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -152,22 +206,13 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Provide your unique user ID for the current user to support context-aware push notifications in your app. This will be used to let the server associate the push token with its user, enabling the ContextSDK push server to deliver the right message to the right user",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
+              "text" : "Call this method to provide the user ID associated with the current app session. This allows ContextSDK to associate the device token with the correct user on the server, enabling context-aware push delivery.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -208,7 +253,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -239,7 +287,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setUserId(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets the unique identifier for the current user.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -290,7 +341,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
   "abstract" : [
-
+    {
+      "text" : "Responsible for registering and sending the push token, tied together with the user ID.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

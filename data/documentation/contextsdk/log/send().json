@@ -116,7 +116,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

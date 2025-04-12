@@ -139,7 +139,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "An array of outcome metadata being logged.",
+                  "text" : "An array of outcome metadata that is going to be appended to the outcome.",
                   "type" : "text"
                 }
               ],
@@ -176,8 +176,9 @@
                   "type" : "text"
                 },
                 {
-                  "code" : "context.log(…)",
-                  "type" : "codeVoice"
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+                  "isActive" : true,
+                  "type" : "reference"
                 },
                 {
                   "text" : " at some point after appending outcome metadata to a context.",
@@ -251,19 +252,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -343,9 +337,53 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context\/appendoutcomemetadata(_:)"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/log(_:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to log an outcome and send the context event to the backend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "log"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "log(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/log(_:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

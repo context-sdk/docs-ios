@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "When control mode is enabled:",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -125,6 +131,25 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A Boolean value indicating whether control mode should be enabled.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enabled"
+        }
+      ]
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -139,58 +164,25 @@
                 {
                   "inlineContent" : [
                     {
-                      "text" : "This allows you to enable control mode in ContextSDK (useful for putting ContextSDK into an AB Test). When control mode is enabled, all calls made to ",
+                      "text" : "All calls to ",
                       "type" : "text"
                     },
                     {
-                      "code" : "ContextManager.optimize",
-                      "type" : "codeVoice"
+                      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+                      "isActive" : true,
+                      "type" : "reference"
                     },
                     {
-                      "text" : " will always call the block, and ContextSDK will not make any decisions.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                },
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Disabling control mode will cause ContextSDK to resume making decision with the next created context.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                },
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "We recommend using this approach when putting ContextSDK into an AB test or feature flag.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                },
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "If you use other methods than ",
+                      "text" : " will immediately invoke the provided callback and the ",
                       "type" : "text"
                     },
                     {
-                      "code" : "ContextManager.optimize",
-                      "type" : "codeVoice"
+                      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+                      "isActive" : true,
+                      "type" : "reference"
                     },
                     {
-                      "text" : ", then ",
-                      "type" : "text"
-                    },
-                    {
-                      "code" : "context.shouldUpsell",
-                      "type" : "codeVoice"
-                    },
-                    {
-                      "text" : " will always be ",
+                      "text" : " property will always return ",
                       "type" : "text"
                     },
                     {
@@ -205,9 +197,74 @@
                   "type" : "paragraph"
                 }
               ]
+            },
+            {
+              "content" : [
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "ContextSDK will not evaluate or make decisions.",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "paragraph"
+                }
+              ]
             }
           ],
           "type" : "unorderedList"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "When control mode is disabled, ContextSDK resumes making decisions for newly created contexts.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Recommendation:",
+                  "type" : "text"
+                }
+              ],
+              "type" : "strong"
+            },
+            {
+              "text" : " Use control mode to evaluate ContextSDK’s impact in A\/B tests or when gated by a feature flag.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Example:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "\/\/ A feature flag that determines whether ContextSDK should be used or not.",
+            "ContextManager.setControlMode(enabled: !FeatureFlag.isContextSDKEnabled)"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        },
+        {
+          "code" : [
+            "\/\/ A remote config that assigns A\/B test groups to users",
+            "ContextManager.setControlMode(enabled: RemoteConfig.fetch(for: \"an_experiment\").boolValue)"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
         }
       ],
       "kind" : "content"
@@ -246,9 +303,49 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/shouldUpsell": {
+  "abstract" : [
+    {
+      "text" : "Whether it’s a good time to show an upsell prompt.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldUpsell"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldUpsell",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/shouldupsell"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -277,9 +374,129 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Get the current context asynchronously.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "duration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : "))"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchContext(flowName:duration:customSignals:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setControlMode(enabled:)": {
   "abstract" : [
-
+    {
+      "text" : "When control mode is enabled:",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

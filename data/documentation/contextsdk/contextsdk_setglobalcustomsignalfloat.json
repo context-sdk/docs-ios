@@ -1,4 +1,22 @@
 {
+  "abstract" : [
+    {
+      "text" : "Sets a global custom signal with a floating-point value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -117,6 +135,39 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A C-style string representing the signal ID.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "idC"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The floating-point value to associate with the signal.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "value"
+        }
+      ]
     }
   ],
   "schemaVersion" : {
@@ -154,7 +205,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalFloat": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a floating-point value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

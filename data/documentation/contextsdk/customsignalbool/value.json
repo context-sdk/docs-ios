@@ -1,15 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Inherited from ",
-      "type" : "text"
-    },
-    {
-      "code" : "CustomSignal.value",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : ".",
+      "text" : "The value associated with the custom signal.",
       "type" : "text"
     }
   ],
@@ -134,7 +126,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a boolean.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -165,7 +160,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool/value": {
   "abstract" : [
-
+    {
+      "text" : "The value associated with the custom signal.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

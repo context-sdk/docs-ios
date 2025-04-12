@@ -1,7 +1,16 @@
 {
   "abstract" : [
     {
-      "text" : "A generic, negative signal. Use this for the basic ContextSDK integration, on a user e.g. declining or dismissing an upsell prompt",
+      "text" : "Optional outcome: Use this as a negative signal of a user not interacting with e.g. a banner. Depending on your app, we may recommend to log this when the app is put into the background, and hasn’t interacted with a banner in any way. This can be done using the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logIfNotLoggedYet(_:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " method.",
       "type" : "text"
     }
   ],
@@ -122,9 +131,53 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logIfNotLoggedYet(_:)": {
+  "abstract" : [
+    {
+      "text" : "Use this function to log an outcome only if this particular context object hasn’t been logged yet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logIfNotLoggedYet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logIfNotLoggedYet(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logIfNotLoggedYet(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logifnotloggedyet(_:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -156,7 +209,16 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/negativeNotInteracted": {
   "abstract" : [
     {
-      "text" : "A generic, negative signal. Use this for the basic ContextSDK integration, on a user e.g. declining or dismissing an upsell prompt",
+      "text" : "Optional outcome: Use this as a negative signal of a user not interacting with e.g. a banner. Depending on your app, we may recommend to log this when the app is put into the background, and hasn’t interacted with a banner in any way. This can be done using the ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logIfNotLoggedYet(_:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " method.",
       "type" : "text"
     }
   ],

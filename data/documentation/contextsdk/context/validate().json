@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Call this method to do a local validation of your ContextSDK setup",
+      "text" : "Checks your ContextSDK setup using local validations and generates messages that help you debug potential SDK setup issues.",
       "type" : "text"
     }
   ],
@@ -89,6 +89,26 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A message with success or error statements, used for debugging purposes.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -131,19 +151,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -174,10 +187,51 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/log(_:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to log an outcome and send the context event to the backend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "log"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "log(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/log(_:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/validate()": {
   "abstract" : [
     {
-      "text" : "Call this method to do a local validation of your ContextSDK setup",
+      "text" : "Checks your ContextSDK setup using local validations and generates messages that help you debug potential SDK setup issues.",
       "type" : "text"
     }
   ],

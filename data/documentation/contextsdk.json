@@ -174,7 +174,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment": {
   "abstract" : [
-
+    {
+      "text" : "Represents the Apple Push Notification Service (APNS) environment.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -205,7 +208,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
   "abstract" : [
-
+    {
+      "text" : "A customizable object that defines the settings and preferences used to initialize ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -241,19 +247,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -284,9 +283,62 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/log(_:)": {
+  "abstract" : [
+    {
+      "text" : "Use this method to log an outcome and send the context event to the backend.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "log"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "log(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/log(_:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextClosure": {
   "abstract" : [
-
+    {
+      "text" : "A closure that receives a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " value.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -348,7 +400,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -413,7 +468,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -543,7 +601,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -574,7 +635,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a boolean.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -605,7 +669,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalDecimal": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a decimal number.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -636,7 +703,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalFloat": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a floating-point number.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -667,7 +737,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalInt": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is an integer.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -698,7 +771,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalString": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a string.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -729,7 +805,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
   "abstract" : [
-
+    {
+      "text" : "Responsible for registering and sending the push token, tied together with the user ID.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -760,7 +839,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -802,7 +884,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -833,7 +918,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents the possible outcomes of evaluating whether to show a push notification.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -932,7 +1020,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate": {
   "abstract" : [
-
+    {
+      "text" : "Calibrates a context with the given parameters.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -949,7 +1052,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate(contextID:customSignalsID:flowNameC:maxDelay:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Calibrates a context with the given parameters.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1105,7 +1228,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate_rn(flowName:customSignalsID:maxDelay:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Calibrates a context for React Native with the given parameters.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1227,7 +1370,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalBool": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with a Boolean value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1244,7 +1402,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalBool(contextID:idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with a Boolean value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1333,7 +1511,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalFloat": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with a floating-point value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1350,7 +1543,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalFloat(contextID:idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with a floating-point value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1439,7 +1652,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalInt": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with an integer value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1456,7 +1684,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalInt(contextID:idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with an integer value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1545,7 +1793,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalString": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with a string value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1562,7 +1825,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalString(contextID:idC:valueC:)": {
   "abstract" : [
-
+    {
+      "text" : "Adds a custom signal with a string value to a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1660,7 +1943,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataBool": {
   "abstract" : [
-
+    {
+      "text" : "Appends Boolean metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1677,7 +1975,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataBool(contextID:idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Appends Boolean metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1766,7 +2084,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataFloat": {
   "abstract" : [
-
+    {
+      "text" : "Appends floating-point metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1783,7 +2116,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataFloat(contextID:idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Appends floating-point metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1872,7 +2225,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataInt": {
   "abstract" : [
-
+    {
+      "text" : "Appends integer metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1889,7 +2257,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataInt(contextID:idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Appends integer metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1978,7 +2366,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataString": {
   "abstract" : [
-
+    {
+      "text" : "Appends string metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -1995,7 +2398,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_appendOutcomeMetadataString(contextID:idC:valueC:)": {
   "abstract" : [
-
+    {
+      "text" : "Appends string metadata to the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2093,7 +2516,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_log": {
   "abstract" : [
-
+    {
+      "text" : "Logs the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2110,7 +2548,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_log(contextID:outcome:)": {
   "abstract" : [
-
+    {
+      "text" : "Logs the outcome of a specific context.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2173,7 +2631,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_logIfNotLoggedYet": {
   "abstract" : [
-
+    {
+      "text" : "Logs the outcome of a specific context if it hasn’t been logged yet.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2190,7 +2663,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_logIfNotLoggedYet(contextID:outcome:)": {
   "abstract" : [
-
+    {
+      "text" : "Logs the outcome of a specific context if it hasn’t been logged yet.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2253,7 +2746,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_shouldUpsell": {
   "abstract" : [
-
+    {
+      "text" : "Determines whether a specific context should trigger an upsell.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2270,7 +2778,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_shouldUpsell(contextID:)": {
   "abstract" : [
-
+    {
+      "text" : "Determines whether a specific context should trigger an upsell.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2321,7 +2849,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_validate": {
   "abstract" : [
-
+    {
+      "text" : "Validates a specific context and returns the result as a string.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2338,7 +2881,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_validate(contextID:)": {
   "abstract" : [
-
+    {
+      "text" : "Validates a specific context and returns the result as a string.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2402,7 +2965,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_fetchContext_rn(flowName:customSignalsID:duration:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Fetches a context for React Native with the given parameters.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2524,7 +3107,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_getNextContextID": {
   "abstract" : [
-
+    {
+      "text" : "Retrieves the next available context ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2541,7 +3139,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_getNextContextID()": {
   "abstract" : [
-
+    {
+      "text" : "Retrieves the next available context ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2575,7 +3193,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_instantContext": {
   "abstract" : [
-
+    {
+      "text" : "Instantiates a context with the given parameters.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2592,7 +3225,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_instantContext(flowNameC:customSignalsID:duration:)": {
   "abstract" : [
-
+    {
+      "text" : "Instantiates a context with the given parameters.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2686,7 +3339,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_optimize_rn(flowName:maxDelay:customSignalsID:callback:)": {
   "abstract" : [
-
+    {
+      "text" : "Optimizes a context for React Native with optional delay.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2981,7 +3654,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_recentContext": {
   "abstract" : [
-
+    {
+      "text" : "Retrieves the most recent context for a given flow name.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -2998,7 +3686,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_recentContext(flowNameC:)": {
   "abstract" : [
-
+    {
+      "text" : "Retrieves the most recent context for a given flow name.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3058,7 +3766,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseContext": {
   "abstract" : [
-
+    {
+      "text" : "Releases the context associated with the given ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3075,7 +3798,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseContext(contextID:)": {
   "abstract" : [
-
+    {
+      "text" : "Releases the context associated with the given ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3121,7 +3864,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseCustomSignals": {
   "abstract" : [
-
+    {
+      "text" : "Releases the custom signals associated with the given context ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3138,7 +3896,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_releaseCustomSignals(contextID:)": {
   "abstract" : [
-
+    {
+      "text" : "Releases the custom signals associated with the given context ID.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3184,7 +3962,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalBool": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a Boolean value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3201,7 +3994,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalBool(idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a Boolean value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3273,7 +4086,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalFloat": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a floating-point value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3290,7 +4118,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalFloat(idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a floating-point value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3362,7 +4210,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalInt": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with an integer value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3379,7 +4242,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalInt(idC:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with an integer value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3451,7 +4334,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalString": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a string value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3468,7 +4366,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalString(idC:valueC:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets a global custom signal with a string value.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3549,7 +4467,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend": {
   "abstract" : [
-
+    {
+      "text" : "Sets up the Context Manager with the provided API backend license key.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3566,7 +4499,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend(licenseKeyC:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets up the Context Manager with the provided API backend license key.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3621,7 +4574,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setupContextManagerWithAPIBackend_rn(_:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets up the Context Manager for React Native with the provided license key.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3664,7 +4637,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackEvent": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a custom event with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3681,7 +4669,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackEvent(eventNameC:customSignalsID:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a custom event with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3753,7 +4761,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackPageView": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a page view with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3770,7 +4793,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackPageView(pageNameC:customSignalsID:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a page view with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3842,7 +4885,22 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackUserAction": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a user action with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -3859,7 +4917,27 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_trackUserAction(userActionNameC:customSignalsID:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a user action with the given name and custom signals.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "inlineContent" : [
+        {
+          "text" : "Note:",
+          "type" : "text"
+        }
+      ],
+      "type" : "strong"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

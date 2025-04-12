@@ -1,7 +1,25 @@
 {
   "abstract" : [
     {
-      "text" : "The default signal. A generic, positive signal. Use this for the basic ContextSDK integration, e.g. when showing an upsell prompt.",
+      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is false). Logging this explicitly is not required if you use ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " as it will be handled by ContextSDK automatically.",
       "type" : "text"
     }
   ],
@@ -122,9 +140,166 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/shouldUpsell": {
+  "abstract" : [
+    {
+      "text" : "Whether it’s a good time to show an upsell prompt.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldUpsell"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "shouldUpsell",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/shouldupsell"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/optimize(flowName:maxDelay:customSignals:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new context (asynchronously).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "optimize"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "maxDelay"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : "))"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "optimize(flowName:maxDelay:customSignals:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/optimize(flowname:maxdelay:customsignals:callback:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -156,7 +331,25 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/skipped": {
   "abstract" : [
     {
-      "text" : "The default signal. A generic, positive signal. Use this for the basic ContextSDK integration, e.g. when showing an upsell prompt.",
+      "text" : "Log this when ContextSDK has recommended to skip showing an upsell prompt (",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " is false). Logging this explicitly is not required if you use ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " as it will be handled by ContextSDK automatically.",
       "type" : "text"
     }
   ],

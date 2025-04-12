@@ -1,4 +1,19 @@
 {
+  "abstract" : [
+    {
+      "text" : "Call this method if you previously called ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and no longer are interested in receiving the context object.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -133,22 +148,13 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "code" : [
-                    "  Call this method if you previously called `fetchContext`, `calibrate` or `optimize` and no longer are interested in receiving the context object.",
-                    "  An example use case might be if you want to show a prompt only on a certain screen, and cancel showing it if the user already navigated to the",
-                    "  next screen. In this case you could cancel the context when the user navigates away from the screen."
-                  ],
-                  "syntax" : null,
-                  "type" : "codeListing"
-                }
-              ]
+              "text" : "An example use case might be if you want to show a prompt only on a certain screen. Due to the asynchronous behavior of context capturing, it’s possible the user navigates away from the current screen before your context is created and evaluated. In this case you could cancel the context when the user navigate away from the screen, to prevent it from being shown in a different screen, when the context callback would be called.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -189,7 +195,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -220,7 +229,19 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/cancelContextCallback(flowName:)": {
   "abstract" : [
-
+    {
+      "text" : "Call this method if you previously called ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " and no longer are interested in receiving the context object.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -271,6 +292,123 @@
   "title" : "cancelContextCallback(flowName:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/cancelcontextcallback(flowname:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Get the current context asynchronously.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "duration"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Si",
+      "text" : "Int"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": (("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : "))"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchContext(flowName:duration:customSignals:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)"
 }
 }, 
 "variantOverrides":[

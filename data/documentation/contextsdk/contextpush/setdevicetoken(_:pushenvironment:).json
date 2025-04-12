@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Sets the device token used for push notifications.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -179,6 +185,92 @@
       "kind" : "declarations"
     },
     {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The device token data received from APNS, typically provided in ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "application(_:didRegisterForRemoteNotificationsWithDeviceToken:)",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "token"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The environment in which push notifications will be sent. Pass ",
+                  "type" : "text"
+                },
+                {
+                  "code" : ".production",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " for production builds or ",
+                  "type" : "text"
+                },
+                {
+                  "code" : ".sandbox",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " for development.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "pushEnvironment"
+        }
+      ]
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " instance for chaining additional configuration calls.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
       "content" : [
         {
           "anchor" : "discussion",
@@ -187,30 +279,13 @@
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "Provide your push notification token to support context-aware push notifcation in your app.",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : " ",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : "Optionally you can provide the push environment to be either production or sandbox (development)",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
+              "text" : "Call this method to provide the device token received from APNS to ContextSDK, enabling context-aware push notifications in your app.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -251,7 +326,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment": {
   "abstract" : [
-
+    {
+      "text" : "Represents the Apple Push Notification Service (APNS) environment.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -282,7 +360,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
   "abstract" : [
-
+    {
+      "text" : "Class used for managing push notification integration.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -313,7 +394,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setDeviceToken(_:pushEnvironment:)": {
   "abstract" : [
-
+    {
+      "text" : "Sets the device token used for push notifications.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -381,7 +465,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
   "abstract" : [
-
+    {
+      "text" : "Responsible for registering and sending the push token, tied together with the user ID.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

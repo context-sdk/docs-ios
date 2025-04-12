@@ -199,7 +199,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents the possible outcomes of evaluating whether to show a push notification.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

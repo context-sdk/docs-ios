@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "This returns the current applied version of custom models for the current app.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -103,36 +109,19 @@
     {
       "content" : [
         {
-          "anchor" : "discussion",
+          "anchor" : "return-value",
           "level" : 2,
-          "text" : "Discussion",
+          "text" : "Return Value",
           "type" : "heading"
         },
         {
-          "items" : [
+          "inlineContent" : [
             {
-              "content" : [
-                {
-                  "inlineContent" : [
-                    {
-                      "text" : "This returns the current applied version of custom models for the current app.",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : " ",
-                      "type" : "text"
-                    },
-                    {
-                      "text" : "If there are no custom models for your app yet this will return “calibration”, otherwise it will return a string indicating the current custom model versions.",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
-                }
-              ]
+              "text" : "A string indicating the current custom model version. If there are no custom models for your app yet, this will return “calibration”.",
+              "type" : "text"
             }
           ],
-          "type" : "unorderedList"
+          "type" : "paragraph"
         }
       ],
       "kind" : "content"
@@ -173,7 +162,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -204,7 +196,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/currentAppliedCustomModelVersion()": {
   "abstract" : [
-
+    {
+      "text" : "This returns the current applied version of custom models for the current app.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

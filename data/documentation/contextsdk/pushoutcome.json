@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Represents the possible outcomes of evaluating whether to show a push notification.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +76,26 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This enum provides reasons for showing or skipping a push notification, enabling better decision-making and logging.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -163,7 +189,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents the possible outcomes of evaluating whether to show a push notification.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -254,7 +283,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldShowPush": {
   "abstract" : [
-
+    {
+      "text" : "Indicates that the push notification should be displayed.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -279,7 +311,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldSkipPushDueToAlreadyShown": {
   "abstract" : [
-
+    {
+      "text" : "Indicates that the push notification should be skipped because it has already been shown.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -304,7 +339,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldSkipPushDueToBadMoment": {
   "abstract" : [
-
+    {
+      "text" : "Indicates that the push notification should be skipped because the timing is not appropriate.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

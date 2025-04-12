@@ -1,31 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "that you can send to your own analytics backend. Note that this method may return a different number of columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "depending on the number of custom signals you have set, as well as additional signals being added to the ContextSDK with each update",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "Columns are mostly static though and new ones will only ever be appended in the format “ctx_{ID}”",
+      "text" : "Converts the context to a dictionary representation, which can be used to send to your custom analytics backend.",
       "type" : "text"
     }
   ],
@@ -137,6 +113,70 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "return-value",
+          "level" : 2,
+          "text" : "Return Value",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "A dictionary representation of the context.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Use this method when using ContextSDK’s on-premises solution instead of our cloud-based service.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "This method may return a different number of keys depending on the number of custom signals you have set, as well as additional signals being added to the ContextSDK with each update. The keys are mostly static though and new ones will only ever be appended in the format ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "ctx_{ID}",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "Note",
+          "style" : "note",
+          "type" : "aside"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "schemaVersion" : {
@@ -174,7 +214,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log": {
   "abstract" : [
-
+    {
+      "text" : "This class represents all signals, ready to be logged (sent to a backend), of a single ContextSDK event.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -206,31 +249,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Log/dictionary()": {
   "abstract" : [
     {
-      "text" : "If you don’t want to use the official ContextSDK backend, you can use this method to create a dictionary",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "that you can send to your own analytics backend. Note that this method may return a different number of columns",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "depending on the number of custom signals you have set, as well as additional signals being added to the ContextSDK with each update",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "Columns are mostly static though and new ones will only ever be appended in the format “ctx_{ID}”",
+      "text" : "Converts the context to a dictionary representation, which can be used to send to your custom analytics backend.",
       "type" : "text"
     }
   ],

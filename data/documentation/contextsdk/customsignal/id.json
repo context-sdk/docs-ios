@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "The unique identifier for the custom signal.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -133,7 +139,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -164,7 +173,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal/id": {
   "abstract" : [
-
+    {
+      "text" : "The unique identifier for the custom signal.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

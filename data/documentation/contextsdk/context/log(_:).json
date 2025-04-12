@@ -175,19 +175,12 @@
       "type" : "text"
     },
     {
-      "code" : ".log",
-      "type" : "codeVoice"
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+      "isActive" : true,
+      "type" : "reference"
     },
     {
-      "text" : " to create a ",
-      "type" : "text"
-    },
-    {
-      "code" : "Log",
-      "type" : "codeVoice"
-    },
-    {
-      "text" : " object, which allows you to send the context event to the backend.",
+      "text" : " to send the context to the server.",
       "type" : "text"
     }
   ],
@@ -261,7 +254,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [
-
+    {
+      "text" : "Represents possible outcomes of contexts logged in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

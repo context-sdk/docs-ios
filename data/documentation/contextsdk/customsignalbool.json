@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a boolean.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -70,6 +76,42 @@
         }
       ],
       "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Use this class to define custom signals with a boolean value.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Example:",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "code" : [
+            "let customSignal = CustomSignalBool(id: \"is_authenticated\", value: true)"
+          ],
+          "syntax" : "swift",
+          "type" : "codeListing"
+        }
+      ],
+      "kind" : "content"
     }
   ],
   "relationshipsSections" : [
@@ -136,7 +178,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -167,7 +212,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool": {
   "abstract" : [
-
+    {
+      "text" : "A custom signal that represents a key-value pair where the value is a boolean.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -198,7 +246,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool/id": {
   "abstract" : [
-
+    {
+      "text" : "The unique identifier for the custom signal.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -232,7 +283,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool/init(id:value:)": {
   "abstract" : [
-
+    {
+      "text" : "Initializes a new custom signal with the specified ID and boolean value.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -287,7 +341,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalBool/value": {
   "abstract" : [
-
+    {
+      "text" : "The value associated with the custom signal.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {

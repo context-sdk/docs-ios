@@ -1,4 +1,10 @@
 {
+  "abstract" : [
+    {
+      "text" : "Tracks a user action event. Use this to collect real-world context alongside user actions.",
+      "type" : "text"
+    }
+  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -160,33 +166,37 @@
       "kind" : "declarations"
     },
     {
-      "content" : [
+      "kind" : "parameters",
+      "parameters" : [
         {
-          "anchor" : "discussion",
-          "level" : 2,
-          "text" : "Discussion",
-          "type" : "heading"
-        },
-        {
-          "items" : [
+          "content" : [
             {
-              "content" : [
+              "inlineContent" : [
                 {
-                  "inlineContent" : [
-                    {
-                      "text" : "Call this method to track a generic user action. Using this allows us to provide you with insights on how your app behaves in the real-world context",
-                      "type" : "text"
-                    }
-                  ],
-                  "type" : "paragraph"
+                  "text" : "An identifier for this user action.",
+                  "type" : "text"
                 }
-              ]
+              ],
+              "type" : "paragraph"
             }
           ],
-          "type" : "unorderedList"
+          "name" : "userActionName"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "An array of custom signals to be added to the event.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "customSignals"
         }
-      ],
-      "kind" : "content"
+      ]
     }
   ],
   "schemaVersion" : {
@@ -224,7 +234,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-
+    {
+      "text" : "The main interface to be used to interact with ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -255,7 +268,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/trackUserAction(_:customSignals:)": {
   "abstract" : [
-
+    {
+      "text" : "Tracks a user action event. Use this to collect real-world context alongside user actions.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
@@ -318,7 +334,10 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
-
+    {
+      "text" : "A protocol representing a custom signal used in ContextSDK.",
+      "type" : "text"
+    }
   ],
   "fragments" : [
     {
