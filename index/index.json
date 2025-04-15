@@ -435,7 +435,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/calibrate(_:maxdelay:customsignals:callback:)",
-                "title" : "class func calibrate(String, maxDelay: Int, customSignals: [CustomSignal], callback: ((Context) -> Void))",
+                "title" : "class func calibrate(String, maxDelay: Int, customSignals: [CustomSignal], callback: ContextClosure)",
                 "type" : "method"
               },
               {
@@ -455,7 +455,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)",
-                "title" : "class func fetchContext(flowName: String, duration: Int, customSignals: [CustomSignal], callback: ((Context) -> Void))",
+                "title" : "class func fetchContext(flowName: String, duration: Int, customSignals: [CustomSignal], callback: ContextClosure)",
                 "type" : "method"
               },
               {
@@ -470,7 +470,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/optimize(flowname:maxdelay:customsignals:callback:)",
-                "title" : "class func optimize(flowName: String, maxDelay: Int?, customSignals: [CustomSignal], callback: ((Context) -> Void))",
+                "title" : "class func optimize(flowName: String, maxDelay: Int?, customSignals: [CustomSignal], callback: ContextClosure)",
                 "type" : "method"
               },
               {
@@ -2169,33 +2169,6 @@
             ],
             "path" : "\/documentation\/contextsdk\/foundation",
             "title" : "Foundation",
-            "type" : "extension"
-          },
-          {
-            "children" : [
-              {
-                "title" : "Extended Structures",
-                "type" : "groupMarker"
-              },
-              {
-                "children" : [
-                  {
-                    "title" : "Type Properties",
-                    "type" : "groupMarker"
-                  },
-                  {
-                    "path" : "\/documentation\/contextsdk\/os\/logger\/main",
-                    "title" : "static let main: Logger",
-                    "type" : "property"
-                  }
-                ],
-                "path" : "\/documentation\/contextsdk\/os\/logger",
-                "title" : "Logger",
-                "type" : "extension"
-              }
-            ],
-            "path" : "\/documentation\/contextsdk\/os",
-            "title" : "os",
             "type" : "extension"
           }
         ],

@@ -547,25 +547,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (("
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10ContextSDK0A0C",
-      "text" : "Context"
+      "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+      "text" : "ContextClosure"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4Voida",
-      "text" : "Void"
-    },
-    {
-      "kind" : "text",
-      "text" : "))"
+      "text" : ")"
     }
   ],
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/calibrate(_:maxDelay:customSignals:callback:)",
@@ -828,25 +819,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (("
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10ContextSDK0A0C",
-      "text" : "Context"
+      "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+      "text" : "ContextClosure"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4Voida",
-      "text" : "Void"
-    },
-    {
-      "kind" : "text",
-      "text" : "))"
+      "text" : ")"
     }
   ],
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
@@ -1107,25 +1089,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (("
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10ContextSDK0A0C",
-      "text" : "Context"
+      "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+      "text" : "ContextClosure"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4Voida",
-      "text" : "Void"
-    },
-    {
-      "kind" : "text",
-      "text" : "))"
+      "text" : ")"
     }
   ],
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
