@@ -92,8 +92,7 @@
       "anchor" : "Extended-Modules",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation"
       ],
       "title" : "Extended Modules"
     }
@@ -1796,17 +1795,6 @@
   "title" : "contextSDK_trackUserAction",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_trackuseraction"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/os": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/os",
-  "kind" : "symbol",
-  "role" : "collection",
-  "title" : "os",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/os"
 }
 }, 
 "variantOverrides":[

@@ -102,25 +102,16 @@
       },
       {
         "kind" : "text",
-        "text" : ": (("
+        "text" : ": "
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10ContextSDK0A0C",
-        "text" : "Context"
+        "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+        "text" : "ContextClosure"
       },
       {
         "kind" : "text",
-        "text" : ") -> "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:s4Voida",
-        "text" : "Void"
-      },
-      {
-        "kind" : "text",
-        "text" : "))"
+        "text" : ")"
       }
     ],
     "modules" : [
@@ -234,26 +225,17 @@
             },
             {
               "kind" : "text",
-              "text" : " (("
+              "text" : " "
             },
             {
-              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextClosure",
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10ContextSDK0A0C",
-              "text" : "Context"
+              "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+              "text" : "ContextClosure"
             },
             {
               "kind" : "text",
-              "text" : ") -> "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:s4Voida",
-              "text" : "Void"
-            },
-            {
-              "kind" : "text",
-              "text" : "))"
+              "text" : ")"
             }
           ]
         }
@@ -418,17 +400,26 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/log(_:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextClosure": {
   "abstract" : [
     {
-      "text" : "Use this method to log an outcome and send the context event to the backend.",
+      "text" : "A closure that receives a ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " value.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "func"
+      "text" : "typealias"
     },
     {
       "kind" : "text",
@@ -436,28 +427,21 @@
     },
     {
       "kind" : "identifier",
-      "text" : "log"
-    },
-    {
-      "kind" : "text",
-      "text" : "("
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
-      "text" : "EventOutcome"
-    },
-    {
-      "kind" : "text",
-      "text" : ")"
+      "text" : "ContextClosure"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/log(_:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextClosure",
   "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextClosure"
+    }
+  ],
   "role" : "symbol",
-  "title" : "log(_:)",
+  "title" : "ContextClosure",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/context\/log(_:)"
+  "url" : "\/documentation\/contextsdk\/contextclosure"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
@@ -582,25 +566,16 @@
     },
     {
       "kind" : "text",
-      "text" : ": (("
+      "text" : ": "
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10ContextSDK0A0C",
-      "text" : "Context"
+      "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+      "text" : "ContextClosure"
     },
     {
       "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:s4Voida",
-      "text" : "Void"
-    },
-    {
-      "kind" : "text",
-      "text" : "))"
+      "text" : ")"
     }
   ],
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
