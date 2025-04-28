@@ -150,6 +150,11 @@
             "type" : "func"
           },
           {
+            "path" : "\/documentation\/contextsdk\/contextsdk_fetchcontext_string",
+            "title" : "contextSDK_fetchContext_string",
+            "type" : "func"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/contextsdk_getnextcontextid",
             "title" : "contextSDK_getNextContextID",
             "type" : "func"
