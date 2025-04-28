@@ -1363,6 +1363,23 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_context_validate"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_fetchContext_string": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_fetchContext_string"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_fetchContext_string",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_fetchContext_string",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_fetchcontext_string"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_getNextContextID": {
   "abstract" : [
     {
@@ -1846,6 +1863,7 @@
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_logIfNotLoggedYet",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_shouldUpsell",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_validate",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_fetchContext_string",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_instantContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_optimize_string",
