@@ -1,0 +1,200 @@
+{
+  "abstract" : [
+    {
+      "text" : "Enables or disables control mode.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "occ",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setControlMode"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@F@contextSDK_setControlMode",
+    "fragments" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_setControlMode"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "contextSDK_setControlMode"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Function",
+    "symbolKind" : "func",
+    "title" : "contextSDK_setControlMode"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "occ"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "extern"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:v",
+              "text" : "void"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "contextSDK_setControlMode"
+            },
+            {
+              "kind" : "text",
+              "text" : "("
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:@T@BOOL",
+              "text" : "BOOL"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "internalParam",
+              "text" : "enabled"
+            },
+            {
+              "kind" : "text",
+              "text" : ");"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "kind" : "parameters",
+      "parameters" : [
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "A Boolean value indicating whether control mode should be enabled.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "enabled"
+        }
+      ]
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextsdk_setcontrolmode"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setControlMode": {
+  "abstract" : [
+    {
+      "text" : "Enables or disables control mode.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_setControlMode"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setControlMode",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_setControlMode",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_setcontrolmode"
+}
+}
+}

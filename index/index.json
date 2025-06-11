@@ -185,6 +185,11 @@
             "type" : "func"
           },
           {
+            "path" : "\/documentation\/contextsdk\/contextsdk_setcontrolmode",
+            "title" : "contextSDK_setControlMode",
+            "type" : "func"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/contextsdk_setglobalcustomsignalbool",
             "title" : "contextSDK_setGlobalCustomSignalBool",
             "type" : "func"
