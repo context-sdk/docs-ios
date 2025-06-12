@@ -1557,6 +1557,38 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_releasecustomsignals"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setControlMode": {
+  "abstract" : [
+    {
+      "text" : "Enables or disables control mode.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_setControlMode"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setControlMode",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_setControlMode",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_setcontrolmode"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalBool": {
   "abstract" : [
     {
@@ -1870,6 +1902,7 @@
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_recentContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setControlMode",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setGlobalCustomSignalBool",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setGlobalCustomSignalFloat",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setGlobalCustomSignalInt",

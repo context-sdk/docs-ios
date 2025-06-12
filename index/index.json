@@ -185,6 +185,11 @@
             "type" : "func"
           },
           {
+            "path" : "\/documentation\/contextsdk\/contextsdk_setcontrolmode",
+            "title" : "contextSDK_setControlMode",
+            "type" : "func"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/contextsdk_setglobalcustomsignalbool",
             "title" : "contextSDK_setGlobalCustomSignalBool",
             "type" : "func"
@@ -615,6 +620,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/customsignalbool\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/customsignalbool\/id",
                 "title" : "let id: String",
                 "type" : "property"
@@ -643,6 +653,11 @@
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/customsignaldecimal\/description",
+                "title" : "var description: String",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignaldecimal\/id",
@@ -675,6 +690,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/customsignalfloat\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/customsignalfloat\/id",
                 "title" : "let id: String",
                 "type" : "property"
@@ -705,6 +725,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/customsignalint\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/customsignalint\/id",
                 "title" : "let id: String",
                 "type" : "property"
@@ -733,6 +758,11 @@
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/customsignalstring\/description",
+                "title" : "var description: String",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignalstring\/id",
