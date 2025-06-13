@@ -504,6 +504,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/setdecisionsenabled(_:)",
+                "title" : "class func setDecisionsEnabled(Bool)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setglobalcustomsignal(id:decimalvalue:)",
                 "title" : "class func setGlobalCustomSignal(id: String, decimalValue: Decimal)",
                 "type" : "method"

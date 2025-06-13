@@ -136,6 +136,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/registerContextObserver(flowName:callbackOnFirstGoodMoment:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/sdkVersion()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setControlMode(enabled:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setDecisionsEnabled(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:decimalValue:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-6cp7d",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-6pc7c",
@@ -1301,11 +1302,9 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setControlMode(enabled:)": {
   "abstract" : [
-    {
-      "text" : "When control mode is enabled:",
-      "type" : "text"
-    }
+
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -1355,6 +1354,55 @@
   "title" : "setControlMode(enabled:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/setcontrolmode(enabled:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setDecisionsEnabled(_:)": {
+  "abstract" : [
+    {
+      "text" : "Controls whether ContextSDK should make decisions based on its models.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setDecisionsEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setDecisionsEnabled(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setDecisionsEnabled(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setdecisionsenabled(_:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:decimalValue:)": {
   "abstract" : [
