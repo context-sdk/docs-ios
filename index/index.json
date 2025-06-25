@@ -11,6 +11,54 @@
             "type" : "groupMarker"
           },
           {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/baseconfiguration\/init",
+                "title" : "init",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/baseconfiguration",
+            "title" : "BaseConfiguration",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/basecontextmanager\/init",
+                "title" : "init",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/basecontextmanager",
+            "title" : "BaseContextManager",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/baselog\/init",
+                "title" : "init",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/baselog",
+            "title" : "BaseLog",
+            "type" : "class"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/configuration",
             "title" : "Configuration",
             "type" : "class"
@@ -296,6 +344,21 @@
           {
             "title" : "Classes",
             "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/baseconfiguration",
+            "title" : "BaseConfiguration",
+            "type" : "class"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/basecontextmanager",
+            "title" : "BaseContextManager",
+            "type" : "class"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/baselog",
+            "title" : "BaseLog",
+            "type" : "class"
           },
           {
             "children" : [
