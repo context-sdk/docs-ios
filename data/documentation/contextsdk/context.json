@@ -117,6 +117,10 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcome(from:outcome:)-49ixv",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-85bwd",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcome(from:outcome:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcome(from:product:outcome:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/validate()"
       ],
       "title" : "Instance Methods"
@@ -398,7 +402,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcome(from:outcome:)-43krq": {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards.",
       "type" : "text"
     }
   ],
@@ -530,7 +534,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv": {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],
@@ -658,6 +662,304 @@
   "title" : "logRevenueOutcomeIfNotLoggedYet(from:outcome:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context\/logrevenueoutcomeifnotloggedyet(from:outcome:)-85bwd"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logStoreKit1RevenueOutcome(from:outcome:)": {
+  "abstract" : [
+    {
+      "text" : "Tracks a StoreKit 1 in-app purchase, logging an outcome afterwards.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logStoreKit1RevenueOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "outcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcome(from:outcome:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logStoreKit1RevenueOutcome(from:outcome:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcome(from:outcome:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logStoreKit1RevenueOutcome(from:product:outcome:)": {
+  "abstract" : [
+    {
+      "text" : "Tracks a StoreKit 1 in-app purchase transaction, logging an outcome afterwards.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logStoreKit1RevenueOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKPaymentTransaction",
+      "text" : "SKPaymentTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "product"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "outcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcome(from:product:outcome:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logStoreKit1RevenueOutcome(from:product:outcome:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcome(from:product:outcome:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)": {
+  "abstract" : [
+    {
+      "text" : "Tracks a StoreKit 1 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "outcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:outcome:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)": {
+  "abstract" : [
+    {
+      "text" : "Tracks a StoreKit 1 in-app purchase transaction, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKPaymentTransaction",
+      "text" : "SKPaymentTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "product"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "outcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@M@ContextSDK@E@EventOutcome",
+      "text" : "EventOutcome"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:product:outcome:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/shouldUpsell": {
   "abstract" : [

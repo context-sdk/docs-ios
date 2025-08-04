@@ -166,7 +166,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcome(from:outcome:)-43krq": {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards.",
       "type" : "text"
     }
   ],

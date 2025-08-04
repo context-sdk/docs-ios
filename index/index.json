@@ -476,6 +476,26 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcome(from:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcome(from: SKProduct, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcome(from:product:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcome(from: SKPaymentTransaction, product: SKProduct?, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcomeIfNotLoggedYet(from: SKProduct, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:product:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcomeIfNotLoggedYet(from: SKPaymentTransaction, product: SKProduct?, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/context\/validate()",
                 "title" : "func validate() -> String",
                 "type" : "method"
@@ -912,6 +932,32 @@
             ],
             "path" : "\/documentation\/contextsdk\/log",
             "title" : "Log",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit1productmetadata(from:)",
+                "title" : "static func extractStoreKit1ProductMetadata(from: SKProduct) -> [CustomSignal]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit1transactionmetadata(from:product:)",
+                "title" : "static func extractStoreKit1TransactionMetadata(from: SKPaymentTransaction, product: SKProduct?) -> [CustomSignal]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit2productmetadata(from:)",
+                "title" : "static func extractStoreKit2ProductMetadata(from: Product) -> [CustomSignal]",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/storekitrevenuetracker",
+            "title" : "StoreKitRevenueTracker",
             "type" : "class"
           },
           {

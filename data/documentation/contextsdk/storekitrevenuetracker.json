@@ -1,0 +1,404 @@
+{
+  "abstract" : [
+    {
+      "text" : "A unified class for tracking revenue from both StoreKit 1 and StoreKit 2 products.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK22StoreKitRevenueTrackerC",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "StoreKitRevenueTracker"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "StoreKitRevenueTracker"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Class",
+    "symbolKind" : "class",
+    "title" : "StoreKitRevenueTracker"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "StoreKitRevenueTracker"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "overview",
+          "level" : 2,
+          "text" : "Overview",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "This class provides methods to extract metadata from StoreKit products and transactions",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "in a consistent format that can be used with ContextSDK’s outcome tracking.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Type-Methods",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker\/extractStoreKit1ProductMetadata(from:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker\/extractStoreKit1TransactionMetadata(from:product:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker\/extractStoreKit2ProductMetadata(from:)"
+      ],
+      "title" : "Type Methods"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/storekitrevenuetracker"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker": {
+  "abstract" : [
+    {
+      "text" : "A unified class for tracking revenue from both StoreKit 1 and StoreKit 2 products.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StoreKitRevenueTracker"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StoreKitRevenueTracker"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StoreKitRevenueTracker",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/storekitrevenuetracker"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker/extractStoreKit1ProductMetadata(from:)": {
+  "abstract" : [
+    {
+      "text" : "Extracts metadata from a StoreKit 1 SKProduct.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extractStoreKit1ProductMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker\/extractStoreKit1ProductMetadata(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "extractStoreKit1ProductMetadata(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit1productmetadata(from:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker/extractStoreKit1TransactionMetadata(from:product:)": {
+  "abstract" : [
+    {
+      "text" : "Extracts metadata from a StoreKit 1 SKPaymentTransaction.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extractStoreKit1TransactionMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKPaymentTransaction",
+      "text" : "SKPaymentTransaction"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "product"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : "?) -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker\/extractStoreKit1TransactionMetadata(from:product:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "extractStoreKit1TransactionMetadata(from:product:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit1transactionmetadata(from:product:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker/extractStoreKit2ProductMetadata(from:)": {
+  "abstract" : [
+    {
+      "text" : "Extracts metadata from a StoreKit 2 Product.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "extractStoreKit2ProductMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "from"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:8StoreKit7ProductV",
+      "text" : "Product"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "]"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker\/extractStoreKit2ProductMetadata(from:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "extractStoreKit2ProductMetadata(from:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit2productmetadata(from:)"
+}
+}
+}

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 1 in-app purchase transaction, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],
@@ -15,11 +15,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv"
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10ContextSDK0A0C31logRevenueOutcomeIfNotLoggedYet4from7outcomey8StoreKit7ProductV_AA05EventE0OtF",
+    "externalID" : "s:10ContextSDK0A0C40logStoreKit1RevenueOutcomeIfNotLoggedYet4from7product7outcomeySo20SKPaymentTransactionC_So9SKProductCSgAA05EventG0OtF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -31,7 +31,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "logRevenueOutcomeIfNotLoggedYet"
+        "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
       },
       {
         "kind" : "text",
@@ -47,12 +47,29 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:8StoreKit7ProductV",
-        "text" : "Product"
+        "preciseIdentifier" : "c:objc(cs)SKPaymentTransaction",
+        "text" : "SKPaymentTransaction"
       },
       {
         "kind" : "text",
         "text" : ", "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "product"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "c:objc(cs)SKProduct",
+        "text" : "SKProduct"
+      },
+      {
+        "kind" : "text",
+        "text" : "?, "
       },
       {
         "kind" : "externalParam",
@@ -77,33 +94,10 @@
         "name" : "ContextSDK"
       }
     ],
-    "platforms" : [
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "15.0",
-        "name" : "iOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "15.0",
-        "name" : "iPadOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "15.0",
-        "name" : "Mac Catalyst",
-        "unavailable" : false
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "logRevenueOutcomeIfNotLoggedYet(from:outcome:)"
+    "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)"
   },
   "primaryContentSections" : [
     {
@@ -126,7 +120,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "logRevenueOutcomeIfNotLoggedYet"
+              "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
             },
             {
               "kind" : "text",
@@ -142,6 +136,23 @@
             },
             {
               "kind" : "internalParam",
+              "text" : "transaction"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "c:objc(cs)SKPaymentTransaction",
+              "text" : "SKPaymentTransaction"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
+            },
+            {
+              "kind" : "externalParam",
               "text" : "product"
             },
             {
@@ -150,12 +161,12 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:8StoreKit7ProductV",
-              "text" : "Product"
+              "preciseIdentifier" : "c:objc(cs)SKProduct",
+              "text" : "SKProduct"
             },
             {
               "kind" : "text",
-              "text" : ", "
+              "text" : "? = nil, "
             },
             {
               "kind" : "externalParam",
@@ -188,7 +199,21 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The StoreKit 2 Product object that was purchased.",
+                  "text" : "The StoreKit 1 SKPaymentTransaction object.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "transaction"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Optional StoreKit 1 SKProduct associated with the transaction for additional context.",
                   "type" : "text"
                 }
               ],
@@ -202,7 +227,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The outcome to be logged after tracking the product. Defaults to ",
+                  "text" : "The outcome to be logged after tracking the transaction. Defaults to ",
                   "type" : "text"
                 },
                 {
@@ -232,7 +257,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "This tracks your product’s revenue, currency, trial period, recurrence, and other data, so our ML models can optimize for the most optimal revenue results.",
+              "text" : "This method provides additional transaction-specific information such as transaction state and date.",
               "type" : "text"
             }
           ],
@@ -269,7 +294,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/contextsdk\/context\/logrevenueoutcomeifnotloggedyet(from:outcome:)-257dv"
+        "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:product:outcome:)"
       ],
       "traits" : [
         {
@@ -375,10 +400,10 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context\/log(_:)"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)": {
   "abstract" : [
     {
-      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 1 in-app purchase transaction, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],
@@ -393,7 +418,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "logRevenueOutcomeIfNotLoggedYet"
+      "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
     },
     {
       "kind" : "text",
@@ -409,12 +434,29 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:8StoreKit7ProductV",
-      "text" : "Product"
+      "preciseIdentifier" : "c:objc(cs)SKPaymentTransaction",
+      "text" : "SKPaymentTransaction"
     },
     {
       "kind" : "text",
       "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "product"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
+    },
+    {
+      "kind" : "text",
+      "text" : "?, "
     },
     {
       "kind" : "externalParam",
@@ -434,12 +476,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "logRevenueOutcomeIfNotLoggedYet(from:outcome:)",
+  "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/context\/logrevenueoutcomeifnotloggedyet(from:outcome:)-257dv"
+  "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:product:outcome:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [

@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 1 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],
@@ -15,11 +15,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv"
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10ContextSDK0A0C31logRevenueOutcomeIfNotLoggedYet4from7outcomey8StoreKit7ProductV_AA05EventE0OtF",
+    "externalID" : "s:10ContextSDK0A0C40logStoreKit1RevenueOutcomeIfNotLoggedYet4from7outcomeySo9SKProductC_AA05EventG0OtF",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -31,7 +31,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "logRevenueOutcomeIfNotLoggedYet"
+        "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
       },
       {
         "kind" : "text",
@@ -47,8 +47,8 @@
       },
       {
         "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:8StoreKit7ProductV",
-        "text" : "Product"
+        "preciseIdentifier" : "c:objc(cs)SKProduct",
+        "text" : "SKProduct"
       },
       {
         "kind" : "text",
@@ -77,33 +77,10 @@
         "name" : "ContextSDK"
       }
     ],
-    "platforms" : [
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "15.0",
-        "name" : "iOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "15.0",
-        "name" : "iPadOS",
-        "unavailable" : false
-      },
-      {
-        "beta" : false,
-        "deprecated" : false,
-        "introducedAt" : "15.0",
-        "name" : "Mac Catalyst",
-        "unavailable" : false
-      }
-    ],
     "role" : "symbol",
     "roleHeading" : "Instance Method",
     "symbolKind" : "method",
-    "title" : "logRevenueOutcomeIfNotLoggedYet(from:outcome:)"
+    "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)"
   },
   "primaryContentSections" : [
     {
@@ -126,7 +103,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "logRevenueOutcomeIfNotLoggedYet"
+              "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
             },
             {
               "kind" : "text",
@@ -150,8 +127,8 @@
             },
             {
               "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:8StoreKit7ProductV",
-              "text" : "Product"
+              "preciseIdentifier" : "c:objc(cs)SKProduct",
+              "text" : "SKProduct"
             },
             {
               "kind" : "text",
@@ -188,7 +165,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The StoreKit 2 Product object that was purchased.",
+                  "text" : "The StoreKit 1 SKProduct object that was purchased.",
                   "type" : "text"
                 }
               ],
@@ -269,7 +246,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/contextsdk\/context\/logrevenueoutcomeifnotloggedyet(from:outcome:)-257dv"
+        "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:outcome:)"
       ],
       "traits" : [
         {
@@ -375,10 +352,10 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context\/log(_:)"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)": {
   "abstract" : [
     {
-      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 1 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],
@@ -393,7 +370,7 @@
     },
     {
       "kind" : "identifier",
-      "text" : "logRevenueOutcomeIfNotLoggedYet"
+      "text" : "logStoreKit1RevenueOutcomeIfNotLoggedYet"
     },
     {
       "kind" : "text",
@@ -409,8 +386,8 @@
     },
     {
       "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:8StoreKit7ProductV",
-      "text" : "Product"
+      "preciseIdentifier" : "c:objc(cs)SKProduct",
+      "text" : "SKProduct"
     },
     {
       "kind" : "text",
@@ -434,12 +411,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "logRevenueOutcomeIfNotLoggedYet(from:outcome:)",
+  "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:outcome:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/context\/logrevenueoutcomeifnotloggedyet(from:outcome:)-257dv"
+  "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:outcome:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome": {
   "abstract" : [

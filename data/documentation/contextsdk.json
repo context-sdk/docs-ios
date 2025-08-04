@@ -50,7 +50,8 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalInt",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalString",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker"
       ],
       "title" : "Classes"
     },
@@ -1039,6 +1040,40 @@
   "title" : "RevenueSource",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker": {
+  "abstract" : [
+    {
+      "text" : "A unified class for tracking revenue from both StoreKit 1 and StoreKit 2 products.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StoreKitRevenueTracker"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StoreKitRevenueTracker"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StoreKitRevenueTracker",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/storekitrevenuetracker"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate": {
   "abstract" : [
