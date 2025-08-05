@@ -89,7 +89,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -185,6 +185,37 @@
   "title" : "ContextSDK",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseConfiguration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BaseConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BaseConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BaseConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/baseconfiguration"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
   "abstract" : [
@@ -718,11 +749,6 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)"
 },
-"doc://org.cocoapods.ContextSDK/objc(cs)NSObject": {
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject",
-  "title" : "NSObject",
-  "type" : "unresolvable"
-},
 "doc://org.cocoapods.ContextSDK/objc(pl)NSObject": {
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject",
   "title" : "ObjectiveC.NSObjectProtocol",
@@ -798,7 +824,7 @@
         "value" : [
           {
             "identifiers" : [
-              "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration"
             ],
             "kind" : "relationships",
             "title" : "Inherits From",
@@ -841,15 +867,41 @@
                   "text" : " : "
                 },
                 {
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration",
                   "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:objc(cs)NSObject",
-                  "text" : "NSObject"
+                  "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)BaseConfiguration",
+                  "text" : "BaseConfiguration"
                 }
               ]
             }
           ],
           "kind" : "declarations"
         }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseConfiguration\/title",
+        "value" : "BaseConfiguration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseConfiguration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseConfiguration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseConfiguration\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseConfiguration"
+          }
+        ]
       },
       {
         "op" : "replace",

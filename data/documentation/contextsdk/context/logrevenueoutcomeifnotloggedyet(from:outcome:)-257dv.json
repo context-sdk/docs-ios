@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],
@@ -188,7 +188,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The item that was purchased, which is a StoreKit 2 Product object.",
+                  "text" : "The StoreKit 2 Product object that was purchased.",
                   "type" : "text"
                 }
               ],
@@ -378,7 +378,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcomeIfNotLoggedYet(from:outcome:)-257dv": {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards, if it hasn’t been logged yet.",
       "type" : "text"
     }
   ],

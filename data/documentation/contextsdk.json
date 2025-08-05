@@ -36,6 +36,9 @@
       "anchor" : "Classes",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseLog",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextLoader",
@@ -47,7 +50,8 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalInt",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalString",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker"
       ],
       "title" : "Classes"
     },
@@ -165,6 +169,99 @@
   "title" : "APSEnvironment",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/apsenvironment"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseConfiguration": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BaseConfiguration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BaseConfiguration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BaseConfiguration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/baseconfiguration"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseContextManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BaseContextManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BaseContextManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BaseContextManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/basecontextmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseLog": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BaseLog"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseLog",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BaseLog"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BaseLog",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/baselog"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
   "abstract" : [
@@ -360,10 +457,7 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-    {
-      "text" : "The main interface to be used to interact with ContextSDK.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -946,6 +1040,40 @@
   "title" : "RevenueSource",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/revenuesource"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker": {
+  "abstract" : [
+    {
+      "text" : "A unified class for tracking revenue from both StoreKit 1 and StoreKit 2 products.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StoreKitRevenueTracker"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StoreKitRevenueTracker",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StoreKitRevenueTracker"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StoreKitRevenueTracker",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/storekitrevenuetracker"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate": {
   "abstract" : [
@@ -1557,6 +1685,38 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_releasecustomsignals"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setControlMode": {
+  "abstract" : [
+    {
+      "text" : "Enables or disables control mode.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_setControlMode"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setControlMode",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_setControlMode",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_setcontrolmode"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_setGlobalCustomSignalBool": {
   "abstract" : [
     {
@@ -1830,6 +1990,9 @@
             "anchor" : "Classes",
             "generated" : true,
             "identifiers" : [
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseConfiguration",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseLog",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextLoader",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager",
@@ -1870,6 +2033,7 @@
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_recentContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setControlMode",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setGlobalCustomSignalBool",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setGlobalCustomSignalFloat",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_setGlobalCustomSignalInt",
@@ -1900,6 +2064,81 @@
         "op" : "add",
         "path" : "\/seeAlsoSections",
         "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseConfiguration\/title",
+        "value" : "BaseConfiguration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseConfiguration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseConfiguration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseConfiguration\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseConfiguration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseContextManager\/title",
+        "value" : "BaseContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseLog\/title",
+        "value" : "BaseLog"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseLog\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseLog"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseLog\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseLog"
+          }
+        ]
       },
       {
         "op" : "replace",

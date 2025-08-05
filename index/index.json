@@ -11,6 +11,54 @@
             "type" : "groupMarker"
           },
           {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/baseconfiguration\/init",
+                "title" : "init",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/baseconfiguration",
+            "title" : "BaseConfiguration",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/basecontextmanager\/init",
+                "title" : "init",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/basecontextmanager",
+            "title" : "BaseContextManager",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/baselog\/init",
+                "title" : "init",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/baselog",
+            "title" : "BaseLog",
+            "type" : "class"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/configuration",
             "title" : "Configuration",
             "type" : "class"
@@ -185,6 +233,11 @@
             "type" : "func"
           },
           {
+            "path" : "\/documentation\/contextsdk\/contextsdk_setcontrolmode",
+            "title" : "contextSDK_setControlMode",
+            "type" : "func"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/contextsdk_setglobalcustomsignalbool",
             "title" : "contextSDK_setGlobalCustomSignalBool",
             "type" : "func"
@@ -291,6 +344,21 @@
           {
             "title" : "Classes",
             "type" : "groupMarker"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/baseconfiguration",
+            "title" : "BaseConfiguration",
+            "type" : "class"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/basecontextmanager",
+            "title" : "BaseContextManager",
+            "type" : "class"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/baselog",
+            "title" : "BaseLog",
+            "type" : "class"
           },
           {
             "children" : [
@@ -408,6 +476,26 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcome(from:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcome(from: SKProduct, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcome(from:product:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcome(from: SKPaymentTransaction, product: SKProduct?, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcomeIfNotLoggedYet(from: SKProduct, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:product:outcome:)",
+                "title" : "func logStoreKit1RevenueOutcomeIfNotLoggedYet(from: SKPaymentTransaction, product: SKProduct?, outcome: EventOutcome)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/context\/validate()",
                 "title" : "func validate() -> String",
                 "type" : "method"
@@ -496,6 +584,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setcontrolmode(enabled:)",
                 "title" : "class func setControlMode(enabled: Bool)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/setdecisionsenabled(_:)",
+                "title" : "class func setDecisionsEnabled(Bool)",
                 "type" : "method"
               },
               {
@@ -615,6 +708,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/customsignalbool\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/customsignalbool\/id",
                 "title" : "let id: String",
                 "type" : "property"
@@ -643,6 +741,11 @@
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/customsignaldecimal\/description",
+                "title" : "var description: String",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignaldecimal\/id",
@@ -675,6 +778,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/customsignalfloat\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/customsignalfloat\/id",
                 "title" : "let id: String",
                 "type" : "property"
@@ -705,6 +813,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/customsignalint\/description",
+                "title" : "var description: String",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/customsignalint\/id",
                 "title" : "let id: String",
                 "type" : "property"
@@ -733,6 +846,11 @@
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/customsignalstring\/description",
+                "title" : "var description: String",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignalstring\/id",
@@ -814,6 +932,32 @@
             ],
             "path" : "\/documentation\/contextsdk\/log",
             "title" : "Log",
+            "type" : "class"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Type Methods",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit1productmetadata(from:)",
+                "title" : "static func extractStoreKit1ProductMetadata(from: SKProduct) -> [CustomSignal]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit1transactionmetadata(from:product:)",
+                "title" : "static func extractStoreKit1TransactionMetadata(from: SKPaymentTransaction, product: SKProduct?) -> [CustomSignal]",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/storekitrevenuetracker\/extractstorekit2productmetadata(from:)",
+                "title" : "static func extractStoreKit2ProductMetadata(from: Product) -> [CustomSignal]",
+                "type" : "method"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/storekitrevenuetracker",
+            "title" : "StoreKitRevenueTracker",
             "type" : "class"
           },
           {

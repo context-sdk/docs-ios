@@ -358,10 +358,7 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-    {
-      "text" : "The main interface to be used to interact with ContextSDK.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {

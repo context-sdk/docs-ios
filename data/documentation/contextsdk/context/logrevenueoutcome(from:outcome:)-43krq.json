@@ -1,7 +1,7 @@
 {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards.",
       "type" : "text"
     }
   ],
@@ -188,7 +188,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The item that was purchased, which is a StoreKit 2 Product object.",
+                  "text" : "The StoreKit 2 Product object that was purchased.",
                   "type" : "text"
                 }
               ],
@@ -362,7 +362,7 @@
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/logRevenueOutcome(from:outcome:)-43krq": {
   "abstract" : [
     {
-      "text" : "Tracks an in-app purchase, logging an outcome afterwards.",
+      "text" : "Tracks a StoreKit 2 in-app purchase, logging an outcome afterwards.",
       "type" : "text"
     }
   ],

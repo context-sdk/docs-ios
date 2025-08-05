@@ -1,10 +1,4 @@
 {
-  "abstract" : [
-    {
-      "text" : "The main interface to be used to interact with ContextSDK.",
-      "type" : "text"
-    }
-  ],
   "hierarchy" : {
     "paths" : [
       [
@@ -89,7 +83,7 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
-        "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager"
       ],
       "kind" : "relationships",
       "title" : "Inherits From",
@@ -136,6 +130,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/registerContextObserver(flowName:callbackOnFirstGoodMoment:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/sdkVersion()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setControlMode(enabled:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setDecisionsEnabled(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:decimalValue:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-6cp7d",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-6pc7c",
@@ -198,12 +193,40 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseContextManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BaseContextManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BaseContextManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BaseContextManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/basecontextmanager"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-    {
-      "text" : "The main interface to be used to interact with ContextSDK.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -1301,11 +1324,9 @@
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setControlMode(enabled:)": {
   "abstract" : [
-    {
-      "text" : "When control mode is enabled:",
-      "type" : "text"
-    }
+
   ],
+  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -1355,6 +1376,55 @@
   "title" : "setControlMode(enabled:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/setcontrolmode(enabled:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setDecisionsEnabled(_:)": {
+  "abstract" : [
+    {
+      "text" : "Controls whether ContextSDK should make decisions based on its models.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setDecisionsEnabled"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setDecisionsEnabled(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setDecisionsEnabled(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setdecisionsenabled(_:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setGlobalCustomSignal(id:decimalValue:)": {
   "abstract" : [
@@ -2287,11 +2357,6 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/unregistercontextobserver(flowname:)"
 },
-"doc://org.cocoapods.ContextSDK/objc(cs)NSObject": {
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject",
-  "title" : "NSObject",
-  "type" : "unresolvable"
-},
 "doc://org.cocoapods.ContextSDK/objc(pl)NSObject": {
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject",
   "title" : "ObjectiveC.NSObjectProtocol",
@@ -2381,7 +2446,7 @@
         "value" : [
           {
             "identifiers" : [
-              "doc:\/\/org.cocoapods.ContextSDK\/objc(cs)NSObject"
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager"
             ],
             "kind" : "relationships",
             "title" : "Inherits From",
@@ -2424,15 +2489,41 @@
                   "text" : " : "
                 },
                 {
+                  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BaseContextManager",
                   "kind" : "typeIdentifier",
-                  "preciseIdentifier" : "c:objc(cs)NSObject",
-                  "text" : "NSObject"
+                  "preciseIdentifier" : "c:@M@ContextSDK@objc(cs)BaseContextManager",
+                  "text" : "BaseContextManager"
                 }
               ]
             }
           ],
           "kind" : "declarations"
         }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseContextManager\/title",
+        "value" : "BaseContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1BaseContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "BaseContextManager"
+          }
+        ]
       },
       {
         "op" : "replace",
