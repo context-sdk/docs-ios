@@ -668,6 +668,11 @@
                 "type" : "groupMarker"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextpush\/applicationdidfinishlaunchingwithoptions()",
+                "title" : "class func applicationDidFinishLaunchingWithOptions()",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextpush\/applicationdidreceiveremotenotification(_:fetchcompletionhandler:)",
                 "title" : "class func applicationDidReceiveRemoteNotification([AnyHashable : Any], fetchCompletionHandler: (UIBackgroundFetchResult) -> Void) -> Bool",
                 "type" : "method"
