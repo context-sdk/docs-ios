@@ -91,6 +91,7 @@
       "anchor" : "Type-Methods",
       "generated" : true,
       "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidFinishLaunchingWithOptions()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setDeviceToken(_:pushEnvironment:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)",
@@ -157,6 +158,46 @@
   "title" : "ContextPush",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextpush"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/applicationDidFinishLaunchingWithOptions()": {
+  "abstract" : [
+    {
+      "text" : "Handles setting up background tasks for processing Context aware messages.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "applicationDidFinishLaunchingWithOptions"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidFinishLaunchingWithOptions()",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "applicationDidFinishLaunchingWithOptions()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextpush\/applicationdidfinishlaunchingwithoptions()"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)": {
   "abstract" : [

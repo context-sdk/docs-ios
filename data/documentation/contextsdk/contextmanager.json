@@ -129,6 +129,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/recentContext(flowName:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/registerContextObserver(flowName:callbackOnFirstGoodMoment:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/sdkVersion()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setABTestInformation(testName:cohortName:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setControlMode(enabled:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setDecisionsEnabled(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:decimalValue:)",
@@ -1321,6 +1322,96 @@
   "title" : "sdkVersion()",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/sdkversion()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setABTestInformation(testName:cohortName:)": {
+  "abstract" : [
+    {
+      "text" : "Call this configure the test name and cohort name of the current app installation.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "This is useful when you are using your own A\/B testing system already and want to align experiment data with ContextSDK.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "ContextSDK will store the values set here so they are immediately applied on the next app start, you should still call this method as early as possible during the app lifecycle to ensure the values are current, and the correct configuration is applied to the installation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setABTestInformation"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "testName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "cohortName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setABTestInformation(testName:cohortName:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setABTestInformation(testName:cohortName:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setabtestinformation(testname:cohortname:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setControlMode(enabled:)": {
   "abstract" : [

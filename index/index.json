@@ -367,13 +367,18 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:)",
-                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool)",
+                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-73kby",
+                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?)",
                 "type" : "init"
               },
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/defaultabtestinformation",
+                "title" : "let defaultABTestInformation: ABTestInformation?",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/contextsdk\/configuration\/enableautomaticapplaunchbehaviourlogging",
@@ -582,6 +587,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/setabtestinformation(testname:cohortname:)",
+                "title" : "class func setABTestInformation(testName: String, cohortName: String)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setcontrolmode(enabled:)",
                 "title" : "class func setControlMode(enabled: Bool)",
                 "type" : "method"
@@ -666,6 +676,11 @@
               {
                 "title" : "Type Methods",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextpush\/applicationdidfinishlaunchingwithoptions()",
+                "title" : "class func applicationDidFinishLaunchingWithOptions()",
+                "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextpush\/applicationdidreceiveremotenotification(_:fetchcompletionhandler:)",
@@ -988,6 +1003,47 @@
           {
             "title" : "Structures",
             "type" : "groupMarker"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/abtestinformation\/cohortname",
+                "title" : "let cohortName: String",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/abtestinformation\/testname",
+                "title" : "let testName: String",
+                "type" : "property"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/abtestinformation\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/contextsdk\/abtestinformation\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/abtestinformation",
+            "title" : "ABTestInformation",
+            "type" : "struct"
           },
           {
             "children" : [
