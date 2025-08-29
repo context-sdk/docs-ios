@@ -1,0 +1,314 @@
+{
+  "abstract" : [
+    {
+      "text" : "The default AB test information. This will be used until ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.setABTestInformation",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is called the first time. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/defaultABTestInformation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK13ConfigurationC24defaultABTestInformationAA0eF0VSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "defaultABTestInformation"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK17ABTestInformationV",
+        "text" : "ABTestInformation"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "defaultABTestInformation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "defaultABTestInformation"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK17ABTestInformationV",
+              "text" : "ABTestInformation"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/configuration\/defaultabtestinformation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation": {
+  "abstract" : [
+    {
+      "text" : "AB test information used to track experiment participation and model selection.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ABTestInformation"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ABTestInformation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ABTestInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/abtestinformation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
+  "abstract" : [
+    {
+      "text" : "A customizable object that defines the settings and preferences used to initialize ContextSDK.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Configuration"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Configuration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/defaultABTestInformation": {
+  "abstract" : [
+    {
+      "text" : "The default AB test information. This will be used until ",
+      "type" : "text"
+    },
+    {
+      "code" : "ContextManager.setABTestInformation",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " is called the first time. Defaults to ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultABTestInformation"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK17ABTestInformationV",
+      "text" : "ABTestInformation"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/defaultABTestInformation",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultABTestInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/defaultabtestinformation"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/title",
+        "value" : "Configuration"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1Configuration\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "Configuration"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

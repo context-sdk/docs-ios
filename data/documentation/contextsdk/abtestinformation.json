@@ -1,0 +1,268 @@
+{
+  "abstract" : [
+    {
+      "text" : "AB test information used to track experiment participation and model selection.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK17ABTestInformationV",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "struct"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ABTestInformation"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ABTestInformation"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Structure",
+    "symbolKind" : "struct",
+    "title" : "ABTestInformation"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "struct"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ABTestInformation"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Instance-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/cohortName",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/testName"
+      ],
+      "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/abtestinformation"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation": {
+  "abstract" : [
+    {
+      "text" : "AB test information used to track experiment participation and model selection.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ABTestInformation"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ABTestInformation"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ABTestInformation",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/abtestinformation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/abtestinformation\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation/cohortName": {
+  "abstract" : [
+    {
+      "text" : "The cohort within the test that determines behavior. Typically “control” for default behavior or “treatment” for experimental features with ContextSDK optimizations.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "cohortName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/cohortName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "cohortName",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/abtestinformation\/cohortname"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation/testName": {
+  "abstract" : [
+    {
+      "text" : "The name of the A\/B test experiment. Used to identify which test the user is participating in (e.g., “checkout_flow_test”, “onboarding_experiment”).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "testName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/testName",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "testName",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/abtestinformation\/testname"
+}
+}
+}
