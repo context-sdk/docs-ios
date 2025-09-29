@@ -442,6 +442,11 @@
                 "type" : "property"
               },
               {
+                "path" : "\/documentation\/contextsdk\/context\/wasforcedupsell",
+                "title" : "var wasForcedUpsell: Bool",
+                "type" : "property"
+              },
+              {
                 "title" : "Instance Methods",
                 "type" : "groupMarker"
               },

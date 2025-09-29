@@ -102,7 +102,8 @@
       "identifiers" : [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/alreadyLogged",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/createdAt",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/wasForcedUpsell"
       ],
       "title" : "Instance Properties"
     },
@@ -1034,6 +1035,51 @@
   "title" : "validate()",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context\/validate()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/wasForcedUpsell": {
+  "abstract" : [
+    {
+      "text" : "Whether this upsell was triggered in a bad moment due to some kind of fallback logic.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Include this in your analytics to understand the impact delivering prompts in good moments has on performance.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "var"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "wasForcedUpsell"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sb",
+      "text" : "Bool"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/wasForcedUpsell",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "wasForcedUpsell",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/wasforcedupsell"
 }
 }
 }
