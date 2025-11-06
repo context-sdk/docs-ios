@@ -101,6 +101,8 @@
   "relationshipsSections" : [
     {
       "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/Se",
+        "doc:\/\/org.cocoapods.ContextSDK\/SE",
         "doc:\/\/org.cocoapods.ContextSDK\/SQ",
         "doc:\/\/org.cocoapods.ContextSDK\/SH",
         "doc:\/\/org.cocoapods.ContextSDK\/SY"
@@ -160,6 +162,11 @@
   ]
 , 
 "references": {
+"doc://org.cocoapods.ContextSDK/SE": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SE",
+  "title" : "Swift.Encodable",
+  "type" : "unresolvable"
+},
 "doc://org.cocoapods.ContextSDK/SH": {
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
   "title" : "Swift.Hashable",
@@ -173,6 +180,11 @@
 "doc://org.cocoapods.ContextSDK/SY": {
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SY",
   "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/Se": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/Se",
+  "title" : "Swift.Decodable",
   "type" : "unresolvable"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
