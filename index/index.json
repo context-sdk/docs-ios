@@ -1172,6 +1172,15 @@
               {
                 "children" : [
                   {
+                    "title" : "Initializers",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/apsenvironment\/init(from:)",
+                    "title" : "init(from: any Decoder) throws",
+                    "type" : "init"
+                  },
+                  {
                     "title" : "Instance Properties",
                     "type" : "groupMarker"
                   },
@@ -1183,6 +1192,11 @@
                   {
                     "title" : "Instance Methods",
                     "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/apsenvironment\/encode(to:)",
+                    "title" : "func encode(to: any Encoder) throws",
+                    "type" : "method"
                   },
                   {
                     "path" : "\/documentation\/contextsdk\/apsenvironment\/hash(into:)",
