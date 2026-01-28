@@ -77,7 +77,8 @@
       "anchor" : "Type-Aliases",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextClosure"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextClosure",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/NotificationContentCustomizer"
       ],
       "title" : "Type Aliases"
     },
@@ -973,6 +974,40 @@
   "title" : "Log",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/log"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/NotificationContentCustomizer": {
+  "abstract" : [
+    {
+      "text" : "A closure that allows customization of notification content before display.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "typealias"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "NotificationContentCustomizer"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/NotificationContentCustomizer",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "NotificationContentCustomizer"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "NotificationContentCustomizer",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/notificationcontentcustomizer"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome": {
   "abstract" : [
