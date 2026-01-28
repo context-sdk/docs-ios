@@ -94,6 +94,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidFinishLaunchingWithOptions()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/applicationDidReceiveRemoteNotification(_:fetchCompletionHandler:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setDeviceToken(_:pushEnvironment:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setNotificationContentCustomizer(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/userNotificationCenterDidReceiveResponse(_:)"
       ],
@@ -357,6 +358,55 @@
   "title" : "setDeviceToken(_:pushEnvironment:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextpush\/setdevicetoken(_:pushenvironment:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setNotificationContentCustomizer(_:)": {
+  "abstract" : [
+    {
+      "text" : "Sets a callback to customize notification content before display.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setNotificationContentCustomizer"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK29NotificationContentCustomizera",
+      "text" : "NotificationContentCustomizer"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setNotificationContentCustomizer(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setNotificationContentCustomizer(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextpush\/setnotificationcontentcustomizer(_:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setUserId(_:)": {
   "abstract" : [

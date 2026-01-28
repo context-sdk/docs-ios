@@ -367,13 +367,18 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-73kby",
-                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?)",
+                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6rwus",
+                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?, appGroupIdentifier: String?)",
                 "type" : "init"
               },
               {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/appgroupidentifier",
+                "title" : "let appGroupIdentifier: String?",
+                "type" : "property"
               },
               {
                 "path" : "\/documentation\/contextsdk\/configuration\/defaultabtestinformation",
@@ -695,6 +700,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/contextpush\/setdevicetoken(_:pushenvironment:)",
                 "title" : "class func setDeviceToken(Data, pushEnvironment: APSEnvironment?) -> DeviceTokenManager",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextpush\/setnotificationcontentcustomizer(_:)",
+                "title" : "class func setNotificationContentCustomizer(NotificationContentCustomizer?)",
                 "type" : "method"
               },
               {
@@ -1118,6 +1128,11 @@
           {
             "path" : "\/documentation\/contextsdk\/contextclosure",
             "title" : "ContextClosure",
+            "type" : "typealias"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/notificationcontentcustomizer",
+            "title" : "NotificationContentCustomizer",
             "type" : "typealias"
           },
           {

@@ -23,11 +23,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:)"
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10ContextSDK13ConfigurationC30enableTouchBehaviourMonitoring0d15SessionDurationG00d10ScreenshotG00D31AutomaticAppStartAndEndTracking0dkl6LaunchF7Logging0D14ErrorReporting0d7InstantA024defaultABTestInformationACSb_S6bAA0wX0VSgtcfc",
+    "externalID" : "s:10ContextSDK13ConfigurationC30enableTouchBehaviourMonitoring0d15SessionDurationG00d10ScreenshotG00D31AutomaticAppStartAndEndTracking0dkl6LaunchF7Logging0D14ErrorReporting0d7InstantA024defaultABTestInformation18appGroupIdentifierACSb_S6bAA0wX0VSgSSSgtcfc",
     "fragments" : [
       {
         "kind" : "identifier",
@@ -171,6 +171,23 @@
       },
       {
         "kind" : "text",
+        "text" : "?, "
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "appGroupIdentifier"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
         "text" : "?)"
       }
     ],
@@ -182,7 +199,7 @@
     "role" : "symbol",
     "roleHeading" : "Initializer",
     "symbolKind" : "init",
-    "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:)"
+    "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)"
   },
   "primaryContentSections" : [
     {
@@ -335,6 +352,23 @@
               "kind" : "typeIdentifier",
               "preciseIdentifier" : "s:10ContextSDK17ABTestInformationV",
               "text" : "ABTestInformation"
+            },
+            {
+              "kind" : "text",
+              "text" : "? = nil, "
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "appGroupIdentifier"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
             },
             {
               "kind" : "text",
@@ -563,6 +597,41 @@
             }
           ],
           "name" : "defaultABTestInformation"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "The app group identifier for enabling delivery tracking (e.g., “group.com.example.app”). ",
+                  "type" : "text"
+                },
+                {
+                  "inlineContent" : [
+                    {
+                      "text" : "Important:",
+                      "type" : "text"
+                    }
+                  ],
+                  "type" : "strong"
+                },
+                {
+                  "text" : " Setting this requires a properly configured Notification Service Extension. See the ContextPush documentation. Defaults to ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "nil",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : ".",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "appGroupIdentifier"
         }
       ]
     }
@@ -578,7 +647,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-73kby"
+        "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6rwus"
       ],
       "traits" : [
         {
@@ -668,7 +737,7 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/configuration"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -826,15 +895,32 @@
     },
     {
       "kind" : "text",
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "appGroupIdentifier"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
       "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:)",
+  "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-73kby"
+  "url" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6rwus"
 }
 }, 
 "variantOverrides":[
