@@ -98,6 +98,14 @@
   ],
   "topicSections" : [
     {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/init(testName:cohortName:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
       "anchor" : "Instance-Properties",
       "generated" : true,
       "identifiers" : [
@@ -226,6 +234,61 @@
   "title" : "cohortName",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/abtestinformation\/cohortname"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation/init(testName:cohortName:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "testName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "cohortName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/init(testName:cohortName:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(testName:cohortName:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/abtestinformation\/init(testname:cohortname:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation/testName": {
   "abstract" : [
