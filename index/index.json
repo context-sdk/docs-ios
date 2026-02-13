@@ -1022,6 +1022,15 @@
           {
             "children" : [
               {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/abtestinformation\/init(testname:cohortname:)",
+                "title" : "init(testName: String, cohortName: String)",
+                "type" : "init"
+              },
+              {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
               },
