@@ -2228,6 +2228,11 @@
                 "type" : "case"
               },
               {
+                "path" : "\/documentation\/contextsdk\/pushoutcome\/shouldshowpushrandomly",
+                "title" : "case shouldShowPushRandomly",
+                "type" : "case"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/pushoutcome\/shouldskippushduetoalreadyshown",
                 "title" : "case shouldSkipPushDueToAlreadyShown",
                 "type" : "case"

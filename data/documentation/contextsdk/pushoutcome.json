@@ -124,6 +124,7 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPush",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPushRandomly",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldSkipPushDueToAlreadyShown",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldSkipPushDueToBadMoment"
       ],
@@ -308,6 +309,34 @@
   "title" : "PushOutcome.shouldShowPush",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/pushoutcome\/shouldshowpush"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldShowPushRandomly": {
+  "abstract" : [
+    {
+      "text" : "Indicates that the push notification should be displayed due to random upsell.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "shouldShowPushRandomly"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/shouldShowPushRandomly",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "PushOutcome.shouldShowPushRandomly",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/pushoutcome\/shouldshowpushrandomly"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/shouldSkipPushDueToAlreadyShown": {
   "abstract" : [
