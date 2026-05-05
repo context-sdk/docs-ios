@@ -1,0 +1,547 @@
+{
+  "abstract" : [
+    {
+      "text" : "Releases non-critical in-memory state in response to a system memory warning.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "c:@M@ContextSDK@objc(cs)ContextManager(cm)didReceiveMemoryWarning",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "class"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "keyword",
+        "text" : "func"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "didReceiveMemoryWarning"
+      },
+      {
+        "kind" : "text",
+        "text" : "()"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "didReceiveMemoryWarning"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Type Method",
+    "symbolKind" : "method",
+    "title" : "didReceiveMemoryWarning()"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "attribute",
+              "text" : "@objc"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "class"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "keyword",
+              "text" : "func"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "didReceiveMemoryWarning"
+            },
+            {
+              "kind" : "text",
+              "text" : "()"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    },
+    {
+      "content" : [
+        {
+          "anchor" : "discussion",
+          "level" : 2,
+          "text" : "Discussion",
+          "type" : "heading"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Call this from your ",
+              "type" : "text"
+            },
+            {
+              "code" : "UIApplicationDelegate.applicationDidReceiveMemoryWarning(_:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "(or ",
+              "type" : "text"
+            },
+            {
+              "code" : "UIViewController.didReceiveMemoryWarning()",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ") to let ContextSDK shrink its",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "caches. The accelerometer ring buffer is trimmed to the minimum window needed",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "to satisfy ",
+              "type" : "text"
+            },
+            {
+              "code" : "fetchContext",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " \/ ",
+              "type" : "text"
+            },
+            {
+              "code" : "instantContext",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " calls, and internal cached state",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "that can be re-derived is released.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
+          "inlineContent" : [
+            {
+              "text" : "Recent contexts created via your own flow names are preserved so that",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/recentContext(flowName:)",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : " continues to return them.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        }
+      ],
+      "kind" : "content"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    },
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "occ"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ContextManager"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ContextManager",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/didReceiveMemoryWarning()": {
+  "abstract" : [
+    {
+      "text" : "Releases non-critical in-memory state in response to a system memory warning.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveMemoryWarning"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveMemoryWarning"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "didReceiveMemoryWarning()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/recentContext(flowName:)": {
+  "abstract" : [
+    {
+      "text" : "Returns the most recently created context for the specified flow name. This allows you to log an outcome of a previously created context object, like from a different screen.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "recentContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/recentContext(flowName:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "recentContext(flowName:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/recentcontext(flowname:)"
+}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/identifier\/interfaceLanguage",
+        "value" : "occ"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/roleHeading",
+        "value" : "Type Method"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/title",
+        "value" : "didReceiveMemoryWarning"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/symbolKind",
+        "value" : "method"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/metadata\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "didReceiveMemoryWarning"
+          }
+        ]
+      },
+      {
+        "op" : "add",
+        "path" : "\/topicSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/relationshipsSections",
+        "value" : null
+      },
+      {
+        "op" : "add",
+        "path" : "\/seeAlsoSections",
+        "value" : null
+      },
+      {
+        "op" : "replace",
+        "path" : "\/primaryContentSections\/0",
+        "value" : {
+          "declarations" : [
+            {
+              "languages" : [
+                "occ"
+              ],
+              "platforms" : [
+                "iOS"
+              ],
+              "tokens" : [
+                {
+                  "kind" : "text",
+                  "text" : "+ ("
+                },
+                {
+                  "kind" : "typeIdentifier",
+                  "preciseIdentifier" : "c:v",
+                  "text" : "void"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ") "
+                },
+                {
+                  "kind" : "identifier",
+                  "text" : "didReceiveMemoryWarning"
+                },
+                {
+                  "kind" : "text",
+                  "text" : ";"
+                }
+              ]
+            }
+          ],
+          "kind" : "declarations"
+        }
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title",
+        "value" : "ContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1didReceiveMemoryWarning()\/title",
+        "value" : "didReceiveMemoryWarning"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1didReceiveMemoryWarning()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "didReceiveMemoryWarning"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
+}

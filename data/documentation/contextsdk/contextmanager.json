@@ -122,6 +122,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/cancelContextCallback(flowName:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/contextPush()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/currentAppliedCustomModelVersion()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/getCustomModel(for:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)",
@@ -753,6 +754,52 @@
   "title" : "currentAppliedCustomModelVersion()",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/currentappliedcustommodelversion()"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/didReceiveMemoryWarning()": {
+  "abstract" : [
+    {
+      "text" : "Releases non-critical in-memory state in response to a system memory warning.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveMemoryWarning"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveMemoryWarning"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "didReceiveMemoryWarning()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
   "abstract" : [
@@ -2522,6 +2569,7 @@
             "identifiers" : [
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/applicationDidFinishLaunchingWithOptions(_:licenseKey:)",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/applicationDidFinishLaunchingWithOptions(_:licenseKey:configuration:)",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/sdkVersion()",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:)",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
@@ -2676,6 +2724,25 @@
           {
             "kind" : "identifier",
             "text" : "applicationDidFinishLaunchingWithOptions:licenseKey:configuration:"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1didReceiveMemoryWarning()\/title",
+        "value" : "didReceiveMemoryWarning"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1didReceiveMemoryWarning()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "didReceiveMemoryWarning"
           }
         ]
       },

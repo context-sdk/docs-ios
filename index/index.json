@@ -85,6 +85,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()",
+                "title" : "didReceiveMemoryWarning",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/sdkversion()",
                 "title" : "sdkVersion",
                 "type" : "method"
@@ -559,6 +564,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/currentappliedcustommodelversion()",
                 "title" : "static func currentAppliedCustomModelVersion() -> String",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()",
+                "title" : "class func didReceiveMemoryWarning()",
                 "type" : "method"
               },
               {
