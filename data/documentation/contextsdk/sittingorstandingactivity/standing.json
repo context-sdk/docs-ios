@@ -1,0 +1,294 @@
+{
+  "abstract" : [
+    {
+      "text" : "Nested ",
+      "type" : "text"
+    },
+    {
+      "code" : "standing",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " scores, including the ",
+      "type" : "text"
+    },
+    {
+      "code" : "elevator",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " sub-activity.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SittingOrStandingActivity"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SittingOrStandingActivity\/standing"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK25SittingOrStandingActivityV8standingAA0eF0VSgvp",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "let"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "standing"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:10ContextSDK16StandingActivityV",
+        "text" : "StandingActivity"
+      },
+      {
+        "kind" : "text",
+        "text" : "?"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Instance Property",
+    "symbolKind" : "property",
+    "title" : "standing"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "let"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "standing"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StandingActivity",
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:10ContextSDK16StandingActivityV",
+              "text" : "StandingActivity"
+            },
+            {
+              "kind" : "text",
+              "text" : "?"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/sittingorstandingactivity\/standing"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/SittingOrStandingActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "sitting_or_standing",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " family of activities.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SittingOrStandingActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SittingOrStandingActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SittingOrStandingActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SittingOrStandingActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/sittingorstandingactivity"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/SittingOrStandingActivity/standing": {
+  "abstract" : [
+    {
+      "text" : "Nested ",
+      "type" : "text"
+    },
+    {
+      "code" : "standing",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " scores, including the ",
+      "type" : "text"
+    },
+    {
+      "code" : "elevator",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " sub-activity.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "standing"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK16StandingActivityV",
+      "text" : "StandingActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : "?"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SittingOrStandingActivity\/standing",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "standing",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/sittingorstandingactivity\/standing"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StandingActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for activities that fall under ",
+      "type" : "text"
+    },
+    {
+      "code" : "standing",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StandingActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StandingActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StandingActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StandingActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/standingactivity"
+}
+}
+}
