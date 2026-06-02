@@ -137,7 +137,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
       "isActive" : true,
       "type" : "reference"
     },
@@ -249,7 +249,7 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/activityrecognitionstatus\/timeout"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(callback:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
   "abstract" : [
     {
       "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
@@ -291,6 +291,23 @@
     },
     {
       "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
       "text" : "callback"
     },
     {
@@ -325,12 +342,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "fetchCurrentActivity(callback:)",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(callback:)"
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
 }
 }
 }

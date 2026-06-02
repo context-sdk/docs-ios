@@ -577,13 +577,13 @@
                 "type" : "method"
               },
               {
-                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(activities:callback:)",
-                "title" : "class func fetchCurrentActivity(activities: [Activity], callback: (ActivityRecognitionStatus, [Activity : Float]) -> Void)",
+                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:activities:callback:)",
+                "title" : "class func fetchCurrentActivity(flowName: String, activities: [Activity], callback: (ActivityRecognitionStatus, [Activity : Float]) -> Void)",
                 "type" : "method"
               },
               {
-                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(callback:)",
-                "title" : "class func fetchCurrentActivity(callback: (ActivityRecognitionStatus, ActivityRecognitionResult) -> Void)",
+                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)",
+                "title" : "class func fetchCurrentActivity(flowName: String, callback: (ActivityRecognitionStatus, ActivityRecognitionResult) -> Void)",
                 "type" : "method"
               },
               {

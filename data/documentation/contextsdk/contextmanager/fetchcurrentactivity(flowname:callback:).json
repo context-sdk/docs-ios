@@ -23,11 +23,11 @@
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)"
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10ContextSDK0A7ManagerC20fetchCurrentActivity8callbackyyAA0F17RecognitionStatusO_AA0fH6ResultVtc_tFZ",
+    "externalID" : "s:10ContextSDK0A7ManagerC20fetchCurrentActivity8flowName8callbackySS_yAA0F17RecognitionStatusO_AA0fJ6ResultVtctFZ",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -52,6 +52,23 @@
       {
         "kind" : "text",
         "text" : "("
+      },
+      {
+        "kind" : "externalParam",
+        "text" : "flowName"
+      },
+      {
+        "kind" : "text",
+        "text" : ": "
+      },
+      {
+        "kind" : "typeIdentifier",
+        "preciseIdentifier" : "s:SS",
+        "text" : "String"
+      },
+      {
+        "kind" : "text",
+        "text" : ", "
       },
       {
         "kind" : "externalParam",
@@ -97,7 +114,7 @@
     "role" : "symbol",
     "roleHeading" : "Type Method",
     "symbolKind" : "method",
-    "title" : "fetchCurrentActivity(callback:)"
+    "title" : "fetchCurrentActivity(flowName:callback:)"
   },
   "primaryContentSections" : [
     {
@@ -133,6 +150,23 @@
             {
               "kind" : "text",
               "text" : "("
+            },
+            {
+              "kind" : "externalParam",
+              "text" : "flowName"
+            },
+            {
+              "kind" : "text",
+              "text" : ": "
+            },
+            {
+              "kind" : "typeIdentifier",
+              "preciseIdentifier" : "s:SS",
+              "text" : "String"
+            },
+            {
+              "kind" : "text",
+              "text" : ", "
             },
             {
               "kind" : "externalParam",
@@ -192,7 +226,15 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "Invoked on the main thread with the call status and the hierarchical",
+                  "text" : "A short identifier for the call site (e.g. ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "\"home_screen_tap\"",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : "). Use a",
                   "type" : "text"
                 },
                 {
@@ -200,7 +242,21 @@
                   "type" : "text"
                 },
                 {
-                  "text" : "result. Use the status to tell apart a successful prediction (which may still have nil",
+                  "text" : "distinct value for each place in your app where you invoke this API.",
+                  "type" : "text"
+                }
+              ],
+              "type" : "paragraph"
+            }
+          ],
+          "name" : "flowName"
+        },
+        {
+          "content" : [
+            {
+              "inlineContent" : [
+                {
+                  "text" : "Invoked on the main thread with the call status and the hierarchical result.",
                   "type" : "text"
                 },
                 {
@@ -208,7 +264,15 @@
                   "type" : "text"
                 },
                 {
-                  "text" : "fields for individual activities) from a timeout \/ unavailable-sensor outcome.",
+                  "text" : "Use the status to tell apart a successful prediction (which may still have nil fields",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "for individual activities) from a timeout \/ unavailable-sensor outcome.",
                   "type" : "text"
                 }
               ],
@@ -254,7 +318,7 @@
               "type" : "text"
             },
             {
-              "text" : "models trained on that window. Expect the callback to fire ~3–4 seconds after the call.",
+              "text" : "models trained on that window. Expect the callback to fire ~3–5 seconds after the call.",
               "type" : "text"
             }
           ],
@@ -263,7 +327,7 @@
         {
           "inlineContent" : [
             {
-              "text" : "The call is bounded by a hard timeout (~4 seconds). If CoreMotion fails to deliver enough",
+              "text" : "The call is bounded by a hard timeout (~5 seconds). If CoreMotion fails to deliver enough",
               "type" : "text"
             },
             {
@@ -320,7 +384,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(callback:)"
+        "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
       ],
       "traits" : [
         {
@@ -349,7 +413,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
       "isActive" : true,
       "type" : "reference"
     },
@@ -392,7 +456,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
       "isActive" : true,
       "type" : "reference"
     },
@@ -483,7 +547,7 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(callback:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
   "abstract" : [
     {
       "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
@@ -525,6 +589,23 @@
     },
     {
       "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
       "text" : "callback"
     },
     {
@@ -559,12 +640,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "fetchCurrentActivity(callback:)",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(callback:)"
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
 }
 }, 
 "variantOverrides":[

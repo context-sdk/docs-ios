@@ -124,8 +124,8 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/currentAppliedCustomModelVersion()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(activities:callback:)",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:activities:callback:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/getCustomModel(for:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
@@ -204,7 +204,7 @@
       "type" : "text"
     },
     {
-      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
       "isActive" : true,
       "type" : "reference"
     },
@@ -962,7 +962,7 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(activities:callback:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:activities:callback:)": {
   "abstract" : [
     {
       "text" : "Runs the on-device activity recognition models for the requested activities only, returning a",
@@ -1010,6 +1010,23 @@
     {
       "kind" : "text",
       "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
     },
     {
       "kind" : "externalParam",
@@ -1073,14 +1090,14 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(activities:callback:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:activities:callback:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "fetchCurrentActivity(activities:callback:)",
+  "title" : "fetchCurrentActivity(flowName:activities:callback:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(activities:callback:)"
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:activities:callback:)"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(callback:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
   "abstract" : [
     {
       "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
@@ -1122,6 +1139,23 @@
     },
     {
       "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
       "text" : "callback"
     },
     {
@@ -1156,12 +1190,12 @@
       "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(callback:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "fetchCurrentActivity(callback:)",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(callback:)"
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/getCustomModel(for:)": {
   "abstract" : [
