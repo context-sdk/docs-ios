@@ -662,6 +662,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/setuserid(_:)",
+                "title" : "class func setUserId(String?)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(_:)",
                 "title" : "class func setup(String) -> Bool",
                 "type" : "method"

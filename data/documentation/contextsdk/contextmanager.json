@@ -141,6 +141,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-8onnm",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-8xovt",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setLogSender(closure:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setUserId(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)",
@@ -2285,6 +2286,55 @@
   "title" : "setLogSender(closure:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/setlogsender(closure:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setUserId(_:)": {
+  "abstract" : [
+    {
+      "text" : "Sets the identifier of the current user, so the same user can be matched between your system and ContextSDK.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setUserId"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setUserId(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setUserId(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setuserid(_:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setup(_:)": {
   "abstract" : [

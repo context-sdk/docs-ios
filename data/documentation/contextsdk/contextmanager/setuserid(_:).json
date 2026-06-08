@@ -1,36 +1,25 @@
 {
   "abstract" : [
     {
-      "text" : "Sets the unique identifier for the current user.",
+      "text" : "Sets the identifier of the current user, so the same user can be matched between your system and ContextSDK.",
       "type" : "text"
-    }
-  ],
-  "deprecationSummary" : [
-    {
-      "inlineContent" : [
-        {
-          "text" : "Use ContextManager.setUserId(_:) instead. It sets the user id for all ContextSDK products; for push you then only need ContextPush.setDeviceToken(_:).",
-          "type" : "text"
-        }
-      ],
-      "type" : "paragraph"
     }
   ],
   "hierarchy" : {
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)"
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setUserId(_:)"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10ContextSDK0A4PushC9setUserIdyAA18DeviceTokenManagerCSSFZ",
+    "externalID" : "s:10ContextSDK0A7ManagerC9setUserIdyySSSgFZ",
     "fragments" : [
       {
         "kind" : "keyword",
@@ -63,21 +52,13 @@
       },
       {
         "kind" : "text",
-        "text" : ") -> "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:10ContextSDK18DeviceTokenManagerC",
-        "text" : "DeviceTokenManager"
+        "text" : "?)"
       }
     ],
     "modules" : [
       {
         "name" : "ContextSDK"
       }
-    ],
-    "platforms" : [
-
     ],
     "role" : "symbol",
     "roleHeading" : "Type Method",
@@ -95,14 +76,6 @@
             "iOS"
           ],
           "tokens" : [
-            {
-              "kind" : "attribute",
-              "text" : "@discardableResult"
-            },
-            {
-              "kind" : "text",
-              "text" : " "
-            },
             {
               "kind" : "keyword",
               "text" : "class"
@@ -150,13 +123,7 @@
             },
             {
               "kind" : "text",
-              "text" : ") -> "
-            },
-            {
-              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:10ContextSDK18DeviceTokenManagerC",
-              "text" : "DeviceTokenManager"
+              "text" : "?)"
             }
           ]
         }
@@ -171,7 +138,23 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "A unique string that identifies the current user in your system.",
+                  "text" : "A unique string that identifies the current user in your system, or ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "nil",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " to clear a",
+                  "type" : "text"
+                },
+                {
+                  "text" : " ",
+                  "type" : "text"
+                },
+                {
+                  "text" : "previously set user id (for example on sign-out).",
                   "type" : "text"
                 }
               ],
@@ -185,35 +168,6 @@
     {
       "content" : [
         {
-          "anchor" : "return-value",
-          "level" : 2,
-          "text" : "Return Value",
-          "type" : "heading"
-        },
-        {
-          "inlineContent" : [
-            {
-              "text" : "A ",
-              "type" : "text"
-            },
-            {
-              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
-              "isActive" : true,
-              "type" : "reference"
-            },
-            {
-              "text" : " instance for chaining additional configuration calls.",
-              "type" : "text"
-            }
-          ],
-          "type" : "paragraph"
-        }
-      ],
-      "kind" : "content"
-    },
-    {
-      "content" : [
-        {
           "anchor" : "discussion",
           "level" : 2,
           "text" : "Discussion",
@@ -222,7 +176,47 @@
         {
           "inlineContent" : [
             {
-              "text" : "Call this method to provide the user ID associated with the current app session. This allows ContextSDK to associate the device token with the correct user on the server, enabling context-aware push delivery.",
+              "text" : "The user id is shared across all ContextSDK products: it’s attached as a signal to every ContextSDK event",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "from now on, and, when you also use ContextSDK Push, it’s used to associate the device token with the",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "signed-in user (you then only need to provide the device token via ",
+              "type" : "text"
+            },
+            {
+              "code" : "ContextPush.setDeviceToken(_:)",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : "). It’s",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "stored on the device, so it’s available again on the next app start without you having to set it once more.",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "Call this again whenever the signed-in user changes to overwrite the previous value.",
               "type" : "text"
             }
           ],
@@ -243,7 +237,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/contextsdk\/contextpush\/setuserid(_:)"
+        "\/documentation\/contextsdk\/contextmanager\/setuserid(_:)"
       ],
       "traits" : [
         {
@@ -265,12 +259,9 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager": {
   "abstract" : [
-    {
-      "text" : "Class used for managing push notification integration.",
-      "type" : "text"
-    }
+
   ],
   "fragments" : [
     {
@@ -283,30 +274,29 @@
     },
     {
       "kind" : "identifier",
-      "text" : "ContextPush"
+      "text" : "ContextManager"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "ContextPush"
+      "text" : "ContextManager"
     }
   ],
   "role" : "symbol",
-  "title" : "ContextPush",
+  "title" : "ContextManager",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextpush"
+  "url" : "\/documentation\/contextsdk\/contextmanager"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextPush/setUserId(_:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setUserId(_:)": {
   "abstract" : [
     {
-      "text" : "Sets the unique identifier for the current user.",
+      "text" : "Sets the identifier of the current user, so the same user can be matched between your system and ContextSDK.",
       "type" : "text"
     }
   ],
-  "deprecated" : true,
   "fragments" : [
     {
       "kind" : "keyword",
@@ -339,54 +329,51 @@
     },
     {
       "kind" : "text",
-      "text" : ") -> "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:10ContextSDK18DeviceTokenManagerC",
-      "text" : "DeviceTokenManager"
+      "text" : "?)"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextPush\/setUserId(_:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setUserId(_:)",
   "kind" : "symbol",
   "role" : "symbol",
   "title" : "setUserId(_:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextpush\/setuserid(_:)"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/DeviceTokenManager": {
-  "abstract" : [
-    {
-      "text" : "Responsible for registering and sending the push token, tied together with the user ID.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "keyword",
-      "text" : "class"
-    },
-    {
-      "kind" : "text",
-      "text" : " "
-    },
-    {
-      "kind" : "identifier",
-      "text" : "DeviceTokenManager"
-    }
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/DeviceTokenManager",
-  "kind" : "symbol",
-  "navigatorTitle" : [
-    {
-      "kind" : "identifier",
-      "text" : "DeviceTokenManager"
-    }
-  ],
-  "role" : "symbol",
-  "title" : "DeviceTokenManager",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/devicetokenmanager"
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setuserid(_:)"
 }
-}
+}, 
+"variantOverrides":[
+  {
+    "patch" : [
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/title",
+        "value" : "ContextManager"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/fragments",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager\/navigatorTitle",
+        "value" : [
+          {
+            "kind" : "identifier",
+            "text" : "ContextManager"
+          }
+        ]
+      }
+    ],
+    "traits" : [
+      {
+        "interfaceLanguage" : "occ"
+      }
+    ]
+  }
+]
 }
