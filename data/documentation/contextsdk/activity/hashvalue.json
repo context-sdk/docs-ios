@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/RawRepresentable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity"
       ]
     ]
   },
@@ -122,7 +121,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -247,17 +248,6 @@
   "title" : "Activity",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/activity"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/activity\/rawrepresentable-implementations"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/hashValue": {
   "abstract" : [

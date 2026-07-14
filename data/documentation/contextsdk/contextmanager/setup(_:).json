@@ -61,6 +61,10 @@
     ],
     "navigatorTitle" : [
       {
+        "kind" : "text",
+        "text" : "+ "
+      },
+      {
         "kind" : "identifier",
         "text" : "setup:"
       }
@@ -81,7 +85,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -283,6 +289,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "setup:"
     }
@@ -362,7 +372,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {

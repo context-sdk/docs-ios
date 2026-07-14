@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/Equatable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity"
       ]
     ]
   },
@@ -102,7 +101,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -321,17 +322,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/activity\/!=(_:_:)"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/activity\/equatable-implementations"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
   "abstract" : [

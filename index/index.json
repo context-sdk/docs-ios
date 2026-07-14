@@ -18,7 +18,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/baseconfiguration\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -34,7 +34,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/basecontextmanager\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -50,7 +50,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/baselog\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -76,37 +76,37 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/applicationdidfinishlaunchingwithoptions(_:licensekey:)",
-                "title" : "applicationDidFinishLaunchingWithOptions:licenseKey:",
+                "title" : "+ applicationDidFinishLaunchingWithOptions:licenseKey:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/applicationdidfinishlaunchingwithoptions(_:licensekey:configuration:)",
-                "title" : "applicationDidFinishLaunchingWithOptions:licenseKey:configuration:",
+                "title" : "+ applicationDidFinishLaunchingWithOptions:licenseKey:configuration:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()",
-                "title" : "didReceiveMemoryWarning",
+                "title" : "+ didReceiveMemoryWarning",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/sdkversion()",
-                "title" : "sdkVersion",
+                "title" : "+ sdkVersion",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(_:)",
-                "title" : "setup:",
+                "title" : "+ setup:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)",
-                "title" : "setup:configuration:",
+                "title" : "+ setup:configuration:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)",
-                "title" : "setupWithLicenseKey:defaultLogSender:configuration:",
+                "title" : "+ setupWithLicenseKey:defaultLogSender:configuration:",
                 "type" : "method"
               }
             ],
@@ -372,8 +372,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6rwus",
-                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?, appGroupIdentifier: String?)",
+                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6bl7m",
+                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?, appGroupIdentifier: String?, sessionTimeoutSeconds: TimeInterval)",
                 "type" : "init"
               },
               {
@@ -423,6 +423,20 @@
               {
                 "path" : "\/documentation\/contextsdk\/configuration\/enabletouchbehaviourmonitoring",
                 "title" : "let enableTouchBehaviourMonitoring: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/sessiontimeoutseconds",
+                "title" : "let sessionTimeoutSeconds: TimeInterval",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/defaultsessiontimeoutseconds",
+                "title" : "static let defaultSessionTimeoutSeconds: TimeInterval",
                 "type" : "property"
               }
             ],

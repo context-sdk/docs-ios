@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/RawRepresentable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome"
       ]
     ]
   },
@@ -142,7 +141,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -266,17 +267,6 @@
   "title" : "PushOutcome",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/pushoutcome"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/pushoutcome\/rawrepresentable-implementations"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/PushOutcome/hash(into:)": {
   "abstract" : [

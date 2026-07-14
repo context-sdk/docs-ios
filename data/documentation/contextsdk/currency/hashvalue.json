@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/RawRepresentable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency"
       ]
     ]
   },
@@ -122,7 +121,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -230,17 +231,6 @@
   "title" : "Currency",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/currency"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/currency\/rawrepresentable-implementations"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Currency/hashValue": {
   "abstract" : [

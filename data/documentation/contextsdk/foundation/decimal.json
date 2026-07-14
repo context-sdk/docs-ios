@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -84,6 +86,7 @@
       "identifiers" : [
         "doc:\/\/org.cocoapods.ContextSDK\/s8CopyableP",
         "doc:\/\/org.cocoapods.ContextSDK\/s23CustomStringConvertibleP",
+        "doc:\/\/org.cocoapods.ContextSDK\/s9EscapableP",
         "doc:\/\/org.cocoapods.ContextSDK\/s25LosslessStringConvertibleP"
       ],
       "kind" : "relationships",
@@ -201,6 +204,11 @@
 "doc://org.cocoapods.ContextSDK/s8CopyableP": {
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/s8CopyableP",
   "title" : "Swift.Copyable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/s9EscapableP": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/s9EscapableP",
+  "title" : "Swift.Escapable",
   "type" : "unresolvable"
 }
 }

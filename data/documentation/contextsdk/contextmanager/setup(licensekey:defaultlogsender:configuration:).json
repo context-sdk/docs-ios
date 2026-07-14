@@ -112,6 +112,10 @@
     ],
     "navigatorTitle" : [
       {
+        "kind" : "text",
+        "text" : "+ "
+      },
+      {
         "kind" : "identifier",
         "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
       }
@@ -132,7 +136,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -456,6 +462,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
     }
@@ -569,7 +579,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -625,11 +637,7 @@
                 },
                 {
                   "kind" : "text",
-                  "text" : " (^"
-                },
-                {
-                  "kind" : "text",
-                  "text" : ")("
+                  "text" : " (^)("
                 },
                 {
                   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Log",
@@ -639,7 +647,7 @@
                 },
                 {
                   "kind" : "text",
-                  "text" : " * "
+                  "text" : " *"
                 },
                 {
                   "kind" : "internalParam",

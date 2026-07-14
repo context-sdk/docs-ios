@@ -51,7 +51,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -412,6 +414,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "applicationDidFinishLaunchingWithOptions:licenseKey:"
     }
@@ -538,6 +544,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/applicationDidFinishLaunchingWithOptions(_:licenseKey:configuration:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "applicationDidFinishLaunchingWithOptions:licenseKey:configuration:"
@@ -845,6 +855,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "didReceiveMemoryWarning"
@@ -1650,6 +1664,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "sdkVersion"
     }
@@ -2385,6 +2403,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "setup:"
     }
@@ -2459,6 +2481,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "setup:configuration:"
@@ -2568,6 +2594,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
@@ -2863,6 +2893,11 @@
         "value" : "occ"
       },
       {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
+      },
+      {
         "op" : "replace",
         "path" : "\/metadata\/roleHeading",
         "value" : "Class"
@@ -2946,7 +2981,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {

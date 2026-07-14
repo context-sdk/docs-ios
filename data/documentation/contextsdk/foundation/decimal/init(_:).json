@@ -18,8 +18,7 @@
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal"
       ]
     ]
   },
@@ -71,7 +70,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -188,17 +189,6 @@
   "title" : "Decimal",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/foundation\/decimal"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/LosslessStringConvertible-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Foundation\/Decimal\/LosslessStringConvertible-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "LosslessStringConvertible Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/foundation\/decimal\/losslessstringconvertible-implementations"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Foundation/Decimal/init(_:)": {
   "abstract" : [

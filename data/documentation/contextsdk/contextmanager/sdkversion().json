@@ -58,6 +58,10 @@
     ],
     "navigatorTitle" : [
       {
+        "kind" : "text",
+        "text" : "+ "
+      },
+      {
         "kind" : "identifier",
         "text" : "sdkVersion"
       }
@@ -75,7 +79,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -257,6 +263,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "sdkVersion"
     }
@@ -274,6 +284,11 @@
         "op" : "replace",
         "path" : "\/identifier\/interfaceLanguage",
         "value" : "occ"
+      },
+      {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
       },
       {
         "op" : "replace",
@@ -329,7 +344,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
