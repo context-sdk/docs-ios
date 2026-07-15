@@ -105,6 +105,59 @@
           "type" : "paragraph"
         },
         {
+          "inlineContent" : [
+            {
+              "text" : "An ID must be non-empty and should contain only letters, numbers and underscores, and be at most",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "128 characters long. Two IDs that differ only in other characters, such as ",
+              "type" : "text"
+            },
+            {
+              "code" : "cart-value",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " and",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "code" : "cart.value",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : ", risk colliding with each other. Float and decimal values must be finite; non-finite",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "values are dropped when the signal is captured. Each rule a signal breaks is reported to the",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "console once, since it is an integration mistake.",
+              "type" : "text"
+            }
+          ],
+          "type" : "paragraph"
+        },
+        {
           "items" : [
             {
               "content" : [

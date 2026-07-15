@@ -142,7 +142,15 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "A unique identifier for the custom signal.",
+                  "text" : "A unique identifier for the custom signal. See ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "CustomSignal",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " for the rules an id must follow.",
                   "type" : "text"
                 }
               ],

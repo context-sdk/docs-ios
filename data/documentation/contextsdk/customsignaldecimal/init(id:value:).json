@@ -142,7 +142,15 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "A unique identifier for the custom signal.",
+                  "text" : "A unique identifier for the custom signal. See ",
+                  "type" : "text"
+                },
+                {
+                  "code" : "CustomSignal",
+                  "type" : "codeVoice"
+                },
+                {
+                  "text" : " for the rules an id must follow.",
                   "type" : "text"
                 }
               ],
@@ -156,7 +164,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The decimal value associated with the signal.",
+                  "text" : "The decimal value associated with the signal. A NaN value is dropped when the signal is captured.",
                   "type" : "text"
                 }
               ],
