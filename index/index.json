@@ -18,7 +18,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/baseconfiguration\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -34,7 +34,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/basecontextmanager\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -50,7 +50,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/baselog\/init",
-                "title" : "init",
+                "title" : "- init",
                 "type" : "method"
               }
             ],
@@ -76,32 +76,37 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/applicationdidfinishlaunchingwithoptions(_:licensekey:)",
-                "title" : "applicationDidFinishLaunchingWithOptions:licenseKey:",
+                "title" : "+ applicationDidFinishLaunchingWithOptions:licenseKey:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/applicationdidfinishlaunchingwithoptions(_:licensekey:configuration:)",
-                "title" : "applicationDidFinishLaunchingWithOptions:licenseKey:configuration:",
+                "title" : "+ applicationDidFinishLaunchingWithOptions:licenseKey:configuration:",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()",
+                "title" : "+ didReceiveMemoryWarning",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/sdkversion()",
-                "title" : "sdkVersion",
+                "title" : "+ sdkVersion",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(_:)",
-                "title" : "setup:",
+                "title" : "+ setup:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(_:configuration:)",
-                "title" : "setup:configuration:",
+                "title" : "+ setup:configuration:",
                 "type" : "method"
               },
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setup(licensekey:defaultlogsender:configuration:)",
-                "title" : "setupWithLicenseKey:defaultLogSender:configuration:",
+                "title" : "+ setupWithLicenseKey:defaultLogSender:configuration:",
                 "type" : "method"
               }
             ],
@@ -367,8 +372,8 @@
                 "type" : "groupMarker"
               },
               {
-                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6rwus",
-                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?, appGroupIdentifier: String?)",
+                "path" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6bl7m",
+                "title" : "init(enableTouchBehaviourMonitoring: Bool, enableSessionDurationMonitoring: Bool, enableScreenshotMonitoring: Bool, enableAutomaticAppStartAndEndTracking: Bool, enableAutomaticAppLaunchBehaviourLogging: Bool, enableErrorReporting: Bool, enableInstantContext: Bool, defaultABTestInformation: ABTestInformation?, appGroupIdentifier: String?, sessionTimeoutSeconds: TimeInterval)",
                 "type" : "init"
               },
               {
@@ -418,6 +423,20 @@
               {
                 "path" : "\/documentation\/contextsdk\/configuration\/enabletouchbehaviourmonitoring",
                 "title" : "let enableTouchBehaviourMonitoring: Bool",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/sessiontimeoutseconds",
+                "title" : "let sessionTimeoutSeconds: TimeInterval",
+                "type" : "property"
+              },
+              {
+                "title" : "Type Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/configuration\/defaultsessiontimeoutseconds",
+                "title" : "static let defaultSessionTimeoutSeconds: TimeInterval",
                 "type" : "property"
               }
             ],
@@ -562,8 +581,23 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()",
+                "title" : "class func didReceiveMemoryWarning()",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)",
                 "title" : "class func fetchContext(flowName: String, duration: Int, customSignals: [CustomSignal], callback: ContextClosure)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:activities:callback:)",
+                "title" : "class func fetchCurrentActivity(flowName: String, activities: [Activity], callback: (ActivityRecognitionStatus, [Activity : Float]) -> Void)",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)",
+                "title" : "class func fetchCurrentActivity(flowName: String, callback: (ActivityRecognitionStatus, ActivityRecognitionResult) -> Void)",
                 "type" : "method"
               },
               {
@@ -639,6 +673,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/setlogsender(closure:)",
                 "title" : "class func setLogSender(closure: ((Log) -> Void))",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/setuserid(_:)",
+                "title" : "class func setUserId(String?)",
                 "type" : "method"
               },
               {
@@ -1072,6 +1111,106 @@
           {
             "children" : [
               {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/init(walking:sittingorstanding:transit:table:bed:bike:car:airplane:pocket:)",
+                "title" : "init(walking: WalkingActivity?, sittingOrStanding: SittingOrStandingActivity?, transit: TransitActivity?, table: TableActivity?, bed: BedActivity?, bike: Float?, car: Float?, airplane: Float?, pocket: Float?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/airplane",
+                "title" : "let airplane: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/bed",
+                "title" : "let bed: BedActivity?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/bike",
+                "title" : "let bike: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/car",
+                "title" : "let car: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/pocket",
+                "title" : "let pocket: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/sittingorstanding",
+                "title" : "let sittingOrStanding: SittingOrStandingActivity?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/table",
+                "title" : "let table: TableActivity?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/transit",
+                "title" : "let transit: TransitActivity?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionresult\/walking",
+                "title" : "let walking: WalkingActivity?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/activityrecognitionresult",
+            "title" : "ActivityRecognitionResult",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/bedactivity\/init(probability:flatonstomach:couch:)",
+                "title" : "init(probability: Float?, flatOnStomach: Float?, couch: Float?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/bedactivity\/couch",
+                "title" : "let couch: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/bedactivity\/flatonstomach",
+                "title" : "let flatOnStomach: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/bedactivity\/probability",
+                "title" : "let probability: Float?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/bedactivity",
+            "title" : "BedActivity",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
                 "title" : "Instance Properties",
                 "type" : "groupMarker"
               },
@@ -1128,6 +1267,181 @@
             ],
             "path" : "\/documentation\/contextsdk\/revenueevent",
             "title" : "RevenueEvent",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sittingorstandingactivity\/init(probability:sitting:standing:)",
+                "title" : "init(probability: Float?, sitting: Float?, standing: StandingActivity?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sittingorstandingactivity\/probability",
+                "title" : "let probability: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sittingorstandingactivity\/sitting",
+                "title" : "let sitting: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sittingorstandingactivity\/standing",
+                "title" : "let standing: StandingActivity?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/sittingorstandingactivity",
+            "title" : "SittingOrStandingActivity",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/standingactivity\/init(probability:elevator:)",
+                "title" : "init(probability: Float?, elevator: Float?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/standingactivity\/elevator",
+                "title" : "let elevator: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/standingactivity\/probability",
+                "title" : "let probability: Float?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/standingactivity",
+            "title" : "StandingActivity",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/tableactivity\/init(probability:facedown:leaned:)",
+                "title" : "init(probability: Float?, faceDown: Float?, leaned: Float?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/tableactivity\/facedown",
+                "title" : "let faceDown: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/tableactivity\/leaned",
+                "title" : "let leaned: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/tableactivity\/probability",
+                "title" : "let probability: Float?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/tableactivity",
+            "title" : "TableActivity",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/transitactivity\/init(probability:train:tram:subway:)",
+                "title" : "init(probability: Float?, train: Float?, tram: Float?, subway: Float?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/transitactivity\/probability",
+                "title" : "let probability: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/transitactivity\/subway",
+                "title" : "let subway: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/transitactivity\/train",
+                "title" : "let train: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/transitactivity\/tram",
+                "title" : "let tram: Float?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/transitactivity",
+            "title" : "TransitActivity",
+            "type" : "struct"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/walkingactivity\/init(probability:stairs:running:)",
+                "title" : "init(probability: Float?, stairs: Float?, running: Float?)",
+                "type" : "init"
+              },
+              {
+                "title" : "Instance Properties",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/walkingactivity\/probability",
+                "title" : "let probability: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/walkingactivity\/running",
+                "title" : "let running: Float?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/walkingactivity\/stairs",
+                "title" : "let stairs: Float?",
+                "type" : "property"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/walkingactivity",
+            "title" : "WalkingActivity",
             "type" : "struct"
           },
           {
@@ -1235,6 +1549,222 @@
             ],
             "path" : "\/documentation\/contextsdk\/apsenvironment",
             "title" : "APSEnvironment",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/airplane",
+                "title" : "case airplane",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/bed",
+                "title" : "case bed",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/bedflatonstomach",
+                "title" : "case bedFlatOnStomach",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/bike",
+                "title" : "case bike",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/car",
+                "title" : "case car",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/couch",
+                "title" : "case couch",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/elevator",
+                "title" : "case elevator",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/pocket",
+                "title" : "case pocket",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/running",
+                "title" : "case running",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/sitting",
+                "title" : "case sitting",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/sittingorstanding",
+                "title" : "case sittingOrStanding",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/stairs",
+                "title" : "case stairs",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/standing",
+                "title" : "case standing",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/subway",
+                "title" : "case subway",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/table",
+                "title" : "case table",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/tablefacedown",
+                "title" : "case tableFaceDown",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/tableleaned",
+                "title" : "case tableLeaned",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/train",
+                "title" : "case train",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/tram",
+                "title" : "case tram",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/transit",
+                "title" : "case transit",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/walking",
+                "title" : "case walking",
+                "type" : "case"
+              },
+              {
+                "title" : "Initializers",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activity\/init(rawvalue:)",
+                "title" : "init?(rawValue: String)",
+                "type" : "init"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/activity\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/contextsdk\/activity\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Instance Properties",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/activity\/hashvalue",
+                    "title" : "var hashValue: Int",
+                    "type" : "property"
+                  },
+                  {
+                    "title" : "Instance Methods",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/activity\/hash(into:)",
+                    "title" : "func hash(into: inout Hasher)",
+                    "type" : "method"
+                  }
+                ],
+                "path" : "\/documentation\/contextsdk\/activity\/rawrepresentable-implementations",
+                "title" : "RawRepresentable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/activity",
+            "title" : "Activity",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionstatus\/ok",
+                "title" : "case ok",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionstatus\/sensorunavailable",
+                "title" : "case sensorUnavailable",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/activityrecognitionstatus\/timeout",
+                "title" : "case timeout",
+                "type" : "case"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/activityrecognitionstatus\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/contextsdk\/activityrecognitionstatus\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/activityrecognitionstatus",
+            "title" : "ActivityRecognitionStatus",
             "type" : "enum"
           },
           {
@@ -2225,6 +2755,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/pushoutcome\/shouldshowpush",
                 "title" : "case shouldShowPush",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/pushoutcome\/shouldshowpushrandomly",
+                "title" : "case shouldShowPushRandomly",
                 "type" : "case"
               },
               {

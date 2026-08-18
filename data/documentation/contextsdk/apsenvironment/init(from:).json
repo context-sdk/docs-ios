@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/RawRepresentable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment"
       ]
     ]
   },
@@ -130,7 +129,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -242,17 +243,6 @@
   "title" : "APSEnvironment",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/apsenvironment"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/RawRepresentable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment\/RawRepresentable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "RawRepresentable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/apsenvironment\/rawrepresentable-implementations"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/APSEnvironment/init(from:)": {
   "abstract" : [

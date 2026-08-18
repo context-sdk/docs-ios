@@ -1,0 +1,513 @@
+{
+  "abstract" : [
+    {
+      "text" : "Outcome of a call to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " (or its activity-filtered",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "overload). Use this to distinguish a successful prediction with no detected activity (",
+      "type" : "text"
+    },
+    {
+      "code" : "ok",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " plus",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "all-nil fields) from a call that didn’t run because of a runtime limitation.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK25ActivityRecognitionStatusO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "ActivityRecognitionStatus"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "ActivityRecognitionStatus"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "ActivityRecognitionStatus"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "ActivityRecognitionStatus"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/ok",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/sensorUnavailable",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/timeout"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/Equatable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/activityrecognitionstatus"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionStatus": {
+  "abstract" : [
+    {
+      "text" : "Outcome of a call to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " (or its activity-filtered",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "overload). Use this to distinguish a successful prediction with no detected activity (",
+      "type" : "text"
+    },
+    {
+      "code" : "ok",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " plus",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "all-nil fields) from a call that didn’t run because of a runtime limitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ActivityRecognitionStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ActivityRecognitionStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ActivityRecognitionStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionstatus"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionStatus/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionstatus\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionStatus/ok": {
+  "abstract" : [
+    {
+      "text" : "The models ran on real accelerometer data. Individual probability fields may still be ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "if a particular model failed to load, but the result is meaningful.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ok"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/ok",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ActivityRecognitionStatus.ok",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionstatus\/ok"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionStatus/sensorUnavailable": {
+  "abstract" : [
+    {
+      "text" : "The device has no usable motion sensor (e.g. iOS app running on a Mac without device",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "hosting, or hardware that doesn’t report accelerometer\/gyro data). All probability fields",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "will be ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Subsequent calls on the same device will return the same status.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sensorUnavailable"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/sensorUnavailable",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ActivityRecognitionStatus.sensorUnavailable",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionstatus\/sensorunavailable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionStatus/timeout": {
+  "abstract" : [
+    {
+      "text" : "The call exceeded its timeout budget before enough accelerometer data was collected. All",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "probability fields will be ",
+      "type" : "text"
+    },
+    {
+      "code" : "nil",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ". Retrying later (e.g. once the user is more likely to be",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "holding the device steady) may succeed.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "timeout"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus\/timeout",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "ActivityRecognitionStatus.timeout",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionstatus\/timeout"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the probability for each activity the SDK can detect.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchCurrentActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionStatusO",
+      "text" : "ActivityRecognitionStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionResultV",
+      "text" : "ActivityRecognitionResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
+}
+}
+}

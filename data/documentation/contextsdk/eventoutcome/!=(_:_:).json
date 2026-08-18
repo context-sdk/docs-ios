@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome"
       ]
     ]
   },
@@ -102,7 +101,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -304,17 +305,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/eventoutcome\/!=(_:_:)"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/EventOutcome/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/eventoutcome\/equatable-implementations"
 }
 }, 
 "variantOverrides":[

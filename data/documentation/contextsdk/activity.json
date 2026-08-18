@@ -1,0 +1,950 @@
+{
+  "abstract" : [
+    {
+      "text" : "Identifiers for the activities that ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " can",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "recognize.",
+      "type" : "text"
+    }
+  ],
+  "hierarchy" : {
+    "paths" : [
+      [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK"
+      ]
+    ]
+  },
+  "identifier" : {
+    "interfaceLanguage" : "swift",
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity"
+  },
+  "kind" : "symbol",
+  "metadata" : {
+    "externalID" : "s:10ContextSDK8ActivityO",
+    "fragments" : [
+      {
+        "kind" : "keyword",
+        "text" : "enum"
+      },
+      {
+        "kind" : "text",
+        "text" : " "
+      },
+      {
+        "kind" : "identifier",
+        "text" : "Activity"
+      }
+    ],
+    "modules" : [
+      {
+        "name" : "ContextSDK"
+      }
+    ],
+    "navigatorTitle" : [
+      {
+        "kind" : "identifier",
+        "text" : "Activity"
+      }
+    ],
+    "role" : "symbol",
+    "roleHeading" : "Enumeration",
+    "symbolKind" : "enum",
+    "title" : "Activity"
+  },
+  "primaryContentSections" : [
+    {
+      "declarations" : [
+        {
+          "languages" : [
+            "swift"
+          ],
+          "platforms" : [
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
+          ],
+          "tokens" : [
+            {
+              "kind" : "keyword",
+              "text" : "enum"
+            },
+            {
+              "kind" : "text",
+              "text" : " "
+            },
+            {
+              "kind" : "identifier",
+              "text" : "Activity"
+            }
+          ]
+        }
+      ],
+      "kind" : "declarations"
+    }
+  ],
+  "relationshipsSections" : [
+    {
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/s12CaseIterableP",
+        "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+        "doc:\/\/org.cocoapods.ContextSDK\/SH",
+        "doc:\/\/org.cocoapods.ContextSDK\/SY"
+      ],
+      "kind" : "relationships",
+      "title" : "Conforms To",
+      "type" : "conformsTo"
+    }
+  ],
+  "schemaVersion" : {
+    "major" : 0,
+    "minor" : 3,
+    "patch" : 0
+  },
+  "sections" : [
+
+  ],
+  "topicSections" : [
+    {
+      "anchor" : "Enumeration-Cases",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/airplane",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/bed",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/bedFlatOnStomach",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/bike",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/car",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/couch",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/elevator",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/pocket",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/running",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/sitting",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/sittingOrStanding",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/stairs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/standing",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/subway",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/table",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/tableFaceDown",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/tableLeaned",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/train",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/tram",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/transit",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/walking"
+      ],
+      "title" : "Enumeration Cases"
+    },
+    {
+      "anchor" : "Initializers",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/init(rawValue:)"
+      ],
+      "title" : "Initializers"
+    },
+    {
+      "anchor" : "Default-Implementations",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/Equatable-Implementations",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/RawRepresentable-Implementations"
+      ],
+      "title" : "Default Implementations"
+    }
+  ],
+  "variants" : [
+    {
+      "paths" : [
+        "\/documentation\/contextsdk\/activity"
+      ],
+      "traits" : [
+        {
+          "interfaceLanguage" : "swift"
+        }
+      ]
+    }
+  ]
+, 
+"references": {
+"doc://org.cocoapods.ContextSDK/SH": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SH",
+  "title" : "Swift.Hashable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SQ": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SQ",
+  "title" : "Swift.Equatable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/SY": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/SY",
+  "title" : "Swift.RawRepresentable",
+  "type" : "unresolvable"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
+  "kind" : "symbol",
+  "role" : "collection",
+  "title" : "ContextSDK",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity": {
+  "abstract" : [
+    {
+      "text" : "Identifiers for the activities that ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " can",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "recognize.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Activity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Activity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Activity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/Equatable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/Equatable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "Equatable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/equatable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/RawRepresentable-Implementations": {
+  "abstract" : [
+
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/RawRepresentable-Implementations",
+  "kind" : "article",
+  "role" : "collectionGroup",
+  "title" : "RawRepresentable Implementations",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/rawrepresentable-implementations"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/airplane": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "airplane"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/airplane",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.airplane",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/airplane"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/bed": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bed"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/bed",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.bed",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/bed"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/bedFlatOnStomach": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bedFlatOnStomach"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/bedFlatOnStomach",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.bedFlatOnStomach",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/bedflatonstomach"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/bike": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "bike"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/bike",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.bike",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/bike"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/car": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "car"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/car",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.car",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/car"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/couch": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "couch"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/couch",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.couch",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/couch"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/elevator": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "elevator"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/elevator",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.elevator",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/elevator"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/init(rawValue:)": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "init"
+    },
+    {
+      "kind" : "text",
+      "text" : "?("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "rawValue"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/init(rawValue:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "init(rawValue:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/init(rawvalue:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/pocket": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "pocket"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/pocket",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.pocket",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/pocket"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/running": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "running"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/running",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.running",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/running"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/sitting": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sitting"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/sitting",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.sitting",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/sitting"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/sittingOrStanding": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sittingOrStanding"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/sittingOrStanding",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.sittingOrStanding",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/sittingorstanding"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/stairs": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "stairs"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/stairs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.stairs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/stairs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/standing": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "standing"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/standing",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.standing",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/standing"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/subway": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "subway"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/subway",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.subway",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/subway"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/table": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "table"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/table",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.table",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/table"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/tableFaceDown": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tableFaceDown"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/tableFaceDown",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.tableFaceDown",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/tablefacedown"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/tableLeaned": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tableLeaned"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/tableLeaned",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.tableLeaned",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/tableleaned"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/train": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "train"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/train",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.train",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/train"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/tram": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "tram"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/tram",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.tram",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/tram"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/transit": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "transit"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/transit",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.transit",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/transit"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity/walking": {
+  "abstract" : [
+
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "case"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "walking"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity\/walking",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "Activity.walking",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity\/walking"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the probability for each activity the SDK can detect.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchCurrentActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionStatusO",
+      "text" : "ActivityRecognitionStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionResultV",
+      "text" : "ActivityRecognitionResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
+},
+"doc://org.cocoapods.ContextSDK/s12CaseIterableP": {
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/s12CaseIterableP",
+  "title" : "Swift.CaseIterable",
+  "type" : "unresolvable"
+}
+}
+}

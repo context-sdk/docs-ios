@@ -57,7 +57,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -122,7 +124,7 @@
       "anchor" : "Initializers",
       "generated" : true,
       "identifiers" : [
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:sessionTimeoutSeconds:)"
       ],
       "title" : "Initializers"
     },
@@ -138,9 +140,18 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableInstantContext",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableScreenshotMonitoring",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableSessionDurationMonitoring",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableTouchBehaviourMonitoring"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/enableTouchBehaviourMonitoring",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/sessionTimeoutSeconds"
       ],
       "title" : "Instance Properties"
+    },
+    {
+      "anchor" : "Type-Properties",
+      "generated" : true,
+      "identifiers" : [
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/defaultSessionTimeoutSeconds"
+      ],
+      "title" : "Type Properties"
     }
   ],
   "variants" : [
@@ -350,6 +361,51 @@
   "title" : "defaultABTestInformation",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/configuration\/defaultabtestinformation"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/defaultSessionTimeoutSeconds": {
+  "abstract" : [
+    {
+      "text" : "The default background duration after which a new analytics session begins: 5 minutes.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "static"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "defaultSessionTimeoutSeconds"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@NSTimeInterval",
+      "text" : "TimeInterval"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/defaultSessionTimeoutSeconds",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "defaultSessionTimeoutSeconds",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/defaultsessiontimeoutseconds"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/enableAutomaticAppLaunchBehaviourLogging": {
   "abstract" : [
@@ -698,7 +754,7 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/configuration\/enabletouchbehaviourmonitoring"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:sessionTimeoutSeconds:)": {
   "abstract" : [
     {
       "text" : "Initializes a new ",
@@ -873,15 +929,69 @@
     },
     {
       "kind" : "text",
-      "text" : "?)"
+      "text" : "?, "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "sessionTimeoutSeconds"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@NSTimeInterval",
+      "text" : "TimeInterval"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:sessionTimeoutSeconds:)",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:)",
+  "title" : "init(enableTouchBehaviourMonitoring:enableSessionDurationMonitoring:enableScreenshotMonitoring:enableAutomaticAppStartAndEndTracking:enableAutomaticAppLaunchBehaviourLogging:enableErrorReporting:enableInstantContext:defaultABTestInformation:appGroupIdentifier:sessionTimeoutSeconds:)",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6rwus"
+  "url" : "\/documentation\/contextsdk\/configuration\/init(enabletouchbehaviourmonitoring:enablesessiondurationmonitoring:enablescreenshotmonitoring:enableautomaticappstartandendtracking:enableautomaticapplaunchbehaviourlogging:enableerrorreporting:enableinstantcontext:defaultabtestinformation-6bl7m"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration/sessionTimeoutSeconds": {
+  "abstract" : [
+    {
+      "text" : "The background duration, in seconds, after which ContextSDK starts a new analytics session.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sessionTimeoutSeconds"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "c:@T@NSTimeInterval",
+      "text" : "TimeInterval"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Configuration\/sessionTimeoutSeconds",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sessionTimeoutSeconds",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/configuration\/sessiontimeoutseconds"
 },
 "doc://org.cocoapods.ContextSDK/objc(pl)NSObject": {
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/objc(pl)NSObject",
@@ -911,6 +1021,11 @@
         "op" : "replace",
         "path" : "\/identifier\/interfaceLanguage",
         "value" : "occ"
+      },
+      {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
       },
       {
         "op" : "replace",
@@ -981,7 +1096,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {

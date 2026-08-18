@@ -76,7 +76,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -381,6 +383,11 @@
         "value" : "occ"
       },
       {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
+      },
+      {
         "op" : "replace",
         "path" : "\/metadata\/roleHeading",
         "value" : "Enumeration Case"
@@ -430,7 +437,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {

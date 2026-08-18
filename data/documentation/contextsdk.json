@@ -68,8 +68,15 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionResult",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BedActivity",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextModelInformation",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/RevenueEvent",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SittingOrStandingActivity",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StandingActivity",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/TableActivity",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/TransitActivity",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/WalkingActivity"
       ],
       "title" : "Structures"
     },
@@ -87,6 +94,8 @@
       "generated" : true,
       "identifiers" : [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/APSEnvironment",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Currency",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/EventOutcome",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/PushOutcome",
@@ -206,6 +215,167 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/apsenvironment"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity": {
+  "abstract" : [
+    {
+      "text" : "Identifiers for the activities that ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " can",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "recognize.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Activity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Activity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Activity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionResult": {
+  "abstract" : [
+    {
+      "text" : "The full set of probabilities produced by ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ActivityRecognitionResult"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionResult",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ActivityRecognitionResult"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ActivityRecognitionResult",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionresult"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ActivityRecognitionStatus": {
+  "abstract" : [
+    {
+      "text" : "Outcome of a call to ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " (or its activity-filtered",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "overload). Use this to distinguish a successful prediction with no detected activity (",
+      "type" : "text"
+    },
+    {
+      "code" : "ok",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " plus",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "all-nil fields) from a call that didn’t run because of a runtime limitation.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "ActivityRecognitionStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ActivityRecognitionStatus",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "ActivityRecognitionStatus"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "ActivityRecognitionStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activityrecognitionstatus"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseConfiguration": {
   "abstract" : [
 
@@ -298,6 +468,48 @@
   "title" : "BaseLog",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/baselog"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BedActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "bed",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " family of activities (user lying down or on a couch).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "BedActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/BedActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "BedActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "BedActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/bedactivity"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Configuration": {
   "abstract" : [
@@ -521,6 +733,106 @@
   "title" : "ContextManager",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the probability for each activity the SDK can detect.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchCurrentActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionStatusO",
+      "text" : "ActivityRecognitionStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionResultV",
+      "text" : "ActivityRecognitionResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextModelInformation": {
   "abstract" : [
@@ -1111,6 +1423,90 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/revenuesource"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/SittingOrStandingActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "sitting_or_standing",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " family of activities.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "SittingOrStandingActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SittingOrStandingActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "SittingOrStandingActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "SittingOrStandingActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/sittingorstandingactivity"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StandingActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for activities that fall under ",
+      "type" : "text"
+    },
+    {
+      "code" : "standing",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "StandingActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/StandingActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "StandingActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "StandingActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/standingactivity"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/StoreKitRevenueTracker": {
   "abstract" : [
     {
@@ -1144,6 +1540,132 @@
   "title" : "StoreKitRevenueTracker",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/storekitrevenuetracker"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/TableActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "table",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " family of activities (phone placed on a table).",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TableActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/TableActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TableActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TableActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/tableactivity"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/TransitActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "transit",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " family of activities.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "TransitActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/TransitActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "TransitActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "TransitActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/transitactivity"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/WalkingActivity": {
+  "abstract" : [
+    {
+      "text" : "Scores for the ",
+      "type" : "text"
+    },
+    {
+      "code" : "walking",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " family of activities.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "struct"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "WalkingActivity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/WalkingActivity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "WalkingActivity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "WalkingActivity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/walkingactivity"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate": {
   "abstract" : [

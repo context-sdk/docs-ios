@@ -17,8 +17,7 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/Equatable-Implementations"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation"
       ]
     ]
   },
@@ -102,7 +101,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -304,17 +305,6 @@
   "title" : "!=(_:_:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/abtestinformation\/!=(_:_:)"
-},
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ABTestInformation/Equatable-Implementations": {
-  "abstract" : [
-
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ABTestInformation\/Equatable-Implementations",
-  "kind" : "article",
-  "role" : "collectionGroup",
-  "title" : "Equatable Implementations",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/abtestinformation\/equatable-implementations"
 }
 }
 }

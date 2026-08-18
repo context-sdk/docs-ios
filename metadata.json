@@ -1,6 +1,6 @@
 {
   "bundleDisplayName" : "ContextSDK",
-  "bundleIdentifier" : "org.cocoapods.ContextSDK",
+  "bundleID" : "org.cocoapods.ContextSDK",
   "schemaVersion" : {
     "major" : 0,
     "minor" : 1,

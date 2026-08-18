@@ -51,7 +51,9 @@
             "swift"
           ],
           "platforms" : [
-            "iOS"
+            "iOS",
+            "iPadOS",
+            "Mac Catalyst"
           ],
           "tokens" : [
             {
@@ -122,7 +124,10 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/cancelContextCallback(flowName:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/contextPush()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/currentAppliedCustomModelVersion()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:activities:callback:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/getCustomModel(for:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
@@ -138,6 +143,7 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-8onnm",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setGlobalCustomSignal(id:value:)-8xovt",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setLogSender(closure:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setUserId(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)",
@@ -193,6 +199,57 @@
   "title" : "ContextSDK",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Activity": {
+  "abstract" : [
+    {
+      "text" : "Identifiers for the activities that ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " can",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "recognize.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "enum"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "Activity"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "identifier",
+      "text" : "Activity"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "Activity",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/activity"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/BaseContextManager": {
   "abstract" : [
@@ -357,6 +414,10 @@
   "kind" : "symbol",
   "navigatorTitle" : [
     {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
       "kind" : "identifier",
       "text" : "applicationDidFinishLaunchingWithOptions:licenseKey:"
     }
@@ -483,6 +544,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/applicationDidFinishLaunchingWithOptions(_:licenseKey:configuration:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "applicationDidFinishLaunchingWithOptions:licenseKey:configuration:"
@@ -754,6 +819,56 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/currentappliedcustommodelversion()"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/didReceiveMemoryWarning()": {
+  "abstract" : [
+    {
+      "text" : "Releases non-critical in-memory state in response to a system memory warning.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveMemoryWarning"
+    },
+    {
+      "kind" : "text",
+      "text" : "()"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
+  "kind" : "symbol",
+  "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "didReceiveMemoryWarning"
+    }
+  ],
+  "role" : "symbol",
+  "title" : "didReceiveMemoryWarning()",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
   "abstract" : [
     {
@@ -861,6 +976,241 @@
   "title" : "fetchContext(flowName:duration:customSignals:callback:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:activities:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Runs the on-device activity recognition models for the requested activities only, returning a",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "dictionary keyed by the caller-provided ",
+      "type" : "text"
+    },
+    {
+      "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Activity",
+      "isActive" : true,
+      "type" : "reference"
+    },
+    {
+      "text" : " values.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchCurrentActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "activities"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK8ActivityO",
+      "text" : "Activity"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionStatusO",
+      "text" : "ActivityRecognitionStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ", ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK8ActivityO",
+      "text" : "Activity"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sf",
+      "text" : "Float"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:activities:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchCurrentActivity(flowName:activities:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:activities:callback:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchCurrentActivity(flowName:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Runs the on-device activity recognition models and returns a hierarchical result containing",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "the probability for each activity the SDK can detect.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchCurrentActivity"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionStatusO",
+      "text" : "ActivityRecognitionStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK25ActivityRecognitionResultV",
+      "text" : "ActivityRecognitionResult"
+    },
+    {
+      "kind" : "text",
+      "text" : ") -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:s4Voida",
+      "text" : "Void"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchCurrentActivity(flowName:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcurrentactivity(flowname:callback:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/getCustomModel(for:)": {
   "abstract" : [
@@ -1313,6 +1663,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/sdkVersion()",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "sdkVersion"
@@ -1951,6 +2305,55 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/setlogsender(closure:)"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setUserId(_:)": {
+  "abstract" : [
+    {
+      "text" : "Sets the identifier of the current user, so the same user can be matched between your system and ContextSDK.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "setUserId"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : "?)"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setUserId(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "setUserId(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/setuserid(_:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/setup(_:)": {
   "abstract" : [
 
@@ -1999,6 +2402,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "setup:"
@@ -2074,6 +2481,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "setup:configuration:"
@@ -2183,6 +2594,10 @@
   "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(licenseKey:defaultLogSender:configuration:)",
   "kind" : "symbol",
   "navigatorTitle" : [
+    {
+      "kind" : "text",
+      "text" : "+ "
+    },
     {
       "kind" : "identifier",
       "text" : "setupWithLicenseKey:defaultLogSender:configuration:"
@@ -2478,6 +2893,11 @@
         "value" : "occ"
       },
       {
+        "op" : "add",
+        "path" : "\/metadata\/platforms",
+        "value" : null
+      },
+      {
         "op" : "replace",
         "path" : "\/metadata\/roleHeading",
         "value" : "Class"
@@ -2522,6 +2942,7 @@
             "identifiers" : [
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/applicationDidFinishLaunchingWithOptions(_:licenseKey:)",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/applicationDidFinishLaunchingWithOptions(_:licenseKey:configuration:)",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/sdkVersion()",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:)",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/setup(_:configuration:)",
@@ -2560,7 +2981,9 @@
                 "occ"
               ],
               "platforms" : [
-                "iOS"
+                "iOS",
+                "iPadOS",
+                "Mac Catalyst"
               ],
               "tokens" : [
                 {
@@ -2676,6 +3099,25 @@
           {
             "kind" : "identifier",
             "text" : "applicationDidFinishLaunchingWithOptions:licenseKey:configuration:"
+          }
+        ]
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1didReceiveMemoryWarning()\/title",
+        "value" : "didReceiveMemoryWarning"
+      },
+      {
+        "op" : "replace",
+        "path" : "\/references\/doc:~1~1org.cocoapods.ContextSDK~1documentation~1ContextSDK~1ContextManager~1didReceiveMemoryWarning()\/fragments",
+        "value" : [
+          {
+            "kind" : "text",
+            "text" : "+ "
+          },
+          {
+            "kind" : "identifier",
+            "text" : "didReceiveMemoryWarning"
           }
         ]
       },
