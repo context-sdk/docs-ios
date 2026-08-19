@@ -788,7 +788,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignalbool\/value",
-                "title" : "let value: Encodable",
+                "title" : "var value: Encodable",
                 "type" : "property"
               }
             ],
@@ -823,7 +823,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignaldecimal\/value",
-                "title" : "let value: Encodable",
+                "title" : "var value: Encodable",
                 "type" : "property"
               }
             ],
@@ -858,7 +858,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignalfloat\/value",
-                "title" : "let value: Encodable",
+                "title" : "var value: Encodable",
                 "type" : "property"
               }
             ],
@@ -893,7 +893,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignalint\/value",
-                "title" : "let value: Encodable",
+                "title" : "var value: Encodable",
                 "type" : "property"
               }
             ],
@@ -928,7 +928,7 @@
               },
               {
                 "path" : "\/documentation\/contextsdk\/customsignalstring\/value",
-                "title" : "let value: Encodable",
+                "title" : "var value: Encodable",
                 "type" : "property"
               }
             ],
