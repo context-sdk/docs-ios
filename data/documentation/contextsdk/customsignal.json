@@ -135,7 +135,7 @@
               "type" : "codeVoice"
             },
             {
-              "text" : ", risk colliding with each other. Float and decimal values must be finite; non-finite",
+              "text" : ", risk colliding with each other. Float and decimal values must be finite; a",
               "type" : "text"
             },
             {
@@ -143,7 +143,7 @@
               "type" : "text"
             },
             {
-              "text" : "values are dropped when the signal is captured. Each rule a signal breaks is reported to the",
+              "text" : "non-finite value cannot be used as a model feature. Each rule a signal breaks is reported to the",
               "type" : "text"
             },
             {
