@@ -125,10 +125,12 @@
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/contextPush()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/currentAppliedCustomModelVersion()",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/didReceiveMemoryWarning()",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:customSignals:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:duration:customSignals:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:activities:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchCurrentActivity(flowName:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/getCustomModel(for:)",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:customSignals:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:duration:customSignals:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/optimize(flowName:maxDelay:customSignals:callback:)",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/recentContext(flowName:)",
@@ -869,6 +871,97 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/didreceivememorywarning()"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:customSignals:callback:)": {
+  "abstract" : [
+    {
+      "text" : "Get the current context asynchronously, collecting for as long as the flow’s model asks for.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "fetchContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "], "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "callback"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A7Closurea",
+      "text" : "ContextClosure"
+    },
+    {
+      "kind" : "text",
+      "text" : ")"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/fetchContext(flowName:customSignals:callback:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "fetchContext(flowName:customSignals:callback:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:customsignals:callback:)"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/fetchContext(flowName:duration:customSignals:callback:)": {
   "abstract" : [
     {
@@ -1277,6 +1370,85 @@
   "title" : "getCustomModel(for:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextmanager\/getcustommodel(for:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/instantContext(flowName:customSignals:)": {
+  "abstract" : [
+    {
+      "text" : "Creates a new context (synchronously), collecting for as long as the flow’s model asks for.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "class"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "instantContext"
+    },
+    {
+      "kind" : "text",
+      "text" : "("
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "flowName"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : ", "
+    },
+    {
+      "kind" : "externalParam",
+      "text" : "customSignals"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "]) -> "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK0A0C",
+      "text" : "Context"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/ContextManager\/instantContext(flowName:customSignals:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "instantContext(flowName:customSignals:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextmanager\/instantcontext(flowname:customsignals:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/ContextManager/instantContext(flowName:duration:customSignals:)": {
   "abstract" : [

@@ -461,6 +461,16 @@
                 "type" : "property"
               },
               {
+                "path" : "\/documentation\/contextsdk\/context\/modeloutputs",
+                "title" : "let modelOutputs: [String : Double]?",
+                "type" : "property"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/context\/sensordatastatus",
+                "title" : "let sensorDataStatus: SensorDataStatus",
+                "type" : "property"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/context\/shouldupsell",
                 "title" : "var shouldUpsell: Bool",
                 "type" : "property"
@@ -586,6 +596,11 @@
                 "type" : "method"
               },
               {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:customsignals:callback:)",
+                "title" : "class func fetchContext(flowName: String, customSignals: [CustomSignal], callback: ContextClosure)",
+                "type" : "method"
+              },
+              {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/fetchcontext(flowname:duration:customsignals:callback:)",
                 "title" : "class func fetchContext(flowName: String, duration: Int, customSignals: [CustomSignal], callback: ContextClosure)",
                 "type" : "method"
@@ -603,6 +618,11 @@
               {
                 "path" : "\/documentation\/contextsdk\/contextmanager\/getcustommodel(for:)",
                 "title" : "static func getCustomModel(for: String) -> ContextModelInformation?",
+                "type" : "method"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/contextmanager\/instantcontext(flowname:customsignals:)",
+                "title" : "class func instantContext(flowName: String, customSignals: [CustomSignal]) -> Context",
                 "type" : "method"
               },
               {
@@ -2910,6 +2930,52 @@
             ],
             "path" : "\/documentation\/contextsdk\/revenuesource",
             "title" : "RevenueSource",
+            "type" : "enum"
+          },
+          {
+            "children" : [
+              {
+                "title" : "Enumeration Cases",
+                "type" : "groupMarker"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sensordatastatus\/complete",
+                "title" : "case complete",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sensordatastatus\/incomplete",
+                "title" : "case incomplete",
+                "type" : "case"
+              },
+              {
+                "path" : "\/documentation\/contextsdk\/sensordatastatus\/unavailable",
+                "title" : "case unavailable",
+                "type" : "case"
+              },
+              {
+                "title" : "Default Implementations",
+                "type" : "groupMarker"
+              },
+              {
+                "children" : [
+                  {
+                    "title" : "Operators",
+                    "type" : "groupMarker"
+                  },
+                  {
+                    "path" : "\/documentation\/contextsdk\/sensordatastatus\/!=(_:_:)",
+                    "title" : "static func != (Self, Self) -> Bool",
+                    "type" : "op"
+                  }
+                ],
+                "path" : "\/documentation\/contextsdk\/sensordatastatus\/equatable-implementations",
+                "title" : "Equatable Implementations",
+                "type" : "symbol"
+              }
+            ],
+            "path" : "\/documentation\/contextsdk\/sensordatastatus",
+            "title" : "SensorDataStatus",
             "type" : "enum"
           },
           {
