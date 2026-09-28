@@ -104,6 +104,8 @@
       "identifiers" : [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/alreadyLogged",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/createdAt",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/modelOutputs",
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/sensorDataStatus",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/shouldUpsell",
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/wasForcedUpsell"
       ],
@@ -963,6 +965,117 @@
   "title" : "logStoreKit1RevenueOutcomeIfNotLoggedYet(from:product:outcome:)",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/context\/logstorekit1revenueoutcomeifnotloggedyet(from:product:outcome:)"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/modelOutputs": {
+  "abstract" : [
+    {
+      "text" : "Every ",
+      "type" : "text"
+    },
+    {
+      "code" : "score",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " output the flow’s model declared and produced as a scalar, keyed by the output’s",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "name (for example ",
+      "type" : "text"
+    },
+    {
+      "code" : "\"in_bed\"",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ").",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "modelOutputs"
+    },
+    {
+      "kind" : "text",
+      "text" : ": ["
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:SS",
+      "text" : "String"
+    },
+    {
+      "kind" : "text",
+      "text" : " : "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:Sd",
+      "text" : "Double"
+    },
+    {
+      "kind" : "text",
+      "text" : "]?"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/modelOutputs",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "modelOutputs",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/modeloutputs"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/sensorDataStatus": {
+  "abstract" : [
+    {
+      "text" : "The state of the motion window this context — and the model that ran on it — was built from.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "let"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "sensorDataStatus"
+    },
+    {
+      "kind" : "text",
+      "text" : ": "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK16SensorDataStatusO",
+      "text" : "SensorDataStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/sensorDataStatus",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "sensorDataStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/sensordatastatus"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/shouldUpsell": {
   "abstract" : [

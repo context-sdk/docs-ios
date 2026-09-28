@@ -1,7 +1,15 @@
 {
   "abstract" : [
     {
-      "text" : "The value associated with the custom signal.",
+      "text" : "No usable accelerometer or gyroscope on this device. Delivered immediately: the SDK does not",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "wait out the window for hardware that will never report.",
       "type" : "text"
     }
   ],
@@ -9,21 +17,21 @@
     "paths" : [
       [
         "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK",
-        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalInt"
+        "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SensorDataStatus"
       ]
     ]
   },
   "identifier" : {
     "interfaceLanguage" : "swift",
-    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalInt\/value"
+    "url" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SensorDataStatus\/unavailable"
   },
   "kind" : "symbol",
   "metadata" : {
-    "externalID" : "s:10ContextSDK15CustomSignalIntC5valueSE_pvp",
+    "externalID" : "s:10ContextSDK16SensorDataStatusO11unavailableyA2CmF",
     "fragments" : [
       {
         "kind" : "keyword",
-        "text" : "var"
+        "text" : "case"
       },
       {
         "kind" : "text",
@@ -31,16 +39,7 @@
       },
       {
         "kind" : "identifier",
-        "text" : "value"
-      },
-      {
-        "kind" : "text",
-        "text" : ": "
-      },
-      {
-        "kind" : "typeIdentifier",
-        "preciseIdentifier" : "s:SE",
-        "text" : "Encodable"
+        "text" : "unavailable"
       }
     ],
     "modules" : [
@@ -49,9 +48,9 @@
       }
     ],
     "role" : "symbol",
-    "roleHeading" : "Instance Property",
-    "symbolKind" : "property",
-    "title" : "value"
+    "roleHeading" : "Case",
+    "symbolKind" : "case",
+    "title" : "SensorDataStatus.unavailable"
   },
   "primaryContentSections" : [
     {
@@ -68,7 +67,7 @@
           "tokens" : [
             {
               "kind" : "keyword",
-              "text" : "var"
+              "text" : "case"
             },
             {
               "kind" : "text",
@@ -76,28 +75,7 @@
             },
             {
               "kind" : "identifier",
-              "text" : "value"
-            },
-            {
-              "kind" : "text",
-              "text" : ": "
-            },
-            {
-              "kind" : "typeIdentifier",
-              "preciseIdentifier" : "s:SE",
-              "text" : "Encodable"
-            },
-            {
-              "kind" : "text",
-              "text" : " { "
-            },
-            {
-              "kind" : "keyword",
-              "text" : "get"
-            },
-            {
-              "kind" : "text",
-              "text" : " }"
+              "text" : "unavailable"
             }
           ]
         }
@@ -116,7 +94,7 @@
   "variants" : [
     {
       "paths" : [
-        "\/documentation\/contextsdk\/customsignalint\/value"
+        "\/documentation\/contextsdk\/sensordatastatus\/unavailable"
       ],
       "traits" : [
         {
@@ -138,17 +116,41 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalInt": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/SensorDataStatus": {
   "abstract" : [
     {
-      "text" : "A custom signal that represents a key-value pair where the value is an integer.",
+      "text" : "The state of the motion window a ",
+      "type" : "text"
+    },
+    {
+      "code" : "Context",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : " was built from (",
+      "type" : "text"
+    },
+    {
+      "code" : "IOS_SCORING_FLOW_MODELS.md",
+      "type" : "codeVoice"
+    },
+    {
+      "text" : ",",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "decision 6).",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "class"
+      "text" : "enum"
     },
     {
       "kind" : "text",
@@ -156,33 +158,41 @@
     },
     {
       "kind" : "identifier",
-      "text" : "CustomSignalInt"
+      "text" : "SensorDataStatus"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalInt",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SensorDataStatus",
   "kind" : "symbol",
   "navigatorTitle" : [
     {
       "kind" : "identifier",
-      "text" : "CustomSignalInt"
+      "text" : "SensorDataStatus"
     }
   ],
   "role" : "symbol",
-  "title" : "CustomSignalInt",
+  "title" : "SensorDataStatus",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/customsignalint"
+  "url" : "\/documentation\/contextsdk\/sensordatastatus"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignalInt/value": {
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/SensorDataStatus/unavailable": {
   "abstract" : [
     {
-      "text" : "The value associated with the custom signal.",
+      "text" : "No usable accelerometer or gyroscope on this device. Delivered immediately: the SDK does not",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "wait out the window for hardware that will never report.",
       "type" : "text"
     }
   ],
   "fragments" : [
     {
       "kind" : "keyword",
-      "text" : "var"
+      "text" : "case"
     },
     {
       "kind" : "text",
@@ -190,24 +200,15 @@
     },
     {
       "kind" : "identifier",
-      "text" : "value"
-    },
-    {
-      "kind" : "text",
-      "text" : ": "
-    },
-    {
-      "kind" : "typeIdentifier",
-      "preciseIdentifier" : "s:SE",
-      "text" : "Encodable"
+      "text" : "unavailable"
     }
   ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/CustomSignalInt\/value",
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/SensorDataStatus\/unavailable",
   "kind" : "symbol",
   "role" : "symbol",
-  "title" : "value",
+  "title" : "SensorDataStatus.unavailable",
   "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/customsignalint\/value"
+  "url" : "\/documentation\/contextsdk\/sensordatastatus\/unavailable"
 }
 }
 }
