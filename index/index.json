@@ -138,11 +138,6 @@
             "type" : "groupMarker"
           },
           {
-            "path" : "\/documentation\/contextsdk\/contextsdk_calibrate",
-            "title" : "contextSDK_calibrate",
-            "type" : "func"
-          },
-          {
             "path" : "\/documentation\/contextsdk\/contextsdk_context_addcustomsignalbool",
             "title" : "contextSDK_context_addCustomSignalBool",
             "type" : "func"
@@ -215,11 +210,6 @@
           {
             "path" : "\/documentation\/contextsdk\/contextsdk_instantcontext",
             "title" : "contextSDK_instantContext",
-            "type" : "func"
-          },
-          {
-            "path" : "\/documentation\/contextsdk\/contextsdk_optimize_string",
-            "title" : "contextSDK_optimize_string",
             "type" : "func"
           },
           {

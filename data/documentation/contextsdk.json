@@ -1204,38 +1204,6 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/storekitrevenuetracker"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_calibrate": {
-  "abstract" : [
-    {
-      "text" : "Calibrates a context with the given parameters.",
-      "type" : "text"
-    },
-    {
-      "text" : " ",
-      "type" : "text"
-    },
-    {
-      "text" : "Note:",
-      "type" : "text"
-    },
-    {
-      "text" : " This method is intended for cross-platform interoperability only.",
-      "type" : "text"
-    }
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "contextSDK_calibrate"
-    }
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_calibrate",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "contextSDK_calibrate",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextsdk_calibrate"
-},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_addCustomSignalBool": {
   "abstract" : [
     {
@@ -1701,23 +1669,6 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_instantcontext"
 },
-"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_optimize_string": {
-  "abstract" : [
-
-  ],
-  "fragments" : [
-    {
-      "kind" : "identifier",
-      "text" : "contextSDK_optimize_string"
-    }
-  ],
-  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_optimize_string",
-  "kind" : "symbol",
-  "role" : "symbol",
-  "title" : "contextSDK_optimize_string",
-  "type" : "topic",
-  "url" : "\/documentation\/contextsdk\/contextsdk_optimize_string"
-},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_recentContext": {
   "abstract" : [
     {
@@ -2142,7 +2093,6 @@
             "anchor" : "Functions",
             "generated" : true,
             "identifiers" : [
-              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_calibrate",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalBool",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalFloat",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_addCustomSignalInt",
@@ -2158,7 +2108,6 @@
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_fetchContext_string",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_instantContext",
-              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_optimize_string",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_recentContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals",
