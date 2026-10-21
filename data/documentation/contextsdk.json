@@ -1524,6 +1524,194 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_context_logifnotloggedyet"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_modelOutputKey": {
+  "abstract" : [
+    {
+      "text" : "The name of a specific context’s model output at ",
+      "type" : "text"
+    },
+    {
+      "text" : "index",
+      "type" : "text"
+    },
+    {
+      "text" : ", with the names in sorted order.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_modelOutputKey"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_modelOutputKey",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_modelOutputKey",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_modeloutputkey"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_modelOutputValue": {
+  "abstract" : [
+    {
+      "text" : "The value of a specific context’s model output at ",
+      "type" : "text"
+    },
+    {
+      "text" : "index",
+      "type" : "text"
+    },
+    {
+      "text" : ", with the names in sorted order. NaN and",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "infinite values are passed on as they are.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_modelOutputValue"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_modelOutputValue",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_modelOutputValue",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_modeloutputvalue"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_modelOutputsCount": {
+  "abstract" : [
+    {
+      "text" : "The number of ",
+      "type" : "text"
+    },
+    {
+      "text" : "Context.modelOutputs",
+      "type" : "text"
+    },
+    {
+      "text" : " of a specific context, read one by one through",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "contextSDK_context_modelOutputKey",
+      "type" : "text"
+    },
+    {
+      "text" : " and ",
+      "type" : "text"
+    },
+    {
+      "text" : "contextSDK_context_modelOutputValue",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_modelOutputsCount"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_modelOutputsCount",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_modelOutputsCount",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_modeloutputscount"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_sensorDataStatus": {
+  "abstract" : [
+    {
+      "text" : "The ",
+      "type" : "text"
+    },
+    {
+      "text" : "Context.sensorDataStatus",
+      "type" : "text"
+    },
+    {
+      "text" : " of a specific context, as a number.",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_context_sensorDataStatus"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_sensorDataStatus",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_context_sensorDataStatus",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_context_sensordatastatus"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_context_shouldUpsell": {
   "abstract" : [
     {
@@ -1605,6 +1793,54 @@
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_fetchcontext_string"
 },
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_fetchContext_string_flowDuration": {
+  "abstract" : [
+    {
+      "text" : "Fetches a context over the duration the flow’s model was trained for, or 3 seconds when the flow has",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "no model; see ",
+      "type" : "text"
+    },
+    {
+      "text" : "ContextManager.fetchContext(flowName:customSignals:callback:)",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_fetchContext_string_flowDuration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_fetchContext_string_flowDuration",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_fetchContext_string_flowDuration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_fetchcontext_string_flowduration"
+},
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_getNextContextID": {
   "abstract" : [
     {
@@ -1668,6 +1904,54 @@
   "title" : "contextSDK_instantContext",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk\/contextsdk_instantcontext"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_instantContext_flowDuration": {
+  "abstract" : [
+    {
+      "text" : "Instantiates a context over the duration the flow’s model was trained for, or 3 seconds when the flow",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "has no model; see ",
+      "type" : "text"
+    },
+    {
+      "text" : "ContextManager.instantContext(flowName:customSignals:)",
+      "type" : "text"
+    },
+    {
+      "text" : ".",
+      "type" : "text"
+    },
+    {
+      "text" : " ",
+      "type" : "text"
+    },
+    {
+      "text" : "Note:",
+      "type" : "text"
+    },
+    {
+      "text" : " This method is intended for cross-platform interoperability only.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "identifier",
+      "text" : "contextSDK_instantContext_flowDuration"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_instantContext_flowDuration",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "contextSDK_instantContext_flowDuration",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/contextsdk_instantcontext_flowduration"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/contextSDK_recentContext": {
   "abstract" : [
@@ -2103,11 +2387,17 @@
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_appendOutcomeMetadataString",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_log",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_logIfNotLoggedYet",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_modelOutputKey",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_modelOutputValue",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_modelOutputsCount",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_sensorDataStatus",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_shouldUpsell",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_context_validate",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_fetchContext_string",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_fetchContext_string_flowDuration",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_getNextContextID",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_instantContext",
+              "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_instantContext_flowDuration",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_recentContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseContext",
               "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/contextSDK_releaseCustomSignals",

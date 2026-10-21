@@ -188,6 +188,26 @@
             "type" : "func"
           },
           {
+            "path" : "\/documentation\/contextsdk\/contextsdk_context_modeloutputkey",
+            "title" : "contextSDK_context_modelOutputKey",
+            "type" : "func"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/contextsdk_context_modeloutputvalue",
+            "title" : "contextSDK_context_modelOutputValue",
+            "type" : "func"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/contextsdk_context_modeloutputscount",
+            "title" : "contextSDK_context_modelOutputsCount",
+            "type" : "func"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/contextsdk_context_sensordatastatus",
+            "title" : "contextSDK_context_sensorDataStatus",
+            "type" : "func"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/contextsdk_context_shouldupsell",
             "title" : "contextSDK_context_shouldUpsell",
             "type" : "func"
@@ -203,6 +223,11 @@
             "type" : "func"
           },
           {
+            "path" : "\/documentation\/contextsdk\/contextsdk_fetchcontext_string_flowduration",
+            "title" : "contextSDK_fetchContext_string_flowDuration",
+            "type" : "func"
+          },
+          {
             "path" : "\/documentation\/contextsdk\/contextsdk_getnextcontextid",
             "title" : "contextSDK_getNextContextID",
             "type" : "func"
@@ -210,6 +235,11 @@
           {
             "path" : "\/documentation\/contextsdk\/contextsdk_instantcontext",
             "title" : "contextSDK_instantContext",
+            "type" : "func"
+          },
+          {
+            "path" : "\/documentation\/contextsdk\/contextsdk_instantcontext_flowduration",
+            "title" : "contextSDK_instantContext_flowDuration",
             "type" : "func"
           },
           {
