@@ -261,7 +261,7 @@
                   "type" : "codeVoice"
                 },
                 {
-                  "text" : ", since JSON cannot carry a ",
+                  "text" : ", since JSON cannot carry ",
                   "type" : "text"
                 },
                 {
@@ -269,7 +269,7 @@
                   "type" : "codeVoice"
                 },
                 {
-                  "text" : "; that",
+                  "text" : " or infinity; that",
                   "type" : "text"
                 },
                 {
