@@ -196,7 +196,7 @@
             {
               "inlineContent" : [
                 {
-                  "text" : "The value of the custom signal. A NaN value is dropped when the signal is captured.",
+                  "text" : "The value of the custom signal. A NaN value cannot be used as a model feature.",
                   "type" : "text"
                 }
               ],

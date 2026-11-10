@@ -135,7 +135,15 @@
               "type" : "codeVoice"
             },
             {
-              "text" : ", risk colliding with each other. Float and decimal values must be finite; non-finite",
+              "text" : ", risk colliding with each other. An ID must not start with ",
+              "type" : "text"
+            },
+            {
+              "code" : "s_",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : "; that prefix is",
               "type" : "text"
             },
             {
@@ -143,7 +151,15 @@
               "type" : "text"
             },
             {
-              "text" : "values are dropped when the signal is captured. Each rule a signal breaks is reported to the",
+              "text" : "reserved for ContextSDK. The ",
+              "type" : "text"
+            },
+            {
+              "code" : "s_",
+              "type" : "codeVoice"
+            },
+            {
+              "text" : " rule does not apply to outcome metadata",
               "type" : "text"
             },
             {
@@ -151,7 +167,32 @@
               "type" : "text"
             },
             {
-              "text" : "console once, since it is an integration mistake.",
+              "text" : "(",
+              "type" : "text"
+            },
+            {
+              "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/appendOutcomeMetadata(_:)",
+              "isActive" : true,
+              "type" : "reference"
+            },
+            {
+              "text" : "), which is never a model input. Float and decimal values",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "must be finite; a non-finite value cannot be used as a model feature. Each rule a signal breaks",
+              "type" : "text"
+            },
+            {
+              "text" : " ",
+              "type" : "text"
+            },
+            {
+              "text" : "is reported to the console once, since it is an integration mistake.",
               "type" : "text"
             }
           ],
@@ -275,6 +316,55 @@
   "title" : "ContextSDK",
   "type" : "topic",
   "url" : "\/documentation\/contextsdk"
+},
+"doc://org.cocoapods.ContextSDK/documentation/ContextSDK/Context/appendOutcomeMetadata(_:)": {
+  "abstract" : [
+    {
+      "text" : "This method allows you to append custom metadata to a context, to be later logged alongside an outcome.",
+      "type" : "text"
+    }
+  ],
+  "fragments" : [
+    {
+      "kind" : "keyword",
+      "text" : "func"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "identifier",
+      "text" : "appendOutcomeMetadata"
+    },
+    {
+      "kind" : "text",
+      "text" : "(["
+    },
+    {
+      "kind" : "keyword",
+      "text" : "any"
+    },
+    {
+      "kind" : "text",
+      "text" : " "
+    },
+    {
+      "kind" : "typeIdentifier",
+      "preciseIdentifier" : "s:10ContextSDK12CustomSignalP",
+      "text" : "CustomSignal"
+    },
+    {
+      "kind" : "text",
+      "text" : "])"
+    }
+  ],
+  "identifier" : "doc:\/\/org.cocoapods.ContextSDK\/documentation\/ContextSDK\/Context\/appendOutcomeMetadata(_:)",
+  "kind" : "symbol",
+  "role" : "symbol",
+  "title" : "appendOutcomeMetadata(_:)",
+  "type" : "topic",
+  "url" : "\/documentation\/contextsdk\/context\/appendoutcomemetadata(_:)"
 },
 "doc://org.cocoapods.ContextSDK/documentation/ContextSDK/CustomSignal": {
   "abstract" : [
